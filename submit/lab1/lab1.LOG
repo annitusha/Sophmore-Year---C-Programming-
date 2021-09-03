@@ -7301,4 +7301,3222 @@ akozina2@remote05:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs key-
 [K
 [K
 [K
-[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;Script started on 2021-09-02 21:12:55-04:00 [TERM="xterm" TTY="/dev/pts/4" COLUMNS="94" LINES="34"]
+akozina2@remote07:~/cs220/i220b/submit/lab1$ cd 4[K[K[K[Kls
+exercises  lab1.LOG
+akozina2@remote07:~/cs220/i220b/submit/lab1$ cd exercises
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises$ cd 4-from-scratch
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lMakefile has auto save data; consider M-x recover-this-file[K[H
+[?12l[?25h[?12;25h[34d[?25lMakefile has auto save data; consider M-x recover-this-file[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   All L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[1]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ls
+ key-value.c   key-value.h   main.c  '#Makefile#'   process-file.c   process-file.h   README
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ cp ../3-multifile/Makefi le .
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ls
+ key-value.c   main.c	     Makefile	      process-file.h
+ key-value.h  '#Makefile#'   process-file.c   README
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ rn '#Makefile#'
+bash: rn: command not found
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ rm '#Makefile#'
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs makefile[1PakefileMakefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[33mPROJECT[39;49m = quadr[K
+[33mSRC_FILES[39;49m = main.c \[K
+            quadr.c \[K
+            quadr.h  \[K
+            test.data \[K
+            README   \[K
+            Makefile[K
+[K
+[33mCFLAGS[39;49m = -g -Wall -std=c18[K
+[33mLDFLAGS[39;49m = -lm[K
+[K
+[1m[34m$(PROJECT)[0m[39;49m:     quadr.o main.o[K
+                $([33mCC[39;49m) quadr.o main.o $([33mLDFLAGS[39;49m) -o [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[34mclean[0m[39;49m:[K
+                rm -f *.o $([33mPROJECT[39;49m) $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34mdepend[0m[39;49m:[K
+                $([33mCC[39;49m) -MM $([33mCPPFLAGS[39;49m) *.c[K
+[K
+[1m[34mdist[0m[39;49m:                   $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34m$(PROJECT).tar.gz[0m[39;49m:              $([33mSRC_FILES[39;49m)[K
+                                tar -cf $([33mPROJECT[39;49m).tar $([33mSRC_FILES[39;49m)[K
+                                gzip -f $([33mPROJECT[39;49m).tar[K
+[K
+[1m[34mmain.o[0m[39;49m:         main.c quadr.h  [33m#automatically generated dependencies produced by make depend [39;49m
+[A
+[1m[34mquadr.o[0m[39;49m:        quadr.c quadr.h[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[2]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[33mPROJECT[39;49m = quadr[K
+[33mSRC_FILES[39;49m = main.c \[K
+            quadr.c \[K
+            quadr.h  \[K
+            test.data \[K
+            README   \[K
+            Makefile[K
+[K
+[33mCFLAGS[39;49m = -g -Wall -std=c18[K
+[33mLDFLAGS[39;49m = -lm[K
+[K
+[1m[34m$(PROJECT)[0m[39;49m:     quadr.o main.o[K
+                $([33mCC[39;49m) quadr.o main.o $([33mLDFLAGS[39;49m) -o [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[34mclean[0m[39;49m:[K
+                rm -f *.o $([33mPROJECT[39;49m) $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34mdepend[0m[39;49m:[K
+                $([33mCC[39;49m) -MM $([33mCPPFLAGS[39;49m) *.c[K
+[K
+[1m[34mdist[0m[39;49m:                   $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34m$(PROJECT).tar.gz[0m[39;49m:              $([33mSRC_FILES[39;49m)[K
+                                tar -cf $([33mPROJECT[39;49m).tar $([33mSRC_FILES[39;49m)[K
+                                gzip -f $([33mPROJECT[39;49m).tar[K
+[K
+[1m[34mmain.o[0m[39;49m:         main.c quadr.h  [33m#automatically generated dependencies produced by make depend [39;49m
+[A
+[1m[34mquadr.o[0m[39;49m:        quadr.c quadr.h[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[34;1H[?25lMark set[3;13H[?12l[?25h[?12;25h[1;32r[5;1H[1L[1;34r[3;12H[K
+[?25lmain.c \[K
+            quadr.c \[K[33;6H[7m**--F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m1[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[34d[?25lBeginning of buffer[H
+[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[33;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[33;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[33;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[33;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[33;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[33;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[33;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[33;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[33;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[33;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[33;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[34;1H[?25lMark set[3;13H[?12l[?25h[?12;25h[1;32r[5;1H[1L[1;34r[4;1H[K
+[?25lmain.c \[K[33;34H[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[1;32r[5;1H[1M[1;34r[34;1H[K[4d[?25lmain.c \[32;1H[K[33;34H[7m2[0m[39;49m[27m[3;13H[?12l[?25h[?12;25h[34;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[3]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ^C
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[33mPROJECT[39;49m = quadr[K
+[33mSRC_FILES[39;49m = main.c \[K
+            quadr.c \[K
+            quadr.h  \[K
+            test.data \[K
+            README   \[K
+            Makefile[K
+[K
+[33mCFLAGS[39;49m = -g -Wall -std=c18[K
+[33mLDFLAGS[39;49m = -lm[K
+[K
+[1m[34m$(PROJECT)[0m[39;49m:     quadr.o main.o[K
+                $([33mCC[39;49m) quadr.o main.o $([33mLDFLAGS[39;49m) -o [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[34mclean[0m[39;49m:[K
+                rm -f *.o $([33mPROJECT[39;49m) $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34mdepend[0m[39;49m:[K
+                $([33mCC[39;49m) -MM $([33mCPPFLAGS[39;49m) *.c[K
+[K
+[1m[34mdist[0m[39;49m:                   $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34m$(PROJECT).tar.gz[0m[39;49m:              $([33mSRC_FILES[39;49m)[K
+                                tar -cf $([33mPROJECT[39;49m).tar $([33mSRC_FILES[39;49m)[K
+                                gzip -f $([33mPROJECT[39;49m).tar[K
+[K
+[1m[34mmain.o[0m[39;49m:         main.c quadr.h  [33m#automatically generated dependencies produced by make depend [39;49m
+[A
+[1m[34mquadr.o[0m[39;49m:        quadr.c quadr.h[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;84H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;84H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lM-[ 2 0 1 is undefined[K[3;13H[?12l[?25h[?12;25h[1;32r[4;1H[3L[1;34r[34;1H[K[3;12H[K
+[?25lrocess-file.h[K
+ key-value.h  [32m'#Makefile#'[39;49m   process-file.c   README[K
+~main.c \[K[33;6H[7m**--F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L5[0m[39;49m[27m[6;2H[?12l[?25h[?12;25h[33;34H[?25l[7m4[0m[39;49m[27m[5;2H[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;2H[?12l[?25h[?12;25h[33;34H[?25l[7m4[0m[39;49m[27m[5;2H[?12l[?25h[?12;25h[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[?25l[32m   process-file.c   README [39;49m                                          
+[5;26H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m 			[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m 			[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [5;23H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [5;22H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [5;21H[?12l[?25h[?12;25h[34;1H[?25lAuto-saving...[5;21H[?12l[?25h[?12;25h[34;15H[?25ldone[5;21H[?12l[?25h[?12;25h[34;1H[K[5;20H[?25l[32m   process-file.c   README [39;49m [5;20H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [5;19H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [5;18H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m 		[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m 		[?12l[?25h[?12;25h[?25l   process-file.c   README[K[5;15H[?12l[?25h[?12;25h[1;32r[6;1H[1L[1;34r[5;13H[K
+[?25lprocess-file.c   README[K[33;34H[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[C[C[C[C[C		[C[C[C[C[C[C	[1;31r[7;1H[1L[1;34r[6;15H[K
+[?25lREADME[K[32;1H[K[33;34H[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[33;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[C[?25lmain.c \[K[?12l[?25h[?12;25h[C[C[C[C[C[C[8@	[33;34H[?25l[7m6[0m[39;49m[27m[7;7H[?12l[?25h[?12;25h[8@	[33;34H[?25l[7m5[0m[39;49m[27m[6;9H[?12l[?25h[?12;25h[8@	[33;34H[?25l[7m4[0m[39;49m[27m[5;9H[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;9H[?12l[?25h[?12;25h[33;34H[?25l[7m4[0m[39;49m[27m[5;9H[?12l[?25h[?12;25h[1P[8@	[33;34H[?25l[7m3[0m[39;49m[27m[4;9H[?12l[?25h[?12;25h[8@	[33;34H[?25l[7m4[0m[39;49m[27m[5;9H[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;9H[?12l[?25h[?12;25h[?25l[1@p[?12l[?25h[?12;25h[33;34H[?25l[7m4[0m[39;49m[27m[5;10H[?12l[?25h[?12;25h[33;34H[?25l[7m5[0m[39;49m[27m[6;10H[?12l[?25h[?12;25h[33;34H[?25l[7m6[0m[39;49m[27m[7;10H[?12l[?25h[?12;25h[33;34H[?25l[7m7[0m[39;49m[27m[8;10H[?12l[?25h[?12;25h[33;34H[?25l[7m8[0m[39;49m[27m[9;10H[?12l[?25h[?12;25h[C[C[C[C[C		[C[C[C[C[C[K[C[K[K[K[K[K[K[?25l[45m            [39;49m[K[?12l[?25h[?12;25h[33;34H[?25l[7m9[0m[39;49m[27m[10;13H[?12l[?25h[?12;25h[C[C		[C[33;34H[?25l[7m10[0m[39;49m[27m[11;18H[?12l[?25h[?12;25h[33;35H[?25l[7m1[0m[39;49m[27m[12;18H[?12l[?25h[?12;25h[33;35H[?25l[7m2[0m[39;49m[27m[13;18H[?12l[?25h[?12;25h[34;1H[?25lAuto-saving...[13;18H[?12l[?25h[?12;25h[34;15H[?25ldone[13;18H[?12l[?25h[?12;25h[34;1H[K[13;19H[C[C[33;35H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[33;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[K[K[K[K[K[K[?25l[45m            [39;49m[K[?12l[?25h[?12;25h[K[K[K[K[K[K[K[K[K[K[K[K[1;32r[14;1H[1M[1;34r[32;1H[?25l[1m[34mmain.o[0m[39;49m:         main.c quadr.h  [33m#automatically generated dependencies produced by make depend [39;49m
+[A[33;35H[7m1[0m[39;49m[27m[12;23H[?12l[?25h[?12;25h[K	[K[K[K[K[K[?25l[45m            [39;49m[K[?12l[?25h[?12;25h[K[K[K[K[K[1;32r[13;1H[1M[1;34r[32;1H[?25l[1m[34mquadr.o[0m[39;49m:        quadr.c quadr.h[K[33;35H[7m0[0m[39;49m[27m[11;24H[?12l[?25h[?12;25h[K[C[K[K[K[K[K[K[K[K[?25l[45m            [39;49m[K[?12l[?25h[?12;25h[K[K[K[K[K[1;32r[12;1H[1M[1;34r[32;1H[K[33;34H[?25l[7m9 [0m[39;49m[27m[10;23H[?12l[?25h[?12;25h[K	[K[K[K[K[K[K[?25l[45m            [39;49m[K[?12l[?25h[?12;25h[K[K[K[K[K[K[K[K[K[K[K[K[1;32r[11;1H[1M[1;34r[32;1H[K[33;34H[?25l[7m8[0m[39;49m[27m[9;13H[?12l[?25h[?12;25h[K[K[K[K[K[K[K[K[K[K[K[K[1;32r[10;1H[1M[1;34r[32;1H[K[33;34H[?25l[7m7[0m[39;49m[27m[8;17H[?12l[?25h[?12;25h[K	[33;34H[?25l[7m6[0m[39;49m[27m[7;15H[?12l[?25h[?12;25h	[?25l\[?12l[?25h[?12;25h[33;34H[?25l[7m5[0m[39;49m[27m[6;17H[?12l[?25h[?12;25h[C[C[C[C[C[C	[?25l\[?12l[?25h[?12;25h[33;34H[?25l[7m4[0m[39;49m[27m[5;20H[?12l[?25h[?12;25h[C[?25l\[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;22H[?12l[?25h[?12;25h[C	[?25l\[?12l[?25h[?12;25h[33;34H[?25l[7m4[0m[39;49m[27m[5;22H[?12l[?25h[?12;25h[33;34H[?25l[7m5[0m[39;49m[27m[6;25H[?12l[?25h[?12;25h[33;34H[?25l[7m6[0m[39;49m[27m[7;17H[?12l[?25h[?12;25h[1;30r[8;1H[1L[1;34r[8;1H[K[33;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[?25l[45m        [39;49m[?12l[?25h[?12;25h[?25l        M[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lk[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25lf[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[C[?25l\[?12l[?25h[?12;25h[33;34H[?25l[7m8[0m[39;49m[27m[9;16H[?12l[?25h[?12;25h[33;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[33;34H[?25l[7m10[0m[39;49m[27m[11;19H[?12l[?25h[?12;25h[33;35H[?25l[7m1[0m[39;49m[27m[12;14H[?12l[?25h[?12;25h[34;1H[?25lSaving file /home/akozina2/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile...[12;14H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[K[12;14H[?12l[?25h[?12;25h[34;84H[?25lPlease type q, s, or p; or ? for help[K[12;14H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[12;14H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[12;14H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[12;14H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[12;14H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[12;14H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[12;14H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[12;14H[?12l[?25h[?12;25h[34;84H[1;33r[32;1H[1M[1;34r[34;1H[?25lle: akozina2@remote07 (pid 1661749)[K[A/import/linux/home1/akozina2/projects/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefi\
+[A[12;14H[?12l[?25h[?12;25h[34;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[4]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lMakefile has auto save data; consider M-x recover-this-file[K[H
+[?12l[?25h[?12;25h[34d[?25lMakefile has auto save data; consider M-x recover-this-file[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[33mPROJECT[39;49m = quadr[K
+[33mSRC_FILES[39;49m = main.c \[K
+            quadr.c \[K
+            quadr.h  \[K
+            test.data \[K
+            README   \[K
+            Makefile[K
+[K
+[33mCFLAGS[39;49m = -g -Wall -std=c18[K
+[33mLDFLAGS[39;49m = -lm[K
+[K
+[1m[34m$(PROJECT)[0m[39;49m:     quadr.o main.o[K
+                $([33mCC[39;49m) quadr.o main.o $([33mLDFLAGS[39;49m) -o [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[34mclean[0m[39;49m:[K
+                rm -f *.o $([33mPROJECT[39;49m) $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34mdepend[0m[39;49m:[K
+                $([33mCC[39;49m) -MM $([33mCPPFLAGS[39;49m) *.c[K
+[K
+[1m[34mdist[0m[39;49m:                   $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34m$(PROJECT).tar.gz[0m[39;49m:              $([33mSRC_FILES[39;49m)[K
+                                tar -cf $([33mPROJECT[39;49m).tar $([33mSRC_FILES[39;49m)[K
+                                gzip -f $([33mPROJECT[39;49m).tar[K
+[K
+[1m[34mmain.o[0m[39;49m:         main.c quadr.h  [33m#automatically generated dependencies produced by make depend [39;49m
+[A
+[1m[34mquadr.o[0m[39;49m:        quadr.c quadr.h[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lBeginning of buffer[K[H
+[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[34;1H[?25lMark set[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;84H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;84H[1;33r[32;1H[1M[1;34r[34;1H[?25lle: akozina2@remote07 (pid 1661749)[K[A/import/linux/home1/akozina2/projects/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefi\
+[A[3;13H[?12l[?25h[?12;25h[34;1H[K[A[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[K[3;13H[?12l[?25h[?12;25h[33;84H
+[?25lle: akozina2@remote07 (pid 1661749)[A/import/linux/home1/akozina2/projects/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefi\
+[3;13H[?12l[?25h[?12;25h[34;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[5]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ^C
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ^C
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lMakefile has auto save data; consider M-x recover-this-file[K[H
+[?12l[?25h[?12;25h[34d[?25lMakefile has auto save data; consider M-x recover-this-file[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[33mPROJECT[39;49m = quadr[K
+[33mSRC_FILES[39;49m = main.c \[K
+            quadr.c \[K
+            quadr.h  \[K
+            test.data \[K
+            README   \[K
+            Makefile[K
+[K
+[33mCFLAGS[39;49m = -g -Wall -std=c18[K
+[33mLDFLAGS[39;49m = -lm[K
+[K
+[1m[34m$(PROJECT)[0m[39;49m:     quadr.o main.o[K
+                $([33mCC[39;49m) quadr.o main.o $([33mLDFLAGS[39;49m) -o [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[34mclean[0m[39;49m:[K
+                rm -f *.o $([33mPROJECT[39;49m) $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34mdepend[0m[39;49m:[K
+                $([33mCC[39;49m) -MM $([33mCPPFLAGS[39;49m) *.c[K
+[K
+[1m[34mdist[0m[39;49m:                   $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34m$(PROJECT).tar.gz[0m[39;49m:              $([33mSRC_FILES[39;49m)[K
+                                tar -cf $([33mPROJECT[39;49m).tar $([33mSRC_FILES[39;49m)[K
+                                gzip -f $([33mPROJECT[39;49m).tar[K
+[K
+[1m[34mmain.o[0m[39;49m:         main.c quadr.h  [33m#automatically generated dependencies produced by make depend [39;49m
+[A
+[1m[34mquadr.o[0m[39;49m:        quadr.c quadr.h[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lBeginning of buffer[K[H
+[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[34;1H[?25lMark set[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;84H[1;33r[32;1H[1M[1;34r[34;1H[?25lle: akozina2@remote07 (pid 1661749)[K[A/import/linux/home1/akozina2/projects/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefi\
+[A[3;13H[?12l[?25h[?12;25h[34;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[6]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ rm Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ rm Makefile[3@emacs[C[C[C[C[C[C[C[C[Crm '#Makefile#'n[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcp ../3-multifile/Makefile .
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ^C
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[34d[K[H[?25l[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A
+Loading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H
+[?12l[?25h[?12;25h]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[33mPROJECT[39;49m = quadr[K
+[33mSRC_FILES[39;49m = main.c \[K
+            quadr.c \[K
+            quadr.h  \[K
+            test.data \[K
+            README   \[K
+            Makefile[K
+[K
+[33mCFLAGS[39;49m = -g -Wall -std=c18[K
+[33mLDFLAGS[39;49m = -lm[K
+[K
+[1m[34m$(PROJECT)[0m[39;49m:     quadr.o main.o[K
+                $([33mCC[39;49m) quadr.o main.o $([33mLDFLAGS[39;49m) -o [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[34mclean[0m[39;49m:[K
+                rm -f *.o $([33mPROJECT[39;49m) $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34mdepend[0m[39;49m:[K
+                $([33mCC[39;49m) -MM $([33mCPPFLAGS[39;49m) *.c[K
+[K
+[1m[34mdist[0m[39;49m:                   $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34m$(PROJECT).tar.gz[0m[39;49m:              $([33mSRC_FILES[39;49m)[K
+                                tar -cf $([33mPROJECT[39;49m).tar $([33mSRC_FILES[39;49m)[K
+                                gzip -f $([33mPROJECT[39;49m).tar[K
+[K
+[1m[34mmain.o[0m[39;49m:         main.c quadr.h  [33m#automatically generated dependencies produced by make depend [39;49m
+[A
+[1m[34mquadr.o[0m[39;49m:        quadr.c quadr.h[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lBeginning of buffer[K[H
+[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[34;1H[?25lMark set[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;84H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;84H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[1;33r[32;1H[1M[1;34r[34;1H[?25lle: akozina2@remote07 (pid 1661749)[K[A/import/linux/home1/akozina2/projects/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefi\
+[A[3;13H[?12l[?25h[?12;25h[34;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[7]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ pwd
+/home/akozina2/cs220/i220b/submit/lab1/exercises/4-from-scratch
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ chown user file
+chown: invalid user: ‘user’
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ls
+ key-value.c   main.c	     Makefile	      process-file.h
+ key-value.h  '#Makefile#'   process-file.c   README
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ chown akozina2 Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ man cd
+No manual entry for cd
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ cacls cs220/i220b/submit /lab1/exercises/4-from-scratch
+bash: cacls: command not found
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ 
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ cacls cs220/i220b/submit/lab1/exercises/4-from-scratch /P everyone:F[Kf
+bash: cacls: command not found
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ cacls cs220/i220b/submit/lab1/exercises/4-from-scratch /P everyone:f[1P
+bash: cacls: command not found
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ cacls cs220/i220b/submit/lab1/exercises/4-from-scratch/P everyone:f[1@M[1@a[1@k[1@e[1@f[1@i[1@l[1@e[1@ [1P[1@/
+bash: cacls: command not found
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ cacls cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile/P everyone:f[1@ 
+bash: cacls: command not found
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ls
+ key-value.c   main.c	     Makefile	      process-file.h
+ key-value.h  '#Makefile#'   process-file.c   README
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ rm Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ mkdir Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ cd Makedil[K[K[K[K[K[K[K[K[K[Kemacs makefile[1PakefileMakefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Operate Mark Regexp Immediate Subdir Help                     [0m[39;49m[27m
+[A
+  [32m/home/akozina2/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile[39;49m:[K
+  total used in directory 4 available 13.2 TiB[K
+  drwxr-x--- 2 akozina2 akozina2   10 Sep  2 21:36 [1m[34m.[0m[39;49m[K
+  drwxr-x--- 3 akozina2 akozina2 4096 Sep  2 21:36 [1m[34m..[0m[39;49m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:%%--F1  [0m[39;49m[27m[7m[1mMakefile         [0m[39;49m[27m[7m   All L5     (Dired by name) ----------------------------------[0m[39;49m[27m
+[A[6d[?12l[?25h[?12;25h[34d[K[33;39H[?25l[7m1[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[34d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[8]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ls
+ key-value.c   main.c	     Makefile	      process-file.h
+ key-value.h  '#Makefile#'   process-file.c   README
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Operate Mark Regexp Immediate Subdir Help                     [0m[39;49m[27m
+[A
+  [32m/home/akozina2/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile[39;49m:[K
+  total used in directory 4 available 13.2 TiB[K
+  drwxr-x--- 2 akozina2 akozina2   10 Sep  2 21:36 [1m[34m.[0m[39;49m[K
+  drwxr-x--- 3 akozina2 akozina2 4096 Sep  2 21:36 [1m[34m..[0m[39;49m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:%%--F1  [0m[39;49m[27m[7m[1mMakefile         [0m[39;49m[27m[7m   All L5     (Dired by name) ----------------------------------[0m[39;49m[27m
+[A[6d[?12l[?25h[?12;25h[34d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[9]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ rm Makefile
+rm: cannot remove 'Makefile': Is a directory
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ rmdir Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ls
+ key-value.c   key-value.h   main.c  '#Makefile#'   process-file.c   process-file.h   README
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs "[K'#Makefile#'
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+PROJECT = quadr[K
+SRC_FILES =[K
+        process-file.h[K
+        key-value.h[K
+        process-file.c[K
+        README[K
+        main.c \[K
+[K
+            quadr.h  \[K
+            test.data \[K
+            README   \[K
+            Makefile[K
+[K
+CFLAGS = -g -Wall -std=c18[K
+LDFLAGS = -lm[K
+[K
+$(PROJECT):     quadr.o main.o[K
+                $(CC) quadr.o main.o $(LDFLAGS) -o $@[K
+[K
+clean:[K
+                rm -f *.o $(PROJECT) $(PROJECT).tar.gz[K
+[K
+depend:[K
+                $(CC) -MM $(CPPFLAGS) *.c[K
+[K
+dist:                   $(PROJECT).tar.gz[K
+[K
+$(PROJECT).tar.gz:              $(SRC_FILES)[K
+                                tar -cf $(PROJECT).tar $(SRC_FILES)[K
+                                gzip -f $(PROJECT).tar[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m#Makefile#  [0m[39;49m[27m[7m   Top L1    [0m[39;49m[27m[7mGit:lab1[0m[39;49m[27m[7m  (Fundamental) --------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lBeginning of buffer[K[H
+[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[34d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[10]+  Stopped                 emacs '#Makefile#'
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs[K[K[K[K[Kemacs '#Makefile#'
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+PROJECT = quadr[K
+SRC_FILES =[K
+        process-file.h[K
+        key-value.h[K
+        process-file.c[K
+        README[K
+        main.c \[K
+[K
+            quadr.h  \[K
+            test.data \[K
+            README   \[K
+            Makefile[K
+[K
+CFLAGS = -g -Wall -std=c18[K
+LDFLAGS = -lm[K
+[K
+$(PROJECT):     quadr.o main.o[K
+                $(CC) quadr.o main.o $(LDFLAGS) -o $@[K
+[K
+clean:[K
+                rm -f *.o $(PROJECT) $(PROJECT).tar.gz[K
+[K
+depend:[K
+                $(CC) -MM $(CPPFLAGS) *.c[K
+[K
+dist:                   $(PROJECT).tar.gz[K
+[K
+$(PROJECT).tar.gz:              $(SRC_FILES)[K
+                                tar -cf $(PROJECT).tar $(SRC_FILES)[K
+                                gzip -f $(PROJECT).tar[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m#Makefile#  [0m[39;49m[27m[7m   Top L1    [0m[39;49m[27m[7mGit:lab1[0m[39;49m[27m[7m  (Fundamental) --------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[K[2d[34d[?25lC-c[H
+[?12l[?25h[?12;25h[34;4H[?25l-[H
+[?12l[?25h[?12;25h[34;4H[?25l C-z[H
+[?12l[?25h[?12;25h[34;9H[?25lis undefined[H
+[?12l[?25h[?12;25h[34d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[11]+  Stopped                 emacs '#Makefile#'
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ rm [K[K[Kemacs '#Makefile#'[1P '#Makefile#'[1P '#Makefile#'[1P '#Makefile#'[1P '#Makefile#'[1P '#Makefile#'r '#Makefile#'m '#Makefile#'
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ld[Ks
+key-value.c  key-value.h  main.c  process-file.c  process-file.h  README
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25l(New file)[K[H
+[?12l[?25h[?12;25h[34d[?25l(New file)[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   All L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[K[2d[34d[?25lMark set[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34;84H[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34;84H[1;33r[32;1H[1M[1;34r[34;1H[?25lle: akozina2@remote07 (pid 1661749)[K[A/import/linux/home1/akozina2/projects/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefi\
+[A[2d[?12l[?25h[?12;25h[34d[K[A[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[K[H
+[?12l[?25h[?12;25h[33;84H[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[33d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[33;84H
+[?25lle: akozina2@remote07 (pid 1661749)[A/import/linux/home1/akozina2/projects/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefi\
+[2d[?12l[?25h[?12;25h[34d[K[A[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[K[H
+[?12l[?25h[?12;25h[33;84H
+[?25lle: akozina2@remote07 (pid 1661749)[A/import/linux/home1/akozina2/projects/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefi\
+[2d[?12l[?25h[?12;25h[34d[K[A[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[K[H
+[?12l[?25h[?12;25h[33;84H
+[?25lle: akozina2@remote07 (pid 1661749)[A/import/linux/home1/akozina2/projects/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefi\
+[2d[?12l[?25h[?12;25h[34d[K[A[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[K[H
+[?12l[?25h[?12;25h[33;84H[?25lPlease type q, s, or p; or ? for help[K[H
+[?12l[?25h[?12;25h[33d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[H
+[?12l[?25h[?12;25h[34d[?25lle: akozina2@remote07 (pid 1661749)[A/import/linux/home1/akozina2/projects/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefi\
+[2d[?12l[?25h[?12;25h[34d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[12]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ls
+key-value.c  key-value.h  main.c  process-file.c  process-file.h  README
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ lsemacs Makefilels[Krm '#Makefile#'[3@emacs[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krmdir Makefile[3P Makefile[3@emacs[C[C[C[C[C[C[C[C[Cls[Kemacs Makefilemkdir[C[C[C[C[C[C[C[C[C[3Prm[C[C[C[C[C[C[C[C[Cls[Kcacls cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile /P everyone:f[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[9P[C[C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman cd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchown akozina2 Makefilels[Kchown user filepwd[Kemacs Makefilecp ../3-multifile/Makefile .[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Prm Makefile
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp ../3-multifile/Makefile .
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[33mPROJECT[39;49m = quadr[K
+[33mSRC_FILES[39;49m = main.c \[K
+            quadr.c \[K
+            quadr.h  \[K
+            test.data \[K
+            README   \[K
+            Makefile[K
+[K
+[33mCFLAGS[39;49m = -g -Wall -std=c18[K
+[33mLDFLAGS[39;49m = -lm[K
+[K
+[1m[34m$(PROJECT)[0m[39;49m:     quadr.o main.o[K
+                $([33mCC[39;49m) quadr.o main.o $([33mLDFLAGS[39;49m) -o [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[34mclean[0m[39;49m:[K
+                rm -f *.o $([33mPROJECT[39;49m) $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34mdepend[0m[39;49m:[K
+                $([33mCC[39;49m) -MM $([33mCPPFLAGS[39;49m) *.c[K
+[K
+[1m[34mdist[0m[39;49m:                   $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34m$(PROJECT).tar.gz[0m[39;49m:              $([33mSRC_FILES[39;49m)[K
+                                tar -cf $([33mPROJECT[39;49m).tar $([33mSRC_FILES[39;49m)[K
+                                gzip -f $([33mPROJECT[39;49m).tar[K
+[K
+[1m[34mmain.o[0m[39;49m:         main.c quadr.h  [33m#automatically generated dependencies produced by make depend [39;49m
+[A
+[1m[34mquadr.o[0m[39;49m:        quadr.c quadr.h[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[C[33;34H[?25l[7m2[0m[39;49m[27m[3;2H[?12l[?25h[?12;25h[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[33;34H[?25l[7m3[0m[39;49m[27m[4;21H[?12l[?25h[?12;25h[33;34H[?25l[7m2[0m[39;49m[27m[3;21H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;19H[?12l[?25h[?12;25h[34;84H[K[3;18H[?25l \[K[33;6H[7m**[0m[39;49m[27m[3;18H[?12l[?25h[?12;25h[?25l \[K[?12l[?25h[?12;25h[?25l \[K[?12l[?25h[?12;25h[?25l \[K[?12l[?25h[?12;25h[?25l \[K[?12l[?25h[?12;25h[?25l \[K[?12l[?25h[?12;25h[34;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[13]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ^C
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[33mPROJECT[39;49m = quadr[K
+[33mSRC_FILES[39;49m = main.c \[K
+            quadr.c \[K
+            quadr.h  \[K
+            test.data \[K
+            README   \[K
+            Makefile[K
+[K
+[33mCFLAGS[39;49m = -g -Wall -std=c18[K
+[33mLDFLAGS[39;49m = -lm[K
+[K
+[1m[34m$(PROJECT)[0m[39;49m:     quadr.o main.o[K
+                $([33mCC[39;49m) quadr.o main.o $([33mLDFLAGS[39;49m) -o [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[34mclean[0m[39;49m:[K
+                rm -f *.o $([33mPROJECT[39;49m) $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34mdepend[0m[39;49m:[K
+                $([33mCC[39;49m) -MM $([33mCPPFLAGS[39;49m) *.c[K
+[K
+[1m[34mdist[0m[39;49m:                   $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34m$(PROJECT).tar.gz[0m[39;49m:              $([33mSRC_FILES[39;49m)[K
+                                tar -cf $([33mPROJECT[39;49m).tar $([33mSRC_FILES[39;49m)[K
+                                gzip -f $([33mPROJECT[39;49m).tar[K
+[K
+[1m[34mmain.o[0m[39;49m:         main.c quadr.h  [33m#automatically generated dependencies produced by make depend [39;49m
+[A
+[1m[34mquadr.o[0m[39;49m:        quadr.c quadr.h[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lBeginning of buffer[K[H
+[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[34;1H[?25lMark set[3;13H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[3;13H[?12l[?25h[?12;25h[34;84H[1;31r[4;1H[2L[1;34r[34;1H[K[3;13H[?25l key-value.c   main.c        Makefile         process-file.h
+ key-value.h  [32m'#Makefile#'[39;49m   process-file.c   README[K
+main.c \[K[33;6H[7m**--F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[34d[?25lBeginning of buffer[33;34H[7m1[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[33;34H[?25l[7m1[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[34;1H[?25lAuto-saving...[3;18H[?12l[?25h[?12;25h[34;15H[?25ldone[3;18H[?12l[?25h[?12;25h[34;1H[K[3;19H[C[C[C[C		[1;32r[4;1H[1L[1;34r[3;25H[K
+[?25lmain.c        Makefile         process-file.h[K[33;34H[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[C[C[C[C[C[C	[1;32r[5;1H[1L[1;34r[4;7H[K
+[?25lMakefile         process-file.h[K[33;34H[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[1;31r[6;1H[1L[1;34r[5;9H[K
+[?25lprocess-file.h[K[32;1H[K[33;34H[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[C[33;34H[?25l[7m6[0m[39;49m[27m[7;2H[?12l[?25h[?12;25h[C[C[C[C[C		[C[C[C[C[C[1;32r[8;1H[1L[1;34r[7;13H[K
+[?25l[32m'#Makefile#'[39;49m   process-file.c   README[K[33;34H[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[?25l[32m   process-file.c   README [39;49m                                                        
+[8;12H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [8;11H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [8;10H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m 	[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m 	[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [8;7H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [8;6H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [8;5H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [8;4H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [8;3H[?12l[?25h[?12;25h[?25l[32m   process-file.c   README [39;49m [C[?12l[?25h[?12;25h[?25l   process-file.c   README[K[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[1;32r[9;1H[1L[1;34r[8;18H[K
+[?25lREADME[K[33;34H[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[33;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[C[C[C[1P[1P[1P[8@	[33;34H[?25l[7m8[0m[39;49m[27m[9;7H[?12l[?25h[?12;25h[8@	[33;34H[?25l[7m7[0m[39;49m[27m[8;9H[?12l[?25h[?12;25h[33;34H[?25l[7m6[0m[39;49m[27m[7;9H[?12l[?25h[?12;25h[1P[8@	[33;34H[?25l[7m5[0m[39;49m[27m[6;9H[?12l[?25h[?12;25h[34;1H[?25lAuto-saving...[6;3H[?12l[?25h[?12;25h[34;15H[?25ldone[6;3H[?12l[?25h[?12;25h[34;1H[K[6;2H[8@	[33;34H[?25l[7m4[0m[39;49m[27m[5;9H[?12l[?25h[?12;25h[8@	[33;34H[?25l[7m3[0m[39;49m[27m[4;7H[?12l[?25h[?12;25h[8@	[33;34H[?25l[7m4[0m[39;49m[27m[5;9H[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;9H[?12l[?25h[?12;25h[33;34H[?25l[7m2[0m[39;49m[27m[3;9H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[?25l\[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;15H[?12l[?25h[?12;25h[?25l\[?12l[?25h[?12;25h[33;34H[?25l[7m4[0m[39;49m[27m[5;16H[?12l[?25h[?12;25h[?25l\e[?12l[?25h[?12;25h[?25le[K[?12l[?25h[?12;25h	[?25l\[?12l[?25h[?12;25h[33;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h	[C[C[C[C[C[C		[C[C[C[C[C[C[?25l\[?12l[?25h[?12;25h[33;34H[?25l[7m6[0m[39;49m[27m[7;20H[?12l[?25h[?12;25h[?25l\[?12l[?25h[?12;25h[33;34H[?25l[7m7[0m[39;49m[27m[8;21H[?12l[?25h[?12;25h[C[C[?25l\[?12l[?25h[?12;25h[33;34H[?25l[7m8[0m[39;49m[27m[9;15H[?12l[?25h[?12;25h[33;34H[?25l[7m9[0m[39;49m[27m[10;9H[?12l[?25h[?12;25h[33;34H[?25l[7m10[0m[39;49m[27m[11;22H[?12l[?25h[?12;25h[33;35H[?25l[7m1[0m[39;49m[27m[12;23H[?12l[?25h[?12;25h[33;35H[?25l[7m2[0m[39;49m[27m[13;24H[?12l[?25h[?12;25h[33;35H[?25l[7m3[0m[39;49m[27m[14;23H[?12l[?25h[?12;25h[33;35H[?25l[7m4[0m[39;49m[27m[15;21H[?12l[?25h[?12;25h[33;35H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[33;35H[?25l[7m6[0m[39;49m[27m[17;24H[?12l[?25h[?12;25h[33;35H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[33;35H[?25l[7m4[0m[39;49m[27m[15;21H[?12l[?25h[?12;25h[K[K[K[K[K[?25l[45m            [39;49m[K[?12l[?25h[?12;25h[K[K[K[K[K[K[K[K[K[K[K[K[1;32r[16;1H[1M[1;34r[32;1H[?25l                                gzip -f $([33mPROJECT[39;49m).tar[K[33;35H[7m3[0m[39;49m[27m[14;23H[?12l[?25h[?12;25h[K	[K[K[K[K[?25l[45m            [39;49m[K[?12l[?25h[?12;25h[K[K[K[K[K[1;32r[15;1H[1M[1;34r[32;1H[K[33;35H[?25l[7m2[0m[39;49m[27m[13;24H[?12l[?25h[?12;25h[K[C[K[K[K[K[K[K[K[K[?25l[45m           [39;49m[K[?12l[?25h[?12;25h[K[K[K[K[1;32r[14;1H[1M[1;34r[32;1H[?25l[1m[34mmain.o[0m[39;49m:         main.c quadr.h  [33m#automatically generated dependencies produced by make depend [39;49m
+[A[33;35H[7m1[0m[39;49m[27m[12;23H[?12l[?25h[?12;25h[K	[K[K[K[K[K[K[?25l[45m            [39;49m[K[?12l[?25h[?12;25h[K[K[K[K[K[K[K[K[K[K[K[K[34d[?25lAuto-saving...[12;1H[?12l[?25h[?12;25h[34;15H[?25ldone[12;1H[?12l[?25h[?12;25h[1;32r[13;1H[1M[1;34r[34;1H[K[32d[?25l[1m[34mquadr.o[0m[39;49m:        quadr.c quadr.h[K[33;35H[7m0[0m[39;49m[27m[11;22H[?12l[?25h[?12;25h[K[C[K[K[K[K[K[K[?25l[45m            [39;49m[K[?12l[?25h[?12;25h[K[K[K[K[K[K[K[K[K[K[K[K[1;32r[12;1H[1M[1;34r[32;1H[K[33;34H[?25l[7m9 [0m[39;49m[27m[10;9H[?12l[?25h[?12;25h[K	[K[K[K[K[K[K[33;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[33;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[33;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[33;35H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[33;35H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C	[C[C[C[C[C[C		[C[C[C[C[C[C[34;1H[?25lSaving file /home/akozina2/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile...[15;31H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[K[15;31H[?12l[?25h[?12;25h[34;84H[?25lWrote /home/akozina2/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile[K[15;31H[?12l[?25h[?12;25h[33;6H[?25l[7m--[0m[39;49m[27m[15;31H[?12l[?25h[?12;25h[34;1H[K[15;31H[34;1H[?25l(No changes need to be saved)[15;31H[?12l[?25h[?12;25h[34;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[14]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ls
+key-value.c  key-value.h  main.c  Makefile  Makefile~  process-file.c  process-file.h  README
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ gcc -[Kmain.0[K[K[K[K[K[K-c main.c
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ gcc -c main.c[K[K[K[K[K[Kkey-value.c
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ pr[K[Kgcc -c key-value.c[K[K[K[K[K[K[K[K[K[K[K[K process-file.c
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ls
+key-value.c  key-value.o  main.o    Makefile~	    process-file.h  README
+key-value.h  main.c	  Makefile  process-file.c  process-file.o
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ emacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[33mPROJECT[39;49m = quadr[K
+[33mSRC_FILES[39;49m =  key-value.c \[K
+        main.c\[K
+        Makefile\[K
+        process-file.h\[K
+        key-value.h\[K
+        process-file.c\[K
+        README[K
+[K
+[K
+[33mCFLAGS[39;49m = -g -Wall -std=c18[K
+[33mLDFLAGS[39;49m = -lm[K
+[K
+[1m[34m$(PROJECT)[0m[39;49m:     quadr.o main.o[K
+                $([33mCC[39;49m) quadr.o main.o $([33mLDFLAGS[39;49m) -o [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[34mclean[0m[39;49m:[K
+                rm -f *.o $([33mPROJECT[39;49m) $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34mdepend[0m[39;49m:[K
+                $([33mCC[39;49m) -MM $([33mCPPFLAGS[39;49m) *.c[K
+[K
+[1m[34mdist[0m[39;49m:                   $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34m$(PROJECT).tar.gz[0m[39;49m:              $([33mSRC_FILES[39;49m)[K
+                                tar -cf $([33mPROJECT[39;49m).tar $([33mSRC_FILES[39;49m)[K
+                                gzip -f $([33mPROJECT[39;49m).tar[K
+[K
+[1m[34mmain.o[0m[39;49m:         main.c quadr.h  [33m#automatically generated dependencies produced by make depend [39;49m
+[A
+[1m[34mquadr.o[0m[39;49m:        quadr.c quadr.h[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[33;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[33;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[33;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[33;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[33;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[33;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[33;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[33;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[33;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[33;35H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[33;35H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C	[C[C[C[C			[C[C[C[C[C[C[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[15;31H[?12l[?25h[?12;25h[34;84H[?25lPlease type q, s, or p; or ? for help[K[15;31H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[15;31H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[15;31H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[15;31H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[15;31H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[15;31H[?12l[?25h[?12;25h[K[33;6H[?25l[7m**[0m[39;49m[27m[15;30H[?12l[?25h[?12;25h[34;1H[K[15;29H[K[K[K[K[K	[K[K[K[K[K[K[K	[?25lm[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[?25lc[?12l[?25h[?12;25h	[?25lk[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25ly[?12l[?25h[?12;25h[?25l-[?12l[?25h[?12;25h[?25lv[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25lu[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[?25lc[?12l[?25h[?12;25h[C[?25lp[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lc[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25l-[?12l[?25h[?12;25h[?25lf[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25l.[?12l[?25h[?12;25h[?25lc[?12l[?25h[?12;25h[33;35H[?25l[7m5[0m[39;49m[27m[16;50H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@m[?12l[?25h[?12;25h[?25l[1@a[?12l[?25h[?12;25h[?25l[1@i[?12l[?25h[?12;25h[?25l[1@n[?12l[?25h[?12;25h[?25l[1@.[?12l[?25h[?12;25h[?25l[1@c[?12l[?25h[?12;25h[C[?25l[1@ [?12l[?25h[?12;25h[?25l[1@k[?12l[?25h[?12;25h[?25l[1@e[?12l[?25h[?12;25h[?25l[1@y[?12l[?25h[?12;25h[?25l[1@.[?12l[?25h[?12;25h[?25l[1@v[?12l[?25h[?12;25h[?25l[1@a[?12l[?25h[?12;25h[?25l[1@l[?12l[?25h[?12;25h[34;1H[?25lAuto-saving...[16;37H[?12l[?25h[?12;25h[34;15H[?25ldone[16;37H[?12l[?25h[?12;25h[34;1H[K[16;37H[?25l[1@u[?12l[?25h[?12;25h[?25l[1@e[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@-[?12l[?25h[?12;25h[?25l[1@v[?12l[?25h[?12;25h[?25l[1@a[?12l[?25h[?12;25h[?25l[1@l[?12l[?25h[?12;25h[?25l[1@u[?12l[?25h[?12;25h[?25l[1@e[?12l[?25h[?12;25h[?25l[1@.[?12l[?25h[?12;25h[?25l[1@c[?12l[?25h[?12;25h[C[?25l[1@ [?12l[?25h[?12;25h[?25l[1@p[?12l[?25h[?12;25h[?25l[1@r[?12l[?25h[?12;25h[?25l[1@o[?12l[?25h[?12;25h[?25l[1@c[?12l[?25h[?12;25h[?25l[1@e[?12l[?25h[?12;25h[?25l[1@s[?12l[?25h[?12;25h[?25l[1@s[?12l[?25h[?12;25h[?25l[1@-[?12l[?25h[?12;25h[?25l[1@f[?12l[?25h[?12;25h[?25l[1@i[?12l[?25h[?12;25h[?25l[1@l[?12l[?25h[?12;25h[?25l[1@e[?12l[?25h[?12;25h[?25l[1@.[?12l[?25h[?12;25h[?25l[1@c[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@o[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@o[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@o[?12l[?25h[?12;25h[33;35H[?25l[7m4[0m[39;49m[27m[15;29H[?12l[?25h[?12;25h[?25l[1P[?12l[?25h[?12;25h[?25l[1@o[?12l[?25h[?12;25h		[C[C[C[C[C[C		[C[C[C[?25l[1P[?12l[?25h[?12;25h[?25l[1@o[?12l[?25h[?12;25h[C[C[C[C		[C[C[C[C[C[C		[C[K[?25lo[?12l[?25h[?12;25h[33;35H[?25l[7m5[0m[39;49m[27m[16;50H[?12l[?25h[?12;25h[33;35H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[33;35H[?25l[7m7[0m[39;49m[27m[18;7H[?12l[?25h[?12;25h[33;35H[?25l[7m8[0m[39;49m[27m[19;50H[?12l[?25h[?12;25h[33;35H[?25l[7m9[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[33;34H[?25l[7m20[0m[39;49m[27m[21;8H[?12l[?25h[?12;25h[33;35H[?25l[7m1[0m[39;49m[27m[22;42H[?12l[?25h[?12;25h[33;35H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[33;35H[?25l[7m3[0m[39;49m[27m[24;42H[?12l[?25h[?12;25h[33;35H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[33;35H[?25l[7m5[0m[39;49m[27m[26;45H[?12l[?25h[?12;25h[33;35H[?25l[7m6[0m[39;49m[27m[27;50H[?12l[?25h[?12;25h[33;35H[?25l[7m7[0m[39;49m[27m[28;50H[?12l[?25h[?12;25h[33;35H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[33;35H[?25l[7m9[0m[39;49m[27m[30;50H[?12l[?25h[?12;25h[33;35H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[33;35H[?25l[7m9[0m[39;49m[27m[30;50H[?12l[?25h[?12;25h[C[C[C[C[C	
+
+
+
+[?25lAuto-saving...[30;56H[?12l[?25h[?12;25h[34;15H[?25ldone[30;56H[?12l[?25h[?12;25h
+
+
+
+[K[30;55H
+
+
+
+[?25lSaving file /home/akozina2/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile...[30;31H[?12l[?25h[?12;25h
+
+
+
+[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[K[30;31H[?12l[?25h[?12;25h[34;84H[?25lWrote /home/akozina2/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile[K[30;31H[?12l[?25h[?12;25h[33;6H[?25l[7m--[0m[39;49m[27m[30;31H[?12l[?25h[?12;25h
+
+
+
+[K[30;31H
+
+
+
+[?25l(No changes need to be saved)[30;31H[?12l[?25h[?12;25h
+
+
+
+[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[15]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ make depend
+cc -MM  *.c
+key-value.o: key-value.c key-value.h
+main.o: main.c process-file.h
+process-file.o: process-file.c key-value.h process-file.h
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ ^C
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ make dependemacs Makefilels[Kemacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[33mPROJECT[39;49m = quadr[K
+[33mSRC_FILES[39;49m =  key-value.c \[K
+        main.c\[K
+        Makefile\[K
+        process-file.h\[K
+        key-value.h\[K
+        process-file.c\[K
+        README[K
+[K
+[K
+[33mCFLAGS[39;49m = -g -Wall -std=c18[K
+[33mLDFLAGS[39;49m = -lm[K
+[K
+[1m[34m$(PROJECT)[0m[39;49m:     main.o key-value.o process-file.o[K
+                $([33mCC[39;49m) main.o key-value.o process-file.o $([33mLDFLAGS[39;49m) -o [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[34mclean[0m[39;49m:[K
+                rm -f *.o $([33mPROJECT[39;49m) $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34mdepend[0m[39;49m:[K
+                $([33mCC[39;49m) -MM $([33mCPPFLAGS[39;49m) *.c[K
+[K
+[1m[34mdist[0m[39;49m:                   $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34m$(PROJECT).tar.gz[0m[39;49m:              $([33mSRC_FILES[39;49m)[K
+                                tar -cf $([33mPROJECT[39;49m).tar $([33mSRC_FILES[39;49m)[K
+                                gzip -f $([33mPROJECT[39;49m).tar[K
+[K
+[1m[34mmain.o[0m[39;49m:         main.c quadr.h  [33m#automatically generated dependencies produced by make depend [39;49m
+[A
+[1m[34mquadr.o[0m[39;49m:        quadr.c quadr.h[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[K[33;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[33;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[33;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[33;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[33;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[33;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[33;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[33;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[33;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[33;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[33;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[33;35H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[33;35H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[33;35H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[33;35H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[33;35H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[33;35H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[33;35H[?25l[7m9[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[33;34H[?25l[7m20[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[33;35H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[33;35H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[33;35H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[33;35H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[33;35H[?25l[7m5[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[33;35H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[33;35H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[33;35H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[33;35H[?25l[7m9[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[33;34H[?25l[7m30[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[33;34H[?25l[7m29[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[33;34H[?25l[7m30[0m[39;49m[27m[31;9H[?12l[?25h[?12;25h[C	[C[C[C[C[C[C		[C[C[C[C[C[C	[33;35H[?25l[7m1[0m[39;49m[27m[A[?12l[?25h[?12;25h[33;35H[?25l[7m0[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[C[C[C[C[C[C	[C	[C[C[C[C[C[C		[C[C[C[C[C[C	
+
+
+[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[31;32H[?12l[?25h[?12;25h[34;84H[?25lPlease type q, s, or p; or ? for help[K[31;32H[?12l[?25h[?12;25h
+
+
+[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[31;32H[?12l[?25h[?12;25h
+
+
+[?25lPlease type q, s, or p; or ? for help[K[31;32H[?12l[?25h[?12;25h
+
+
+[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[31;32H[?12l[?25h[?12;25h
+
+
+[?25lPlease type q, s, or p; or ? for help[K[31;32H[?12l[?25h[?12;25h
+
+
+[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[31;32H[?12l[?25h[?12;25h
+
+
+[?25lPlease type q, s, or p; or ? for help[K[31;32H[?12l[?25h[?12;25h
+
+
+[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[31;32H[?12l[?25h[?12;25h
+
+
+[?25lPlease type q, s, or p; or ? for help[K[31;32H[?12l[?25h[?12;25h
+
+
+[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[31;32H[?12l[?25h[?12;25h
+
+
+[?25lPlease type q, s, or p; or ? for help[K[31;32H[?12l[?25h[?12;25h
+
+
+[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[31;32H[?12l[?25h[?12;25h
+
+
+[?25lPlease type q, s, or p; or ? for help[K[31;32H[?12l[?25h[?12;25h
+
+
+[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[31;32H[?12l[?25h[?12;25h
+
+
+[?25lPlease type q, s, or p; or ? for help[K[31;32H[?12l[?25h[?12;25h
+
+
+[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[31;32H[?12l[?25h[?12;25h[K[33;6H[?25l[7m**[0m[39;49m[27m[31;31H[?12l[?25h[?12;25h
+
+
+[?25lAuto-saving...[K[31;31H[?12l[?25h[?12;25h
+
+
+[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[31;31H[?12l[?25h[?12;25h
+
+
+[K[31;31H[?25lp[?12l[?25h[?12;25h[K[K[K[K[K[K[K	[K[K[K[K[K[K	[K	[?25lquadr.o[K[?12l[?25h[?12;25h[K[K[K[K[K[K[K[33;34H[?25l[7m29[0m[39;49m[27m[30;94H[?12l[?25h[?12;25h[?25l[33m [39;49m 
+[30;93H[?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m  [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m  [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[?25l[33m [39;49m [?12l[?25h[?12;25h[K	[K[K[K[K[K[K[K	[K[K[K[K[K	[K			[?25lmain.o[K[?12l[?25h[?12;25h[K[K[K[K[K[K[33;35H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[1;32r[31;1H[1L[1;34r[31;1H[K[33;35H[?25l[7m9[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h
+
+
+
+[?25lMark set[30;1H[?12l[?25h[?12;25h[2d[?25l[1m[34mclean[0m[39;49m:[K
+                rm -f *.o $([33mPROJECT[39;49m) $([33mPROJECT[39;49m).tar.gz
+[K
+[1m[34mdepend[0m[39;49m:[K
+	        $([33mCC[39;49m) -MM $([33mCPPFLAGS[39;49m) *.c
+[K
+[1m[34mdist[0m[39;49m:                   $([33mPROJECT[39;49m).tar.gz
+[K
+[1m[34m$(PROJECT).tar.gz[0m[39;49m:              $([33mSRC_FILES[39;49m)
+				tar -cf $([33mPROJECT[39;49m).tar $([33mSRC_FILES[39;49m)
+                                gzip -f $([33mPROJECT[39;49m).tar
+[K
+[1m[34mkey-value.o[0m[39;49m: key-value.c key-value.h
+[1m[34mmain.o[0m[39;49m: main.c process-file.h[K
+[1m[34mprocess-file.o[0m[39;49m: process-file.c key-value.h process-file.h[K
+
+[K
+[K
+
+[K
+[K
+
+[K
+
+[K
+[K
+[K[33;29H[7mBot L32[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[34d[K[17d[34d[?25lSaving file /home/akozina2/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile...[17;1H[?12l[?25h[?12;25h[34d[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[K[17;1H[?12l[?25h[?12;25h[34;84H[?25lWrote /home/akozina2/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile[K[17;1H[?12l[?25h[?12;25h[33;6H[?25l[7m--[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[34d[K[17d[34d[?25l(No changes need to be saved)[17;1H[?12l[?25h[?12;25h[34d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[16]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ make
+cc main.o key-value.o process-file.o -lm -o quadr
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ makeemacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[34;57H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[34;3H[?25ldone[H
+[?12l[?25h[?12;25h[34d[K[33;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[33;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[33;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[33;75H[?25ldone[H
+[?12l[?25h[?12;25h[33;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[33;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[33;64H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[33;65H[?25ldone[H
+[?12l[?25h[?12;25h[33;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[33;54H[?25ldone[H
+[?12l[?25h[?12;25h[33;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[33;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                 [0m[39;49m[27m
+[A
+[33mPROJECT[39;49m = quadr[K
+[33mSRC_FILES[39;49m =  key-value.c \[K
+        main.c\[K
+        Makefile\[K
+        process-file.h\[K
+        key-value.h\[K
+        process-file.c\[K
+        README[K
+[K
+[K
+[33mCFLAGS[39;49m = -g -Wall -std=c18[K
+[33mLDFLAGS[39;49m = -lm[K
+[K
+[1m[34m$(PROJECT)[0m[39;49m:     main.o key-value.o process-file.o[K
+                $([33mCC[39;49m) main.o key-value.o process-file.o $([33mLDFLAGS[39;49m) -o [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[34mclean[0m[39;49m:[K
+                rm -f *.o $([33mPROJECT[39;49m) $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34mdepend[0m[39;49m:[K
+                $([33mCC[39;49m) -MM $([33mCPPFLAGS[39;49m) *.c[K
+[K
+[1m[34mdist[0m[39;49m:                   $([33mPROJECT[39;49m).tar.gz[K
+[K
+[1m[34m$(PROJECT).tar.gz[0m[39;49m:              $([33mSRC_FILES[39;49m)[K
+                                tar -cf $([33mPROJECT[39;49m).tar $([33mSRC_FILES[39;49m)[K
+                                gzip -f $([33mPROJECT[39;49m).tar[K
+[K
+[1m[34mkey-value.o[0m[39;49m: key-value.c key-value.h[K
+[1m[34mmain.o[0m[39;49m: main.c process-file.h[K
+[1m[34mprocess-file.o[0m[39;49m: process-file.c key-value.h process-file.h[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   Top L1     (GNUmakefile) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[34d[?25lBeginning of buffer[K[H
+[?12l[?25h[?12;25h[34d[K[2;2H[C[C[C[C[C		[C[C[C[C[C[C	[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[2;16H[?12l[?25h[?12;25h[34;84H[?25lPlease type q, s, or p; or ? for help[K[2;16H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[2;16H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[2;16H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[2;16H[?12l[?25h[?12;25h[34;1H[?25lPlease type q, s, or p; or ? for help[K[2;16H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[2;16H[?12l[?25h[?12;25h[K[33;6H[?25l[7m**[0m[39;49m[27m[2;15H[?12l[?25h[?12;25h[34;1H[K[2;14H[K[K[K[K[C[?25lk[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25ly[?12l[?25h[?12;25h[?25l-[?12l[?25h[?12;25h[?25lv[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25lu[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[34;1H[?25lSaving file /home/akozina2/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile...[2;20H[?12l[?25h[?12;25h[34;1H[?25l...-from-scratch/Makefile locked by akozina2@remo... (pid 1661749): (s, q, p, ?)?[K[2;20H[?12l[?25h[?12;25h[34;84H[?25lWrote /home/akozina2/cs220/i220b/submit/lab1/exercises/4-from-scratch/Makefile[K[2;20H[?12l[?25h[?12;25h[33;6H[?25l[7m--[0m[39;49m[27m[2;20H[?12l[?25h[?12;25h[34;1H[K[2;20H[34;1H[?25l(No changes need to be saved)[2;20H[?12l[?25h[?12;25h[34;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[17]+  Stopped                 emacs Makefile
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ make
+cc main.o key-value.o process-file.o -lm -o key-value
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ cat
+ca  q
+q
+cat Makefile
+cat Makefile
+^C
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ cat Makefile
+PROJECT = key-value
+SRC_FILES =  key-value.c \
+	main.c\
+	Makefile\
+	process-file.h\
+	key-value.h\
+	process-file.c\
+	README
+
+
+CFLAGS = -g -Wall -std=c18
+LDFLAGS = -lm
+
+$(PROJECT):	main.o key-value.o process-file.o
+		$(CC) main.o key-value.o process-file.o $(LDFLAGS) -o $@
+
+clean:
+		rm -f *.o $(PROJECT) $(PROJECT).tar.gz
+
+depend:
+		$(CC) -MM $(CPPFLAGS) *.c
+
+dist:			$(PROJECT).tar.gz
+
+$(PROJECT).tar.gz:		$(SRC_FILES)
+				tar -cf $(PROJECT).tar $(SRC_FILES)
+				gzip -f $(PROJECT).tar
+
+key-value.o: key-value.c key-value.h
+main.o: main.c process-file.h
+process-file.o: process-file.c key-value.h process-file.h
+
+
+
+
+
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/4-from-scratch$ cd..[K[K ..
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises$ cd 5-auto-dependencies
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ ls
+main.c	Makefile  quadr.c  quadr.h  test.data
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ gcc - main[K[K[K[K[Kc main.c
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ gcc -c main.c[K[K[K[K[K[K[K[Kc quadr.c
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ make
+gcc -MT quadr.o -MMD -MP -MF .deps/quadr.d  -c quadr.c
+gcc -MT main.o -MMD -MP -MF .deps/main.d  -c main.c
+gcc quadr.o main.o -lm -o quadr
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ exit
+There are stopped jobs.
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ git add .
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ git commit -m ' com pleted MILESTONE '
+[lab1 4632df8]  completed MILESTONE
+ Committer: Anna Kozina <akozina2@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 7444 insertions(+), 4 deletions(-)
+ create mode 100644 submit/lab1/exercises/3-multifile/temp/Makefile
+ create mode 100644 submit/lab1/exercises/3-multifile/temp/README
+ create mode 100644 submit/lab1/exercises/3-multifile/temp/main.c
+ create mode 100644 submit/lab1/exercises/3-multifile/temp/quadr.c
+ create mode 100644 submit/lab1/exercises/3-multifile/temp/quadr.h
+ create mode 100644 submit/lab1/exercises/3-multifile/temp/test.data
+ create mode 100644 submit/lab1/exercises/4-from-scratch/#Makefile#
+ create mode 100644 submit/lab1/lab1.LOG
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ git push
+Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
+Enumerating objects: 21, done.
+Counting objects:   4% (1/21)Counting objects:   9% (2/21)Counting objects:  14% (3/21)Counting objects:  19% (4/21)Counting objects:  23% (5/21)Counting objects:  28% (6/21)Counting objects:  33% (7/21)Counting objects:  38% (8/21)Counting objects:  42% (9/21)Counting objects:  47% (10/21)Counting objects:  52% (11/21)Counting objects:  57% (12/21)Counting objects:  61% (13/21)Counting objects:  66% (14/21)Counting objects:  71% (15/21)Counting objects:  76% (16/21)Counting objects:  80% (17/21)Counting objects:  85% (18/21)Counting objects:  90% (19/21)Counting objects:  95% (20/21)Counting objects: 100% (21/21)Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects:   9% (1/11)Compressing objects:  18% (2/11)Compressing objects:  27% (3/11)Compressing objects:  36% (4/11)Compressing objects:  45% (5/11)Compressing objects:  54% (6/11)Compressing objects:  63% (7/11)Compressing objects:  72% (8/11)Compressing objects:  81% (9/11)Compressing objects:  90% (10/11)Compressing objects: 100% (11/11)Compressing objects: 100% (11/11), done.
+Writing objects:   8% (1/12)Writing objects:  16% (2/12)Writing objects:  25% (3/12)Writing objects:  33% (4/12)Writing objects:  41% (5/12)Writing objects:  50% (6/12)Writing objects:  58% (7/12)Writing objects:  66% (8/12)Writing objects:  75% (9/12)Writing objects:  83% (10/12)Writing objects:  91% (11/12)Writing objects: 100% (12/12)Writing objects: 100% (12/12), 43.29 KiB | 3.33 MiB/s, done.
+Total 12 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To github.com:annitusha/i220b.git
+   c94ff6d..4632df8  lab1 -> lab1
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ script -a lab1.LOG[K[K[K[K[K[K[K[K[K[K[Kcd
+Script started, file is cd
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ script -a lab1.LOG
+Script started, file is lab1.LOG
+akozina2@remote07:~/cs220/i220b/submit/lab1/exer
