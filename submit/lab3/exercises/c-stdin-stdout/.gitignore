@@ -1,0 +1,4 @@
+*.o
+_~
+sum-ints
+*.out
