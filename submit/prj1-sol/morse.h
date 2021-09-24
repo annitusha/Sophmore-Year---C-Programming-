@@ -3,8 +3,17 @@
 
 #include <limits.h>  //for CHAR_BIT
 
+#ifndef BYTE_SIZE
+
 typedef unsigned char Byte;
-enum { BITS_PER_BYTE = CHAR_BIT }; //assume a power-of-2
+#define BYTE_SIZE 1
+
+#endif
+
+#include "tests.h"
+
+//assume a power-of-2
+enum { BITS_PER_BYTE = CHAR_BIT*sizeof(Byte) };
 
 /**
 Morse code binary encoding

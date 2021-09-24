@@ -1,5 +1,5 @@
 #include "morse.h"
-
+#include <math.h>
 #include <assert.h>
 #include <ctype.h>
 #include <limits.h>

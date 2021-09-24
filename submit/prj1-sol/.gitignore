@@ -4,4 +4,5 @@ morse-*
 *.bin
 *.txt
 *.decode
-
+tests8
+tests16

@@ -23,5 +23,5 @@ morse.o:        morse.c morse.h
 
 main.o:         main.c file-utils.h morse.h
 
-
+tests.o:	tests.c morse.h tests.h
 
