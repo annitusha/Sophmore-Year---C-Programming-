@@ -145,7 +145,7 @@ static inline unsigned
 getOffset(unsigned bitOffset)
 {
   //TODO
-  return bitOffset >> 3;
+  return bitOffset >> (BITS_PER_BYTE == 8 ? 3 : 4);
 }
 
 /** Return bit at offset bitOffset in array[]; i.e., return
