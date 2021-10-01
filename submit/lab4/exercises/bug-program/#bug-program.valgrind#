@@ -1,0 +1,121 @@
+==3519855== Memcheck, a memory error detector
+==3519855== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3519855== Using Valgrind-3.14.0-353a3587bb-20181007X and LibVEX; rerun with -h for copyright info
+==3519855== Command: ./bug-program
+==3519855== 
+--3519855-- Valgrind options:
+--3519855--    -v
+--3519855--    --leak-check=yes
+--3519855-- Contents of /proc/version:
+--3519855--   Linux version 5.7.0-0.bpo.2-amd64 (debian-kernel@lists.debian.org) (gcc version 8.3.0 (Debian 8.3.0-6), GNU ld (GNU Binutils for Debian) 2.31.1) #1 SMP Debian 5.7.10-1~bpo10+1 (2020-07-30)
+--3519855-- 
+--3519855-- Arch and hwcaps: AMD64, LittleEndian, amd64-cx16-lzcnt-rdtscp-sse3-avx-avx2-bmi
+--3519855-- Page sizes: currently 4096, max supported 4096
+--3519855-- Valgrind library directory: /usr/lib/x86_64-linux-gnu/valgrind
+--3519855-- Reading syms from /import/linux/home1/akozina2/projects/cs220/i220b/submit/lab4/exercises/bug-program/bug-program
+--3519855-- Reading syms from /lib/x86_64-linux-gnu/ld-2.28.so
+--3519855--   Considering /usr/lib/debug/.build-id/f2/5dfd7b95be4ba386fd71080accae8c0732b711.debug ..
+--3519855--   .. build-id is valid
+--3519855-- Reading syms from /usr/lib/x86_64-linux-gnu/valgrind/memcheck-amd64-linux
+--3519855--   Considering /usr/lib/debug/.build-id/32/2e77af97f403c3d34ff09edf60b089e72ec889.debug ..
+--3519855--   .. build-id is valid
+--3519855--    object doesn't have a dynamic symbol table
+--3519855-- Scheduler: using generic scheduler lock implementation.
+--3519855-- Reading suppressions file: /usr/lib/x86_64-linux-gnu/valgrind/default.supp
+==3519855== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-3519855-by-akozina2-on-???
+==3519855== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-3519855-by-akozina2-on-???
+==3519855== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-3519855-by-akozina2-on-???
+==3519855== 
+==3519855== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==3519855== don't want to do, unless you know exactly what you're doing,
+==3519855== or are doing some strange experiment):
+==3519855==   /usr/lib/x86_64-linux-gnu/valgrind/../../bin/vgdb --pid=3519855 ...command...
+==3519855== 
+==3519855== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==3519855==   /path/to/gdb ./bug-program
+==3519855== and then give GDB the following command
+==3519855==   target remote | /usr/lib/x86_64-linux-gnu/valgrind/../../bin/vgdb --pid=3519855
+==3519855== --pid is optional if only one valgrind process is running
+==3519855== 
+--3519855-- REDIR: 0x401e2f0 (ld-linux-x86-64.so.2:strlen) redirected to 0x580c9ce2 (vgPlain_amd64_linux_REDIR_FOR_strlen)
+--3519855-- REDIR: 0x401e0d0 (ld-linux-x86-64.so.2:index) redirected to 0x580c9cfc (vgPlain_amd64_linux_REDIR_FOR_index)
+--3519855-- Reading syms from /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_core-amd64-linux.so
+--3519855--   Considering /usr/lib/debug/.build-id/34/fbc4cdfbfce1bfc3d2e522a01a050bf724c930.debug ..
+--3519855--   .. build-id is valid
+--3519855-- Reading syms from /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so
+--3519855--   Considering /usr/lib/debug/.build-id/ca/bb7898ea982d936cbfadd70ae831c6eb63623f.debug ..
+--3519855--   .. build-id is valid
+==3519855== WARNING: new redirection conflicts with existing -- ignoring it
+--3519855--     old: 0x0401e2f0 (strlen              ) R-> (0000.0) 0x580c9ce2 vgPlain_amd64_linux_REDIR_FOR_strlen
+--3519855--     new: 0x0401e2f0 (strlen              ) R-> (2007.0) 0x04838d80 strlen
+--3519855-- REDIR: 0x401ab10 (ld-linux-x86-64.so.2:strcmp) redirected to 0x4839e40 (strcmp)
+--3519855-- REDIR: 0x401e830 (ld-linux-x86-64.so.2:mempcpy) redirected to 0x483d860 (mempcpy)
+--3519855-- Reading syms from /lib/x86_64-linux-gnu/libm-2.28.so
+--3519855--   Considering /usr/lib/debug/.build-id/88/5dda4b4a5cea600e7b5b98c1ad86996c8d2299.debug ..
+--3519855--   .. build-id is valid
+--3519855-- Reading syms from /lib/x86_64-linux-gnu/libc-2.28.so
+--3519855--   Considering /usr/lib/debug/.build-id/18/b9a9a8c523e5cfe5b5d946d605d09242f09798.debug ..
+--3519855--   .. build-id is valid
+--3519855-- REDIR: 0x4a88f70 (libc.so.6:memmove) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a88160 (libc.so.6:strncpy) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a89250 (libc.so.6:strcasecmp) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a87b70 (libc.so.6:strcat) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a88190 (libc.so.6:rindex) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a8a890 (libc.so.6:rawmemchr) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4aa3230 (libc.so.6:wmemchr) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4aa2cd0 (libc.so.6:wcscmp) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a890e0 (libc.so.6:mempcpy) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a88f10 (libc.so.6:bcmp) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a88100 (libc.so.6:strncmp) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a87be0 (libc.so.6:strcmp) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a89040 (libc.so.6:memset) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4aa2ca0 (libc.so.6:wcschr) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a880a0 (libc.so.6:strnlen) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a87c70 (libc.so.6:strcspn) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a892a0 (libc.so.6:strncasecmp) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a87c40 (libc.so.6:strcpy) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a893e0 (libc.so.6:memcpy@@GLIBC_2.14) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4aa44d0 (libc.so.6:wcsnlen) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a881c0 (libc.so.6:strpbrk) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a87ba0 (libc.so.6:index) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a88070 (libc.so.6:strlen) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a8f280 (libc.so.6:memrchr) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a892f0 (libc.so.6:strcasecmp_l) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a88ee0 (libc.so.6:memchr) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4aa2db0 (libc.so.6:wcslen) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a88460 (libc.so.6:strspn) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a89220 (libc.so.6:stpncpy) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a891f0 (libc.so.6:stpcpy) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a8a8c0 (libc.so.6:strchrnul) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4a89340 (libc.so.6:strncasecmp_l) redirected to 0x482b1b0 (_vgnU_ifunc_wrapper)
+--3519855-- REDIR: 0x4b5bfa0 (libc.so.6:__strrchr_avx2) redirected to 0x4838790 (rindex)
+--3519855-- REDIR: 0x4a84350 (libc.so.6:malloc) redirected to 0x4835710 (malloc)
+--3519855-- REDIR: 0x4b5c170 (libc.so.6:__strlen_avx2) redirected to 0x4838c60 (strlen)
+--3519855-- REDIR: 0x4a9d100 (libc.so.6:__strcpy_sse2_unaligned) redirected to 0x4838db0 (strcpy)
+--3519855-- REDIR: 0x4b5bdb0 (libc.so.6:__strchrnul_avx2) redirected to 0x483d390 (strchrnul)
+--3519855-- REDIR: 0x4b5c690 (libc.so.6:__mempcpy_avx_unaligned_erms) redirected to 0x483d4a0 (mempcpy)
+--3519855-- REDIR: 0x4a849a0 (libc.so.6:free) redirected to 0x4836940 (free)
+==3519855== 
+==3519855== HEAP SUMMARY:
+==3519855==     in use at exit: 123 bytes in 23 blocks
+==3519855==   total heap usage: 47 allocs, 24 frees, 1,699 bytes allocated
+==3519855== 
+==3519855== Searching for pointers to 23 not-freed blocks
+==3519855== Checked 72,216 bytes
+==3519855== 
+==3519855== 123 bytes in 23 blocks are definitely lost in loss record 1 of 1
+==3519855==    at 0x483577F: malloc (vg_replace_malloc.c:299)
+==3519855==    by 0x1091ED: add_key_value (bug-program.c:27)
+==3519855==    by 0x109405: make_key_values (bug-program.c:70)
+==3519855==    by 0x109428: main (bug-program.c:79)
+==3519855== 
+==3519855== LEAK SUMMARY:
+==3519855==    definitely lost: 123 bytes in 23 blocks
+==3519855==    indirectly lost: 0 bytes in 0 blocks
+==3519855==      possibly lost: 0 bytes in 0 blocks
+==3519855==    still reachable: 0 bytes in 0 blocks
+==3519855==         suppressed: 0 bytes in 0 blocks
+==3519855== 
+==3519855== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==3519855== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+gdb
