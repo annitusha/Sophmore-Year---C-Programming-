@@ -1,0 +1,2031 @@
+Script started on 2021-10-07 15:58:30-04:00 [TERM="xterm" TTY="/dev/pts/12" COLUMNS="94" LINES="54"]
+akozina2@remote07:~/projects/i220b/submit/lab5$ ls
+exercises  lab5.LOG
+akozina2@remote07:~/projects/i220b/submit/lab5$ cd exercises
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ ls
+2  hello.c  identify  Makefile
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ emacs hello.c
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[54d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[53d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[54d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[54;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[54;54H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[54;59H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[54;58H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[54;60H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[54;57H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[54;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[54;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[54;77H[?25ldone[H
+[?12l[?25h[?12;25h[54;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[54;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[54;75H[?25ldone[H
+[?12l[?25h[?12;25h[54;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[54;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[54;61H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[54d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[54;3H[?25ldone[H
+[?12l[?25h[?12;25h[54d[K[53;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[53;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[53;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[53;75H[?25ldone[H
+[?12l[?25h[?12;25h[53;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[53;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[53;64H[?25ldone[H
+[?12l[?25h[?12;25h[53;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[53;54H[?25ldone[H
+[?12l[?25h[?12;25h[53;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[53;65H[?25ldone[H
+[?12l[?25h[?12;25h[53;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[53;54H[?25ldone[H
+[?12l[?25h[?12;25h[53;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[53;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[54d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[54d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools C Help                                                        [0m[39;49m[27m
+[A
+[1m[34m#include[0m[39;49m [32m<stdio.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<stdlib.h>[39;49m[K
+[K
+[32m/** Say hello to who on stream out. */[39;49m[K
+[1m[36mstatic[0m[39;49m [32mvoid[39;49m[K
+[1m[34mhello[0m[39;49m([32mFILE[39;49m *[33mout[39;49m, [1m[36mconst[0m[39;49m [32mchar[39;49m *[33mwho[39;49m)[K
+{[K
+  fprintf(out, [32m"hello %s\n"[39;49m, who);[K
+}[K
+[K
+[K
+[32m/** Say hello to 1-or-more command-line arguments. */[39;49m[K
+[32mint[39;49m[K
+[1m[34mmain[0m[39;49m([32mint[39;49m [33margc[39;49m, [1m[36mconst[0m[39;49m [32mchar[39;49m *[33margv[39;49m[])[K
+{[K
+  [1m[36mif[0m[39;49m (argc == 1) {[K
+    fprintf(stderr, [32m"usage: %s NAME...\n"[39;49m, argv[0]);[K
+    exit(0xdeadbeef);[K
+  }[K
+  [1m[36mfor[0m[39;49m ([32mint[39;49m [33mi[39;49m = 1; i < argc; i++) {[K
+    hello(stdout, argv[i]);[K
+  }[K
+  [1m[36mreturn[0m[39;49m 0;[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mhello.c     [0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-lab5[0m[39;49m[27m[7m  (C/*l Abbrev) --------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[54d[K[2d[54d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[1]+  Stopped                 emacs hello.c
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ make
+cc -g -Wall  -std=c18    hello.c   -o hello
+cc -g -Wall  -std=c18 -S hello.c
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ ./hello
+usage: ./hello NAME...
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ ./hello Anna
+hello Anna
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ size hello
+   text	   data	    bss	    dec	    hex	filename
+   1874	    592	     48	   2514	    9d2	hello
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ size -A hello
+hello  :
+section              size    addr
+.interp                28     680
+.note.ABI-tag          32     708
+.note.gnu.build-id     36     740
+.gnu.hash              48     776
+.dynsym               240     824
+.dynstr               152    1064
+.gnu.version           20    1216
+.gnu.version_r         32    1240
+.rela.dyn             240    1272
+.rela.plt              48    1512
+.init                  23    4096
+.plt                   48    4128
+.plt.got                8    4176
+.text                 513    4192
+.fini                   9    4708
+.rodata                33    8192
+.eh_frame_hdr          68    8228
+.eh_frame             296    8296
+.init_array             8   15848
+.fini_array             8   15856
+.dynamic              480   15864
+.got                   40   16344
+.got.plt               40   16384
+.data                  16   16424
+.bss                   48   16448
+.comment               28       0
+.debug_aranges         48       0
+.debug_info           860       0
+.debug_abbrev         287       0
+.debug_line           308       0
+.debug_str            607       0
+Total                4652
+
+
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ objdump -d hello > hello.objdump
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ emacs hello.objdump
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[54d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[53d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[54d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[54;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[54;54H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[54;59H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[54;58H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[54;60H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[54;57H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[54;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[54;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[54;77H[?25ldone[H
+[?12l[?25h[?12;25h[54;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[54;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[54;75H[?25ldone[H
+[?12l[?25h[?12;25h[54;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[54;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[54;61H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[54d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[54;3H[?25ldone[H
+[?12l[?25h[?12;25h[54d[K[53;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[53;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[53;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[53;75H[?25ldone[H
+[?12l[?25h[?12;25h[53;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[53;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[53;64H[?25ldone[H
+[?12l[?25h[?12;25h[53;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[53;54H[?25ldone[H
+[?12l[?25h[?12;25h[53;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[53;65H[?25ldone[H
+[?12l[?25h[?12;25h[53;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[53;54H[?25ldone[H
+[?12l[?25h[?12;25h[53;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[53;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[54d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[54d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+hello:     file format elf64-x86-64[K
+[K
+[K
+Disassembly of section .init:[K
+[K
+0000000000001000 <_init>:[K
+    1000:       48 83 ec 08             sub    $0x8,%rsp[K
+    1004:       48 8b 05 dd 2f 00 00    mov    0x2fdd(%rip),%rax        # 3fe8 <__gmon_start_\
+[A
+_>[K
+    100b:       48 85 c0                test   %rax,%rax[K
+    100e:       74 02                   je     1012 <_init+0x12>[K
+    1010:       ff d0                   callq  *%rax[K
+    1012:       48 83 c4 08             add    $0x8,%rsp[K
+    1016:       c3                      retq[K
+[K
+Disassembly of section .plt:[K
+[K
+0000000000001020 <.plt>:[K
+    1020:       ff 35 e2 2f 00 00       pushq  0x2fe2(%rip)        # 4008 <_GLOBAL_OFFSET_TAB\
+[A
+LE_+0x8>[K
+    1026:       ff 25 e4 2f 00 00       jmpq   *0x2fe4(%rip)        # 4010 <_GLOBAL_OFFSET_TA\
+[A
+BLE_+0x10>[K
+    102c:       0f 1f 40 00             nopl   0x0(%rax)[K
+[K
+0000000000001030 <fprintf@plt>:[K
+    1030:       ff 25 e2 2f 00 00       jmpq   *0x2fe2(%rip)        # 4018 <fprintf@GLIBC_2.2\
+[A
+.5>[K
+    1036:       68 00 00 00 00          pushq  $0x0[K
+    103b:       e9 e0 ff ff ff          jmpq   1020 <.plt>[K
+[K
+0000000000001040 <exit@plt>:[K
+    1040:       ff 25 da 2f 00 00       jmpq   *0x2fda(%rip)        # 4020 <exit@GLIBC_2.2.5>[K
+    1046:       68 01 00 00 00          pushq  $0x1[K
+    104b:       e9 d0 ff ff ff          jmpq   1020 <.plt>[K
+[K
+Disassembly of section .plt.got:[K
+[K
+0000000000001050 <__cxa_finalize@plt>:[K
+    1050:       ff 25 a2 2f 00 00       jmpq   *0x2fa2(%rip)        # 3ff8 <__cxa_finalize@GL\
+[A
+IBC_2.2.5>[K
+    1056:       66 90                   xchg   %ax,%ax[K
+[K
+Disassembly of section .text:[K
+[K
+0000000000001060 <_start>:[K
+    1060:       31 ed                   xor    %ebp,%ebp[K
+    1062:       49 89 d1                mov    %rdx,%r9[K
+    1065:       5e                      pop    %rsi[K
+    1066:       48 89 e2                mov    %rsp,%rdx[K
+    1069:       48 83 e4 f0             and    $0xfffffffffffffff0,%rsp[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mhello.objdump[0m[39;49m[27m[7m   Top L1     (Fundamental) ----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[54d[K[53;35H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[53;35H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[53;35H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[53;35H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[53;35H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[53;35H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[53;35H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[53;35H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h
+[53;35H[?25l[7m10[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;36H[?25l[7m0[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[53;35H[?25l[7m9 [0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[A[53;35H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[53;35H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[53;35H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[53;35H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[H[2J[54d[K[H[?25l[7mFile Edit Options Buffers Tools Help                                                                   [0m[39;49m[27m
+[A
+[K
+hello:     file format elf64-x86-64[K
+[K
+[K
+Disassembly of section .init:[K
+[K
+0000000000001000 <_init>:[K
+    1000:       48 83 ec 08             sub    $0x8,%rsp[K
+    1004:       48 8b 05 dd 2f 00 00    mov    0x2fdd(%rip),%rax        # 3fe8 <__gmon_start__>[K
+    100b:       48 85 c0                test   %rax,%rax[K
+    100e:       74 02                   je     1012 <_init+0x12>[K
+    1010:       ff d0                   callq  *%rax[K
+    1012:       48 83 c4 08             add    $0x8,%rsp[K
+    1016:       c3                      retq[K
+[K
+Disassembly of section .plt:[K
+[K
+0000000000001020 <.plt>:[K
+    1020:       ff 35 e2 2f 00 00       pushq  0x2fe2(%rip)        # 4008 <_GLOBAL_OFFSET_TABLE_+0x8>[K
+    1026:       ff 25 e4 2f 00 00       jmpq   *0x2fe4(%rip)        # 4010 <_GLOBAL_OFFSET_TABLE_+0x10\
+[A
+>[K
+    102c:       0f 1f 40 00             nopl   0x0(%rax)[K
+[K
+0000000000001030 <fprintf@plt>:[K
+    1030:       ff 25 e2 2f 00 00       jmpq   *0x2fe2(%rip)        # 4018 <fprintf@GLIBC_2.2.5>[K
+    1036:       68 00 00 00 00          pushq  $0x0[K
+    103b:       e9 e0 ff ff ff          jmpq   1020 <.plt>[K
+[K
+0000000000001040 <exit@plt>:[K
+    1040:       ff 25 da 2f 00 00       jmpq   *0x2fda(%rip)        # 4020 <exit@GLIBC_2.2.5>[K
+    1046:       68 01 00 00 00          pushq  $0x1[K
+    104b:       e9 d0 ff ff ff          jmpq   1020 <.plt>[K
+[K
+Disassembly of section .plt.got:[K
+[K
+0000000000001050 <__cxa_finalize@plt>:[K
+    1050:       ff 25 a2 2f 00 00       jmpq   *0x2fa2(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5\
+[A
+>[K
+    1056:       66 90                   xchg   %ax,%ax[K
+[K
+Disassembly of section .text:[K
+[K
+0000000000001060 <_start>:[K
+    1060:       31 ed                   xor    %ebp,%ebp[K
+    1062:       49 89 d1                mov    %rdx,%r9[K
+    1065:       5e                      pop    %rsi[K
+    1066:       48 89 e2                mov    %rsp,%rdx[K
+    1069:       48 83 e4 f0             and    $0xfffffffffffffff0,%rsp[K
+    106d:       50                      push   %rax[K
+    106e:       54                      push   %rsp[K
+    106f:       4c 8d 05 ea 01 00 00    lea    0x1ea(%rip),%r8        # 1260 <__libc_csu_fini>[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mhello.objdump[0m[39;49m[27m[7m   Top L5     (Fundamental) -------------------------------------------------[0m[39;49m[27m
+[A[6d[?12l[?25h[?12;25h[H[2J[54d[K[H[?25l[7mFile Edit Options Buffers Tools Help                                                                               [0m[39;49m[27m
+[A
+[K
+hello:     file format elf64-x86-64[K
+[K
+[K
+Disassembly of section .init:[K
+[K
+0000000000001000 <_init>:[K
+    1000:       48 83 ec 08             sub    $0x8,%rsp[K
+    1004:       48 8b 05 dd 2f 00 00    mov    0x2fdd(%rip),%rax        # 3fe8 <__gmon_start__>[K
+    100b:       48 85 c0                test   %rax,%rax[K
+    100e:       74 02                   je     1012 <_init+0x12>[K
+    1010:       ff d0                   callq  *%rax[K
+    1012:       48 83 c4 08             add    $0x8,%rsp[K
+    1016:       c3                      retq[K
+[K
+Disassembly of section .plt:[K
+[K
+0000000000001020 <.plt>:[K
+    1020:       ff 35 e2 2f 00 00       pushq  0x2fe2(%rip)        # 4008 <_GLOBAL_OFFSET_TABLE_+0x8>[K
+    1026:       ff 25 e4 2f 00 00       jmpq   *0x2fe4(%rip)        # 4010 <_GLOBAL_OFFSET_TABLE_+0x10>[K
+    102c:       0f 1f 40 00             nopl   0x0(%rax)[K
+[K
+0000000000001030 <fprintf@plt>:[K
+    1030:       ff 25 e2 2f 00 00       jmpq   *0x2fe2(%rip)        # 4018 <fprintf@GLIBC_2.2.5>[K
+    1036:       68 00 00 00 00          pushq  $0x0[K
+    103b:       e9 e0 ff ff ff          jmpq   1020 <.plt>[K
+[K
+0000000000001040 <exit@plt>:[K
+    1040:       ff 25 da 2f 00 00       jmpq   *0x2fda(%rip)        # 4020 <exit@GLIBC_2.2.5>[K
+    1046:       68 01 00 00 00          pushq  $0x1[K
+    104b:       e9 d0 ff ff ff          jmpq   1020 <.plt>[K
+[K
+Disassembly of section .plt.got:[K
+[K
+0000000000001050 <__cxa_finalize@plt>:[K
+    1050:       ff 25 a2 2f 00 00       jmpq   *0x2fa2(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>[K
+    1056:       66 90                   xchg   %ax,%ax[K
+[K
+Disassembly of section .text:[K
+[K
+0000000000001060 <_start>:[K
+    1060:       31 ed                   xor    %ebp,%ebp[K
+    1062:       49 89 d1                mov    %rdx,%r9[K
+    1065:       5e                      pop    %rsi[K
+    1066:       48 89 e2                mov    %rsp,%rdx[K
+    1069:       48 83 e4 f0             and    $0xfffffffffffffff0,%rsp[K
+    106d:       50                      push   %rax[K
+    106e:       54                      push   %rsp[K
+    106f:       4c 8d 05 ea 01 00 00    lea    0x1ea(%rip),%r8        # 1260 <__libc_csu_fini>[K
+    1076:       48 8d 0d 83 01 00 00    lea    0x183(%rip),%rcx        # 1200 <__libc_csu_init>[K
+    107d:       48 8d 3d f0 00 00 00    lea    0xf0(%rip),%rdi        # 1174 <main>[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mhello.objdump[0m[39;49m[27m[7m   Top L5     (Fundamental) -------------------------------------------------------------[0m[39;49m[27m
+[A[6d[?12l[?25h[?12;25h[53;35H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[53;35H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[53;35H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[53;35H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[53;35H[?25l[7m20[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[53;35H[?25l[7m30[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[53;35H[?25l[7m40[0m[39;49m[27m[41;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[42;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[44;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[45;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[46;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[47;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[48;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[49;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[50;1H[?12l[?25h[?12;25h[53;35H[?25l[7m50[0m[39;49m[27m[51;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;52r[3;1H[26M[1;54r[27;1H[?25l    1084:       ff 15 56 2f 00 00       callq  *0x2f56(%rip)        # 3fe0 <__libc_start_main@GLIBC_2.2.5>[K
+    108a:       f4                      hlt[K
+    108b:       0f 1f 44 00 00          nopl   0x0(%rax,%rax,1)[K
+[K
+0000000000001090 <deregister_tm_clones>:[K
+    1090:       48 8d 3d a1 2f 00 00    lea    0x2fa1(%rip),%rdi        # 4038 <__TMC_END__>[K
+    1097:       48 8d 05 9a 2f 00 00    lea    0x2f9a(%rip),%rax        # 4038 <__TMC_END__>[K
+    109e:       48 39 f8                cmp    %rdi,%rax[K
+    10a1:       74 15                   je     10b8 <deregister_tm_clones+0x28>[K
+    10a3:       48 8b 05 2e 2f 00 00    mov    0x2f2e(%rip),%rax        # 3fd8 <_ITM_deregisterTMCloneTable>[K
+    10aa:       48 85 c0                test   %rax,%rax[K
+    10ad:       74 09                   je     10b8 <deregister_tm_clones+0x28>[K
+    10af:       ff e0                   jmpq   *%rax[K
+    10b1:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)[K
+    10b8:       c3                      retq[K
+    10b9:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)[K
+[K
+00000000000010c0 <register_tm_clones>:[K
+    10c0:       48 8d 3d 71 2f 00 00    lea    0x2f71(%rip),%rdi        # 4038 <__TMC_END__>[K
+    10c7:       48 8d 35 6a 2f 00 00    lea    0x2f6a(%rip),%rsi        # 4038 <__TMC_END__>[K
+    10ce:       48 29 fe                sub    %rdi,%rsi[K
+    10d1:       48 c1 fe 03             sar    $0x3,%rsi[K
+    10d5:       48 89 f0                mov    %rsi,%rax[K
+    10d8:       48 c1 e8 3f             shr    $0x3f,%rax[K
+    10dc:       48 01 c6                add    %rax,%rsi[K
+    10df:       48 d1 fe                sar    %rsi[K[53;30H[7m10% L52[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[53;35H[?25l[7m60[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[41;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[42;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[43;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[44;1H[?12l[?25h[?12;25h[53;35H[?25l[7m70[0m[39;49m[27m[45;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[46;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[47;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[48;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[49;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[50;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[51;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;52r[2;1H[26M[1;54r[27;1H[?25l    10e2:       74 14                   je     10f8 <register_tm_clones+0x38>[K
+    10e4:       48 8b 05 05 2f 00 00    mov    0x2f05(%rip),%rax        # 3ff0 <_ITM_registerTMCloneTable>[K
+    10eb:       48 85 c0                test   %rax,%rax[K
+    10ee:       74 08                   je     10f8 <register_tm_clones+0x38>[K
+    10f0:       ff e0                   jmpq   *%rax[K
+    10f2:       66 0f 1f 44 00 00       nopw   0x0(%rax,%rax,1)[K
+    10f8:       c3                      retq[K
+    10f9:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)[K
+[K
+0000000000001100 <__do_global_dtors_aux>:[K
+    1100:       80 3d 61 2f 00 00 00    cmpb   $0x0,0x2f61(%rip)        # 4068 <completed.7325>[K
+    1107:       75 2f                   jne    1138 <__do_global_dtors_aux+0x38>[K
+    1109:       55                      push   %rbp[K
+    110a:       48 83 3d e6 2e 00 00    cmpq   $0x0,0x2ee6(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>[K
+    1111:       00[K
+    1112:       48 89 e5                mov    %rsp,%rbp[K
+    1115:       74 0c                   je     1123 <__do_global_dtors_aux+0x23>[K
+    1117:       48 8b 3d 12 2f 00 00    mov    0x2f12(%rip),%rdi        # 4030 <__dso_handle>[K
+    111e:       e8 2d ff ff ff          callq  1050 <__cxa_finalize@plt>[K
+    1123:       e8 68 ff ff ff          callq  1090 <deregister_tm_clones>[K
+    1128:       c6 05 39 2f 00 00 01    movb   $0x1,0x2f39(%rip)        # 4068 <completed.7325>[K
+    112f:       5d                      pop    %rbp[K
+    1130:       c3                      retq[K
+    1131:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)[K
+    1138:       c3                      retq[K
+    1139:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)[K[53;30H[7m22% L78[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;35H[?25l[7m80[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[53;35H[?25l[7m90[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[41;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[42;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[43;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[44;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[45;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[46;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[47;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[48;1H[?12l[?25h[?12;25h[53;35H[?25l[7m100[0m[39;49m[27m[49;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[50;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[51;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;52r[2;1H[26M[1;54r[27;1H[K
+[?25l0000000000001140 <frame_dummy>:[K
+    1140:       e9 7b ff ff ff          jmpq   10c0 <register_tm_clones>[K
+[K
+0000000000001145 <hello>:[K
+    1145:       55                      push   %rbp[K
+    1146:       48 89 e5                mov    %rsp,%rbp[K
+    1149:       48 83 ec 10             sub    $0x10,%rsp[K
+    114d:       48 89 7d f8             mov    %rdi,-0x8(%rbp)[K
+    1151:       48 89 75 f0             mov    %rsi,-0x10(%rbp)[K
+    1155:       48 8b 55 f0             mov    -0x10(%rbp),%rdx[K
+    1159:       48 8b 45 f8             mov    -0x8(%rbp),%rax[K
+    115d:       48 8d 35 a0 0e 00 00    lea    0xea0(%rip),%rsi        # 2004 <_IO_stdin_used+0x4>[K
+    1164:       48 89 c7                mov    %rax,%rdi[K
+    1167:       b8 00 00 00 00          mov    $0x0,%eax[K
+    116c:       e8 bf fe ff ff          callq  1030 <fprintf@plt>[K
+    1171:       90                      nop[K
+    1172:       c9                      leaveq[K
+    1173:       c3                      retq[K
+[K
+0000000000001174 <main>:[K
+    1174:       55                      push   %rbp[K
+    1175:       48 89 e5                mov    %rsp,%rbp[K
+    1178:       48 83 ec 20             sub    $0x20,%rsp[K
+    117c:       89 7d ec                mov    %edi,-0x14(%rbp)[K
+    117f:       48 89 75 e0             mov    %rsi,-0x20(%rbp)[K[53;30H[7m36% L104[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[53;37H[?25l[7m9[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[53;36H[?25l[7m10[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[41;1H[?12l[?25h[?12;25h[53;37H[?25l[7m9[0m[39;49m[27m[42;1H[?12l[?25h[?12;25h[53;36H[?25l[7m20[0m[39;49m[27m[43;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[44;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[45;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[46;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[47;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[48;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[49;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[50;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[51;1H[?12l[?25h[?12;25h[53;37H[?25l[7m9[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;52r[2;1H[26M[1;54r[27;1H[?25l    1183:       83 7d ec 01             cmpl   $0x1,-0x14(%rbp)[K
+    1187:       75 2c                   jne    11b5 <main+0x41>[K
+    1189:       48 8b 45 e0             mov    -0x20(%rbp),%rax[K
+    118d:       48 8b 10                mov    (%rax),%rdx[K
+    1190:       48 8b 05 c9 2e 00 00    mov    0x2ec9(%rip),%rax        # 4060 <stderr@@GLIBC_2.2.5>[K
+    1197:       48 8d 35 70 0e 00 00    lea    0xe70(%rip),%rsi        # 200e <_IO_stdin_used+0xe>[K
+    119e:       48 89 c7                mov    %rax,%rdi[K
+    11a1:       b8 00 00 00 00          mov    $0x0,%eax[K
+    11a6:       e8 85 fe ff ff          callq  1030 <fprintf@plt>[K
+    11ab:       bf ef be ad de          mov    $0xdeadbeef,%edi[K
+    11b0:       e8 8b fe ff ff          callq  1040 <exit@plt>[K
+    11b5:       c7 45 fc 01 00 00 00    movl   $0x1,-0x4(%rbp)[K
+    11bc:       eb 2d                   jmp    11eb <main+0x77>[K
+    11be:       8b 45 fc                mov    -0x4(%rbp),%eax[K
+    11c1:       48 98                   cltq[K
+    11c3:       48 8d 14 c5 00 00 00    lea    0x0(,%rax,8),%rdx[K
+    11ca:       00[K
+    11cb:       48 8b 45 e0             mov    -0x20(%rbp),%rax[K
+    11cf:       48 01 d0                add    %rdx,%rax[K
+    11d2:       48 8b 10                mov    (%rax),%rdx[K
+    11d5:       48 8b 05 64 2e 00 00    mov    0x2e64(%rip),%rax        # 4040 <stdout@@GLIBC_2.2.5>[K
+    11dc:       48 89 d6                mov    %rdx,%rsi[K
+    11df:       48 89 c7                mov    %rax,%rdi[K
+    11e2:       e8 5e ff ff ff          callq  1145 <hello>[K
+    11e7:       83 45 fc 01             addl   $0x1,-0x4(%rbp)[K
+    11eb:       8b 45 fc                mov    -0x4(%rbp),%eax[K[53;30H[7m51% L130[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[53;37H[?25l[7m9[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[53;36H[?25l[7m40[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[41;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[42;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[43;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[44;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[45;1H[?12l[?25h[?12;25h[53;37H[?25l[7m9[0m[39;49m[27m[46;1H[?12l[?25h[?12;25h[53;36H[?25l[7m50[0m[39;49m[27m[47;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[48;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[49;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[50;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[51;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;52r[2;1H[26M[1;54r[27;1H[?25l    11ee:       3b 45 ec                cmp    -0x14(%rbp),%eax[K
+    11f1:       7c cb                   jl     11be <main+0x4a>[K
+    11f3:       b8 00 00 00 00          mov    $0x0,%eax[K
+    11f8:       c9                      leaveq[K
+    11f9:       c3                      retq[K
+    11fa:       66 0f 1f 44 00 00       nopw   0x0(%rax,%rax,1)[K
+[K
+0000000000001200 <__libc_csu_init>:[K
+    1200:       41 57                   push   %r15[K
+    1202:       49 89 d7                mov    %rdx,%r15[K
+    1205:       41 56                   push   %r14[K
+    1207:       49 89 f6                mov    %rsi,%r14[K
+    120a:       41 55                   push   %r13[K
+    120c:       41 89 fd                mov    %edi,%r13d[K
+    120f:       41 54                   push   %r12[K
+    1211:       4c 8d 25 d0 2b 00 00    lea    0x2bd0(%rip),%r12        # 3de8 <__frame_dummy_init_array_entry>[K
+    1218:       55                      push   %rbp[K
+    1219:       48 8d 2d d0 2b 00 00    lea    0x2bd0(%rip),%rbp        # 3df0 <__init_array_end>[K
+    1220:       53                      push   %rbx[K
+    1221:       4c 29 e5                sub    %r12,%rbp[K
+    1224:       48 83 ec 08             sub    $0x8,%rsp[K
+    1228:       e8 d3 fd ff ff          callq  1000 <_init>[K
+    122d:       48 c1 fd 03             sar    $0x3,%rbp[K
+    1231:       74 1b                   je     124e <__libc_csu_init+0x4e>[K
+    1233:       31 db                   xor    %ebx,%ebx[K
+    1235:       0f 1f 00                nopl   (%rax)[K[53;30H[7m63% L156[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;37H[?25l[7m9[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[53;36H[?25l[7m60[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[53;37H[?25l[7m0[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[53;36H[?25l[7m59[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;37H[?25l[7m0[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;36H[?25l[7m49[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;37H[?25l[7m9[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[53;36H[?25l[7m50[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[53;37H[?25l[7m9[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[53;36H[?25l[7m60[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[53;37H[?25l[7m9[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[53;36H[?25l[7m70[0m[39;49m[27m[41;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[42;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[43;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[44;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[45;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[46;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[47;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[48;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[49;1H[?12l[?25h[?12;25h[53;37H[?25l[7m9[0m[39;49m[27m[50;1H[?12l[?25h[?12;25h[53;36H[?25l[7m80[0m[39;49m[27m[51;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;52r[2;1H[26M[1;54r[27;1H[?25l    1238:       4c 89 fa                mov    %r15,%rdx[K
+    123b:       4c 89 f6                mov    %r14,%rsi[K
+    123e:       44 89 ef                mov    %r13d,%edi[K
+    1241:       41 ff 14 dc             callq  *(%r12,%rbx,8)[K
+    1245:       48 83 c3 01             add    $0x1,%rbx[K
+    1249:       48 39 dd                cmp    %rbx,%rbp[K
+    124c:       75 ea                   jne    1238 <__libc_csu_init+0x38>[K
+    124e:       48 83 c4 08             add    $0x8,%rsp[K
+    1252:       5b                      pop    %rbx[K
+    1253:       5d                      pop    %rbp[K
+    1254:       41 5c                   pop    %r12[K
+    1256:       41 5d                   pop    %r13[K
+    1258:       41 5e                   pop    %r14[K
+    125a:       41 5f                   pop    %r15[K
+    125c:       c3                      retq[K
+    125d:       0f 1f 00                nopl   (%rax)[K
+[K
+0000000000001260 <__libc_csu_fini>:[K
+    1260:       c3                      retq[K
+[K
+Disassembly of section .fini:[K
+[K
+0000000000001264 <_fini>:[K
+    1264:       48 83 ec 08             sub    $0x8,%rsp[K
+    1268:       48 83 c4 08             add    $0x8,%rsp[K
+    126c:       c3                      retq[K[53;30H[7mBot L182[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[53;37H[?25l[7m9[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[53;36H[?25l[7m90[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[41;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[42;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[43;1H[?12l[?25h[?12;25h[53;37H[?25l[7m9[0m[39;49m[27m[44;1H[?12l[?25h[?12;25h[53;35H[?25l[7m200[0m[39;49m[27m[45;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[47;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[48;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[49;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[50;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[51;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;52r[2;1H[26M[1;54r[27;1H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[53;37H[?25l[7m8[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[54d[?25lEnd of buffer[27;1H[?12l[?25h[?12;25h[54d[K[53;37H[?25l[7m7[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;37H[?25l[7m0[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;35H[?25l[7m199[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[53;37H[?25l[7m0[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[53;36H[?25l[7m89[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[1;52r[2;1H[26L[1;54r[2;1H[?25l    11f1:       7c cb                   jl     11be <main+0x4a>[K
+    11f3:       b8 00 00 00 00          mov    $0x0,%eax[K
+    11f8:       c9                      leaveq[K
+    11f9:       c3                      retq[K
+    11fa:       66 0f 1f 44 00 00       nopw   0x0(%rax,%rax,1)[K
+[K
+0000000000001200 <__libc_csu_init>:[K
+    1200:       41 57                   push   %r15[K
+    1202:       49 89 d7                mov    %rdx,%r15[K
+    1205:       41 56                   push   %r14[K
+    1207:       49 89 f6                mov    %rsi,%r14[K
+    120a:       41 55                   push   %r13[K
+    120c:       41 89 fd                mov    %edi,%r13d[K
+    120f:       41 54                   push   %r12[K
+    1211:       4c 8d 25 d0 2b 00 00    lea    0x2bd0(%rip),%r12        # 3de8 <__frame_dummy_init_array_entry>[K
+    1218:       55                      push   %rbp[K
+    1219:       48 8d 2d d0 2b 00 00    lea    0x2bd0(%rip),%rbp        # 3df0 <__init_array_end>[K
+    1220:       53                      push   %rbx[K
+    1221:       4c 29 e5                sub    %r12,%rbp[K
+    1224:       48 83 ec 08             sub    $0x8,%rsp[K
+    1228:       e8 d3 fd ff ff          callq  1000 <_init>[K
+    122d:       48 c1 fd 03             sar    $0x3,%rbp[K
+    1231:       74 1b                   je     124e <__libc_csu_init+0x4e>[K
+    1233:       31 db                   xor    %ebx,%ebx[K
+    1235:       0f 1f 00                nopl   (%rax)[K
+    1238:       4c 89 fa                mov    %r15,%rdx[K[53;37H[7m2[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;37H[?25l[7m0[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;36H[?25l[7m79[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;37H[?25l[7m0[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;36H[?25l[7m69[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[53;37H[?25l[7m0[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[53;36H[?25l[7m59[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[1;52r[2;1H[26L[1;54r[2;1H[?25l    1187:       75 2c                   jne    11b5 <main+0x41>[K
+    1189:       48 8b 45 e0             mov    -0x20(%rbp),%rax[K
+    118d:       48 8b 10                mov    (%rax),%rdx[K
+    1190:       48 8b 05 c9 2e 00 00    mov    0x2ec9(%rip),%rax        # 4060 <stderr@@GLIBC_2.2.5>[K
+    1197:       48 8d 35 70 0e 00 00    lea    0xe70(%rip),%rsi        # 200e <_IO_stdin_used+0xe>[K
+    119e:       48 89 c7                mov    %rax,%rdi[K
+    11a1:       b8 00 00 00 00          mov    $0x0,%eax[K
+    11a6:       e8 85 fe ff ff          callq  1030 <fprintf@plt>[K
+    11ab:       bf ef be ad de          mov    $0xdeadbeef,%edi[K
+    11b0:       e8 8b fe ff ff          callq  1040 <exit@plt>[K
+    11b5:       c7 45 fc 01 00 00 00    movl   $0x1,-0x4(%rbp)[K
+    11bc:       eb 2d                   jmp    11eb <main+0x77>[K
+    11be:       8b 45 fc                mov    -0x4(%rbp),%eax[K
+    11c1:       48 98                   cltq[K
+    11c3:       48 8d 14 c5 00 00 00    lea    0x0(,%rax,8),%rdx[K
+    11ca:       00[K
+    11cb:       48 8b 45 e0             mov    -0x20(%rbp),%rax[K
+    11cf:       48 01 d0                add    %rdx,%rax[K
+    11d2:       48 8b 10                mov    (%rax),%rdx[K
+    11d5:       48 8b 05 64 2e 00 00    mov    0x2e64(%rip),%rax        # 4040 <stdout@@GLIBC_2.2.5>[K
+    11dc:       48 89 d6                mov    %rdx,%rsi[K
+    11df:       48 89 c7                mov    %rax,%rdi[K
+    11e2:       e8 5e ff ff ff          callq  1145 <hello>[K
+    11e7:       83 45 fc 01             addl   $0x1,-0x4(%rbp)[K
+    11eb:       8b 45 fc                mov    -0x4(%rbp),%eax[K
+    11ee:       3b 45 ec                cmp    -0x14(%rbp),%eax[K[53;30H[7m63% L156[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;37H[?25l[7m0[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;36H[?25l[7m49[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[53;37H[?25l[7m0[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[53;36H[?25l[7m39[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[1;52r[2;1H[26L[1;54r[2;1H[?25l0000000000001140 <frame_dummy>:[K
+    1140:       e9 7b ff ff ff          jmpq   10c0 <register_tm_clones>[K
+[K
+0000000000001145 <hello>:[K
+    1145:       55                      push   %rbp[K
+    1146:       48 89 e5                mov    %rsp,%rbp[K
+    1149:       48 83 ec 10             sub    $0x10,%rsp[K
+    114d:       48 89 7d f8             mov    %rdi,-0x8(%rbp)[K
+    1151:       48 89 75 f0             mov    %rsi,-0x10(%rbp)[K
+    1155:       48 8b 55 f0             mov    -0x10(%rbp),%rdx[K
+    1159:       48 8b 45 f8             mov    -0x8(%rbp),%rax[K
+    115d:       48 8d 35 a0 0e 00 00    lea    0xea0(%rip),%rsi        # 2004 <_IO_stdin_used+0x4>[K
+    1164:       48 89 c7                mov    %rax,%rdi[K
+    1167:       b8 00 00 00 00          mov    $0x0,%eax[K
+    116c:       e8 bf fe ff ff          callq  1030 <fprintf@plt>[K
+    1171:       90                      nop[K
+    1172:       c9                      leaveq[K
+    1173:       c3                      retq[K
+[K
+0000000000001174 <main>:[K
+    1174:       55                      push   %rbp[K
+    1175:       48 89 e5                mov    %rsp,%rbp[K
+    1178:       48 83 ec 20             sub    $0x20,%rsp[K
+    117c:       89 7d ec                mov    %edi,-0x14(%rbp)[K
+    117f:       48 89 75 e0             mov    %rsi,-0x20(%rbp)[K
+    1183:       83 7d ec 01             cmpl   $0x1,-0x14(%rbp)[K[53;30H[7m51% L130[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;36H[?25l[7m28[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;37H[?25l[7m0[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;36H[?25l[7m19[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[53;37H[?25l[7m4[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[53;37H[?25l[7m0[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[53;36H[?25l[7m09[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[53;37H[?25l[7m8[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[53;37H[?25l[7m7[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[53;37H[?25l[7m6[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[53;37H[?25l[7m5[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[1;52r[2;1H[26L[1;54r[2;1H[?25l    10e4:       48 8b 05 05 2f 00 00    mov    0x2f05(%rip),%rax        # 3ff0 <_ITM_registerTMCloneTable>[K
+    10eb:       48 85 c0                test   %rax,%rax[K
+    10ee:       74 08                   je     10f8 <register_tm_clones+0x38>[K
+    10f0:       ff e0                   jmpq   *%rax[K
+    10f2:       66 0f 1f 44 00 00       nopw   0x0(%rax,%rax,1)[K
+    10f8:       c3                      retq[K
+    10f9:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)[K
+[K
+0000000000001100 <__do_global_dtors_aux>:[K
+    1100:       80 3d 61 2f 00 00 00    cmpb   $0x0,0x2f61(%rip)        # 4068 <completed.7325>[K
+    1107:       75 2f                   jne    1138 <__do_global_dtors_aux+0x38>[K
+    1109:       55                      push   %rbp[K
+    110a:       48 83 3d e6 2e 00 00    cmpq   $0x0,0x2ee6(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>[K
+    1111:       00[K
+    1112:       48 89 e5                mov    %rsp,%rbp[K
+    1115:       74 0c                   je     1123 <__do_global_dtors_aux+0x23>[K
+    1117:       48 8b 3d 12 2f 00 00    mov    0x2f12(%rip),%rdi        # 4030 <__dso_handle>[K
+    111e:       e8 2d ff ff ff          callq  1050 <__cxa_finalize@plt>[K
+    1123:       e8 68 ff ff ff          callq  1090 <deregister_tm_clones>[K
+    1128:       c6 05 39 2f 00 00 01    movb   $0x1,0x2f39(%rip)        # 4068 <completed.7325>[K
+    112f:       5d                      pop    %rbp[K
+    1130:       c3                      retq[K
+    1131:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)[K
+    1138:       c3                      retq[K
+    1139:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)[K
+[K[53;30H[7m36% L104[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;37H[?25l[7m3[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[53;37H[?25l[7m2[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;37H[?25l[7m1[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;37H[?25l[7m0[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[53;35H[?25l[7m99 [0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;36H[?25l[7m0[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;35H[?25l[7m89[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[53;36H[?25l[7m0[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[53;35H[?25l[7m79[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[1;52r[2;1H[26L[1;54r[2;1H[?25l    108a:       f4                      hlt[K
+    108b:       0f 1f 44 00 00          nopl   0x0(%rax,%rax,1)[K
+[K
+0000000000001090 <deregister_tm_clones>:[K
+    1090:       48 8d 3d a1 2f 00 00    lea    0x2fa1(%rip),%rdi        # 4038 <__TMC_END__>[K
+    1097:       48 8d 05 9a 2f 00 00    lea    0x2f9a(%rip),%rax        # 4038 <__TMC_END__>[K
+    109e:       48 39 f8                cmp    %rdi,%rax[K
+    10a1:       74 15                   je     10b8 <deregister_tm_clones+0x28>[K
+    10a3:       48 8b 05 2e 2f 00 00    mov    0x2f2e(%rip),%rax        # 3fd8 <_ITM_deregisterTMCloneTable>[K
+    10aa:       48 85 c0                test   %rax,%rax[K
+    10ad:       74 09                   je     10b8 <deregister_tm_clones+0x28>[K
+    10af:       ff e0                   jmpq   *%rax[K
+    10b1:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)[K
+    10b8:       c3                      retq[K
+    10b9:       0f 1f 80 00 00 00 00    nopl   0x0(%rax)[K
+[K
+00000000000010c0 <register_tm_clones>:[K
+    10c0:       48 8d 3d 71 2f 00 00    lea    0x2f71(%rip),%rdi        # 4038 <__TMC_END__>[K
+    10c7:       48 8d 35 6a 2f 00 00    lea    0x2f6a(%rip),%rsi        # 4038 <__TMC_END__>[K
+    10ce:       48 29 fe                sub    %rdi,%rsi[K
+    10d1:       48 c1 fe 03             sar    $0x3,%rsi[K
+    10d5:       48 89 f0                mov    %rsi,%rax[K
+    10d8:       48 c1 e8 3f             shr    $0x3f,%rax[K
+    10dc:       48 01 c6                add    %rax,%rsi[K
+    10df:       48 d1 fe                sar    %rsi[K
+    10e2:       74 14                   je     10f8 <register_tm_clones+0x38>[K[53;30H[7m22% L78[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[53;36H[?25l[7m0[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;35H[?25l[7m69[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[53;36H[?25l[7m0[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[53;35H[?25l[7m59[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[1;52r[2;1H[26L[1;54r[2;1H[K
+[?25l0000000000001040 <exit@plt>:[K
+    1040:       ff 25 da 2f 00 00       jmpq   *0x2fda(%rip)        # 4020 <exit@GLIBC_2.2.5>[K
+    1046:       68 01 00 00 00          pushq  $0x1[K
+    104b:       e9 d0 ff ff ff          jmpq   1020 <.plt>[K
+[K
+Disassembly of section .plt.got:[K
+[K
+0000000000001050 <__cxa_finalize@plt>:[K
+    1050:       ff 25 a2 2f 00 00       jmpq   *0x2fa2(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>[K
+    1056:       66 90                   xchg   %ax,%ax[K
+[K
+Disassembly of section .text:[K
+[K
+0000000000001060 <_start>:[K
+    1060:       31 ed                   xor    %ebp,%ebp[K
+    1062:       49 89 d1                mov    %rdx,%r9[K
+    1065:       5e                      pop    %rsi[K
+    1066:       48 89 e2                mov    %rsp,%rdx[K
+    1069:       48 83 e4 f0             and    $0xfffffffffffffff0,%rsp[K
+    106d:       50                      push   %rax[K
+    106e:       54                      push   %rsp[K
+    106f:       4c 8d 05 ea 01 00 00    lea    0x1ea(%rip),%r8        # 1260 <__libc_csu_fini>[K
+    1076:       48 8d 0d 83 01 00 00    lea    0x183(%rip),%rcx        # 1200 <__libc_csu_init>[K
+    107d:       48 8d 3d f0 00 00 00    lea    0xf0(%rip),%rdi        # 1174 <main>[K
+    1084:       ff 15 56 2f 00 00       callq  *0x2f56(%rip)        # 3fe0 <__libc_start_main@GLIBC_2.2.5>[K[53;30H[7m10% L52[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[53;36H[?25l[7m0[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;35H[?25l[7m49[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;36H[?25l[7m0[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;35H[?25l[7m39[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[53;36H[?25l[7m0[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[53;35H[?25l[7m29[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[1;52r[3;1H[26L[1;54r[3;1H[?25lhello:     file format elf64-x86-64[K
+[K
+[K
+Disassembly of section .init:[K
+[K
+0000000000001000 <_init>:[K
+    1000:       48 83 ec 08             sub    $0x8,%rsp[K
+    1004:       48 8b 05 dd 2f 00 00    mov    0x2fdd(%rip),%rax        # 3fe8 <__gmon_start__>[K
+    100b:       48 85 c0                test   %rax,%rax[K
+    100e:       74 02                   je     1012 <_init+0x12>[K
+    1010:       ff d0                   callq  *%rax[K
+    1012:       48 83 c4 08             add    $0x8,%rsp[K
+    1016:       c3                      retq[K
+[K
+Disassembly of section .plt:[K
+[K
+0000000000001020 <.plt>:[K
+    1020:       ff 35 e2 2f 00 00       pushq  0x2fe2(%rip)        # 4008 <_GLOBAL_OFFSET_TABLE_+0x8>[K
+    1026:       ff 25 e4 2f 00 00       jmpq   *0x2fe4(%rip)        # 4010 <_GLOBAL_OFFSET_TABLE_+0x10>[K
+    102c:       0f 1f 40 00             nopl   0x0(%rax)[K
+[K
+0000000000001030 <fprintf@plt>:[K
+    1030:       ff 25 e2 2f 00 00       jmpq   *0x2fe2(%rip)        # 4018 <fprintf@GLIBC_2.2.5>[K
+    1036:       68 00 00 00 00          pushq  $0x0[K
+    103b:       e9 e0 ff ff ff          jmpq   1020 <.plt>[K
+[K[53;30H[7mTop L26[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;36H[?25l[7m0[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;35H[?25l[7m19[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[54d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[2]+  Stopped                 emacs hello.objdump
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ objdump -d -s -x hello > hello.objdump
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ e[Kobjdump -d -s -x hello > hello.objdump[19Pemacs[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[54d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[53d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) --------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[54d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[54;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[54;54H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[54;59H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[54;58H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[54;60H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[54;57H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[54;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[54;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[54;77H[?25ldone[H
+[?12l[?25h[?12;25h[54;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[54;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[54;75H[?25ldone[H
+[?12l[?25h[?12;25h[54;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[54;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[54;61H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[54;10H[?25lusr/share/emacs/site-lisp/elpa/haskel[34@l-mode-16.1/haskell-mode-autoloads[H
+[?12l[?25h[?12;25h[54;96H[?25ldone[H
+[?12l[?25h[?12;25h[54;10H[?25letc/emacs/site-start.d/50haskell-mode[34P[H
+[?12l[?25h[?12;25h[54;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[54;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[54;75H[?25ldone[H
+[?12l[?25h[?12;25h[54;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[54;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[54;64H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[54;54H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[54;65H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[54;54H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[54;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[54d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[54d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                                                               [0m[39;49m[27m
+[A
+[K
+hello:     file format elf64-x86-64[K
+hello[K
+architecture: i386:x86-64, flags 0x00000150:[K
+HAS_SYMS, DYNAMIC, D_PAGED[K
+start address 0x0000000000001060[K
+[K
+Program Header:[K
+    PHDR off    0x0000000000000040 vaddr 0x0000000000000040 paddr 0x0000000000000040 align 2**3[K
+         filesz 0x0000000000000268 memsz 0x0000000000000268 flags r--[K
+  INTERP off    0x00000000000002a8 vaddr 0x00000000000002a8 paddr 0x00000000000002a8 align 2**0[K
+         filesz 0x000000000000001c memsz 0x000000000000001c flags r--[K
+    LOAD off    0x0000000000000000 vaddr 0x0000000000000000 paddr 0x0000000000000000 align 2**12[K
+         filesz 0x0000000000000618 memsz 0x0000000000000618 flags r--[K
+    LOAD off    0x0000000000001000 vaddr 0x0000000000001000 paddr 0x0000000000001000 align 2**12[K
+         filesz 0x000000000000026d memsz 0x000000000000026d flags r-x[K
+    LOAD off    0x0000000000002000 vaddr 0x0000000000002000 paddr 0x0000000000002000 align 2**12[K
+         filesz 0x0000000000000190 memsz 0x0000000000000190 flags r--[K
+    LOAD off    0x0000000000002de8 vaddr 0x0000000000003de8 paddr 0x0000000000003de8 align 2**12[K
+         filesz 0x0000000000000250 memsz 0x0000000000000288 flags rw-[K
+ DYNAMIC off    0x0000000000002df8 vaddr 0x0000000000003df8 paddr 0x0000000000003df8 align 2**3[K
+         filesz 0x00000000000001e0 memsz 0x00000000000001e0 flags rw-[K
+    NOTE off    0x00000000000002c4 vaddr 0x00000000000002c4 paddr 0x00000000000002c4 align 2**2[K
+         filesz 0x0000000000000044 memsz 0x0000000000000044 flags r--[K
+EH_FRAME off    0x0000000000002024 vaddr 0x0000000000002024 paddr 0x0000000000002024 align 2**2[K
+         filesz 0x0000000000000044 memsz 0x0000000000000044 flags r--[K
+   STACK off    0x0000000000000000 vaddr 0x0000000000000000 paddr 0x0000000000000000 align 2**4[K
+         filesz 0x0000000000000000 memsz 0x0000000000000000 flags rw-[K
+   RELRO off    0x0000000000002de8 vaddr 0x0000000000003de8 paddr 0x0000000000003de8 align 2**0[K
+         filesz 0x0000000000000218 memsz 0x0000000000000218 flags r--[K
+[K
+Dynamic Section:[K
+  NEEDED               libc.so.6[K
+  INIT                 0x0000000000001000[K
+  FINI                 0x0000000000001264[K
+  INIT_ARRAY           0x0000000000003de8[K
+  INIT_ARRAYSZ         0x0000000000000008[K
+  FINI_ARRAY           0x0000000000003df0[K
+  FINI_ARRAYSZ         0x0000000000000008[K
+  GNU_HASH             0x0000000000000308[K
+  STRTAB               0x0000000000000428[K
+  SYMTAB               0x0000000000000338[K
+  STRSZ                0x0000000000000098[K
+  SYMENT               0x0000000000000018[K
+  DEBUG                0x0000000000000000[K
+  PLTGOT               0x0000000000004000[K
+  PLTRELSZ             0x0000000000000030[K
+  PLTREL               0x0000000000000007[K
+  JMPREL               0x00000000000005e8[K
+  RELA                 0x00000000000004f8[K
+  RELASZ               0x00000000000000f0[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mhello.objdump[0m[39;49m[27m[7m   Top L1     (Fundamental) -------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[54d[K[53;35H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[53;35H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[53;35H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[53;35H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[53;35H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[53;35H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[53;35H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[53;35H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[53;35H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[53;35H[?25l[7m20[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[53;35H[?25l[7m30[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[53;35H[?25l[7m40[0m[39;49m[27m[41;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[42;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[43;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[44;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[45;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[46;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[47;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[48;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[49;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[50;1H[?12l[?25h[?12;25h[53;35H[?25l[7m50[0m[39;49m[27m[51;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;52r[2;1H[26M[1;54r[27;1H[?25l  RELAENT              0x0000000000000018[K
+  FLAGS_1              0x0000000008000000[K
+  VERNEED              0x00000000000004d8[K
+  VERNEEDNUM           0x0000000000000001[K
+  VERSYM               0x00000000000004c0[K
+  RELACOUNT            0x0000000000000003[K
+[K
+Version References:[K
+  required from libc.so.6:[K
+    0x09691a75 0x00 02 GLIBC_2.2.5[K
+[K
+Sections:[K
+Idx Name          Size      VMA               LMA               File off  Algn[K
+  0 .interp       0000001c  00000000000002a8  00000000000002a8  000002a8  2**0[K
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA[K
+  1 .note.ABI-tag 00000020  00000000000002c4  00000000000002c4  000002c4  2**2[K
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA[K
+  2 .note.gnu.build-id 00000024  00000000000002e4  00000000000002e4  000002e4  2**2[K
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA[K
+  3 .gnu.hash     00000030  0000000000000308  0000000000000308  00000308  2**3[K
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA[K
+  4 .dynsym       000000f0  0000000000000338  0000000000000338  00000338  2**3[K
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA[K
+  5 .dynstr       00000098  0000000000000428  0000000000000428  00000428  2**0[K
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA[K
+  6 .gnu.version  00000014  00000000000004c0  00000000000004c0  000004c0  2**1[K[53;30H[7m 5% L52[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[53;36H[?25l[7m9[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[53;35H[?25l[7m60[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[53;36H[?25l[7m0[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[53;35H[?25l[7m59[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[53;36H[?25l[7m7[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[53;36H[?25l[7m6[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[53;36H[?25l[7m5[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[53;36H[?25l[7m4[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[53;36H[?25l[7m3[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[53;36H[?25l[7m2[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;36H[?25l[7m1[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[53;36H[?25l[7m0[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;35H[?25l[7m49[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;36H[?25l[7m8[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[54d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[3]+  Stopped                 emacs hello.objdump
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ objdump -d hello | grep  -A40 main.:
+0000000000001174 <main>:
+    1174:	55                   	push   %rbp
+    1175:	48 89 e5             	mov    %rsp,%rbp
+    1178:	48 83 ec 20          	sub    $0x20,%rsp
+    117c:	89 7d ec             	mov    %edi,-0x14(%rbp)
+    117f:	48 89 75 e0          	mov    %rsi,-0x20(%rbp)
+    1183:	83 7d ec 01          	cmpl   $0x1,-0x14(%rbp)
+    1187:	75 2c                	jne    11b5 <main+0x41>
+    1189:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
+    118d:	48 8b 10             	mov    (%rax),%rdx
+    1190:	48 8b 05 c9 2e 00 00 	mov    0x2ec9(%rip),%rax        # 4060 <stderr@@GLIBC_2.2.5>
+    1197:	48 8d 35 70 0e 00 00 	lea    0xe70(%rip),%rsi        # 200e <_IO_stdin_used+0xe>
+    119e:	48 89 c7             	mov    %rax,%rdi
+    11a1:	b8 00 00 00 00       	mov    $0x0,%eax
+    11a6:	e8 85 fe ff ff       	callq  1030 <fprintf@plt>
+    11ab:	bf ef be ad de       	mov    $0xdeadbeef,%edi
+    11b0:	e8 8b fe ff ff       	callq  1040 <exit@plt>
+    11b5:	c7 45 fc 01 00 00 00 	movl   $0x1,-0x4(%rbp)
+    11bc:	eb 2d                	jmp    11eb <main+0x77>
+    11be:	8b 45 fc             	mov    -0x4(%rbp),%eax
+    11c1:	48 98                	cltq   
+    11c3:	48 8d 14 c5 00 00 00 	lea    0x0(,%rax,8),%rdx
+    11ca:	00 
+    11cb:	48 8b 45 e0          	mov    -0x20(%rbp),%rax
+    11cf:	48 01 d0             	add    %rdx,%rax
+    11d2:	48 8b 10             	mov    (%rax),%rdx
+    11d5:	48 8b 05 64 2e 00 00 	mov    0x2e64(%rip),%rax        # 4040 <stdout@@GLIBC_2.2.5>
+    11dc:	48 89 d6             	mov    %rdx,%rsi
+    11df:	48 89 c7             	mov    %rax,%rdi
+    11e2:	e8 5e ff ff ff       	callq  1145 <hello>
+    11e7:	83 45 fc 01          	addl   $0x1,-0x4(%rbp)
+    11eb:	8b 45 fc             	mov    -0x4(%rbp),%eax
+    11ee:	3b 45 ec             	cmp    -0x14(%rbp),%eax
+    11f1:	7c cb                	jl     11be <main+0x4a>
+    11f3:	b8 00 00 00 00       	mov    $0x0,%eax
+    11f8:	c9                   	leaveq 
+    11f9:	c3                   	retq   
+    11fa:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001200 <__libc_csu_init>:
+    1200:	41 57                	push   %r15
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ ls -l hello
+-rwxr-x--- 1 akozina2 akozina2 19392 Oct  7 15:59 hello
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ strip hello
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ ls -l hello
+-rwxr-x--- 1 akozina2 akozina2 14416 Oct  7 16:07 hello
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ make clean
+rm -f hello hello.s *.objdump *~
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ cd[K[Kls
+2  hello.c  identify  Makefile
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ cd identify
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises/identify$ ls
+identify.c  Makefile  mystery.h  mystery.o
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises/identify$ emq[Kacs mystery.o
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[54d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[53d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) --------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[54d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[54;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[54;54H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[54;59H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[54;58H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[54;60H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[54;57H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[54;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[54;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[54;77H[?25ldone[H
+[?12l[?25h[?12;25h[54;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[54;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[54;75H[?25ldone[H
+[?12l[?25h[?12;25h[54;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[54;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[54;61H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[54;10H[?25lusr/share/emacs/site-lisp/elpa/haskel[34@l-mode-16.1/haskell-mode-autoloads[H
+[?12l[?25h[?12;25h[54;96H[?25ldone[H
+[?12l[?25h[?12;25h[54;10H[?25letc/emacs/site-start.d/50haskell-mode[34P[H
+[?12l[?25h[?12;25h[54;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[54;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[54;75H[?25ldone[H
+[?12l[?25h[?12;25h[54;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[54;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[54;64H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[54;54H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[54;65H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[54;54H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[54;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[54d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[54d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                                                               [0m[39;49m[27m
+[A
+[36m^?[39;49mELF[36m^B^A^A^@^@^@^@^@^@^@^@^@^A^@[39;49m>[36m^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49mp[36m^C^@^@^@^@^@^@^@^@^@^@[39;49m@[36m^@^@^@^@^@[39;49m@[36m^@^[39;49m\
+[A
+[36mV^@^S^@[39;49mUH[36m\211\345\211[39;49m}[36m\374\213[39;49mE[36m\374[39;49m%[36m\377\377^?^@\311\303^@^@^@^A^Q^A[39;49m%[36m^N^S^K^C^N^[^N^Q^A^R^A^P^F^@^@^B[39;49m.[36m^A[39;49m?[36m^L^C^N[39;49m:[36m^K[39;49m\
+[A
+;[36m^K[39;49m'[36m^L[39;49mI[36m^S^Q^A^R^A[39;49m@[36m^F^A^S^@^@^C^E^@^C^H[39;49m:[36m^K[39;49m;[36m^K[39;49mI[36m^S^B[39;49m[K
+[36m^@^@^D[39;49m$[36m^@^K^K[39;49m>[36m^K^C^N^@^@^@[39;49mc[36m^@^@^@^B^@^@^@^@^@^H^A^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^[39;49m\
+[A
+[36m@^B^A^@^@^@^@^A^D^A[39;49m_[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m_[36m^@^@^@^C[39;49mv[36m^@^A^D[39;49m_[36m^@^@^@^B\221[39;49ml[36m^@^D^D^G^@^@^@^@^@[39;49m\
+[A
+9[36m^@^@^@^B^@[39;49m [36m^@^@^@^A^A\373^N^M^@^A^A^A^A^@^@^@^A^@^@^A^@[39;49mmystery.c[36m^@^@^@^@^@^@[39;49m       [36m^B^@^@^@^@^@^@^@^@^U[39;49mu[36m\203^B^B^[39;49m\
+[A
+[36m@^A^A^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^B^@[39;49mw[36m^H^A^@^@^@^@^@^@^@^D^@^@^@^@^@^@^@^B^@[39;49mw[36m^P^D^@^@^@^@^@^@^@^P^@^@^@^@^@^@^[39;49m\
+[A
+[36m@^B^@[39;49mv[36m^P^P^@^@^@^@^@^@^@^Q^@^@^@^@^@^@^@^B^@[39;49mw[36m^H^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^Z^@^@^@^B^@^@^@^@^@[39;49mg[36m^@^@^@[39;49m-[36m^@^@^@[39;49mm\
+[A
+ystery[36m^@^@^@^@^@[39;49m,[36m^@^@^@^B^@^@^@^@^@^H^@^@^@^@^@^@^@^@^@^@^@^@^@^Q^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49mmys\
+[A
+tery[36m^@[39;49munsigned int[36m^@[39;49mmystery.c[36m^@[39;49mGNU C 4.5.2[36m^@[39;49m/home/umrigar/public_html/lab4/files/ex3[36m^@^@[39;49mGCC: (Ubuntu/Linaro 4.5.2-\
+[A
+8ubuntu4) 4.5.2[36m^@^@^@^@^@^T^@^@^@^@^@^@^@^A[39;49mzR[36m^@^A[39;49mx[36m^P^A^[^L^G^H\220^A^@^@^\^@^@^@^\^@^@^@^@^@^@^@^Q^@^@^@^@[39;49mA[36m^N^P[39;49mC[36m\2[39;49m\
+[A
+[36m06^B^M^F[39;49mL[36m^L^G^H^@^@^@^@[39;49m.symtab[36m^@[39;49m.strtab[36m^@[39;49m.shstrtab[36m^@[39;49m.text[36m^@[39;49m.data[36m^@[39;49m.bss[36m^@[39;49m.debug_abbrev[36m^@[39;49m.rela.debug_info[36m^@[39;49m.rela.deb\
+[A
+ug_line[36m^@[39;49m.debug_loc[36m^@[39;49m.rela.debug_pubnames[36m^@[39;49m.rela.debug_aranges[36m^@[39;49m.debug_str[36m^@[39;49m.comment[36m^@[39;49m.note.GNU-stack[36m^@[39;49m.rela.eh_fr\
+[A
+ame[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^[39;49m\
+[A
+[36m@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^[^@^@^@^A^@^@^@^F^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m@[36m^@^@^@^@^@^@^@^Q^@^@^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^D^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m![36m^@^@^@^A^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49mT[36m^@^@^@^@^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^@^@^@^@^@^@^D^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m'[36m^@^@^@^H^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49mT[36m^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^D^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m,[36m^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49mT\
+[A
+[36m^@^@^@^@^@^@^@[39;49mG[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m?[36m^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@\233^@^@^@^@^@^@^@[39;49mg[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m:[36m^@^@^@^D^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^@^@^@^@^@^@^@\210[39;49m[K
+[36m^@^@^@^@^@^@[39;49m [36m^A^@^@^@^@^@^@^T^@^@^@^E^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@[39;49mP[36m^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^B^A^@^@^@^@^@^@[39;49m=[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49mK[36m^@^@^@^D^@^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^@^@^@^@^@\250^K^@^@^@^@^@^@^X^@^@^@^@^@^@^@^T^@^@^@^G^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@[39;49m\[36m^@^@^@^A^@^[39;49m\
+[A
+[36m@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m?[36m^A^@^@^@^@^@^@[39;49m`[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49ml\
+[A
+[36m^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@\237^A^@^@^@^@^@^@^^^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^@^@[39;49mg[36m^@^@^@^D^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@\300^K^@^@^@^@^@^@^X^@^@^@^@^@^@^@^T^@^@^@[39;49m[K
+[36m^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@\201^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@\275^A^@^@^@^@^@^@[39;49m0[36m^@^@^@^[39;49m\
+[A
+[36m@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m|[36m^@^@^@^D^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@\330^K^@^@^@[39;49m\
+[A
+[36m^@^@^@[39;49m0[36m^@^@^@^@^@^@^@^T^@^@^@^L^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@\220^@^@^@^A^@^@^@[39;49m0[36m^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@\355^A^@^@^@^@^@^@[39;49mT[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@\233^@^@^@^A^@^@^@[39;49m0[36m^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^@^@^@^@^@[39;49mA[36m^B^@^@^@^@^@^@[39;49m+[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@\244^@^@^@^A^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49ml[36m^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@\[39;49m\
+[A
+[36m271^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49mp[36m^B^@^@^@^@^@^@[39;49m8[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^@^@^@^@^@^@^@^@^[39;49m\
+[A
+[36m@^@^@^@^@^@^@\264^@^@^@^D^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^L^@^@^@^@^@^@^X^@^@^@^@^@^@^@^T^@^@^@^Q^@^@^@^H^[39;49m\
+[A
+[36m@^@^@^@^@^@^@^X^@^@^@^@^@^@^@^Q^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@\250^B^@^@^@^@^@^@\303^@^@^@^@^@^@^@^[39;49m\
+[A
+[36m@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@\360^H^@^@^@^@^@^@\[39;49m\
+[A
+[36m200^A^@^@^@^@^@^@^U^@^@^@^O^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@[39;49m   [36m^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m\
+[A
+p[K
+[36m^@^@^@^@^@^@^S^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^A^@^@^@^D^@\361\377^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^C^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^D^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^E^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^G^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^@^@^@^C^@[39;49m    [36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@[39;49m[K
+[36m^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^L^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^N^@^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^@^@^@^@^@^@^@^C^@^P^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^Q^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^C^@^O^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^K^@^@^@^R^@^A^@^@^@^@^@^@^@^@^@^Q^@^@^@^@^@^@^@^@[39;49mmystery.c[36m^@[39;49mmystery\
+[A
+[36m^@^@^@^@^@^@^F^@^@^@^@^@^@^@[39;49m[K
+[36m^@^@^@^E^@^@^@^@^@^@^@^@^@^@^@^L^@^@^@^@^@^@^@[39;49m[K
+[36m^@^@^@^K^@^@^@^_^@^@^@^@^@^@^@^Q^@^@^@^@^@^@^@[39;49m[K
+[36m^@^@^@^K^@^@^@^U^@^@^@^@^@^@^@^U^@^@^@^@^@^@^@[39;49m[K
+[7m-UU=:----F1  [0m[39;49m[27m[7m[1mmystery.o   [0m[39;49m[27m[7m   Top L1     (Fundamental) --------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[54d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[4]+  Stopped                 emacs mystery.o
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises/identify$ make
+cc -g -Wall -std=c11   -c -o identify.o identify.c
+cc   identify.o mystery.o   -o identify
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises/identify$ ./identify
+45
+mystery = 69 (0x45)
+76
+mystery = 118 (0x76)
+20
+mystery = 32 (0x20)
+fffffff
+mystery = 8388607 (0x7fffff)
+ffffffffffff
+mystery = 8388607 (0x7fffff)
+ab
+mystery = 171 (0xab)
+1
+mystery = 1 (0x1)
+2
+mystery = 2 (0x2)
+3
+mystery = 3 (0x3)
+20
+mystery = 32 (0x20)
+21
+mystery = 33 (0x21)
+23
+mystery = 35 (0x23)
+30
+mystery = 48 (0x30)
+40
+mystery = 64 (0x40)
+50
+mystery = 80 (0x50)
+60
+mystery = 96 (0x60)
+16
+mystery = 22 (0x16)
+^Z
+[5]+  Stopped                 ./identify
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises/identify$ x[Kcd .
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises/identify$ cd ..
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ ls
+2  hello.c  identify  Makefile
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ make
+cc -g -Wall  -std=c18    hello.c   -o hello
+cc -g -Wall  -std=c18 -S hello.c
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ gdb hello
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) b main
+Breakpoint 1 at 0x1183: file hello.c, line 16.
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab5/exercises/hello 
+
+Breakpoint 1, main (argc=1, argv=0x7fffffffe778) at hello.c:16
+16	  if (argc == 1) {
+(gdb) disas /m
+Dump of assembler code for function main:
+15	{
+   0x0000555555555174 <+0>:	push   %rbp
+   0x0000555555555175 <+1>:	mov    %rsp,%rbp
+   0x0000555555555178 <+4>:	sub    $0x20,%rsp
+   0x000055555555517c <+8>:	mov    %edi,-0x14(%rbp)
+   0x000055555555517f <+11>:	mov    %rsi,-0x20(%rbp)
+
+16	  if (argc == 1) {
+=> 0x0000555555555183 <+15>:	cmpl   $0x1,-0x14(%rbp)
+   0x0000555555555187 <+19>:	jne    0x5555555551b5 <main+65>
+
+17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+   0x0000555555555189 <+21>:	mov    -0x20(%rbp),%rax
+   0x000055555555518d <+25>:	mov    (%rax),%rdx
+   0x0000555555555190 <+28>:	mov    0x2ec9(%rip),%rax        # 0x555555558060 <stderr@@GLIBC_2.2.5>
+   0x0000555555555197 <+35>:	lea    0xe70(%rip),%rsi        # 0x55555555600e
+   0x000055555555519e <+42>:	mov    %rax,%rdi
+   0x00005555555551a1 <+45>:	mov    $0x0,%eax
+   0x00005555555551a6 <+50>:	callq  0x555555555030 <fprintf@plt>
+
+18	    exit(0xdeadbeef);
+   0x00005555555551ab <+55>:	mov    $0xdeadbeef,%edi
+   0x00005555555551b0 <+60>:	callq  0x555555555040 <exit@plt>
+
+19	  }
+20	  for (int i = 1; i < argc; i++) {
+   0x00005555555551b5 <+65>:	movl   $0x1,-0x4(%rbp)
+   0x00005555555551bc <+72>:	jmp    0x5555555551eb <main+119>
+   0x00005555555551e7 <+115>:	addl   $0x1,-0x4(%rbp)
+   0x00005555555551eb <+119>:	mov    -0x4(%rbp),%eax
+   0x00005555555551ee <+122>:	cmp    -0x14(%rbp),%eax
+   0x00005555555551f1 <+125>:	jl     0x5555555551be <main+74>
+
+21	    hello(stdout, argv[i]);
+   0x00005555555551be <+74>:	mov    -0x4(%rbp),%eax
+   0x00005555555551c1 <+77>:	cltq   
+   0x00005555555551c3 <+79>:	lea    0x0(,%rax,8),%rdx
+   0x00005555555551cb <+87>:	mov    -0x20(%rbp),%rax
+   0x00005555555551cf <+91>:	add    %rdx,%rax
+   0x00005555555551d2 <+94>:	mov    (%rax),%rdx
+   0x00005555555551d5 <+97>:	mov    0x2e64(%rip),%rax        # 0x555555558040 <stdout@@GLIBC_2.2.5>
+   0x00005555555551dc <+104>:	mov    %rdx,%rsi
+   0x00005555555551df <+107>:	mov    %rax,%rdi
+   0x00005555555551e2 <+110>:	callq  0x555555555145 <hello>
+
+22	  }
+23	  return 0;
+   0x00005555555551f3 <+127>:	mov    $0x0,%eax
+
+24	}
+   0x00005555555551f8 <+132>:	leaveq 
+   0x00005555555551f9 <+133>:	retq   
+--Type <RET> for more, q to quit, c to continue without paging--c
+
+End of assembler dump.
+(gdb) i reg
+rax            0x555555555174      93824992235892
+rbx            0x0                 0
+rcx            0x7ffff7f8e718      140737353672472
+rdx            0x7fffffffe788      140737488349064
+rsi            0x7fffffffe778      140737488349048
+rdi            0x1                 1
+rbp            0x7fffffffe690      0x7fffffffe690
+rsp            0x7fffffffe670      0x7fffffffe670
+r8             0x7ffff7f8fd80      140737353678208
+r9             0x7ffff7f8fd80      140737353678208
+r10            0x3                 3
+r11            0x0                 0
+r12            0x555555555060      93824992235616
+r13            0x7fffffffe770      140737488349040
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555183      0x555555555183 <main+15>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+(gdb) $pc
+Undefined command: "$pc".  Try "help".
+(gdb) $sp
+Undefined command: "$sp".  Try "help".
+(gdb) p argc
+$1 = 1
+(gdb) p argc[3P$sp[K[K[Kp *($rbp - 20)
+Attempt to dereference a generic pointer.
+(gdb) p *(int *)($rbp - 20)
+$2 = 1
+(gdb) p argv
+$3 = (const char **) 0x7fffffffe778
+(gdb) p *(const char ***)($rbp - 32)
+$4 = (const char **) 0x7fffffffe778
+(gdb) p argv[0]
+$5 = 0x7fffffffe9eb "/import/linux/home1/akozina2/projects/i220b/submit/lab5/exercises/hello"
+(gdb) 0x7fffffffe9eb[K[K[K[K[K[K[K[K[K[K[K[K[K[Kp (*(const char ***)($rbp - 0x20))[0]
+$6 = 0x7fffffffe9eb "/import/linux/home1/akozina2/projects/i220b/submit/lab5/exercises/hello"
+(gdb) display /i *$pc
+1: x/i *$pc
+=> 0x555555555183 <main+15>:	cmpl   $0x1,-0x14(%rbp)
+(gdb) p $eflags
+$7 = [ IF ]
+(gdb) nexti (abbreviated ni)
+No symbol "abbreviated" in current context.
+(gdb) nexti
+0x0000555555555187	16	  if (argc == 1) {
+1: x/i *$pc
+=> 0x555555555187 <main+19>:	jne    0x5555555551b5 <main+65>
+(gdb) p $eflags
+$8 = [ PF ZF IF ]
+(gdb) ni
+17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x555555555189 <main+21>:	mov    -0x20(%rbp),%rax
+(gdb) 
+0x000055555555518d	17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x55555555518d <main+25>:	mov    (%rax),%rdx
+(gdb) 
+0x0000555555555190	17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x555555555190 <main+28>:	mov    0x2ec9(%rip),%rax        # 0x555555558060 <stderr@@GLIBC_2.2.5>
+(gdb) p (char *)0xnnnnn
+Invalid number "0xnnnnn".
+(gdb) ni
+0x0000555555555197	17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x555555555197 <main+35>:	lea    0xe70(%rip),%rsi        # 0x55555555600e
+(gdb) 
+0x000055555555519e	17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x55555555519e <main+42>:	mov    %rax,%rdi
+(gdb) 
+0x00005555555551a1	17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x5555555551a1 <main+45>:	mov    $0x0,%eax
+(gdb) 
+0x00005555555551a6	17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x5555555551a6 <main+50>:	callq  0x555555555030 <fprintf@plt>
+(gdb) 
+usage: /import/linux/home1/akozina2/projects/i220b/submit/lab5/exercises/hello NAME...
+18	    exit(0xdeadbeef);
+1: x/i *$pc
+=> 0x5555555551ab <main+55>:	mov    $0xdeadbeef,%edi
+(gdb) 
+0x00005555555551b0	18	    exit(0xdeadbeef);
+1: x/i *$pc
+=> 0x5555555551b0 <main+60>:	callq  0x555555555040 <exit@plt>
+(gdb) 
+[Inferior 1 (process 2530858) exited with code 0357]
+(gdb) 
+The program is not being run.
+(gdb) 
+The program is not being run.
+(gdb) q
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ gdb hello
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) b hello()
+Function "hello()" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) b hello
+Breakpoint 1 at 0x1155: file hello.c, line 8.
+(gdb) r joe
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab5/exercises/hello joe
+
+Breakpoint 1, hello (out=0x7ffff7f8f760 <_IO_2_1_stdout_>, who=0x7fffffffea2f "joe") at hello.c:8
+8	  fprintf(out, "hello %s\n", who);
+(gdb) p argv[0]\[K
+No symbol "argv" in current context.
+(gdb) p argv
+No symbol "argv" in current context.
+(gdb) p argc
+No symbol "argc" in current context.
+(gdb) r 
+The program being debugged has been started already.
+Start it from the beginning? (y or n) n
+Program not restarted.
+(gdb) p who
+$1 = 0x7fffffffea2f "joe"
+(gdb) p (char *)0x7fffffffea2f
+$2 = 0x7fffffffea2f "joe"
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 2538482] will be killed.
+
+Quit anyway? (y or n) y
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ cd[K[Kgdb hello
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) b main
+Breakpoint 1 at 0x1183: file hello.c, line 16.
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab5/exercises/hello 
+
+Breakpoint 1, main (argc=1, argv=0x7fffffffe778) at hello.c:16
+16	  if (argc == 1) {
+(gdb) disas /m
+Dump of assembler code for function main:
+15	{
+   0x0000555555555174 <+0>:	push   %rbp
+   0x0000555555555175 <+1>:	mov    %rsp,%rbp
+   0x0000555555555178 <+4>:	sub    $0x20,%rsp
+   0x000055555555517c <+8>:	mov    %edi,-0x14(%rbp)
+   0x000055555555517f <+11>:	mov    %rsi,-0x20(%rbp)
+
+16	  if (argc == 1) {
+=> 0x0000555555555183 <+15>:	cmpl   $0x1,-0x14(%rbp)
+   0x0000555555555187 <+19>:	jne    0x5555555551b5 <main+65>
+
+17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+   0x0000555555555189 <+21>:	mov    -0x20(%rbp),%rax
+   0x000055555555518d <+25>:	mov    (%rax),%rdx
+   0x0000555555555190 <+28>:	mov    0x2ec9(%rip),%rax        # 0x555555558060 <stderr@@GLIBC_2.2.5>
+   0x0000555555555197 <+35>:	lea    0xe70(%rip),%rsi        # 0x55555555600e
+   0x000055555555519e <+42>:	mov    %rax,%rdi
+   0x00005555555551a1 <+45>:	mov    $0x0,%eax
+   0x00005555555551a6 <+50>:	callq  0x555555555030 <fprintf@plt>
+
+18	    exit(0xdeadbeef);
+   0x00005555555551ab <+55>:	mov    $0xdeadbeef,%edi
+   0x00005555555551b0 <+60>:	callq  0x555555555040 <exit@plt>
+
+19	  }
+20	  for (int i = 1; i < argc; i++) {
+   0x00005555555551b5 <+65>:	movl   $0x1,-0x4(%rbp)
+   0x00005555555551bc <+72>:	jmp    0x5555555551eb <main+119>
+   0x00005555555551e7 <+115>:	addl   $0x1,-0x4(%rbp)
+   0x00005555555551eb <+119>:	mov    -0x4(%rbp),%eax
+   0x00005555555551ee <+122>:	cmp    -0x14(%rbp),%eax
+   0x00005555555551f1 <+125>:	jl     0x5555555551be <main+74>
+
+21	    hello(stdout, argv[i]);
+   0x00005555555551be <+74>:	mov    -0x4(%rbp),%eax
+   0x00005555555551c1 <+77>:	cltq   
+   0x00005555555551c3 <+79>:	lea    0x0(,%rax,8),%rdx
+   0x00005555555551cb <+87>:	mov    -0x20(%rbp),%rax
+   0x00005555555551cf <+91>:	add    %rdx,%rax
+   0x00005555555551d2 <+94>:	mov    (%rax),%rdx
+   0x00005555555551d5 <+97>:	mov    0x2e64(%rip),%rax        # 0x555555558040 <stdout@@GLIBC_2.2.5>
+   0x00005555555551dc <+104>:	mov    %rdx,%rsi
+   0x00005555555551df <+107>:	mov    %rax,%rdi
+   0x00005555555551e2 <+110>:	callq  0x555555555145 <hello>
+
+22	  }
+23	  return 0;
+   0x00005555555551f3 <+127>:	mov    $0x0,%eax
+
+24	}
+   0x00005555555551f8 <+132>:	leaveq 
+   0x00005555555551f9 <+133>:	retq   
+--Type <RET> for more, q to quit, c to continue without paging--c
+
+End of assembler dump.
+(gdb) i reg
+rax            0x555555555174      93824992235892
+rbx            0x0                 0
+rcx            0x7ffff7f8e718      140737353672472
+rdx            0x7fffffffe788      140737488349064
+rsi            0x7fffffffe778      140737488349048
+rdi            0x1                 1
+rbp            0x7fffffffe690      0x7fffffffe690
+rsp            0x7fffffffe670      0x7fffffffe670
+r8             0x7ffff7f8fd80      140737353678208
+r9             0x7ffff7f8fd80      140737353678208
+r10            0x3                 3
+r11            0x0                 0
+r12            0x555555555060      93824992235616
+r13            0x7fffffffe770      140737488349040
+r14            0x0                 0
+r15            0x0                 0
+rip            0x555555555183      0x555555555183 <main+15>
+eflags         0x202               [ IF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+(gdb) p argv[0]
+$1 = 0x7fffffffe9eb "/import/linux/home1/akozina2/projects/i220b/submit/lab5/exercises/hello"
+(gdb) display /i *$pc
+1: x/i *$pc
+=> 0x555555555183 <main+15>:	cmpl   $0x1,-0x14(%rbp)
+(gdb) ni
+0x0000555555555187	16	  if (argc == 1) {
+1: x/i *$pc
+=> 0x555555555187 <main+19>:	jne    0x5555555551b5 <main+65>
+(gdb) 
+17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x555555555189 <main+21>:	mov    -0x20(%rbp),%rax
+(gdb) 
+0x000055555555518d	17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x55555555518d <main+25>:	mov    (%rax),%rdx
+(gdb) 
+0x0000555555555190	17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x555555555190 <main+28>:	mov    0x2ec9(%rip),%rax        # 0x555555558060 <stderr@@GLIBC_2.2.5>
+(gdb) 
+0x0000555555555197	17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x555555555197 <main+35>:	lea    0xe70(%rip),%rsi        # 0x55555555600e
+(gdb) 
+0x000055555555519e	17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x55555555519e <main+42>:	mov    %rax,%rdi
+(gdb) 
+0x00005555555551a1	17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x5555555551a1 <main+45>:	mov    $0x0,%eax
+(gdb) 
+0x00005555555551a6	17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+1: x/i *$pc
+=> 0x5555555551a6 <main+50>:	callq  0x555555555030 <fprintf@plt>
+(gdb) p *(const char ***)($rbp - 32)[1P[1P[1P[1@s[1@i[1P[1P[1@r[1@s[1@i[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kp (*(const char ***)($rbp - 0x20))[0][C[1P[1P[1@s[1@i[C[C[C[C[C[C[C[1P))[0][1P))[0]e))[0]7))[0]0))[0]
+Cannot access memory at address 0xb8c78948
+(gdb) p (*(const char ***)($rsi - 0xe70))[0][K[K[K[K[C[C[1P
+$2 = (const char **) 0xb8c78948
+(gdb) p *(const char ***)($rsi - 0xe70)[1P[1P[1@i[1@p
+$3 = (const char **) 0x1c8b
+(gdb) p *(const char ***)($rip - 0xe70)[1P[1P[1@d[1@x[C[C[C[C[C[C[C[C[1P)[1P)[1P)[1P)[1P)r)a)x)$rax)
+$4 = (const char **) 0x2f74726f706d692f
+(gdb) p *(const char ***)($rdx - $rax)ip - 0xe70)si[C[C[C[C[C[C[C[C[Cip[C[C[C[C[C[C[C[C[C[1Pdx - $rax)[C[C[C[C[C[C[Kp (char *)0xe70
+$5 = 0xe70 <error: Cannot access memory at address 0xe70>
+(gdb) p (char *)0xe70[C[C[C[C[C[C[C[C*(const char ***)($rdx - $rax)[1P[1P[1@s[1@i[C[C[C[C[C[C[C[C[1P)[1P)[1P)[1P)0)x)e)7)0)[C[[C[K[1P)[1P)[1P)2)e)c)9)
+Cannot access memory at address 0x555555553145
+(gdb) p (char *) [K0x55555555600e
+$6 = 0x55555555600e "usage: %s NAME...\n"
+(gdb) p (char *)0x55555555600e[C[C[C[C[C[C[C[C*(const char ***)($rsi - 0x2ec9)[C[1P[1P[1@a[1@x[C[C[C[C[C[C[C[C[C[C
+Cannot access memory at address 0xffffffffffffd137
+(gdb) p *(const char ***)($rax - 0x2ec9)[1P[1P[1@d[1@x[C[C[C[C[C[C[C[C[C[1P)[1P)[1P)[1P)[1P)[1P)0)x)5)5)5)5)5)5)5)5)8)0)6)0)
+Cannot access memory at address 0x2aaaaaaa698b
+(gdb) p *(const char ***)($rdx - 0x555555558060)[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdisasm[K
+Dump of assembler code for function main:
+   0x0000555555555174 <+0>:	push   %rbp
+   0x0000555555555175 <+1>:	mov    %rsp,%rbp
+   0x0000555555555178 <+4>:	sub    $0x20,%rsp
+   0x000055555555517c <+8>:	mov    %edi,-0x14(%rbp)
+   0x000055555555517f <+11>:	mov    %rsi,-0x20(%rbp)
+   0x0000555555555183 <+15>:	cmpl   $0x1,-0x14(%rbp)
+   0x0000555555555187 <+19>:	jne    0x5555555551b5 <main+65>
+   0x0000555555555189 <+21>:	mov    -0x20(%rbp),%rax
+   0x000055555555518d <+25>:	mov    (%rax),%rdx
+   0x0000555555555190 <+28>:	mov    0x2ec9(%rip),%rax        # 0x555555558060 <stderr@@GLIBC_2.2.5>
+   0x0000555555555197 <+35>:	lea    0xe70(%rip),%rsi        # 0x55555555600e
+   0x000055555555519e <+42>:	mov    %rax,%rdi
+   0x00005555555551a1 <+45>:	mov    $0x0,%eax
+=> 0x00005555555551a6 <+50>:	callq  0x555555555030 <fprintf@plt>
+   0x00005555555551ab <+55>:	mov    $0xdeadbeef,%edi
+   0x00005555555551b0 <+60>:	callq  0x555555555040 <exit@plt>
+   0x00005555555551b5 <+65>:	movl   $0x1,-0x4(%rbp)
+   0x00005555555551bc <+72>:	jmp    0x5555555551eb <main+119>
+   0x00005555555551be <+74>:	mov    -0x4(%rbp),%eax
+   0x00005555555551c1 <+77>:	cltq   
+   0x00005555555551c3 <+79>:	lea    0x0(,%rax,8),%rdx
+   0x00005555555551cb <+87>:	mov    -0x20(%rbp),%rax
+   0x00005555555551cf <+91>:	add    %rdx,%rax
+   0x00005555555551d2 <+94>:	mov    (%rax),%rdx
+   0x00005555555551d5 <+97>:	mov    0x2e64(%rip),%rax        # 0x555555558040 <stdout@@GLIBC_2.2.5>
+   0x00005555555551dc <+104>:	mov    %rdx,%rsi
+   0x00005555555551df <+107>:	mov    %rax,%rdi
+   0x00005555555551e2 <+110>:	callq  0x555555555145 <hello>
+   0x00005555555551e7 <+115>:	addl   $0x1,-0x4(%rbp)
+   0x00005555555551eb <+119>:	mov    -0x4(%rbp),%eax
+   0x00005555555551ee <+122>:	cmp    -0x14(%rbp),%eax
+   0x00005555555551f1 <+125>:	jl     0x5555555551be <main+74>
+   0x00005555555551f3 <+127>:	mov    $0x0,%eax
+   0x00005555555551f8 <+132>:	leaveq 
+   0x00005555555551f9 <+133>:	retq   
+End of assembler dump.
+(gdb) disasp *(const char ***)($rdx - 0x555555558060)[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K [C[C ( $ r s i ) [1P[C[C[C[C[C[C[1P[1P[C[C[C[C[C[C[C
+$7 = 117 'u'
+(gdb) p *(const char *)($rsi) [1P
+$8 = 0x55555555600e "usage: %s NAME...\n"
+(gdb) p (const char *)($rsi) [1P[1P[1@d[1@x
+$9 = 0x7fffffffe9eb "/import/linux/home1/akozina2/projects/i220b/submit/lab5/exercises/hello"
+(gdb) ][Kq
+A debugging session is active.
+
+	Inferior 1 [process 2543933] will be killed.
+
+Quit anyway? (y or n) y
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ gdb hello
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) start joe
+Temporary breakpoint 1 at 0x1183: file hello.c, line 16.
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab5/exercises/hello joe
+
+Temporary breakpoint 1, main (argc=2, argv=0x7fffffffe768) at hello.c:16
+16	  if (argc == 1) {
+(gdb) disass /m
+Dump of assembler code for function main:
+15	{
+   0x0000555555555174 <+0>:	push   %rbp
+   0x0000555555555175 <+1>:	mov    %rsp,%rbp
+   0x0000555555555178 <+4>:	sub    $0x20,%rsp
+   0x000055555555517c <+8>:	mov    %edi,-0x14(%rbp)
+   0x000055555555517f <+11>:	mov    %rsi,-0x20(%rbp)
+
+16	  if (argc == 1) {
+=> 0x0000555555555183 <+15>:	cmpl   $0x1,-0x14(%rbp)
+   0x0000555555555187 <+19>:	jne    0x5555555551b5 <main+65>
+
+17	    fprintf(stderr, "usage: %s NAME...\n", argv[0]);
+   0x0000555555555189 <+21>:	mov    -0x20(%rbp),%rax
+   0x000055555555518d <+25>:	mov    (%rax),%rdx
+   0x0000555555555190 <+28>:	mov    0x2ec9(%rip),%rax        # 0x555555558060 <stderr@@GLIBC_2.2.5>
+   0x0000555555555197 <+35>:	lea    0xe70(%rip),%rsi        # 0x55555555600e
+   0x000055555555519e <+42>:	mov    %rax,%rdi
+   0x00005555555551a1 <+45>:	mov    $0x0,%eax
+   0x00005555555551a6 <+50>:	callq  0x555555555030 <fprintf@plt>
+
+18	    exit(0xdeadbeef);
+   0x00005555555551ab <+55>:	mov    $0xdeadbeef,%edi
+   0x00005555555551b0 <+60>:	callq  0x555555555040 <exit@plt>
+
+19	  }
+20	  for (int i = 1; i < argc; i++) {
+   0x00005555555551b5 <+65>:	movl   $0x1,-0x4(%rbp)
+   0x00005555555551bc <+72>:	jmp    0x5555555551eb <main+119>
+   0x00005555555551e7 <+115>:	addl   $0x1,-0x4(%rbp)
+   0x00005555555551eb <+119>:	mov    -0x4(%rbp),%eax
+   0x00005555555551ee <+122>:	cmp    -0x14(%rbp),%eax
+   0x00005555555551f1 <+125>:	jl     0x5555555551be <main+74>
+
+21	    hello(stdout, argv[i]);
+   0x00005555555551be <+74>:	mov    -0x4(%rbp),%eax
+   0x00005555555551c1 <+77>:	cltq   
+   0x00005555555551c3 <+79>:	lea    0x0(,%rax,8),%rdx
+   0x00005555555551cb <+87>:	mov    -0x20(%rbp),%rax
+   0x00005555555551cf <+91>:	add    %rdx,%rax
+   0x00005555555551d2 <+94>:	mov    (%rax),%rdx
+   0x00005555555551d5 <+97>:	mov    0x2e64(%rip),%rax        # 0x555555558040 <stdout@@GLIBC_2.2.5>
+   0x00005555555551dc <+104>:	mov    %rdx,%rsi
+   0x00005555555551df <+107>:	mov    %rax,%rdi
+   0x00005555555551e2 <+110>:	callq  0x555555555145 <hello>
+
+22	  }
+23	  return 0;
+   0x00005555555551f3 <+127>:	mov    $0x0,%eax
+
+24	}
+   0x00005555555551f8 <+132>:	leaveq 
+   0x00005555555551f9 <+133>:	retq   
+--Type <RET> for more, q to quit, c to continue without paging--c
+
+End of assembler dump.
+(gdb) b *0[K00005555555551ee
+Invalid number "00005555555551ee".
+(gdb) b *00005555555551ee[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdisass /m[C[C[C[C[C[Cstart joe[C[C[C[C[C[Cdisass /m[C[C[C[C[C[C[6Pb *[Kb *0x00005555555551ee
+Breakpoint 2 at 0x5555555551ee: file hello.c, line 20.
+(gdb) c
+Continuing.
+
+Breakpoint 2, 0x00005555555551ee in main (argc=2, argv=0x7fffffffe768) at hello.c:20
+20	  for (int i = 1; i < argc; i++) {
+(gdb) p i
+$1 = 1
+(gdb) c
+Continuing.
+hello joe
+
+Breakpoint 2, 0x00005555555551ee in main (argc=2, argv=0x7fffffffe768) at hello.c:20
+20	  for (int i = 1; i < argc; i++) {
+(gdb) p i
+$2 = 2
+(gdb) set $eax = $eax-1
+(gdb) c
+Continuing.
+hello (null)
+
+Breakpoint 2, 0x00005555555551ee in main (argc=2, argv=0x7fffffffe768) at hello.c:20
+20	  for (int i = 1; i < argc; i++) {
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 2560493] will be killed.
+
+Quit anyway? (y or n) y
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ exit
+There are stopped jobs.
+akozina2@remote07:~/projects/i220b/submit/lab5/exercises$ cd [K[K[Kcd 
+akozina2@remote07:~$ cd cs220
+akozina2@remote07:~/cs220$ ls
+announce.html  assets  docs	  hw	 index.html  labs  projects   slides
+announce.umt   bin     exercises  index  index.umt   misc  README.md  umt.make
+akozina2@remote07:~/cs220$ cd
+akozina2@remote07:~$ cd ~/i220X[Kb
+akozina2@remote07:~/i220b$ git branch -l
+[?1h=  lab0[m[m
+  lab1[m[m
+  lab2[m[m
+  lab3[m[m
+  lab4[m[m
+* [32mlab5[m[m
+  main[m[m
+  prj1[m[m
+  prj2[m[m
+[K[?1l>akozina2@remote07:~/i220b$ git checkout main
+error: Your local changes to the following files would be overwritten by checkout:
+	submit/prj2-sol/int-set.c
+Please commit your changes or stash them before you switch branches.
+Aborting
+akozina2@remote07:~/i220b$ git pull
+[33mhint: Pulling without specifying how to reconcile divergent branches is[m
+[33mhint: discouraged. You can squelch this message by running one of the following[m
+[33mhint: commands sometime before your next pull:[m
+[33mhint: [m
+[33mhint:   git config pull.rebase false  # merge (the default strategy)[m
+[33mhint:   git config pull.rebase true   # rebase[m
+[33mhint:   git config pull.ff only       # fast-forward only[m
+[33mhint: [m
+[33mhint: You can replace "git config" with "git config --global" to set a default[m
+[33mhint: preference for all repositories. You can also pass --rebase, --no-rebase,[m
+[33mhint: or --ff-only on the command line to override the configured default per[m
+[33mhint: invocation.[m
+remote: Enumerating objects: 1, done.[K
+remote: Counting objects: 100% (1/1)[Kremote: Counting objects: 100% (1/1), done.[K
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects: 100% (1/1)Unpacking objects: 100% (1/1), 619 bytes | 88.00 KiB/s, done.
+From github.com:annitusha/i220b
+   5c1683e..92596df  main       -> origin/main
+Already up to date.
+akozina2@remote07:~/i220b$ git checkout lab5
+M	submit/lab4/lab4.LOG
+M	submit/prj2-sol/int-set.c
+Already on 'lab5'
+Your branch is up to date with 'origin/lab5'.
+akozina2@remote07:~/i220b$ git merge -m 'merged main ' main
+Already up to date.
+akozina2@remote07:~/i220b$ git [K[Kit[K[Kt status -s
+ [31mM[m submit/lab4/lab4.LOG
+ [31mM[m submit/prj2-sol/int-set.c
+[31m??[m submit/lab1/exercises/4-from-scratch/#Makefile#
+[31m??[m submit/lab1/exercises/4-from-scratch/Makefile
+[31m??[m submit/lab1/exercises/4-from-scratch/quadr
+[31m??[m submit/lab1/exercises/5-auto-dependencies/cd
+[31m??[m submit/lab1/exercises/5-auto-dependencies/lab1.LOG
+[31m??[m submit/lab2/exercises/2-hello-upcase-args/lab2.LOGH
+[31m??[m submit/lab5/exercises/hello.s
+[31m??[m submit/lab5/lab5.LOG
+akozina2@remote07:~/i220b$ git commit -a -m 'completing lab5'
+[lab5 7c61a82] completing lab5
+ Committer: Anna Kozina <akozina2@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 189 insertions(+), 12 deletions(-)
+akozina2@remote07:~/i220b$ git push
+Enumerating objects: 13, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 2.75 KiB | 1.37 MiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+giTo github.com:annitusha/i220b.git
+   5c28bb1..7c61a82  lab5 -> lab5
+akozina2@remote07:~/i220b$ git cehkout [K[K[K[K[K[K[Kheckout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+akozina2@remote07:~/i220b$ git merge lab5 -m 'merged lab5'
+Updating 5c1683e..7c61a82
+Fast-forward (no commit created; -m option ignored)
+ submit/lab4/lab4.LOG                      |  93 [32m++++++++++[m[31m-[m
+ submit/lab5/exercises/.gitignore          |   3 [32m+[m
+ submit/lab5/exercises/2                   |   1 [32m+[m
+ submit/lab5/exercises/Makefile            |  11 [32m++[m
+ submit/lab5/exercises/hello.c             |  24 [32m+++[m
+ submit/lab5/exercises/identify/.gitignore |   1 [32m+[m
+ submit/lab5/exercises/identify/Makefile   |   4 [32m+[m
+ submit/lab5/exercises/identify/identify.c |  13 [32m++[m
+ submit/lab5/exercises/identify/mystery.h  |   7 [32m+[m
+ submit/prj2-sol/.changes-timestamp        |   1 [32m+[m
+ submit/prj2-sol/.gitignore                |   2 [32m+[m
+ submit/prj2-sol/Makefile                  |  18 [32m+++[m
+ submit/prj2-sol/README                    |   6 [32m+[m
+ submit/prj2-sol/int-set-strings.c         |  73 [32m+++++++++[m
+ submit/prj2-sol/int-set-strings.h         |  25 [32m+++[m
+ submit/prj2-sol/int-set.c                 | 176 [32m++++++++++++++++++++[m
+ submit/prj2-sol/int-set.h                 |  58 [32m+++++++[m
+ submit/prj2-sol/main.c                    |  81 [32m++++++++++[m
+ submit/prj2-sol/tests.c                   | 571 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ submit/prj2-sol/tests.make                |  30 [32m++++[m
+ 20 files changed, 1197 insertions(+), 1 deletion(-)
+ create mode 100644 submit/lab5/exercises/.gitignore
+ create mode 120000 submit/lab5/exercises/2
+ create mode 100644 submit/lab5/exercises/Makefile
+ create mode 100644 submit/lab5/exercises/hello.c
+ create mode 100644 submit/lab5/exercises/identify/.gitignore
+ create mode 100644 submit/lab5/exercises/identify/Makefile
+ create mode 100644 submit/lab5/exercises/identify/identify.c
+ create mode 100644 submit/lab5/exercises/identify/mystery.h
+ create mode 100644 submit/prj2-sol/.changes-timestamp
+ create mode 100644 submit/prj2-sol/.gitignore
+ create mode 100644 submit/prj2-sol/Makefile
+ create mode 100644 submit/prj2-sol/README
+ create mode 100644 submit/prj2-sol/int-set-strings.c
+ create mode 100644 submit/prj2-sol/int-set-strings.h
+ create mode 100644 submit/prj2-sol/int-set.c
+ create mode 100644 submit/prj2-sol/int-set.h
+ create mode 100644 submit/prj2-sol/main.c
+ create mode 100644 submit/prj2-sol/tests.c
+ create mode 100644 submit/prj2-sol/tests.make
+akozina2@remote07:~/i220b$ git push
+To github.com:annitusha/i220b.git
+ [31m! [rejected]       [m main -> main (non-fast-forward)
+[31merror: failed to push some refs to 'github.com:annitusha/i220b.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+akozina2@remote07:~/i220b$ ls
+README.md  submit
+akozina2@remote07:~/i220b$ cd submit
+akozina2@remote07:~/i220b/submit$ ls
+lab0  lab1  lab2  lab3	lab4  lab5  prj1-sol  prj2-sol
+akozina2@remote07:~/i220b/submit$ cd lab5
+akozina2@remote07:~/i220b/submit/lab5$ ls
+exercises  lab5.LOG
+akozina2@remote07:~/i220b/submit/lab5$ git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 3 and 3 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+Untracked
