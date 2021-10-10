@@ -520,6 +520,47 @@ START_TEST(emptyNonEmptyIntersection)
 }
 END_TEST
 
+START_TEST(nonEmptyEmptyIntersection)
+{
+  const int elements1[] = { 1, 3, 2, 3, 1 };
+  const int nElements1 = sizeof(elements1)/sizeof(elements1[0]);
+  intersectionTest(elements1, nElements1, NULL, 0, NULL, 0);
+}
+END_TEST
+
+START_TEST(firstTestIntersection)
+{
+  const int elements1[] = { 1, 33, 2, 53, 54 };
+  const int nElements1 = sizeof(elements1)/sizeof(elements1[0]);
+  const int elements2[] = { 33, 54, 53, 33, 53 };
+  const int nElements2 = sizeof(elements2)/sizeof(elements2[0]);
+  const int interElements[] = { 33, 53, 54, };
+  const int nInterElements = sizeof(interElements)/sizeof(interElements[0]);
+  intersectionTest(elements1, nElements1, elements2, nElements2,interElements, nInterElements);
+}
+END_TEST
+
+START_TEST(noIntersection)
+{
+  const int elements1[] = { 33, 54, 53, 33, 53 };
+  const int nElements1 = sizeof(elements1)/sizeof(elements1[0]);
+  const int elements2[] = { 1, 3, 2, 3, 1 };
+  const int nElements2 = sizeof(elements2)/sizeof(elements2[0]);
+  intersectionTest(elements1, nElements1, elements2, nElements2, NULL, 0);
+}
+END_TEST
+
+START_TEST(interLeavedIntersection)
+{
+  const int elements1[] = { 1, 33, 54, 3, 45,   };
+  const int nElements1 = sizeof(elements1)/sizeof(elements1[0]);
+  const int elements2[] = { 1, 3, 33, 45, 2, 54, 53 };
+  const int nElements2 = sizeof(elements2)/sizeof(elements2[0]);
+  const int interElements[] = { 1, 3, 33, 45, 54, };
+  const int nInterElements = sizeof(interElements)/sizeof(interElements[0]);
+  intersectionTest(elements1, nElements1, elements2, nElements2, interElements, nInterElements);
+}
+END_TEST
 
 //TODO: add more intersection tests.
 
@@ -532,7 +573,10 @@ intersectionIntSetSuite(void)
   tcase_add_test(intersectionTests, emptyEmptyIntersection);
   tcase_add_test(intersectionTests, emptyNonEmptyIntersection);
   //TODO: for each test added above tcase_add_test(intersectionTests, ...)
-
+  tcase_add_test(intersectionTests, nonEmptyEmptyIntersection);
+  tcase_add_test(intersectionTests, firstTestIntersection);
+  tcase_add_test(intersectionTests, noIntersection);
+  tcase_add_test(intersectionTests, interLeavedIntersection); 
   suite_add_tcase(suite, intersectionTests);
   return suite;
 }

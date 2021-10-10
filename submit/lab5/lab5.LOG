@@ -2028,4 +2028,259 @@ Your branch and 'origin/main' have diverged,
 and have 3 and 3 different commits each, respectively.
   (use "git pull" to merge the remote branch into yours)
 
-Untracked
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab1/exercises/4-from-scratch/#Makefile#[m
+	[31m../lab1/exercises/4-from-scratch/Makefile[m
+	[31m../lab1/exercises/4-from-scratch/quadr[m
+	[31m../lab1/exercises/5-auto-dependencies/cd[m
+	[31m../lab1/exercises/5-auto-dependencies/lab1.LOG[m
+	[31m../lab2/exercises/2-hello-upcase-args/lab2.LOGH[m
+	[31mexercises/hello.s[m
+	[31mlab5.LOG[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+akozina2@remote07:~/i220b/submit/lab5$ git pull
+[33mhint: Pulling without specifying how to reconcile divergent branches is[m
+[33mhint: discouraged. You can squelch this message by running one of the following[m
+[33mhint: commands sometime before your next pull:[m
+[33mhint: [m
+[33mhint:   git config pull.rebase false  # merge (the default strategy)[m
+[33mhint:   git config pull.rebase true   # rebase[m
+[33mhint:   git config pull.ff only       # fast-forward only[m
+[33mhint: [m
+[33mhint: You can replace "git config" with "git config --global" to set a default[m
+[33mhint: preference for all repositories. You can also pass --rebase, --no-rebase,[m
+[33mhint: or --ff-only on the command line to override the configured default per[m
+[33mhint: invocation.[m
+remote: Enumerating objects: 1, done.[K
+remote: Counting objects: 100% (1/1)[Kremote: Counting objects: 100% (1/1), done.[K
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects: 100% (1/1)Unpacking objects: 100% (1/1), 620 bytes | 88.00 KiB/s, done.
+From github.com:annitusha/i220b
+   92596df..63decc6  main       -> origin/main
+Updating 7c61a82..63decc6
+Fast-forward
+akozina2@remote07:~/i220b/submit/lab5$ ls
+exercises  lab5.LOG
+akozina2@remote07:~/i220b/submit/lab5$ git sttaus
+git: 'sttaus' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+akozina2@remote07:~/i220b/submit/lab5$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab1/exercises/4-from-scratch/#Makefile#[m
+	[31m../lab1/exercises/4-from-scratch/Makefile[m
+	[31m../lab1/exercises/4-from-scratch/quadr[m
+	[31m../lab1/exercises/5-auto-dependencies/cd[m
+	[31m../lab1/exercises/5-auto-dependencies/lab1.LOG[m
+	[31m../lab2/exercises/2-hello-upcase-args/lab2.LOGH[m
+	[31mexercises/hello.s[m
+	[31mlab5.LOG[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+akozina2@remote07:~/i220b/submit/lab5$ git add[K[K[K[K[K[K[Kls
+exercises  lab5.LOG
+akozina2@remote07:~/i220b/submit/lab5$ git add lab5.LOG
+akozina2@remote07:~/i220b/submit/lab5$ l[Kgit status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   lab5.LOG[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../lab1/exercises/4-from-scratch/#Makefile#[m
+	[31m../lab1/exercises/4-from-scratch/Makefile[m
+	[31m../lab1/exercises/4-from-scratch/quadr[m
+	[31m../lab1/exercises/5-auto-dependencies/cd[m
+	[31m../lab1/exercises/5-auto-dependencies/lab1.LOG[m
+	[31m../lab2/exercises/2-hello-upcase-args/lab2.LOGH[m
+	[31mexercises/hello.s[m
+
+akozina2@remote07:~/i220b/submit/lab5$ git commit -m 'completed 5[Klab5'[1@a[1@ [1@-[C[C[C[C[C[C[C[C[C[C[C[C[1P lab5'[1P lab5'i lab5'n lab5'g lab5'
+[main 80ad673] completing lab5
+ Committer: Anna Kozina <akozina2@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2031 insertions(+)
+ create mode 100644 submit/lab5/lab5.LOG
+akozina2@remote07:~/i220b/submit/lab5$ git push
+Enumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 17.62 KiB | 3.52 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To github.com:annitusha/i220b.git
+   63decc6..80ad673  main -> main
+akozina2@remote07:~/i220b/submit/lab5$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+akozina2@remote07:~/i220b/submit/lab5$ git merge lab5 -m 'merged lab5'
+Already up to date.
+akozina2@remote07:~/i220b/submit/lab5$ git push
+Everything up-to-date
+akozina2@remote07:~/i220b/submit/lab5$ cd
+akozina2@remote07:~$ cs[Kd cs220
+akozina2@remote07:~/cs220$ ls
+announce.html  assets  docs	  hw	 index.html  labs  projects   slides
+announce.umt   bin     exercises  index  index.umt   misc  README.md  umt.make
+akozina2@remote07:~/cs220$ cd i220b
+bash: cd: i220b: No such file or directory
+akozina2@remote07:~/cs220$ cd projects
+akozina2@remote07:~/cs220/projects$ ls
+index.html  index.umt  prj1  prj1-sol  prj2
+akozina2@remote07:~/cs220/projects$ cd prj2
+akozina2@remote07:~/cs220/projects/prj2$ ls
+extras	prj2  prj2.html  prj2.pdf  prj2-sol  prj2.umt
+akozina2@remote07:~/cs220/projects/prj2$ cd prj2-sol
+akozina2@remote07:~/cs220/projects/prj2/prj2-sol$ ls
+int-set.h  int-set-strings.c  int-set-strings.h  main.c  README  tests.c  tests.make
+akozina2@remote07:~/cs220/projects/prj2/prj2-sol$ cd 
+akozina2@remote07:~$ ls
+ ann	       average.c        hello.c        lastname.txt	    nameAssemblyL.s   '#test#'	    test.s~
+'#anna.c#'     average.c~       hello.c~      '#multi.c#'	    nameAssemblyL.s~  '#test2.c#'   tinyProc.s
+ anna.c        binarymult.c     homework9.s    multi.c		    output.txt	       test2.c	    tinyProc.s~
+ anna.c~       binarymult.c~    homework9.s~   multi.c~		    output.txt~        test2.s	    tmp
+ anna_cs       binarymult.txt   hw9QtSpim.c    multTable2.s	    printhex.c	       test2.s~    '#total.c#'
+ annaexec      cs220	       'i220?'	       multTable2.s~	    projects	       test3.c	    tp3assembler
+ annasort     '#fahren.c#'      i220b	       multTable.c	    sort3.c	       test3.c~     tp3assembler.c
+'#ann.c#'      fahren.c         input.txt     '#multTable.s#'	    sort3.c~	       test.c	    uppercase.c
+ ann.c	       fahren.c~        input.txt~     multTable.s	   '#sort.c#'	       test.c~	    uppercase.c~
+ ann.c~        firstname.txt    lab13	       multTable.s~	    sort.c	      '#test.s#'    xyz
+ annitusha.c   hello	        lab13.zip     '#nameAsemmblyL.s#'   sort.c~	       test.s	    zipcode.txt
+akozina2@remote07:~$ cd i220b
+akozina2@remote07:~/i220b$ ls
+README.md  submit
+akozina2@remote07:~/i220b$ cd submit
+akozina2@remote07:~/i220b/submit$ ls
+lab0  lab1  lab2  lab3	lab4  lab5  prj1-sol  prj2-sol
+akozina2@remote07:~/i220b/submit$ cd prj2-sol
+akozina2@remote07:~/i220b/submit/prj2-sol$ ls
+int-set    int-set.c~  int-set.o	  int-set-strings.h  main.c  Makefile	README	 tests	  tests.make
+int-set.c  int-set.h   int-set-strings.c  int-set-strings.o  main.o  Makefile~	README~  tests.c  tests.o
+akozina2@remote07:~/i220b/submit/prj2-sol$ emacs int-set.c
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[54d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[53d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) --------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[54d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[54;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[54;54H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[54;59H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[54;58H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[54;60H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[54;57H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[54;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[54;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[54;77H[?25ldone[H
+[?12l[?25h[?12;25h[54;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[54;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[54;75H[?25ldone[H
+[?12l[?25h[?12;25h[54;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[54;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[54;61H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[54;10H[?25lusr/share/emacs/site-lisp/elpa/haskel[34@l-mode-16.1/haskell-mode-autoloads[H
+[?12l[?25h[?12;25h[54;96H[?25ldone[H
+[?12l[?25h[?12;25h[54;10H[?25letc/emacs/site-start.d/50haskell-mode[34P[H
+[?12l[?25h[?12;25h[54;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[54;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[54;75H[?25ldone[H
+[?12l[?25h[?12;25h[54;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[54;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[54;64H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[54;54H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[54;65H[?25ldone[H
+[?12l[?25h[?12;25h[54;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[54;54H[?25ldone[H
+[?12l[?25h[?12;25h[54;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[54;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[54d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[54d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools C Help                                                                             [0m[39;49m[27m
+[A
+[1m[34m#include[0m[39;49m [32m<stdio.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m"int-set.h"[39;49m[K
+[1m[34m#include[0m[39;49m [32m<errno.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<stdlib.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<assert.h>[39;49m[K
+[32m/** Abstract data type for set of int's.  Note that sets do not allow [39;49m                                             
+[A
+[32m *  duplicates. [39;49m                                                                                                   
+[A
+[32m */[39;49m[K
+[K
+[1m[36mtypedef[0m[39;49m [1m[36mstruct[0m[39;49m [32mNodeStruct[39;49m {[K
+  [32mint[39;49m [33melement[39;49m;[K
+  [1m[36mstruct[0m[39;49m [32mNodeStruct[39;49m *[33msucc[39;49m;[K
+} [32mNode[39;49m;[K
+[K
+[1m[36mtypedef[0m[39;49m [1m[36mstruct[0m[39;49m {[K
+  [32mint[39;49m [33mnElements[39;49m; [33m//tracking numbers of elements in the set [39;49m                                                        
+[A
+  [32mNode[39;49m [33mdummy[39;49m;[K
+} [32mHeader[39;49m;[K
+[K
+[K
+[1m[36mstatic[0m[39;49m [32mNode[39;49m * [1m[34mlinkNewNodeAfter[0m[39;49m([32mNode[39;49m *[33mp0[39;49m, [32mint[39;49m [33melement[39;49m) {[K
+  [32mNode[39;49m *[33mp[39;49m = malloc([1m[36msizeof[0m[39;49m(Node));[K
+  [1m[36mif[0m[39;49m (!p) [1m[36mreturn[0m[39;49m [35mNULL[39;49m;[K
+  p->element = element;[K
+  p->succ = p0->succ;[K
+  p0->succ = p;[K
+  [1m[36mreturn[0m[39;49m p;[K
+}[K
+[K
+[K
+[K
+[32m/** Return a new empty int-set.  Returns NULL on error with errno set. [39;49m                                            
+[A
+[32m */[39;49m[K
+[32mvoid[39;49m *[1m[34mnewIntSet[0m[39;49m() {[K
+  [33m//TODO [39;49m                                                                                                          
+[A
+  [1m[36mreturn[0m[39;49m calloc(1, [1m[36msizeof[0m[39;49m(Header));[K
+}[K
+[K
+[32m/** Return # of elements in intSet */[39;49m[K
+[32mint[39;49m [1m[34mnElementsIntSet[0m[39;49m([32mvoid[39;49m *[33mintSet[39;49m) {[K
+  [33m//TODO [39;49m                                                                                                          
+[A
+  [1m[36mconst[0m[39;49m [32mHeader[39;49m *[33mheader[39;49m = ([32mHeader[39;49m *)intSet;[K
+  [1m[36mreturn[0m[39;49m header->nElements;[K
+}[K
+[K
+[32m/** Return non-zero iff intSet contains element. */[39;49m[K
+[32mint[39;49m [1m[34misInIntSet[0m[39;49m([32mvoid[39;49m *[33mintSet[39;49m, [32mint[39;49m [33melement[39;49m) {[K
+  [33m//TODO [39;49m                                                                                                          
+[A
+  [32mHeader[39;49m *[33mheader[39;49m = ([32mHeader[39;49m *)intSet;[K
+  [32mNode[39;49m *[33mp0[39;49m;[K
+  [1m[36mfor[0m[39;49m(p0 = &header->dummy; p0->succ != [35mNULL[39;49m && p0->succ->element < element; p0 = p0->succ) {[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mint-set.c   [0m[39;49m[27m[7m   Top L1    [0m[39;49m[27m[7mGit-main[0m[39;49m[27m[7m  (C/*l Abbrev) -----------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[54d[K[53;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[53;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[53;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[53;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[53;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[53;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[53;34H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[53;34H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[53;34H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[53;35H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[53;35H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[53;35H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[53;35H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[53;35H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[53;35H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[53;35H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[53;35H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[53;35H[?25l[7m9[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[53;34H[?25l[7m20[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[53;35H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[53;35H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[53;35H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[53;35H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[53;35H[?25l[7m5[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[53;35H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[53;35H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?

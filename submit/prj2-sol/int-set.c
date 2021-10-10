@@ -27,6 +27,14 @@ static Node * linkNewNodeAfter(Node *p0, int element) {
   return p;
 }
 
+static Node *
+unlinkNodeAfter(Node *p0)
+{
+  Node *p = p0->succ;
+  p0->succ = p->succ;
+  free(p);
+  return p0->succ;
+}
 
 
 /** Return a new empty int-set.  Returns NULL on error with errno set.
@@ -48,12 +56,12 @@ int isInIntSet(void *intSet, int element) {
   //TODO
   Header *header = (Header *)intSet;
   Node *p0;
-  for(p0 = &header->dummy; p0->succ != NULL && p0->succ->element < element; p0 = p0->succ) {
+  for(p0 = &header->dummy; p0->succ != NULL && p0->succ->element <= element; p0 = p0->succ) {
     if(p0->succ->element == element) {
       return 1;
     } 
-      return 0;
   }
+  return 0;
 }
 
 
@@ -100,29 +108,34 @@ int addMultipleIntSet(void *intSet, const int elements[], int nElements) {
  */
 int unionIntSet(void *intSetA, void *intSetB) {
   //TODO
-  Header *header = (Header *)intSetA;
-  Node *pA0;
-  Node *pB;
-  pA0 = &header->dummy;
-  while(pA0->succ != NULL && pB->succ != NULL) {
-  //while(pA0->succ && pB->succ) {
-    if(pA0->succ->element < pB->succ->element) {
-      pA0 = pA0->succ;
+  Header *setA = (Header *)intSetA;
+    Header *setB = (Header *)intSetB;
+    Node *pA0;
+    Node *pB;
+    for(pA0 = &setA->dummy, pB = &setB->dummy; pA0->succ != NULL && pB->succ != NULL; pA0 = pA0->succ) {
+
+        if(pA0->succ->element < pB->succ->element) {
+//            pA0 = pA0->succ;
+            continue;
+        }
+        else if(pA0->succ->element == pB->succ->element) {
+//            pA0 = pA0->succ;
+            pB = pB->succ;
+        }
+        else if (pA0->succ->element > pB->succ->element) {
+            linkNewNodeAfter(pA0, pB->succ->element);
+            ++setA->nElements;
+//            pA0 = pA0->succ;
+            pB = pB->succ;
+        }
     }
-    else if(pA0->succ->element == pB->succ->element) {
-      // pA0 = pA0->succ;
-      pA0++;
-      //pB = pB->succ;
-      pB++;
+//    if(pB->succ != NULL) {
+        for(Node *pB0 = pB->succ; pB0 != NULL; pB0 = pB0->succ) {
+            pA0 = linkNewNodeAfter(pA0, pB0->element);
+            ++setA->nElements;
+//        }
     }
-    else if (pA0->succ->element > pB->succ->element) {
-      linkNewNodeAfter(pA0, pB->succ->element);
-      pA0 = pA0->succ;
-      pB++;
-    }
-  }    
-  //linkNewNodeAfter(pA0, pB->succ->element);
-  return header->nElements;
+    return setA->nElements;
 }
 
 
@@ -132,8 +145,35 @@ int unionIntSet(void *intSetA, void *intSetB) {
  */
 int intersectionIntSet(void *intSetA, void *intSetB) {
   //TODO
-  return 0;
+    Header *setA = (Header *)intSetA;
+    Header *setB = (Header *)intSetB;
+    Node *pA0 = &setA->dummy;
+    Node *pB = &setB->dummy;
+//    for(pA0 = &setA->dummy, pB = &setB->dummy; pA0->succ != NULL && pB->succ != NULL; pA0 = pA0->succ) {
+    while(pA0->succ != NULL && pB->succ != NULL) {
+
+        if(pA0->succ->element < pB->succ->element) {
+            unlinkNodeAfter(pA0);
+            --setA->nElements;
+//            pA0 = pA0->succ;
+//            continue;
+        }
+        else if(pA0->succ->element == pB->succ->element) {
+            pA0 = pA0->succ;
+            pB = pB->succ;
+        }
+        else if (pA0->succ->element > pB->succ->element) {
+            pB = pB->succ;
+        }
+    }
+//    for(Node *p = pA0; p != NULL/*; p = p->succ*/) {
+    while(pA0->succ != NULL) {
+        unlinkNodeAfter(pA0);
+        --setA->nElements;
+    }
+    return setA->nElements;
 }
+
 
 /** Free all resources used by previously created intSet. */
 void freeIntSet(void *intSet) {
