@@ -1,0 +1,12 @@
+#!/bin/sh
+
+COOKIE='.cookie'
+
+if [ $# -eq 1 ]
+then
+  u=$1
+else
+  u=`echo $USER`
+fi
+echo $u | md5sum | sed -e 's/.\(....\).*/0x\1/' > $COOKIE
+
