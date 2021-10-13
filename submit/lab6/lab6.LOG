@@ -1,0 +1,3272 @@
+Script started on 2021-10-12 15:43:56-04:00 [TERM="xterm" TTY="/dev/pts/10" COLUMNS="80" LINES="24"]
+akozina2@remote00:~/i220b/submit/lab6$ cd exercises
+akozina2@remote00:~/i220b/submit/lab6/exercises$ ls
+1  3		cookie-wrapper.h       full-example  Makefile
+2  another-one	feed-cookie-monster.c  gen-cookie    simple
+akozina2@remote00:~/i220b/submit/lab6/exercises$ cd full-example
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ ls
+cookie-wrapper.h  cookie-wrapper.obj  feed-cookie-monster.c
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ make -f ../Makefile
+gcc -g -Og -Wall -std=c18   -c -o feed-cookie-monster.o feed-cookie-monster.c
+gcc feed-cookie-monster.o cookie-wrapper.obj -o feed-cookie-monster
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ ./feed-cookie-monster
+Me want cookie!
+cannot read ../.cookie: No such file or directory
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ ./feed-cookie-monster[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+cookie-wrapper.h    feed-cookie-monster    feed-cookie-monster.o
+cookie-wrapper.obj  feed-cookie-monster.c
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ emacs fee-cookie[K[K[K[K[K[K[Kd-cookie- monster.c
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[23d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[24;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[24;54H[?25ldone[H
+[?12l[?25h[?12;25h[24;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[24;59H[?25ldone[H
+[?12l[?25h[?12;25h[24;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[24;58H[?25ldone[H
+[?12l[?25h[?12;25h[24;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[24;60H[?25ldone[H
+[?12l[?25h[?12;25h[24;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[24;57H[?25ldone[H
+[?12l[?25h[?12;25h[24;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[24;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[24;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[24d[?25le[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /var/cache/dictionaries-common/emacsen-ispell-default.el (source)...don\
+[A[2d[?12l[?25h[?12;25h[24d[K[A	[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[23;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[23;75H[?25ldone[H
+[?12l[?25h[?12;25h[23;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[23;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[23;61H[?25ldone[H
+[?12l[?25h[?12;25h[23;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[24d[?25ls.el (source)...[23;10Husr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoload\
+[2d[?12l[?25h[?12;25h[24;17H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[23;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[23;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[23;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[23;75H[?25ldone[H
+[?12l[?25h[?12;25h[23;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[23;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[23;64H[?25ldone[H
+[?12l[?25h[?12;25h[23;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[23;54H[?25ldone[H
+[?12l[?25h[?12;25h[23;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[23;65H[?25ldone[H
+[?12l[?25h[?12;25h[23;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[23;54H[?25ldone[H
+[?12l[?25h[?12;25h[23;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[23;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[24d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ----------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools C Help                                          [0m[39;49m[27m
+[A
+[1m[34m#include[0m[39;49m [32m<errno.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<stdio.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<stdlib.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<string.h>[39;49m[K
+[K
+[1m[34m#include[0m[39;49m [32m"cookie-wrapper.h"[39;49m[K
+[K
+[1m[34m#define[0m[39;49m [33mCOOKIE_FILE[39;49m  [32m"../.cookie"[39;49m[K
+[K
+[1m[36mstatic[0m[39;49m [32mint[39;49m [1m[34mgetCookie[0m[39;49m() {[K
+  [32mFILE[39;49m *[33mcookieFile[39;49m = fopen(COOKIE_FILE, [32m"r"[39;49m);[K
+  [1m[36mif[0m[39;49m (!cookieFile) {[K
+    fprintf(stderr, [32m"cannot read %s: %s\n"[39;49m, COOKIE_FILE, strerror(errno));[K
+    exit(1);[K
+  }[K
+  [32mint[39;49m [33mcookie[39;49m = -1;[K
+  [32mint[39;49m [33mn[39;49m = fscanf(cookieFile, [32m"0x%x"[39;49m, &cookie);[K
+  fclose(cookieFile);[K
+  [1m[36mif[0m[39;49m (n != 1) {[K
+    fprintf(stderr, [32m"unable to scan cookie file\n"[39;49m);[K
+    exit(1);[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mfeed-cookie-monster.c[0m[39;49m[27m[7m   Top L1    [0m[39;49m[27m[7mGit-lab6[0m[39;49m[27m[7m  (C/*l Abbrev) ---------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[2;2H[C[C[C[C[C		[C[23;43H[?25l[7m2[0m[39;49m[27m[3;10H[?12l[?25h[?12;25h[23;43H[?25l[7m3[0m[39;49m[27m[4;10H[?12l[?25h[?12;25h[23;43H[?25l[7m4[0m[39;49m[27m[5;10H[?12l[?25h[?12;25h[23;43H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[23;43H[?25l[7m6[0m[39;49m[27m[7;10H[?12l[?25h[?12;25h[23;43H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[23;43H[?25l[7m8[0m[39;49m[27m[9;10H[?12l[?25h[?12;25h[23;43H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[23;43H[?25l[7m10[0m[39;49m[27m[11;10H[?12l[?25h[?12;25h[23;44H[?25l[7m1[0m[39;49m[27m[12;10H[?12l[?25h[?12;25h[23;44H[?25l[7m2[0m[39;49m[27m[13;10H[?12l[?25h[?12;25h[23;44H[?25l[7m3[0m[39;49m[27m[14;10H[?12l[?25h[?12;25h[23;44H[?25l[7m4[0m[39;49m[27m[15;10H[?12l[?25h[?12;25h[23;44H[?25l[7m5[0m[39;49m[27m[16;4H[?12l[?25h[?12;25h[23;44H[?25l[7m6[0m[39;49m[27m[17;10H[?12l[?25h[?12;25h[H[2J[58d[K[H[?25l[7mFile Edit Options Buffers Tools C Help                                          [0m[39;49m[27m
+[A
+[1m[34m#include[0m[39;49m [32m<errno.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<stdio.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<stdlib.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<string.h>[39;49m[K
+[K
+[1m[34m#include[0m[39;49m [32m"cookie-wrapper.h"[39;49m[K
+[K
+[1m[34m#define[0m[39;49m [33mCOOKIE_FILE[39;49m  [32m"../.cookie"[39;49m[K
+[K
+[1m[36mstatic[0m[39;49m [32mint[39;49m [1m[34mgetCookie[0m[39;49m() {[K
+  [32mFILE[39;49m *[33mcookieFile[39;49m = fopen(COOKIE_FILE, [32m"r"[39;49m);[K
+  [1m[36mif[0m[39;49m (!cookieFile) {[K
+    fprintf(stderr, [32m"cannot read %s: %s\n"[39;49m, COOKIE_FILE, strerror(errno));[K
+    exit(1);[K
+  }[K
+  [32mint[39;49m [33mcookie[39;49m = -1;[K
+  [32mint[39;49m [33mn[39;49m = fscanf(cookieFile, [32m"0x%x"[39;49m, &cookie);[K
+  fclose(cookieFile);[K
+  [1m[36mif[0m[39;49m (n != 1) {[K
+    fprintf(stderr, [32m"unable to scan cookie file\n"[39;49m);[K
+    exit(1);[K
+  }[K
+  [1m[36mreturn[0m[39;49m cookie;[K
+}[K
+[K
+[1m[36mstatic[0m[39;49m [32mint[39;49m [1m[34mgetUnwrapKey[0m[39;49m() {[K
+  [32mint[39;49m [33mkey[39;49m;[K
+  [32mint[39;49m [33mn[39;49m = 0;[K
+  [1m[36mwhile[0m[39;49m (n != 1) {[K
+    printf([32m"enter cookie unwrap key in hex: "[39;49m);[K
+    fflush(stdout);[K
+    n = scanf([32m"%x"[39;49m, &key);[K
+  }[K
+  [1m[36mreturn[0m[39;49m key;[K
+}[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m() {[K
+[K
+  printf([32m"Me want cookie!\n"[39;49m);[K
+  [1m[36mconst[0m[39;49m [32mint[39;49m [33mcookie[39;49m = getCookie();[K
+  [32mint[39;49m [33mwrapped[39;49m = wrapCookie(cookie);[K
+  [32mint[39;49m [33mkey[39;49m = getUnwrapKey();[K
+  [32mint[39;49m [33mgotIt[39;49m = unwrapCookie(wrapped, key) == cookie;[K
+  printf(gotIt ? [32m"😂 CHOMP!!! CHOMP!!!\n"[39;49m : [32m"🥶 AARGH YUCK!!\n"[39;49m);[K
+  [1m[36mreturn[0m[39;49m !!gotIt;[K
+[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mfeed-cookie-monster.c[0m[39;49m[27m[7m   All L16   [0m[39;49m[27m[7mGit-lab6[0m[39;49m[27m[7m  (C/*l Abbrev) ---------[0m[39;49m[27m
+[A[17;10H[?12l[?25h[?12;25h[57;44H[?25l[7m7[0m[39;49m[27m[18;10H[?12l[?25h[?12;25h[57;44H[?25l[7m8[0m[39;49m[27m[19;10H[?12l[?25h[?12;25h[57;44H[?25l[7m7[0m[39;49m[27m[18;10H[?12l[?25h[?12;25h[57;44H[?25l[7m6[0m[39;49m[27m[17;10H[?12l[?25h[?12;25h[57;44H[?25l[7m5[0m[39;49m[27m[16;4H[?12l[?25h[?12;25h[57;44H[?25l[7m4[0m[39;49m[27m[15;10H[?12l[?25h[?12;25h[57;44H[?25l[7m3[0m[39;49m[27m[14;10H[?12l[?25h[?12;25h[57;44H[?25l[7m2[0m[39;49m[27m[13;10H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[12;10H[?12l[?25h[?12;25h[57;44H[?25l[7m0[0m[39;49m[27m[11;10H[?12l[?25h[?12;25h[57;43H[?25l[7m9 [0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[57;43H[?25l[7m8[0m[39;49m[27m[9;10H[?12l[?25h[?12;25h[57;43H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[57;43H[?25l[7m10[0m[39;49m[27m[11;10H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[12;10H[?12l[?25h[?12;25h[57;44H[?25l[7m2[0m[39;49m[27m[13;10H[?12l[?25h[?12;25h[57;44H[?25l[7m3[0m[39;49m[27m[14;10H[?12l[?25h[?12;25h[57;44H[?25l[7m4[0m[39;49m[27m[15;10H[?12l[?25h[?12;25h[57;44H[?25l[7m5[0m[39;49m[27m[16;4H[?12l[?25h[?12;25h[57;44H[?25l[7m6[0m[39;49m[27m[17;10H[?12l[?25h[?12;25h[57;44H[?25l[7m7[0m[39;49m[27m[18;10H[?12l[?25h[?12;25h[57;44H[?25l[7m8[0m[39;49m[27m[19;10H[?12l[?25h[?12;25h[57;44H[?25l[7m9[0m[39;49m[27m[20;10H[?12l[?25h[?12;25h[57;43H[?25l[7m20[0m[39;49m[27m[21;10H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[22;10H[?12l[?25h[?12;25h[58;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[1]+  Stopped                 emacs feed-cookie-monster.c
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ emacs cookie-wrapp er.h
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[58d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[57d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[58;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[58;54H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[58;59H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[58;58H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[58;60H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[58;57H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[58d[?25le[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /var/cache/dictionaries-common/emacsen-ispell-default.el (source)...don\
+[A[2d[?12l[?25h[?12;25h[58d[K[A	[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[57;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[57;75H[?25ldone[H
+[?12l[?25h[?12;25h[57;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[57;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[57;61H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58d[?25ls.el (source)...[57;10Husr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoload\
+[2d[?12l[?25h[?12;25h[58;17H[?25ldone[H
+[?12l[?25h[?12;25h[58d[K[57;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[57;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[57;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[57;75H[?25ldone[H
+[?12l[?25h[?12;25h[57;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[57;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[57;64H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[57;65H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[57;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ----------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools C Help                                          [0m[39;49m[27m
+[A
+[1m[34m#ifndef[0m[39;49m COOKIE_WRAPPER_H_[K
+[1m[34m#define[0m[39;49m [33mCOOKIE_WRAPPER_H_[39;49m[K
+[K
+[32m/** Return cookie wrapped in some opaque wrapper */[39;49m[K
+[32mint[39;49m [1m[34mwrapCookie[0m[39;49m([32mint[39;49m [33mcookie[39;49m);[K
+[K
+[32m/** Given wrapped cookie, use key to unwrap it and return unwrapped value */[39;49m[K
+[32mint[39;49m [1m[34munwrapCookie[0m[39;49m([32mint[39;49m [33mwrapped[39;49m, [32mint[39;49m [33mkey[39;49m);[K
+[K
+[K
+[1m[34m#endif[0m[39;49m [33m//ifndef COOKIE_WRAPPER_H_ [39;49m                                              
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mcookie-wrapper.h[0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-lab6[0m[39;49m[27m[7m  (C/*l Abbrev) --------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[K[57;38H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[57;38H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[57;38H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[57;38H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[57;38H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[58d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[2]+  Stopped                 emacs cookie-wrapper.h
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ ls
+cookie-wrapper.h    feed-cookie-monster    feed-cookie-monster.o
+cookie-wrapper.obj  feed-cookie-monster.c
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ gdb feed-cookie-mo nster
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from feed-cookie-monster...done.
+(gdb) gdb[K[K[Kb unwrapCookie
+Breakpoint 1 at 0x13e5
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/full-example/feed-cookie-monster 
+Me want cookie!
+cannot read ../.cookie: No such file or directory
+[Inferior 1 (process 1152145) exited with code 01]
+(gdb) q
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ cd .
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ cd ..
+akozina2@remote00:~/i220b/submit/lab6/exercises$ ls
+1  3		cookie-wrapper.h       full-example  Makefile
+2  another-one	feed-cookie-monster.c  gen-cookie    simple
+akozina2@remote00:~/i220b/submit/lab6/exercises$ emacs d[Kfeed-cookie-mos[Knster.c
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[58d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[57d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[58;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[58;54H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[58;59H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[58;58H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[58;60H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[58;57H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[58d[?25le[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /var/cache/dictionaries-common/emacsen-ispell-default.el (source)...don\
+[A[2d[?12l[?25h[?12;25h[58d[K[A	[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[57;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[57;75H[?25ldone[H
+[?12l[?25h[?12;25h[57;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[57;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[57;61H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58d[?25ls.el (source)...[57;10Husr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoload\
+[2d[?12l[?25h[?12;25h[58;17H[?25ldone[H
+[?12l[?25h[?12;25h[58d[K[57;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[57;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[57;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[57;75H[?25ldone[H
+[?12l[?25h[?12;25h[57;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[57;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[57;64H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[57;65H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[57;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ----------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools C Help                                          [0m[39;49m[27m
+[A
+[1m[34m#include[0m[39;49m [32m<errno.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<stdio.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<stdlib.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<string.h>[39;49m[K
+[K
+[1m[34m#include[0m[39;49m [32m"cookie-wrapper.h"[39;49m[K
+[K
+[1m[34m#define[0m[39;49m [33mCOOKIE_FILE[39;49m  [32m"../.cookie"[39;49m[K
+[K
+[1m[36mstatic[0m[39;49m [32mint[39;49m [1m[34mgetCookie[0m[39;49m() {[K
+  [32mFILE[39;49m *[33mcookieFile[39;49m = fopen(COOKIE_FILE, [32m"r"[39;49m);[K
+  [1m[36mif[0m[39;49m (!cookieFile) {[K
+    fprintf(stderr, [32m"cannot read %s: %s\n"[39;49m, COOKIE_FILE, strerror(errno));[K
+    exit(1);[K
+  }[K
+  [32mint[39;49m [33mcookie[39;49m = -1;[K
+  [32mint[39;49m [33mn[39;49m = fscanf(cookieFile, [32m"0x%x"[39;49m, &cookie);[K
+  fclose(cookieFile);[K
+  [1m[36mif[0m[39;49m (n != 1) {[K
+    fprintf(stderr, [32m"unable to scan cookie file\n"[39;49m);[K
+    exit(1);[K
+  }[K
+  [1m[36mreturn[0m[39;49m cookie;[K
+}[K
+[K
+[1m[36mstatic[0m[39;49m [32mint[39;49m [1m[34mgetUnwrapKey[0m[39;49m() {[K
+  [32mint[39;49m [33mkey[39;49m;[K
+  [32mint[39;49m [33mn[39;49m = 0;[K
+  [1m[36mwhile[0m[39;49m (n != 1) {[K
+    printf([32m"enter cookie unwrap key in hex: "[39;49m);[K
+    fflush(stdout);[K
+    n = scanf([32m"%x"[39;49m, &key);[K
+  }[K
+  [1m[36mreturn[0m[39;49m key;[K
+}[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m() {[K
+[K
+  printf([32m"Me want cookie!\n"[39;49m);[K
+  [1m[36mconst[0m[39;49m [32mint[39;49m [33mcookie[39;49m = getCookie();[K
+  [32mint[39;49m [33mwrapped[39;49m = wrapCookie(cookie);[K
+  [32mint[39;49m [33mkey[39;49m = getUnwrapKey();[K
+  [32mint[39;49m [33mgotIt[39;49m = unwrapCookie(wrapped, key) == cookie;[K
+  printf(gotIt ? [32m"😂 CHOMP!!! CHOMP!!!\n"[39;49m : [32m"🥶 AARGH YUCK!!\n"[39;49m);[K
+  [1m[36mreturn[0m[39;49m !!gotIt;[K
+[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mfeed-cookie-monster.c[0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-lab6[0m[39;49m[27m[7m  (C/*l Abbrev) ---------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[3]+  Stopped                 emacs feed-cookie-monster.c
+akozina2@remote00:~/i220b/submit/lab6/exercises$ emacs Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[58d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[57d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[58;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[58;54H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[58;59H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[58;58H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[58;60H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[58;57H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[58d[?25le[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /var/cache/dictionaries-common/emacsen-ispell-default.el (source)...don\
+[A[2d[?12l[?25h[?12;25h[58d[K[A	[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[57;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[57;75H[?25ldone[H
+[?12l[?25h[?12;25h[57;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[57;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[57;61H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58d[?25ls.el (source)...[57;10Husr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoload\
+[2d[?12l[?25h[?12;25h[58;17H[?25ldone[H
+[?12l[?25h[?12;25h[58d[K[57;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[57;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[57;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[57;75H[?25ldone[H
+[?12l[?25h[?12;25h[57;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[57;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[57;64H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[57;65H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[57;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ----------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Makefile Help                                   [0m[39;49m[27m
+[A
+[33mCC[39;49m = gcc[K
+[33mCFLAGS[39;49m = -g -Og -Wall -std=c18[K
+[K
+[33mFEED[39;49m = feed-cookie-monster[K
+[33mTARGETS[39;49m = $([33mFEED[39;49m)[K
+[K
+[33mOBJS[39;49m = $([33mFEED[39;49m).o cookie-wrapper.obj[K
+[K
+[1m[34mall[0m[39;49m:                    $([33mTARGETS[39;49m)[K
+[K
+[1m[34m$(FEED)[0m[39;49m:                $([33mOBJS[39;49m)[K
+                        $([33mCC[39;49m) $[35m^[39;49m -o [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[36mifeq[0m[39;49m ($([33mGEN[39;49m),1)[K
+[K
+[1m[34mcookie-wrapper.obj[0m[39;49m:     cookie-wrapper.o[K
+                        cp $[35m<[39;49m [1m[34m$[0m[39;49m[1m[35m@[0m[39;49m[K
+[K
+[1m[36mendif[0m[39;49m[K
+[K
+[1m[34m$(FEED).o[0m[39;49m:              $([33mFEED[39;49m).c cookie-wrapper.h[K
+[K
+[1m[34mcookie-wrapper.o[0m[39;49m:       cookie-wrapper.c cookie-wrapper.h[K
+                        $([33mCC[39;49m) -Og -Wall -std=c18 -c $[35m<[39;49m[K
+[K
+[1m[34mclean[0m[39;49m:[K
+                        rm -f $([33mFEED[39;49m) *.o *~[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mMakefile    [0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-lab6[0m[39;49m[27m[7m  (GNUmakefile) ------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[4]+  Stopped                 emacs Makefile
+akozina2@remote00:~/i220b/submit/lab6/exercises$ emacs Makefile\[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./gen-cookie
+akozina2@remote00:~/i220b/submit/lab6/exercises$ cat .cookie
+0xf18b
+akozina2@remote00:~/i220b/submit/lab6/exercises$ 
+akozina2@remote00:~/i220b/submit/lab6/exercises$ 
+akozina2@remote00:~/i220b/submit/lab6/exercises$ cd full-example
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ make -f[K[K[K[K[K[K[Kls
+cookie-wrapper.h    feed-cookie-monster    feed-cookie-monster.o
+cookie-wrapper.obj  feed-cookie-monster.c
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ rm feed-cookie-mon ster
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ ls
+cookie-wrapper.h    feed-cookie-monster.c
+cookie-wrapper.obj  feed-cookie-monster.o
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ make -f ../MAkefil e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckefile [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cakefile[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+gcc feed-cookie-monster.o cookie-wrapper.obj -o feed-cookie-monster
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ ./feed-cookie-mons ter
+Me want cookie!
+enter cookie unwrap key in hex: 9a03
+🥶 AARGH YUCK!!
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ ./feed-cookie-monster
+Me want cookie!
+enter cookie unwrap key in hex: 7a00
+🥶 AARGH YUCK!!
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ ./feed-cookie-monster
+Me want cookie!
+enter cookie unwrap key in hex: f18b
+🥶 AARGH YUCK!!
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ gdb feed-cookie-mo nster
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from feed-cookie-monster...done.
+(gdb) b unwrapCookie
+Breakpoint 1 at 0x13e5
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/full-example/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 33
+
+Breakpoint 1, 0x00005555555553e5 in unwrapCookie ()
+(gdb) disass
+Dump of assembler code for function unwrapCookie:
+=> 0x00005555555553e5 <+0>:	endbr64 
+   0x00005555555553e9 <+4>:	lea    (%rdi,%rdi,2),%eax
+   0x00005555555553ec <+7>:	and    $0xf,%eax
+   0x00005555555553ef <+10>:	lea    0x2cea(%rip),%rdx        # 0x5555555580e0 <vals>
+   0x00005555555553f6 <+17>:	add    (%rdx,%rax,4),%esi
+   0x00005555555553f9 <+20>:	mov    %esi,%eax
+   0x00005555555553fb <+22>:	retq   
+End of assembler dump.
+(gdb) [K(gdb) objdump -d feed-cookie-monster
+Undefined command: "objdump".  Try "help".
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 1154071] will be killed.
+
+Quit anyway? (y or n) n
+Not confirmed.
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 1154071] will be killed.
+
+Quit anyway? (y or n) y
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ objdump -d feed-cookie-monster
+
+feed-cookie-monster:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+0000000000001000 <_init>:
+    1000:	48 83 ec 08          	sub    $0x8,%rsp
+    1004:	48 8b 05 dd 2f 00 00 	mov    0x2fdd(%rip),%rax        # 3fe8 <__gmon_start__>
+    100b:	48 85 c0             	test   %rax,%rax
+    100e:	74 02                	je     1012 <_init+0x12>
+    1010:	ff d0                	callq  *%rax
+    1012:	48 83 c4 08          	add    $0x8,%rsp
+    1016:	c3                   	retq   
+
+Disassembly of section .plt:
+
+0000000000001020 <.plt>:
+    1020:	ff 35 e2 2f 00 00    	pushq  0x2fe2(%rip)        # 4008 <_GLOBAL_OFFSET_TABLE_+0x8>
+    1026:	ff 25 e4 2f 00 00    	jmpq   *0x2fe4(%rip)        # 4010 <_GLOBAL_OFFSET_TABLE_+0x10>
+    102c:	0f 1f 40 00          	nopl   0x0(%rax)
+
+0000000000001030 <__errno_location@plt>:
+    1030:	ff 25 e2 2f 00 00    	jmpq   *0x2fe2(%rip)        # 4018 <__errno_location@GLIBC_2.2.5>
+    1036:	68 00 00 00 00       	pushq  $0x0
+    103b:	e9 e0 ff ff ff       	jmpq   1020 <.plt>
+
+0000000000001040 <__isoc99_fscanf@plt>:
+    1040:	ff 25 da 2f 00 00    	jmpq   *0x2fda(%rip)        # 4020 <__isoc99_fscanf@GLIBC_2.7>
+    1046:	68 01 00 00 00       	pushq  $0x1
+    104b:	e9 d0 ff ff ff       	jmpq   1020 <.plt>
+
+0000000000001050 <puts@plt>:
+    1050:	ff 25 d2 2f 00 00    	jmpq   *0x2fd2(%rip)        # 4028 <puts@GLIBC_2.2.5>
+    1056:	68 02 00 00 00       	pushq  $0x2
+    105b:	e9 c0 ff ff ff       	jmpq   1020 <.plt>
+
+0000000000001060 <fclose@plt>:
+    1060:	ff 25 ca 2f 00 00    	jmpq   *0x2fca(%rip)        # 4030 <fclose@GLIBC_2.2.5>
+    1066:	68 03 00 00 00       	pushq  $0x3
+    106b:	e9 b0 ff ff ff       	jmpq   1020 <.plt>
+
+0000000000001070 <printf@plt>:
+    1070:	ff 25 c2 2f 00 00    	jmpq   *0x2fc2(%rip)        # 4038 <printf@GLIBC_2.2.5>
+    1076:	68 04 00 00 00       	pushq  $0x4
+    107b:	e9 a0 ff ff ff       	jmpq   1020 <.plt>
+
+0000000000001080 <fprintf@plt>:
+    1080:	ff 25 ba 2f 00 00    	jmpq   *0x2fba(%rip)        # 4040 <fprintf@GLIBC_2.2.5>
+    1086:	68 05 00 00 00       	pushq  $0x5
+    108b:	e9 90 ff ff ff       	jmpq   1020 <.plt>
+
+0000000000001090 <fflush@plt>:
+    1090:	ff 25 b2 2f 00 00    	jmpq   *0x2fb2(%rip)        # 4048 <fflush@GLIBC_2.2.5>
+    1096:	68 06 00 00 00       	pushq  $0x6
+    109b:	e9 80 ff ff ff       	jmpq   1020 <.plt>
+
+00000000000010a0 <fopen@plt>:
+    10a0:	ff 25 aa 2f 00 00    	jmpq   *0x2faa(%rip)        # 4050 <fopen@GLIBC_2.2.5>
+    10a6:	68 07 00 00 00       	pushq  $0x7
+    10ab:	e9 70 ff ff ff       	jmpq   1020 <.plt>
+
+00000000000010b0 <__isoc99_scanf@plt>:
+    10b0:	ff 25 a2 2f 00 00    	jmpq   *0x2fa2(%rip)        # 4058 <__isoc99_scanf@GLIBC_2.7>
+    10b6:	68 08 00 00 00       	pushq  $0x8
+    10bb:	e9 60 ff ff ff       	jmpq   1020 <.plt>
+
+00000000000010c0 <exit@plt>:
+    10c0:	ff 25 9a 2f 00 00    	jmpq   *0x2f9a(%rip)        # 4060 <exit@GLIBC_2.2.5>
+    10c6:	68 09 00 00 00       	pushq  $0x9
+    10cb:	e9 50 ff ff ff       	jmpq   1020 <.plt>
+
+00000000000010d0 <fwrite@plt>:
+    10d0:	ff 25 92 2f 00 00    	jmpq   *0x2f92(%rip)        # 4068 <fwrite@GLIBC_2.2.5>
+    10d6:	68 0a 00 00 00       	pushq  $0xa
+    10db:	e9 40 ff ff ff       	jmpq   1020 <.plt>
+
+00000000000010e0 <strerror@plt>:
+    10e0:	ff 25 8a 2f 00 00    	jmpq   *0x2f8a(%rip)        # 4070 <strerror@GLIBC_2.2.5>
+    10e6:	68 0b 00 00 00       	pushq  $0xb
+    10eb:	e9 30 ff ff ff       	jmpq   1020 <.plt>
+
+Disassembly of section .plt.got:
+
+00000000000010f0 <__cxa_finalize@plt>:
+    10f0:	ff 25 02 2f 00 00    	jmpq   *0x2f02(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>
+    10f6:	66 90                	xchg   %ax,%ax
+
+Disassembly of section .text:
+
+0000000000001100 <_start>:
+    1100:	31 ed                	xor    %ebp,%ebp
+    1102:	49 89 d1             	mov    %rdx,%r9
+    1105:	5e                   	pop    %rsi
+    1106:	48 89 e2             	mov    %rsp,%rdx
+    1109:	48 83 e4 f0          	and    $0xfffffffffffffff0,%rsp
+    110d:	50                   	push   %rax
+    110e:	54                   	push   %rsp
+    110f:	4c 8d 05 4a 03 00 00 	lea    0x34a(%rip),%r8        # 1460 <__libc_csu_fini>
+    1116:	48 8d 0d e3 02 00 00 	lea    0x2e3(%rip),%rcx        # 1400 <__libc_csu_init>
+    111d:	48 8d 3d c8 01 00 00 	lea    0x1c8(%rip),%rdi        # 12ec <main>
+    1124:	ff 15 b6 2e 00 00    	callq  *0x2eb6(%rip)        # 3fe0 <__libc_start_main@GLIBC_2.2.5>
+    112a:	f4                   	hlt    
+    112b:	0f 1f 44 00 00       	nopl   0x0(%rax,%rax,1)
+
+0000000000001130 <deregister_tm_clones>:
+    1130:	48 8d 3d 51 2f 00 00 	lea    0x2f51(%rip),%rdi        # 4088 <__TMC_END__>
+    1137:	48 8d 05 4a 2f 00 00 	lea    0x2f4a(%rip),%rax        # 4088 <__TMC_END__>
+    113e:	48 39 f8             	cmp    %rdi,%rax
+    1141:	74 15                	je     1158 <deregister_tm_clones+0x28>
+    1143:	48 8b 05 8e 2e 00 00 	mov    0x2e8e(%rip),%rax        # 3fd8 <_ITM_deregisterTMCloneTable>
+    114a:	48 85 c0             	test   %rax,%rax
+    114d:	74 09                	je     1158 <deregister_tm_clones+0x28>
+    114f:	ff e0                	jmpq   *%rax
+    1151:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+    1158:	c3                   	retq   
+    1159:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+0000000000001160 <register_tm_clones>:
+    1160:	48 8d 3d 21 2f 00 00 	lea    0x2f21(%rip),%rdi        # 4088 <__TMC_END__>
+    1167:	48 8d 35 1a 2f 00 00 	lea    0x2f1a(%rip),%rsi        # 4088 <__TMC_END__>
+    116e:	48 29 fe             	sub    %rdi,%rsi
+    1171:	48 c1 fe 03          	sar    $0x3,%rsi
+    1175:	48 89 f0             	mov    %rsi,%rax
+    1178:	48 c1 e8 3f          	shr    $0x3f,%rax
+    117c:	48 01 c6             	add    %rax,%rsi
+    117f:	48 d1 fe             	sar    %rsi
+    1182:	74 14                	je     1198 <register_tm_clones+0x38>
+    1184:	48 8b 05 65 2e 00 00 	mov    0x2e65(%rip),%rax        # 3ff0 <_ITM_registerTMCloneTable>
+    118b:	48 85 c0             	test   %rax,%rax
+    118e:	74 08                	je     1198 <register_tm_clones+0x38>
+    1190:	ff e0                	jmpq   *%rax
+    1192:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+    1198:	c3                   	retq   
+    1199:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+00000000000011a0 <__do_global_dtors_aux>:
+    11a0:	80 3d 21 2f 00 00 00 	cmpb   $0x0,0x2f21(%rip)        # 40c8 <completed.7325>
+    11a7:	75 2f                	jne    11d8 <__do_global_dtors_aux+0x38>
+    11a9:	55                   	push   %rbp
+    11aa:	48 83 3d 46 2e 00 00 	cmpq   $0x0,0x2e46(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>
+    11b1:	00 
+    11b2:	48 89 e5             	mov    %rsp,%rbp
+    11b5:	74 0c                	je     11c3 <__do_global_dtors_aux+0x23>
+    11b7:	48 8b 3d c2 2e 00 00 	mov    0x2ec2(%rip),%rdi        # 4080 <__dso_handle>
+    11be:	e8 2d ff ff ff       	callq  10f0 <__cxa_finalize@plt>
+    11c3:	e8 68 ff ff ff       	callq  1130 <deregister_tm_clones>
+    11c8:	c6 05 f9 2e 00 00 01 	movb   $0x1,0x2ef9(%rip)        # 40c8 <completed.7325>
+    11cf:	5d                   	pop    %rbp
+    11d0:	c3                   	retq   
+    11d1:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+    11d8:	c3                   	retq   
+    11d9:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+00000000000011e0 <frame_dummy>:
+    11e0:	e9 7b ff ff ff       	jmpq   1160 <register_tm_clones>
+
+00000000000011e5 <getCookie>:
+    11e5:	55                   	push   %rbp
+    11e6:	53                   	push   %rbx
+    11e7:	48 83 ec 18          	sub    $0x18,%rsp
+    11eb:	48 8d 35 12 0e 00 00 	lea    0xe12(%rip),%rsi        # 2004 <_IO_stdin_used+0x4>
+    11f2:	48 8d 3d 0d 0e 00 00 	lea    0xe0d(%rip),%rdi        # 2006 <_IO_stdin_used+0x6>
+    11f9:	e8 a2 fe ff ff       	callq  10a0 <fopen@plt>
+    11fe:	48 85 c0             	test   %rax,%rax
+    1201:	74 3e                	je     1241 <getCookie+0x5c>
+    1203:	48 89 c3             	mov    %rax,%rbx
+    1206:	c7 44 24 0c ff ff ff 	movl   $0xffffffff,0xc(%rsp)
+    120d:	ff 
+    120e:	48 8d 54 24 0c       	lea    0xc(%rsp),%rdx
+    1213:	48 8d 35 0b 0e 00 00 	lea    0xe0b(%rip),%rsi        # 2025 <_IO_stdin_used+0x25>
+    121a:	48 89 c7             	mov    %rax,%rdi
+    121d:	b8 00 00 00 00       	mov    $0x0,%eax
+    1222:	e8 19 fe ff ff       	callq  1040 <__isoc99_fscanf@plt>
+    1227:	89 c5                	mov    %eax,%ebp
+    1229:	48 89 df             	mov    %rbx,%rdi
+    122c:	e8 2f fe ff ff       	callq  1060 <fclose@plt>
+    1231:	83 fd 01             	cmp    $0x1,%ebp
+    1234:	75 43                	jne    1279 <getCookie+0x94>
+    1236:	8b 44 24 0c          	mov    0xc(%rsp),%eax
+    123a:	48 83 c4 18          	add    $0x18,%rsp
+    123e:	5b                   	pop    %rbx
+    123f:	5d                   	pop    %rbp
+    1240:	c3                   	retq   
+    1241:	e8 ea fd ff ff       	callq  1030 <__errno_location@plt>
+    1246:	8b 38                	mov    (%rax),%edi
+    1248:	e8 93 fe ff ff       	callq  10e0 <strerror@plt>
+    124d:	48 89 c1             	mov    %rax,%rcx
+    1250:	48 8d 15 af 0d 00 00 	lea    0xdaf(%rip),%rdx        # 2006 <_IO_stdin_used+0x6>
+    1257:	48 8d 35 b3 0d 00 00 	lea    0xdb3(%rip),%rsi        # 2011 <_IO_stdin_used+0x11>
+    125e:	48 8b 3d 5b 2e 00 00 	mov    0x2e5b(%rip),%rdi        # 40c0 <stderr@@GLIBC_2.2.5>
+    1265:	b8 00 00 00 00       	mov    $0x0,%eax
+    126a:	e8 11 fe ff ff       	callq  1080 <fprintf@plt>
+    126f:	bf 01 00 00 00       	mov    $0x1,%edi
+    1274:	e8 47 fe ff ff       	callq  10c0 <exit@plt>
+    1279:	48 8b 0d 40 2e 00 00 	mov    0x2e40(%rip),%rcx        # 40c0 <stderr@@GLIBC_2.2.5>
+    1280:	ba 1b 00 00 00       	mov    $0x1b,%edx
+    1285:	be 01 00 00 00       	mov    $0x1,%esi
+    128a:	48 8d 3d 99 0d 00 00 	lea    0xd99(%rip),%rdi        # 202a <_IO_stdin_used+0x2a>
+    1291:	e8 3a fe ff ff       	callq  10d0 <fwrite@plt>
+    1296:	bf 01 00 00 00       	mov    $0x1,%edi
+    129b:	e8 20 fe ff ff       	callq  10c0 <exit@plt>
+
+00000000000012a0 <getUnwrapKey>:
+    12a0:	48 83 ec 18          	sub    $0x18,%rsp
+    12a4:	b8 00 00 00 00       	mov    $0x0,%eax
+    12a9:	83 f8 01             	cmp    $0x1,%eax
+    12ac:	74 35                	je     12e3 <getUnwrapKey+0x43>
+    12ae:	48 8d 3d d3 0d 00 00 	lea    0xdd3(%rip),%rdi        # 2088 <_IO_stdin_used+0x88>
+    12b5:	b8 00 00 00 00       	mov    $0x0,%eax
+    12ba:	e8 b1 fd ff ff       	callq  1070 <printf@plt>
+    12bf:	48 8b 3d da 2d 00 00 	mov    0x2dda(%rip),%rdi        # 40a0 <stdout@@GLIBC_2.2.5>
+    12c6:	e8 c5 fd ff ff       	callq  1090 <fflush@plt>
+    12cb:	48 8d 74 24 0c       	lea    0xc(%rsp),%rsi
+    12d0:	48 8d 3d 50 0d 00 00 	lea    0xd50(%rip),%rdi        # 2027 <_IO_stdin_used+0x27>
+    12d7:	b8 00 00 00 00       	mov    $0x0,%eax
+    12dc:	e8 cf fd ff ff       	callq  10b0 <__isoc99_scanf@plt>
+    12e1:	eb c6                	jmp    12a9 <getUnwrapKey+0x9>
+    12e3:	8b 44 24 0c          	mov    0xc(%rsp),%eax
+    12e7:	48 83 c4 18          	add    $0x18,%rsp
+    12eb:	c3                   	retq   
+
+00000000000012ec <main>:
+    12ec:	55                   	push   %rbp
+    12ed:	53                   	push   %rbx
+    12ee:	48 83 ec 08          	sub    $0x8,%rsp
+    12f2:	48 8d 3d 78 0d 00 00 	lea    0xd78(%rip),%rdi        # 2071 <_IO_stdin_used+0x71>
+    12f9:	e8 52 fd ff ff       	callq  1050 <puts@plt>
+    12fe:	b8 00 00 00 00       	mov    $0x0,%eax
+    1303:	e8 dd fe ff ff       	callq  11e5 <getCookie>
+    1308:	89 c3                	mov    %eax,%ebx
+    130a:	89 c7                	mov    %eax,%edi
+    130c:	e8 7a 00 00 00       	callq  138b <wrapCookie>
+    1311:	89 c5                	mov    %eax,%ebp
+    1313:	b8 00 00 00 00       	mov    $0x0,%eax
+    1318:	e8 83 ff ff ff       	callq  12a0 <getUnwrapKey>
+    131d:	89 c6                	mov    %eax,%esi
+    131f:	89 ef                	mov    %ebp,%edi
+    1321:	e8 bf 00 00 00       	callq  13e5 <unwrapCookie>
+    1326:	39 d8                	cmp    %ebx,%eax
+    1328:	40 0f 94 c5          	sete   %bpl
+    132c:	40 0f b6 ed          	movzbl %bpl,%ebp
+    1330:	74 1a                	je     134c <main+0x60>
+    1332:	48 8d 3d 0d 0d 00 00 	lea    0xd0d(%rip),%rdi        # 2046 <_IO_stdin_used+0x46>
+    1339:	b8 00 00 00 00       	mov    $0x0,%eax
+    133e:	e8 2d fd ff ff       	callq  1070 <printf@plt>
+    1343:	89 e8                	mov    %ebp,%eax
+    1345:	48 83 c4 08          	add    $0x8,%rsp
+    1349:	5b                   	pop    %rbx
+    134a:	5d                   	pop    %rbp
+    134b:	c3                   	retq   
+    134c:	48 8d 3d 06 0d 00 00 	lea    0xd06(%rip),%rdi        # 2059 <_IO_stdin_used+0x59>
+    1353:	eb e4                	jmp    1339 <main+0x4d>
+
+0000000000001355 <f1>:
+    1355:	89 f8                	mov    %edi,%eax
+    1357:	c1 f8 05             	sar    $0x5,%eax
+    135a:	83 e0 0f             	and    $0xf,%eax
+    135d:	74 01                	je     1360 <f1+0xb>
+    135f:	c3                   	retq   
+    1360:	b8 0c 00 00 00       	mov    $0xc,%eax
+    1365:	eb f8                	jmp    135f <f1+0xa>
+
+0000000000001367 <f2>:
+    1367:	89 f8                	mov    %edi,%eax
+    1369:	c1 f8 04             	sar    $0x4,%eax
+    136c:	83 e0 0f             	and    $0xf,%eax
+    136f:	74 01                	je     1372 <f2+0xb>
+    1371:	c3                   	retq   
+    1372:	b8 07 00 00 00       	mov    $0x7,%eax
+    1377:	eb f8                	jmp    1371 <f2+0xa>
+
+0000000000001379 <f3>:
+    1379:	89 f8                	mov    %edi,%eax
+    137b:	c1 f8 08             	sar    $0x8,%eax
+    137e:	83 e0 0f             	and    $0xf,%eax
+    1381:	74 01                	je     1384 <f3+0xb>
+    1383:	c3                   	retq   
+    1384:	b8 0a 00 00 00       	mov    $0xa,%eax
+    1389:	eb f8                	jmp    1383 <f3+0xa>
+
+000000000000138b <wrapCookie>:
+    138b:	f3 0f 1e fa          	endbr64 
+    138f:	41 54                	push   %r12
+    1391:	55                   	push   %rbp
+    1392:	53                   	push   %rbx
+    1393:	41 89 fc             	mov    %edi,%r12d
+    1396:	e8 ba ff ff ff       	callq  1355 <f1>
+    139b:	89 c3                	mov    %eax,%ebx
+    139d:	44 89 e7             	mov    %r12d,%edi
+    13a0:	e8 c2 ff ff ff       	callq  1367 <f2>
+    13a5:	89 c5                	mov    %eax,%ebp
+    13a7:	44 89 e7             	mov    %r12d,%edi
+    13aa:	e8 ca ff ff ff       	callq  1379 <f3>
+    13af:	ba 00 00 00 00       	mov    $0x0,%edx
+    13b4:	83 fa 0f             	cmp    $0xf,%edx
+    13b7:	7f 18                	jg     13d1 <wrapCookie+0x46>
+    13b9:	8d 0c 1a             	lea    (%rdx,%rbx,1),%ecx
+    13bc:	83 e1 0f             	and    $0xf,%ecx
+    13bf:	48 63 fa             	movslq %edx,%rdi
+    13c2:	48 8d 35 17 2d 00 00 	lea    0x2d17(%rip),%rsi        # 40e0 <vals>
+    13c9:	89 0c be             	mov    %ecx,(%rsi,%rdi,4)
+    13cc:	83 c2 01             	add    $0x1,%edx
+    13cf:	eb e3                	jmp    13b4 <wrapCookie+0x29>
+    13d1:	8d 14 03             	lea    (%rbx,%rax,1),%edx
+    13d4:	85 d2                	test   %edx,%edx
+    13d6:	7e 07                	jle    13df <wrapCookie+0x54>
+    13d8:	89 e8                	mov    %ebp,%eax
+    13da:	5b                   	pop    %rbx
+    13db:	5d                   	pop    %rbp
+    13dc:	41 5c                	pop    %r12
+    13de:	c3                   	retq   
+    13df:	29 c3                	sub    %eax,%ebx
+    13e1:	89 dd                	mov    %ebx,%ebp
+    13e3:	eb f3                	jmp    13d8 <wrapCookie+0x4d>
+
+00000000000013e5 <unwrapCookie>:
+    13e5:	f3 0f 1e fa          	endbr64 
+    13e9:	8d 04 7f             	lea    (%rdi,%rdi,2),%eax
+    13ec:	83 e0 0f             	and    $0xf,%eax
+    13ef:	48 8d 15 ea 2c 00 00 	lea    0x2cea(%rip),%rdx        # 40e0 <vals>
+    13f6:	03 34 82             	add    (%rdx,%rax,4),%esi
+    13f9:	89 f0                	mov    %esi,%eax
+    13fb:	c3                   	retq   
+    13fc:	0f 1f 40 00          	nopl   0x0(%rax)
+
+0000000000001400 <__libc_csu_init>:
+    1400:	41 57                	push   %r15
+    1402:	49 89 d7             	mov    %rdx,%r15
+    1405:	41 56                	push   %r14
+    1407:	49 89 f6             	mov    %rsi,%r14
+    140a:	41 55                	push   %r13
+    140c:	41 89 fd             	mov    %edi,%r13d
+    140f:	41 54                	push   %r12
+    1411:	4c 8d 25 d0 29 00 00 	lea    0x29d0(%rip),%r12        # 3de8 <__frame_dummy_init_array_entry>
+    1418:	55                   	push   %rbp
+    1419:	48 8d 2d d0 29 00 00 	lea    0x29d0(%rip),%rbp        # 3df0 <__init_array_end>
+    1420:	53                   	push   %rbx
+    1421:	4c 29 e5             	sub    %r12,%rbp
+    1424:	48 83 ec 08          	sub    $0x8,%rsp
+    1428:	e8 d3 fb ff ff       	callq  1000 <_init>
+    142d:	48 c1 fd 03          	sar    $0x3,%rbp
+    1431:	74 1b                	je     144e <__libc_csu_init+0x4e>
+    1433:	31 db                	xor    %ebx,%ebx
+    1435:	0f 1f 00             	nopl   (%rax)
+    1438:	4c 89 fa             	mov    %r15,%rdx
+    143b:	4c 89 f6             	mov    %r14,%rsi
+    143e:	44 89 ef             	mov    %r13d,%edi
+    1441:	41 ff 14 dc          	callq  *(%r12,%rbx,8)
+    1445:	48 83 c3 01          	add    $0x1,%rbx
+    1449:	48 39 dd             	cmp    %rbx,%rbp
+    144c:	75 ea                	jne    1438 <__libc_csu_init+0x38>
+    144e:	48 83 c4 08          	add    $0x8,%rsp
+    1452:	5b                   	pop    %rbx
+    1453:	5d                   	pop    %rbp
+    1454:	41 5c                	pop    %r12
+    1456:	41 5d                	pop    %r13
+    1458:	41 5e                	pop    %r14
+    145a:	41 5f                	pop    %r15
+    145c:	c3                   	retq   
+    145d:	0f 1f 00             	nopl   (%rax)
+
+0000000000001460 <__libc_csu_fini>:
+    1460:	c3                   	retq   
+
+Disassembly of section .fini:
+
+0000000000001464 <_fini>:
+    1464:	48 83 ec 08          	sub    $0x8,%rsp
+    1468:	48 83 c4 08          	add    $0x8,%rsp
+    146c:	c3                   	retq   
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ [Kakozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ gdb
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+(gdb) q
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ gdb feed-cokkie-monster
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+feed-cokkie-monster: No such file or directory.
+(gdb) b unwrapCokkie[K[K[K[Kokie
+No symbol table is loaded.  Use the "file" command.
+Make breakpoint pending on future shared library load? (y or [n]) q
+Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) n
+(gdb) q
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ gdb feed-cookie-monster
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from feed-cookie-monster...done.
+(gdb) b unwrapCookie
+Breakpoint 1 at 0x13e5
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/full-example/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 2 33
+
+Breakpoint 1, 0x00005555555553e5 in unwrapCookie ()
+(gdb) disass
+Dump of assembler code for function unwrapCookie:
+=> 0x00005555555553e5 <+0>:	endbr64 
+   0x00005555555553e9 <+4>:	lea    (%rdi,%rdi,2),%eax
+   0x00005555555553ec <+7>:	and    $0xf,%eax
+   0x00005555555553ef <+10>:	lea    0x2cea(%rip),%rdx        # 0x5555555580e0 <vals>
+   0x00005555555553f6 <+17>:	add    (%rdx,%rax,4),%esi
+   0x00005555555553f9 <+20>:	mov    %esi,%eax
+   0x00005555555553fb <+22>:	retq   
+End of assembler dump.
+(gdb) p /x 0x0000555555555f6 + 0x2cea
+$1 = 0x555555582e0
+(gdb) p /x 0x0000555555555f6 + 0x2cea[1@3
+$2 = 0x5555555580e0
+(gdb) i reg $rdi
+rdi            0x8                 8
+(gdb) i reg $rsi
+rsi            0x33                51
+(gdb) p ((int *)0x555555558060)[0]@16[1P0)[0]@1630)[0]@16[1P0)[0]@16e0)[0]@16
+$3 = {12, 13, 14, 15, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/full-example/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: f18a
+
+Breakpoint 1, 0x00005555555553e5 in unwrapCookie ()
+(gdb) c
+Continuing.
+🥶 AARGH YUCK!!
+[Inferior 1 (process 1158434) exited normally]
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/full-example/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 7a00
+
+Breakpoint 1, 0x00005555555553e5 in unwrapCookie ()
+(gdb) c
+Continuing.
+🥶 AARGH YUCK!!
+[Inferior 1 (process 1159169) exited normally]
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/full-example/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: f18a
+
+Breakpoint 1, 0x00005555555553e5 in unwrapCookie ()
+(gdb) c
+Continuing.
+🥶 AARGH YUCK!!
+[Inferior 1 (process 1159625) exited normally]
+(gdb) crcrcr
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/full-example/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 78  8a00
+
+Breakpoint 1, 0x00005555555553e5 in unwrapCookie ()
+(gdb) c
+Continuing.
+🥶 AARGH YUCK!!
+[Inferior 1 (process 1159858) exited normally]
+(gdb) cr
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/full-example/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 8aoo  00
+
+Breakpoint 1, 0x00005555555553e5 in unwrapCookie ()
+(gdb) c
+Continuing.
+🥶 AARGH YUCK!!
+[Inferior 1 (process 1160430) exited normally]
+(gdb) q
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ .gen[K[K[K/gen-cookie
+bash: ./gen-cookie: No such file or directory
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ cd ..
+akozina2@remote00:~/i220b/submit/lab6/exercises$ ./gen [K-cookie
+akozina2@remote00:~/i220b/submit/lab6/exercises$ cat .cp[Kookie
+0xf18b
+akozina2@remote00:~/i220b/submit/lab6/exercises$ cd exercises/full example[1Pexample-example
+bash: cd: exercises/full-example: No such file or directory
+akozina2@remote00:~/i220b/submit/lab6/exercises$ cd full-example
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ make-f[K[K -f ../Makefile
+make: Nothing to be done for 'all'.
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ gdb feed-cookie-monster
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from feed-cookie-monster...done.
+(gdb) b unwrapCokkie[K[K[K[Kokie
+Breakpoint 1 at 0x13e5
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/full-example/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 33
+
+Breakpoint 1, 0x00005555555553e5 in unwrapCookie ()
+(gdb) disass
+Dump of assembler code for function unwrapCookie:
+=> 0x00005555555553e5 <+0>:	endbr64 
+   0x00005555555553e9 <+4>:	lea    (%rdi,%rdi,2),%eax
+   0x00005555555553ec <+7>:	and    $0xf,%eax
+   0x00005555555553ef <+10>:	lea    0x2cea(%rip),%rdx        # 0x5555555580e0 <vals>
+   0x00005555555553f6 <+17>:	add    (%rdx,%rax,4),%esi
+   0x00005555555553f9 <+20>:	mov    %esi,%eax
+   0x00005555555553fb <+22>:	retq   
+End of assembler dump.
+(gdb) disassr[Kb unwrapCookie[K[K[K[K[K[K[K[K[K[K[K[K[K[Kp /x 0x0000555555555f6 + 0x2cea
+$1 = 0x555555582e0
+(gdb) p /x 0x0000555555555f6 + 0x2cea[C[C[1@3
+$2 = 0x5555555580e0
+(gdb) i reg $rdi
+rdi            0x8                 8
+(gdb) i reg $rsi
+rsi            0x33                51
+(gdb) p ((int *)0x555555558060)[0]@16[1P0)[0]@16e0)[0]@16
+$3 = {12, 13, 14, 15, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/full-example/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: f187
+
+Breakpoint 1, 0x00005555555553e5 in unwrapCookie ()
+(gdb) c
+Continuing.
+😂 CHOMP!!! CHOMP!!!
+[Inferior 1 (process 1163067) exited with code 01]
+(gdb) q
+akozina2@remote00:~/i220b/submit/lab6/exercises/full-example$ cd ..
+akozina2@remote00:~/i220b/submit/lab6/exercises$ ls
+1  3		cookie-wrapper.h       full-example  Makefile
+2  another-one	feed-cookie-monster.c  gen-cookie    simple
+akozina2@remote00:~/i220b/submit/lab6/exercises$ cd simple
+akozina2@remote00:~/i220b/submit/lab6/exercises/simple$ ls
+cookie-wrapper.h  cookie-wrapper.obj  feed-cookie-monster.c
+akozina2@remote00:~/i220b/submit/lab6/exercises/simple$ make -f ../Makefile
+gcc -g -Og -Wall -std=c18   -c -o feed-cookie-monster.o feed-cookie-monster.c
+gcc feed-cookie-monster.o cookie-wrapper.obj -o feed-cookie-monster
+akozina2@remote00:~/i220b/submit/lab6/exercises/simple$ gdb feed-cookie-monster
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from feed-cookie-monster...done.
+(gdb) b unwrapCookie
+Breakpoint 1 at 0x13c3
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/simple/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 33
+
+Breakpoint 1, 0x00005555555553c3 in unwrapCookie ()
+(gdb) disass
+Dump of assembler code for function unwrapCookie:
+=> 0x00005555555553c3 <+0>:	endbr64 
+   0x00005555555553c7 <+4>:	lea    (%rdi,%rsi,1),%eax
+   0x00005555555553ca <+7>:	retq   
+End of assembler dump.
+(gdb) p[Ki reg $rdi
+rdi            0xc                 12
+(gdb) i reg &rsi
+Invalid register `&rsi'
+(gdb) i reg $rsi
+rsi            0x33                51
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 1165468] will be killed.
+
+Quit anyway? (y or n) y
+akozina2@remote00:~/i220b/submit/lab6/exercises/simple$ ls
+cookie-wrapper.h    feed-cookie-monster    feed-cookie-monster.o
+cookie-wrapper.obj  feed-cookie-monster.c
+akozina2@remote00:~/i220b/submit/lab6/exercises/simple$ emacs feed-cookie-moc[Knster.c
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[58d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[57d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[58;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[58;54H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[58;59H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[58;58H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[58;60H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[58;57H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[58;77H[?25ldone[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[58;75H[?25ldone[H
+[?12l[?25h[?12;25h[58;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[58;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58;61H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[58;3H[?25ldone[H
+[?12l[?25h[?12;25h[58d[K[57;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[57;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[57;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[57;75H[?25ldone[H
+[?12l[?25h[?12;25h[57;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[57;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[57;64H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[57;65H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[57;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools C Help                                                        [0m[39;49m[27m
+[A
+[1m[34m#include[0m[39;49m [32m<errno.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<stdio.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<stdlib.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<string.h>[39;49m[K
+[K
+[1m[34m#include[0m[39;49m [32m"cookie-wrapper.h"[39;49m[K
+[K
+[1m[34m#define[0m[39;49m [33mCOOKIE_FILE[39;49m  [32m"../.cookie"[39;49m[K
+[K
+[1m[36mstatic[0m[39;49m [32mint[39;49m [1m[34mgetCookie[0m[39;49m() {[K
+  [32mFILE[39;49m *[33mcookieFile[39;49m = fopen(COOKIE_FILE, [32m"r"[39;49m);[K
+  [1m[36mif[0m[39;49m (!cookieFile) {[K
+    fprintf(stderr, [32m"cannot read %s: %s\n"[39;49m, COOKIE_FILE, strerror(errno));[K
+    exit(1);[K
+  }[K
+  [32mint[39;49m [33mcookie[39;49m = -1;[K
+  [32mint[39;49m [33mn[39;49m = fscanf(cookieFile, [32m"0x%x"[39;49m, &cookie);[K
+  fclose(cookieFile);[K
+  [1m[36mif[0m[39;49m (n != 1) {[K
+    fprintf(stderr, [32m"unable to scan cookie file\n"[39;49m);[K
+    exit(1);[K
+  }[K
+  [1m[36mreturn[0m[39;49m cookie;[K
+}[K
+[K
+[1m[36mstatic[0m[39;49m [32mint[39;49m [1m[34mgetUnwrapKey[0m[39;49m() {[K
+  [32mint[39;49m [33mkey[39;49m;[K
+  [32mint[39;49m [33mn[39;49m = 0;[K
+  [1m[36mwhile[0m[39;49m (n != 1) {[K
+    printf([32m"enter cookie unwrap key in hex: "[39;49m);[K
+    fflush(stdout);[K
+    n = scanf([32m"%x"[39;49m, &key);[K
+  }[K
+  [1m[36mreturn[0m[39;49m key;[K
+}[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m() {[K
+[K
+  printf([32m"Me want cookie!\n"[39;49m);[K
+  [1m[36mconst[0m[39;49m [32mint[39;49m [33mcookie[39;49m = getCookie();[K
+  [32mint[39;49m [33mwrapped[39;49m = wrapCookie(cookie);[K
+  [32mint[39;49m [33mkey[39;49m = getUnwrapKey();[K
+  [32mint[39;49m [33mgotIt[39;49m = unwrapCookie(wrapped, key) == cookie;[K
+  printf(gotIt ? [32m"😂 CHOMP!!! CHOMP!!!\n"[39;49m : [32m"🥶 AARGH YUCK!!\n"[39;49m);[K
+  [1m[36mreturn[0m[39;49m !!gotIt;[K
+[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mfeed-cookie-monster.c[0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-lab6[0m[39;49m[27m[7m  (C/*l Abbrev) -----------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[K[57;43H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[57;43H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[57;43H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[57;43H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[57;43H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[57;43H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[57;43H[?25l[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[57;43H[?25l[7m9[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h[57;43H[?25l[7m10[0m[39;49m[27m[11;1H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[57;44H[?25l[7m2[0m[39;49m[27m[13;1H[?12l[?25h[?12;25h[57;44H[?25l[7m3[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h[57;44H[?25l[7m4[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[57;44H[?25l[7m5[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h[57;44H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[57;44H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[57;44H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[57;44H[?25l[7m9[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[57;43H[?25l[7m20[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[57;44H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[57;44H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[57;44H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[57;44H[?25l[7m5[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[57;44H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[57;44H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[57;44H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[57;44H[?25l[7m9[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[57;43H[?25l[7m30[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[57;44H[?25l[7m2[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[57;44H[?25l[7m3[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[57;44H[?25l[7m2[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[57;44H[?25l[7m0[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[57;43H[?25l[7m29[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[57;44H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[57;44H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[57;44H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[57;44H[?25l[7m5[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[57;44H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[57;44H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[57;44H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[57;44H[?25l[7m9[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[57;43H[?25l[7m30[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[57;44H[?25l[7m2[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[57;44H[?25l[7m3[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[57;44H[?25l[7m2[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[57;44H[?25l[7m0[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[57;43H[?25l[7m29[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[57;44H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[57;44H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[57;44H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[57;44H[?25l[7m5[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[57;44H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[57;44H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[57;44H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[57;44H[?25l[7m0[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[57;43H[?25l[7m19[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[57;44H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[57;44H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[57;44H[?25l[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[57;44H[?25l[7m7[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[57;44H[?25l[7m8[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[57;44H[?25l[7m9[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[57;43H[?25l[7m20[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[57;44H[?25l[7m2[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[57;44H[?25l[7m3[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[57;44H[?25l[7m4[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[57;44H[?25l[7m5[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[57;44H[?25l[7m6[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[57;44H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[57;44H[?25l[7m8[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[57;44H[?25l[7m9[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[57;43H[?25l[7m30[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[57;44H[?25l[7m2[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[57;44H[?25l[7m3[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[57;44H[?25l[7m4[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[57;44H[?25l[7m5[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[57;44H[?25l[7m6[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[57;44H[?25l[7m7[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[57;44H[?25l[7m8[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[57;44H[?25l[7m9[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[57;43H[?25l[7m40[0m[39;49m[27m[41;1H[?12l[?25h[?12;25h[57;44H[?25l[7m1[0m[39;49m[27m[42;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[57;44H[?25l[7m2[0m[39;49m[27m[43;21H[?12l[?25h[?12;25h[58;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[5]+  Stopped                 emacs feed-cookie-monster.c
+akozina2@remote00:~/i220b/submit/lab6/exercises/simple$ emacs feed-cookie-monster.cls[Kgdb feed-cookie-monster[4Pmake -f ../Makefilels[Kmake -f ../Makefilegdb feed-cookie-monster
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from feed-cookie-monster...done.
+(gdb) b unwrapCookie
+Breakpoint 1 at 0x13c3
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/simple/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 33
+
+Breakpoint 1, 0x00005555555553c3 in unwrapCookie ()
+(gdb) i reg $rdi
+rdi            0xc                 12
+(gdb) i reg$rsi[K[K[K[K $rsi
+rsi            0x33                51
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/simple/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: f18A
+
+Breakpoint 1, 0x00005555555553c3 in unwrapCookie ()
+(gdb) c
+Continuing.
+🥶 AARGH YUCK!!
+[Inferior 1 (process 1167439) exited normally]
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/simple/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: f17f
+
+Breakpoint 1, 0x00005555555553c3 in unwrapCookie ()
+(gdb) c
+Continuing.
+😂 CHOMP!!! CHOMP!!!
+[Inferior 1 (process 1167792) exited with code 01]
+(gdb) q
+akozina2@remote00:~/i220b/submit/lab6/exercises/simple$ cd ..
+akozina2@remote00:~/i220b/submit/lab6/exercises$ cd ..gdb feed-cookie-monsteremacs feed-cookie-monster.cls[Kgdb feed-cookie-monster[4Pmake -f ../Makefile
+make: ../Makefile: No such file or directory
+make: *** No rule to make target '../Makefile'.  Stop.
+akozina2@remote00:~/i220b/submit/lab6/exercises$ cd another-one
+akozina2@remote00:~/i220b/submit/lab6/exercises/another-one$ cd another-onemake -f ../Makefile
+gcc -g -Og -Wall -std=c18   -c -o feed-cookie-monster.o feed-cookie-monster.c
+gcc feed-cookie-monster.o cookie-wrapper.obj -o feed-cookie-monster
+akozina2@remote00:~/i220b/submit/lab6/exercises/another-one$ make -f ../Makefile[5Pcd another-onemake -f ../Makefilecd ..[Kgdb feed-cookie-monsteremacs feed-cookie-monster.c[4Pgdb feed-cookie-monster
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from feed-cookie-monster...done.
+(gdb) b unwrapCookie
+Breakpoint 1 at 0x1408
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/another-one/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 33
+
+Breakpoint 1, 0x0000555555555408 in unwrapCookie ()
+(gdb) disass
+Dump of assembler code for function unwrapCookie:
+=> 0x0000555555555408 <+0>:	endbr64 
+   0x000055555555540c <+4>:	mov    %edi,%ecx
+   0x000055555555540e <+6>:	and    $0xf,%ecx
+   0x0000555555555411 <+9>:	and    $0x7,%edi
+   0x0000555555555414 <+12>:	lea    0x2cc5(%rip),%rax        # 0x5555555580e0 <vals2>
+   0x000055555555541b <+19>:	mov    (%rax,%rdi,4),%edx
+   0x000055555555541e <+22>:	lea    0x2cdb(%rip),%rax        # 0x555555558100 <vals1>
+   0x0000555555555425 <+29>:	add    (%rax,%rcx,4),%edx
+   0x0000555555555428 <+32>:	lea    (%rdx,%rdx,4),%eax
+   0x000055555555542b <+35>:	add    %esi,%eax
+   0x000055555555542d <+37>:	retq   
+End of assembler dump.
+(gdb) i reg $rdi
+rdi            0x3                 3
+(gdb) i reg $rsi
+rsi            0x33                51
+(gdb) p ((int *)0x555555558060)[0]@16[1P0)[0]@16e0)[0]@16
+$1 = {3, 6, 1, 4, 7, 2, 5, 0, 1, 6, 11, 0, 5, 10, 15, 4}
+(gdb) p ((int *)0x5555555580e0)[0]@16[C[1Pe0)[0]@161e0)[0]@16[C[1P0)[0]@16[C0)[0]@16
+$2 = {1, 6, 11, 0, 5, 10, 15, 4, 9, 14, 3, 8, 13, 2, 7, 12}
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 1168174] will be killed.
+
+Quit anyway? (y or n) y
+akozina2@remote00:~/i220b/submit/lab6/exercises/another-one$ ls
+cookie-wrapper.h    feed-cookie-monster    feed-cookie-monster.o
+cookie-wrapper.obj  feed-cookie-monster.c
+akozina2@remote00:~/i220b/submit/lab6/exercises/another-one$ emacs feed-cokkie-monster.c
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[58d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[57d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[58;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[58;54H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[58;59H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[58;58H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[58;60H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[58;57H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[58;77H[?25ldone[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[58;75H[?25ldone[H
+[?12l[?25h[?12;25h[58;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[58;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58;61H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[58;3H[?25ldone[H
+[?12l[?25h[?12;25h[58d[K[57;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[57;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[57;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[57;75H[?25ldone[H
+[?12l[?25h[?12;25h[57;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[57;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[57;64H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[57;65H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[57;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25l(New file)[K[H
+[?12l[?25h[?12;25h[58d[?25l(New file)[K[H[7mFile Edit Options Buffers Tools C Help                                                        [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mfeed-cokkie-monster.c[0m[39;49m[27m[7m   All L1     (C/*l Abbrev) --------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[6]+  Stopped                 emacs feed-cokkie-monster.c
+akozina2@remote00:~/i220b/submit/lab6/exercises/another-one$ emacs feed-cokkie-monster.c[1Pie-monster.cokie-monster.c
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[58d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[57d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[58;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[58;54H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[58;59H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[58;58H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[58;60H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[58;57H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[58;77H[?25ldone[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[58;75H[?25ldone[H
+[?12l[?25h[?12;25h[58;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[58;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58;61H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[58;3H[?25ldone[H
+[?12l[?25h[?12;25h[58d[K[57;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[57;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[57;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[57;75H[?25ldone[H
+[?12l[?25h[?12;25h[57;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[57;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[57;64H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[57;65H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[57;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools C Help                                                        [0m[39;49m[27m
+[A
+[1m[34m#include[0m[39;49m [32m<errno.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<stdio.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<stdlib.h>[39;49m[K
+[1m[34m#include[0m[39;49m [32m<string.h>[39;49m[K
+[K
+[1m[34m#include[0m[39;49m [32m"cookie-wrapper.h"[39;49m[K
+[K
+[1m[34m#define[0m[39;49m [33mCOOKIE_FILE[39;49m  [32m"../.cookie"[39;49m[K
+[K
+[1m[36mstatic[0m[39;49m [32mint[39;49m [1m[34mgetCookie[0m[39;49m() {[K
+  [32mFILE[39;49m *[33mcookieFile[39;49m = fopen(COOKIE_FILE, [32m"r"[39;49m);[K
+  [1m[36mif[0m[39;49m (!cookieFile) {[K
+    fprintf(stderr, [32m"cannot read %s: %s\n"[39;49m, COOKIE_FILE, strerror(errno));[K
+    exit(1);[K
+  }[K
+  [32mint[39;49m [33mcookie[39;49m = -1;[K
+  [32mint[39;49m [33mn[39;49m = fscanf(cookieFile, [32m"0x%x"[39;49m, &cookie);[K
+  fclose(cookieFile);[K
+  [1m[36mif[0m[39;49m (n != 1) {[K
+    fprintf(stderr, [32m"unable to scan cookie file\n"[39;49m);[K
+    exit(1);[K
+  }[K
+  [1m[36mreturn[0m[39;49m cookie;[K
+}[K
+[K
+[1m[36mstatic[0m[39;49m [32mint[39;49m [1m[34mgetUnwrapKey[0m[39;49m() {[K
+  [32mint[39;49m [33mkey[39;49m;[K
+  [32mint[39;49m [33mn[39;49m = 0;[K
+  [1m[36mwhile[0m[39;49m (n != 1) {[K
+    printf([32m"enter cookie unwrap key in hex: "[39;49m);[K
+    fflush(stdout);[K
+    n = scanf([32m"%x"[39;49m, &key);[K
+  }[K
+  [1m[36mreturn[0m[39;49m key;[K
+}[K
+[K
+[32mint[39;49m [1m[34mmain[0m[39;49m() {[K
+[K
+  printf([32m"Me want cookie!\n"[39;49m);[K
+  [1m[36mconst[0m[39;49m [32mint[39;49m [33mcookie[39;49m = getCookie();[K
+  [32mint[39;49m [33mwrapped[39;49m = wrapCookie(cookie);[K
+  [32mint[39;49m [33mkey[39;49m = getUnwrapKey();[K
+  [32mint[39;49m [33mgotIt[39;49m = unwrapCookie(wrapped, key) == cookie;[K
+  printf(gotIt ? [32m"😂 CHOMP!!! CHOMP!!!\n"[39;49m : [32m"🥶 AARGH YUCK!!\n"[39;49m);[K
+  [1m[36mreturn[0m[39;49m !!gotIt;[K
+[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mfeed-cookie-monster.c[0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-lab6[0m[39;49m[27m[7m  (C/*l Abbrev) -----------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[7]+  Stopped                 emacs feed-cookie-monster.c
+akozina2@remote00:~/i220b/submit/lab6/exercises/another-one$ emacs feed-cookie-monster.c[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcookie-wrapper.h
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[58d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[57d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[58;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[58;54H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[58;59H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[58;58H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[58;60H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[58;57H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[58;77H[?25ldone[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[58;75H[?25ldone[H
+[?12l[?25h[?12;25h[58;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[58;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58;61H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[58;3H[?25ldone[H
+[?12l[?25h[?12;25h[58d[K[57;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[57;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[57;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[57;75H[?25ldone[H
+[?12l[?25h[?12;25h[57;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[57;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[57;64H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[57;65H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[57;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools C Help                                                        [0m[39;49m[27m
+[A
+[1m[34m#ifndef[0m[39;49m COOKIE_WRAPPER_H_[K
+[1m[34m#define[0m[39;49m [33mCOOKIE_WRAPPER_H_[39;49m[K
+[K
+[32m/** Return cookie wrapped in some opaque wrapper */[39;49m[K
+[32mint[39;49m [1m[34mwrapCookie[0m[39;49m([32mint[39;49m [33mcookie[39;49m);[K
+[K
+[32m/** Given wrapped cookie, use key to unwrap it and return unwrapped value */[39;49m[K
+[32mint[39;49m [1m[34munwrapCookie[0m[39;49m([32mint[39;49m [33mwrapped[39;49m, [32mint[39;49m [33mkey[39;49m);[K
+[K
+[K
+[1m[34m#endif[0m[39;49m [33m//ifndef COOKIE_WRAPPER_H_ [39;49m                                                            
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mcookie-wrapper.h[0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-lab6[0m[39;49m[27m[7m  (C/*l Abbrev) ----------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[8]+  Stopped                 emacs cookie-wrapper.h
+akozina2@remote00:~/i220b/submit/lab6/exercises/another-one$ emacs cookie-wrapper.hfeed-cookie-monster.c[Ko
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[58d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[57d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[58;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[58;54H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[58;59H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[58;58H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[58;60H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[58;57H[?25ldone[H
+[?12l[?25h[?12;25h[58;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[58;77H[?25ldone[H
+[?12l[?25h[?12;25h[58;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[58;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[58;75H[?25ldone[H
+[?12l[?25h[?12;25h[58;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[58;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58;61H[?25ldone[H
+[?12l[?25h[?12;25h[58;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[58d[?25l..[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) -----------------------------------------[0m[39;49m[27m
+[A
+Loading /usr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoloads.el (source).\
+[A[2d[?12l[?25h[?12;25h[58;3H[?25ldone[H
+[?12l[?25h[?12;25h[58d[K[57;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[57;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[57;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[57;75H[?25ldone[H
+[?12l[?25h[?12;25h[57;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[57;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[57;64H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[57;65H[?25ldone[H
+[?12l[?25h[?12;25h[57;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[57;54H[?25ldone[H
+[?12l[?25h[?12;25h[57;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[57;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                         [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Help                                                          [0m[39;49m[27m
+[A
+[36m^?[39;49mELF[36m^B^A^A^@^@^@^@^@^@^@^@^@^A^@[39;49m>[36m^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@\350[39;49m([36m^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@[39;49m@[36m^@^@^@^@^@[39;49m@[36m^@^W^@^V^@[39;49mUSH[36m\203\354^X[39;49mH[36m\215[39;49m5[36m^@^@^@^@[39;49mH[36m\215[39;49m=[36m^@^@^@^@\350^@^@^@^@[39;49mH[36m\205\300[39;49mt\
+[A
+>H[36m\211\303\307[39;49mD$[36m^L\377\377\377\377[39;49mH[36m\215[39;49mT$[36m^L[39;49mH[36m\215[39;49m5[36m^@^@^@^@[39;49mH[36m\211\307\270^@^@^@^@\350^@^@^@^@\21[39;49m\
+[A
+[36m1\305[39;49mH[36m\211\337\350^@^@^@^@\203\375^A[39;49muC[36m\213[39;49mD$[36m^L[39;49mH[36m\203\304^X[39;49m[][36m\303\350^@^@^@^@\213[39;49m8[36m\350^@^@^@^@[39;49mH\
+[A
+[36m\211\301[39;49mH[36m\215^U^@^@^@^@[39;49mH[36m\215[39;49m5[36m^@^@^@^@[39;49mH[36m\213[39;49m=[36m^@^@^@^@\270^@^@^@^@\350^@^@^@^@\277^A^@^@^@\350^@[39;49m\
+[A
+[36m^@^@^@[39;49mH[36m\213^M^@^@^@^@\272^[^@^@^@\276^A^@^@^@[39;49mH[36m\215[39;49m=[36m^@^@^@^@\350^@^@^@^@\277^A^@^@^@\350^@^@^@[39;49m\
+[A
+[36m^@[39;49mH[36m\203\354^X\270^@^@^@^@\203\370^A[39;49mt5H[36m\215[39;49m=[36m^@^@^@^@\270^@^@^@^@\350^@^@^@^@[39;49mH[36m\213[39;49m=[36m^@^@^@^@\350[39;49m\
+[A
+[36m^@^@^@^@[39;49mH[36m\215[39;49mt$[36m^L[39;49mH[36m\215[39;49m=[36m^@^@^@^@\270^@^@^@^@\350^@^@^@^@\353\306\213[39;49mD$[36m^L[39;49mH[36m\203\304^X\303[39;49mUSH[36m\203[39;49m\
+[A
+[36m\354^H[39;49mH[36m\215[39;49m=[36m^@^@^@^@\350^@^@^@^@\270^@^@^@^@\350\335\376\377\377\211\303\211\307\350^@^@^@^@\[39;49m\
+[A
+[36m211\305\270^@^@^@^@\350\203\377\377\377\211\306\211\357\350^@^@^@^@[39;49m9[36m\330[39;49m@[36m^O\224\305[39;49m@[36m^O\266\35[39;49m\
+[A
+[36m5[39;49mt[36m^Z[39;49mH[36m\215[39;49m=[36m^@^@^@^@\270^@^@^@^@\350^@^@^@^@\211\350[39;49mH[36m\203\304^H[39;49m[][36m\303[39;49mH[36m\215[39;49m=[36m^@^@^@^@\353\344[39;49mr[36m^@[39;49m.\
+[A
+./.cookie[36m^@[39;49mcannot read %s: %s[K
+[36m^@[39;49m0x%x[36m^@[39;49munable to scan cookie file[K
+[36m^@[39;49m%x[36m^@\360\237\245\266[39;49m AARGH YUCK!![K
+[36m^@\360\237\230\202[39;49m CHOMP!!! CHOMP!!![K
+[36m^@[39;49mMe want cookie![36m^@[39;49menter cookie unwrap key in hex: [36m^@[39;49m9[36m^F^@^@^D^@^@^@^@^@^H^A^@^@^@^@^L^@^@^@^[39;49m\
+[A
+[36m@^@^@^@^@^@^@^@^@^@^@^@^@[39;49mp[36m^A^@^@^@^@^@^@^@^@^@^@^B^@^@^@^@^B\330^W[39;49m9[36m^@^@^@^C^H^G^@^@^@^@^C^D^G[39;49m\
+[A
+[36m^@^@^@^@^D^H^C^A^H^@^@^@^@^C^B^G^@^@^@^@^C^A^F^@^@^@^@^C^B^E^@^@^@^@^E^D^E[39;49mint[36m^@^F[39;49me[36m^@^@^@^C^H^[39;49m\
+[A
+[36mE^@^@^@^@^B^@^@^@^@^C\226^Y[39;49mq[36m^@^@^@^B^@^@^@^@^C\227^[[39;49mq[36m^@^@^@^G^H\226^@^@^@^C^A^F^@^@^@^@^H^@^@[39;49m\
+[A
+[36m^@^@\330^D[39;49m1[36m^H[39;49m$[36m^B^@^@[39;49m        [36m^@^@^@^@^D[39;49m3[36m^G[39;49me[36m^@^@^@^@[39;49m  [36m^@^@^@^@^D[39;49m6     [36m\220^@^@^@^H[39;49m    [36m^@^@^@^@^[39;49m\
+[A
+[36mD[39;49m7     [36m\220^@^@^@^P[39;49m    [36m^@^@^@^@^D[39;49m8     [36m\220^@^@^@^X[39;49m    [36m^@^@^@^@^D[39;49m9     [36m\220^@^@^@[39;49m      [36m^@^@^@[39;49m\
+[A
+[36m^@^D[39;49m:     [36m\220^@^@^@[39;49m(     [36m^@^@^@^@^D[39;49m;     [36m\220^@^@^@[39;49m0     [36m^@^@^@^@^D[39;49m<     [36m\220^@^@^@[39;49m8     [36m^@^[39;49m\
+[A
+[36m@^@^@^D[39;49m=     [36m\220^@^@^@[39;49m@     [36m^@^@^@^@^D[39;49m@     [36m\220^@^@^@[39;49mH     [36m^@^@^@^@^D[39;49mA     [36m\220^@^@^@[39;49mP     \
+[A
+[36m^@^@^@^@^D[39;49mB     [36m\220^@^@^@[39;49mX     [36m^@^@^@^@^D[39;49mD[36m^V[39;49m=[36m^B^@^@[39;49m`   [36m^@^@^@^@^D[39;49mF[36m^T[39;49mC[36m^B^@^@[39;49mh   [36m^@^@^@^@^D[39;49mH[36m^G[39;49m\
+[A
+e[36m^@^@^@[39;49mp   [36m^@^@^@^@^D[39;49mI[36m^G[39;49me[36m^@^@^@[39;49mt   [36m^@^@^@^@^D[39;49mJ[36m^K[39;49mx[36m^@^@^@[39;49mx   [36m^@^@^@^@^D[39;49mM[36m^R[39;49mP[36m^@^@^@\200[39;49m        [36m^@[39;49m\
+[A
+[36m^@^@^@^D[39;49mN[36m^O[39;49mW[36m^@^@^@\202[39;49m        [36m^@^@^@^@^D[39;49mO[36m^H[39;49mI[36m^B^@^@\203[39;49m        [36m^@^@^@^@^D[39;49mQ[36m^O[39;49mY[36m^B^@^@\210[39;49m       \
+[A
+ [36m^@^@^@^@^D[39;49mY[36m^M\204^@^@^@\220[39;49m     [36m^@^@^@^@^D[39;49m[[36m^W[39;49md[36m^B^@^@\230[39;49m        [36m^@^@^@^@^D[39;49m\[36m^Y[39;49mo[36m^B^@^@\240[39;49m    \
+[A
+    [36m^@^@^@^@^D[39;49m][36m^T[39;49mC[36m^B^@^@\250[39;49m        [36m^@^@^@^@^D[39;49m^     G[36m^@^@^@\260[39;49m     [36m^@^@^@^@^D[39;49m_[K
+-[36m^@^@^@\270[39;49m     [36m^@^@^@^@^D[39;49m`[36m^G[39;49me[36m^@^@^@\300[39;49m        [36m^@^@^@^@^D[39;49mb[36m^H[39;49mu[36m^B^@^@\304^@^B^@^@^@^@^E^G^Y\23[39;49m\
+[A
+[36m5^@^@^@[39;49m[K
+[36m^@^@^@^@^D[39;49m+[36m^N^K^@^@^@^@^G^H[39;49m8[36m^B^@^@^G^H\235^@^@^@^L\226^@^@^@[39;49mY[36m^B^@^@^M[39;49m9[36m^@^@^@^@^@^G^H[39;49m0[36m^B^@^@^K[39;49m\
+[A
+[36m^@^@^@^@^G^H[39;49m_[36m^B^@^@^K^@^@^@^@^G^H[39;49mj[36m^B^@^@^L\226^@^@^@\205^B^@^@^M[39;49m9[36m^@^@^@^S^@^N^@^@^@^@^F\211^N[39;49m\
+[A
+[36m\221^B^@^@^G^H[39;49m$[36m^B^@^@^N^@^@^@^@^F\212^N\221^B^@^@^N^@^@^@^@^F\213^N\221^B^@^@^C^H^E^@^@^@^@^O[39;49m\
+[A
+[36m^@^@^@^@^A[39;49m%[36m^E[39;49me[36m^@^@^@^@^@^@^@^@^@^@^@[39;49mi[36m^@^@^@^@^@^@^@^A\234\237^C^@^@^P^@^@^@^@^A[39;49m([36m^M[39;49ml[36m^@^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^@^P^@^@^@^@^A[39;49m)[36m^G[39;49me[36m^@^@^@^@^@^@^@^@^@^@^@^Q[39;49mkey[36m^@^A[39;49m*[36m^G[39;49me[36m^@^@^@^@^@^@^@^@^@^@^@^P^@^@^@[39;49m\
+[A
+[36m^@^A[39;49m+[36m^G[39;49me[36m^@^@^@^@^@^@^@^@^@^@^@^R^@^@^@^@^@^@^@^@\220^E^@^@[39;49mG[36m^C^@^@^S^A[39;49mU [36m^C^@^@^@^@^@^@^@^@^@^T[39;49m\
+[A
+[36m^@^@^@^@^@^@^@^@[39;49m0[36m^D^@^@^R^@^@^@^@^@^@^@^@\233^E^@^@[39;49ml[36m^C^@^@^S^A[39;49mU[36m^B[39;49ms[36m^@^@^T^@^@^@^@^@^@^@^@\237^[39;49m\
+[A
+[36mC^@^@^R^@^@^@^@^@^@^@^@\247^E^@^@\221^C^@^@^S^A[39;49mU[36m^B[39;49mv[36m^@^@^T^@^@^@^@^@^@^@^@\263^E^@^@^@^U^@^@^@[39;49m\
+[A
+[36m^@^A^Z^L[39;49me[36m^@^@^@^@^@^@^@^@^@^@^@[39;49mL[36m^@^@^@^@^@^@^@^A\234[39;49m0[36m^D^@^@^V[39;49mkey[36m^@^A^[^G[39;49me[36m^@^@^@^B\221[39;49ml[36m^Q[39;49mn[36m^@^A[39;49m\
+[A
+[36m^\^G[39;49me[36m^@^@^@^@^@^@^@^@^@^@^@^R^@^@^@^@^@^@^@^@\263^E^@^@^A^D^@^@^S^A[39;49mU       [36m^C^@^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@^T^@^@^@^@^@^@^@^@\300^E^@^@^W^@^@^@^@^@^@^@^@\314^E^@^@^S^A[39;49mU       [36m^C^@^@^@^@^@^@^@^@^S^A[39;49mT\
+[A
+[36m^B\221[39;49ml[36m^@^@^U^@^@^@^@^A[39;49m[K
+[36m^L[39;49me[36m^@^@^@^@^@^@^@^@^@^@^@\273^@^@^@^@^@^@^@^A\234\220^E^@^@^P^@^@^@^@^A^K[39;49m       [36m\221^B^@^@^@^[39;49m\
+[A
+[36m@^@^@^@^@^@^@^X^@^@^@^@^A^P^G[39;49me[36m^@^@^@^B\221[39;49m\[36m^Q[39;49mn[36m^@^A^Q^G[39;49me[36m^@^@^@^@^@^@^@^@^@^@^@^R^@^@^@^@^@^@^@[39;49m\
+[A
+[36m^@\331^E^@^@\263^D^@^@^S^A[39;49mU   [36m^C^@^@^@^@^@^@^@^@^S^A[39;49mT [36m^C^@^@^@^@^@^@^@^@^@^R^@^@^@^@^@^@^@^@\[39;49m\
+[A
+[36m345^E^@^@\336^D^@^@^S^A[39;49mU[36m^B[39;49ms[36m^@^S^A[39;49mT       [36m^C^@^@^@^@^@^@^@^@^S^A[39;49mQ[36m^B\221[39;49m\[36m^@^R^@^@^@^@^@^@^@^@\3[39;49m\
+[A
+[36m62^E^@^@\366^D^@^@^S^A[39;49mU[36m^B[39;49ms[36m^@^@^T^@^@^@^@^@^@^@^@\376^E^@^@^T^@^@^@^@^@^@^@^@[39;49m[K
+[36m^F^@^@^R^@^@^@^@^@^@^@^@^W^F^@^@[39;49m<[36m^E^@^@^S^A[39;49mT    [36m^C^@^@^@^@^@^@^@^@^S^A[39;49mQ [36m^C^@^@^@^@^@^@^@^@^@^[39;49m\
+[A
+[36mR^@^@^@^@^@^@^@^@[39;49m$[36m^F^@^@[39;49mS[36m^E^@^@^S^A[39;49mU[36m^A[39;49m1[36m^@^R^@^@^@^@^@^@^@^@[39;49m1[36m^F^@^@[39;49m|[36m^E^@^@^S^A[39;49mU     [36m^C^@^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^S^A[39;49mT[36m^A[39;49m1[36m^S^A[39;49mQ[36m^A[39;49mK[36m^@^W^@^@^@^@^@^@^@^@[39;49m$[36m^F^@^@^S^A[39;49mU[36m^A[39;49m1[36m^@^@^Y^@^@^@^@^@^@^@^@^K^@^Z^@^@^@[39;49m\
+[A
+[36m^@^@^@^@^@^G^E^E^Z^@^@^@^@^@^@^@^@^G^H^E^[^@^@^@^@^@^@^@^@^F[39;49mL[36m^A^L^Z^@^@^@^@^@^@^@^@^F\332^L^[[39;49m\
+[A
+[36m^@^@^@^@^@^@^@^@^F\234^A^L^Z^@^@^@^@^@^@^@^@^F\366^N^[^@^@^@^@^@^@^@^@^F\231^A^L^Z^@^@^@^@^@^[39;49m\
+[A
+[36m@^@^@^F\325^L^Z^@^@^@^@^@^@^@^@^H[39;49m%[36m^M^[^@^@^@^@^@^@^@^@[39;49m [36m\214^A^N^[^@^@^@^@^@^@^@^@^F[39;49mF[36m^A^L^[^@^[39;49m\
+[A
+[36m@^@^@^@^@^@^@[39;49m[K
+f[36m^B^M^Y^@^@^@^@^@^@^@^@^K^@^@^A^Q^A[39;49m%[36m^N^S^K^C^N^[^N^Q^A^R^G^P^W^@^@^B^V^@^C^N[39;49m:[36m^K[39;49m;[36m^K[39;49m9[36m^K[39;49mI[36m^S^@^@^[39;49m\
+[A
+[7m-UU=:----F1  [0m[39;49m[27m[7m[1mfeed-cookie-monster.o[0m[39;49m[27m[7m   Top L1     (Fundamental) --------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[58d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[9]+  Stopped                 emacs feed-cookie-monster.o
+akozina2@remote00:~/i220b/submit/lab6/exercises/another-one$ objdump -d feed-cookie-monster
+
+feed-cookie-monster:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+0000000000001000 <_init>:
+    1000:	48 83 ec 08          	sub    $0x8,%rsp
+    1004:	48 8b 05 dd 2f 00 00 	mov    0x2fdd(%rip),%rax        # 3fe8 <__gmon_start__>
+    100b:	48 85 c0             	test   %rax,%rax
+    100e:	74 02                	je     1012 <_init+0x12>
+    1010:	ff d0                	callq  *%rax
+    1012:	48 83 c4 08          	add    $0x8,%rsp
+    1016:	c3                   	retq   
+
+Disassembly of section .plt:
+
+0000000000001020 <.plt>:
+    1020:	ff 35 e2 2f 00 00    	pushq  0x2fe2(%rip)        # 4008 <_GLOBAL_OFFSET_TABLE_+0x8>
+    1026:	ff 25 e4 2f 00 00    	jmpq   *0x2fe4(%rip)        # 4010 <_GLOBAL_OFFSET_TABLE_+0x10>
+    102c:	0f 1f 40 00          	nopl   0x0(%rax)
+
+0000000000001030 <__errno_location@plt>:
+    1030:	ff 25 e2 2f 00 00    	jmpq   *0x2fe2(%rip)        # 4018 <__errno_location@GLIBC_2.2.5>
+    1036:	68 00 00 00 00       	pushq  $0x0
+    103b:	e9 e0 ff ff ff       	jmpq   1020 <.plt>
+
+0000000000001040 <__isoc99_fscanf@plt>:
+    1040:	ff 25 da 2f 00 00    	jmpq   *0x2fda(%rip)        # 4020 <__isoc99_fscanf@GLIBC_2.7>
+    1046:	68 01 00 00 00       	pushq  $0x1
+    104b:	e9 d0 ff ff ff       	jmpq   1020 <.plt>
+
+0000000000001050 <puts@plt>:
+    1050:	ff 25 d2 2f 00 00    	jmpq   *0x2fd2(%rip)        # 4028 <puts@GLIBC_2.2.5>
+    1056:	68 02 00 00 00       	pushq  $0x2
+    105b:	e9 c0 ff ff ff       	jmpq   1020 <.plt>
+
+0000000000001060 <fclose@plt>:
+    1060:	ff 25 ca 2f 00 00    	jmpq   *0x2fca(%rip)        # 4030 <fclose@GLIBC_2.2.5>
+    1066:	68 03 00 00 00       	pushq  $0x3
+    106b:	e9 b0 ff ff ff       	jmpq   1020 <.plt>
+
+0000000000001070 <printf@plt>:
+    1070:	ff 25 c2 2f 00 00    	jmpq   *0x2fc2(%rip)        # 4038 <printf@GLIBC_2.2.5>
+    1076:	68 04 00 00 00       	pushq  $0x4
+    107b:	e9 a0 ff ff ff       	jmpq   1020 <.plt>
+
+0000000000001080 <fprintf@plt>:
+    1080:	ff 25 ba 2f 00 00    	jmpq   *0x2fba(%rip)        # 4040 <fprintf@GLIBC_2.2.5>
+    1086:	68 05 00 00 00       	pushq  $0x5
+    108b:	e9 90 ff ff ff       	jmpq   1020 <.plt>
+
+0000000000001090 <fflush@plt>:
+    1090:	ff 25 b2 2f 00 00    	jmpq   *0x2fb2(%rip)        # 4048 <fflush@GLIBC_2.2.5>
+    1096:	68 06 00 00 00       	pushq  $0x6
+    109b:	e9 80 ff ff ff       	jmpq   1020 <.plt>
+
+00000000000010a0 <fopen@plt>:
+    10a0:	ff 25 aa 2f 00 00    	jmpq   *0x2faa(%rip)        # 4050 <fopen@GLIBC_2.2.5>
+    10a6:	68 07 00 00 00       	pushq  $0x7
+    10ab:	e9 70 ff ff ff       	jmpq   1020 <.plt>
+
+00000000000010b0 <__isoc99_scanf@plt>:
+    10b0:	ff 25 a2 2f 00 00    	jmpq   *0x2fa2(%rip)        # 4058 <__isoc99_scanf@GLIBC_2.7>
+    10b6:	68 08 00 00 00       	pushq  $0x8
+    10bb:	e9 60 ff ff ff       	jmpq   1020 <.plt>
+
+00000000000010c0 <exit@plt>:
+    10c0:	ff 25 9a 2f 00 00    	jmpq   *0x2f9a(%rip)        # 4060 <exit@GLIBC_2.2.5>
+    10c6:	68 09 00 00 00       	pushq  $0x9
+    10cb:	e9 50 ff ff ff       	jmpq   1020 <.plt>
+
+00000000000010d0 <fwrite@plt>:
+    10d0:	ff 25 92 2f 00 00    	jmpq   *0x2f92(%rip)        # 4068 <fwrite@GLIBC_2.2.5>
+    10d6:	68 0a 00 00 00       	pushq  $0xa
+    10db:	e9 40 ff ff ff       	jmpq   1020 <.plt>
+
+00000000000010e0 <strerror@plt>:
+    10e0:	ff 25 8a 2f 00 00    	jmpq   *0x2f8a(%rip)        # 4070 <strerror@GLIBC_2.2.5>
+    10e6:	68 0b 00 00 00       	pushq  $0xb
+    10eb:	e9 30 ff ff ff       	jmpq   1020 <.plt>
+
+Disassembly of section .plt.got:
+
+00000000000010f0 <__cxa_finalize@plt>:
+    10f0:	ff 25 02 2f 00 00    	jmpq   *0x2f02(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>
+    10f6:	66 90                	xchg   %ax,%ax
+
+Disassembly of section .text:
+
+0000000000001100 <_start>:
+    1100:	31 ed                	xor    %ebp,%ebp
+    1102:	49 89 d1             	mov    %rdx,%r9
+    1105:	5e                   	pop    %rsi
+    1106:	48 89 e2             	mov    %rsp,%rdx
+    1109:	48 83 e4 f0          	and    $0xfffffffffffffff0,%rsp
+    110d:	50                   	push   %rax
+    110e:	54                   	push   %rsp
+    110f:	4c 8d 05 7a 03 00 00 	lea    0x37a(%rip),%r8        # 1490 <__libc_csu_fini>
+    1116:	48 8d 0d 13 03 00 00 	lea    0x313(%rip),%rcx        # 1430 <__libc_csu_init>
+    111d:	48 8d 3d c8 01 00 00 	lea    0x1c8(%rip),%rdi        # 12ec <main>
+    1124:	ff 15 b6 2e 00 00    	callq  *0x2eb6(%rip)        # 3fe0 <__libc_start_main@GLIBC_2.2.5>
+    112a:	f4                   	hlt    
+    112b:	0f 1f 44 00 00       	nopl   0x0(%rax,%rax,1)
+
+0000000000001130 <deregister_tm_clones>:
+    1130:	48 8d 3d 51 2f 00 00 	lea    0x2f51(%rip),%rdi        # 4088 <__TMC_END__>
+    1137:	48 8d 05 4a 2f 00 00 	lea    0x2f4a(%rip),%rax        # 4088 <__TMC_END__>
+    113e:	48 39 f8             	cmp    %rdi,%rax
+    1141:	74 15                	je     1158 <deregister_tm_clones+0x28>
+    1143:	48 8b 05 8e 2e 00 00 	mov    0x2e8e(%rip),%rax        # 3fd8 <_ITM_deregisterTMCloneTable>
+    114a:	48 85 c0             	test   %rax,%rax
+    114d:	74 09                	je     1158 <deregister_tm_clones+0x28>
+    114f:	ff e0                	jmpq   *%rax
+    1151:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+    1158:	c3                   	retq   
+    1159:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+0000000000001160 <register_tm_clones>:
+    1160:	48 8d 3d 21 2f 00 00 	lea    0x2f21(%rip),%rdi        # 4088 <__TMC_END__>
+    1167:	48 8d 35 1a 2f 00 00 	lea    0x2f1a(%rip),%rsi        # 4088 <__TMC_END__>
+    116e:	48 29 fe             	sub    %rdi,%rsi
+    1171:	48 c1 fe 03          	sar    $0x3,%rsi
+    1175:	48 89 f0             	mov    %rsi,%rax
+    1178:	48 c1 e8 3f          	shr    $0x3f,%rax
+    117c:	48 01 c6             	add    %rax,%rsi
+    117f:	48 d1 fe             	sar    %rsi
+    1182:	74 14                	je     1198 <register_tm_clones+0x38>
+    1184:	48 8b 05 65 2e 00 00 	mov    0x2e65(%rip),%rax        # 3ff0 <_ITM_registerTMCloneTable>
+    118b:	48 85 c0             	test   %rax,%rax
+    118e:	74 08                	je     1198 <register_tm_clones+0x38>
+    1190:	ff e0                	jmpq   *%rax
+    1192:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+    1198:	c3                   	retq   
+    1199:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+00000000000011a0 <__do_global_dtors_aux>:
+    11a0:	80 3d 21 2f 00 00 00 	cmpb   $0x0,0x2f21(%rip)        # 40c8 <completed.7325>
+    11a7:	75 2f                	jne    11d8 <__do_global_dtors_aux+0x38>
+    11a9:	55                   	push   %rbp
+    11aa:	48 83 3d 46 2e 00 00 	cmpq   $0x0,0x2e46(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>
+    11b1:	00 
+    11b2:	48 89 e5             	mov    %rsp,%rbp
+    11b5:	74 0c                	je     11c3 <__do_global_dtors_aux+0x23>
+    11b7:	48 8b 3d c2 2e 00 00 	mov    0x2ec2(%rip),%rdi        # 4080 <__dso_handle>
+    11be:	e8 2d ff ff ff       	callq  10f0 <__cxa_finalize@plt>
+    11c3:	e8 68 ff ff ff       	callq  1130 <deregister_tm_clones>
+    11c8:	c6 05 f9 2e 00 00 01 	movb   $0x1,0x2ef9(%rip)        # 40c8 <completed.7325>
+    11cf:	5d                   	pop    %rbp
+    11d0:	c3                   	retq   
+    11d1:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+    11d8:	c3                   	retq   
+    11d9:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+00000000000011e0 <frame_dummy>:
+    11e0:	e9 7b ff ff ff       	jmpq   1160 <register_tm_clones>
+
+00000000000011e5 <getCookie>:
+    11e5:	55                   	push   %rbp
+    11e6:	53                   	push   %rbx
+    11e7:	48 83 ec 18          	sub    $0x18,%rsp
+    11eb:	48 8d 35 12 0e 00 00 	lea    0xe12(%rip),%rsi        # 2004 <_IO_stdin_used+0x4>
+    11f2:	48 8d 3d 0d 0e 00 00 	lea    0xe0d(%rip),%rdi        # 2006 <_IO_stdin_used+0x6>
+    11f9:	e8 a2 fe ff ff       	callq  10a0 <fopen@plt>
+    11fe:	48 85 c0             	test   %rax,%rax
+    1201:	74 3e                	je     1241 <getCookie+0x5c>
+    1203:	48 89 c3             	mov    %rax,%rbx
+    1206:	c7 44 24 0c ff ff ff 	movl   $0xffffffff,0xc(%rsp)
+    120d:	ff 
+    120e:	48 8d 54 24 0c       	lea    0xc(%rsp),%rdx
+    1213:	48 8d 35 0b 0e 00 00 	lea    0xe0b(%rip),%rsi        # 2025 <_IO_stdin_used+0x25>
+    121a:	48 89 c7             	mov    %rax,%rdi
+    121d:	b8 00 00 00 00       	mov    $0x0,%eax
+    1222:	e8 19 fe ff ff       	callq  1040 <__isoc99_fscanf@plt>
+    1227:	89 c5                	mov    %eax,%ebp
+    1229:	48 89 df             	mov    %rbx,%rdi
+    122c:	e8 2f fe ff ff       	callq  1060 <fclose@plt>
+    1231:	83 fd 01             	cmp    $0x1,%ebp
+    1234:	75 43                	jne    1279 <getCookie+0x94>
+    1236:	8b 44 24 0c          	mov    0xc(%rsp),%eax
+    123a:	48 83 c4 18          	add    $0x18,%rsp
+    123e:	5b                   	pop    %rbx
+    123f:	5d                   	pop    %rbp
+    1240:	c3                   	retq   
+    1241:	e8 ea fd ff ff       	callq  1030 <__errno_location@plt>
+    1246:	8b 38                	mov    (%rax),%edi
+    1248:	e8 93 fe ff ff       	callq  10e0 <strerror@plt>
+    124d:	48 89 c1             	mov    %rax,%rcx
+    1250:	48 8d 15 af 0d 00 00 	lea    0xdaf(%rip),%rdx        # 2006 <_IO_stdin_used+0x6>
+    1257:	48 8d 35 b3 0d 00 00 	lea    0xdb3(%rip),%rsi        # 2011 <_IO_stdin_used+0x11>
+    125e:	48 8b 3d 5b 2e 00 00 	mov    0x2e5b(%rip),%rdi        # 40c0 <stderr@@GLIBC_2.2.5>
+    1265:	b8 00 00 00 00       	mov    $0x0,%eax
+    126a:	e8 11 fe ff ff       	callq  1080 <fprintf@plt>
+    126f:	bf 01 00 00 00       	mov    $0x1,%edi
+    1274:	e8 47 fe ff ff       	callq  10c0 <exit@plt>
+    1279:	48 8b 0d 40 2e 00 00 	mov    0x2e40(%rip),%rcx        # 40c0 <stderr@@GLIBC_2.2.5>
+    1280:	ba 1b 00 00 00       	mov    $0x1b,%edx
+    1285:	be 01 00 00 00       	mov    $0x1,%esi
+    128a:	48 8d 3d 99 0d 00 00 	lea    0xd99(%rip),%rdi        # 202a <_IO_stdin_used+0x2a>
+    1291:	e8 3a fe ff ff       	callq  10d0 <fwrite@plt>
+    1296:	bf 01 00 00 00       	mov    $0x1,%edi
+    129b:	e8 20 fe ff ff       	callq  10c0 <exit@plt>
+
+00000000000012a0 <getUnwrapKey>:
+    12a0:	48 83 ec 18          	sub    $0x18,%rsp
+    12a4:	b8 00 00 00 00       	mov    $0x0,%eax
+    12a9:	83 f8 01             	cmp    $0x1,%eax
+    12ac:	74 35                	je     12e3 <getUnwrapKey+0x43>
+    12ae:	48 8d 3d d3 0d 00 00 	lea    0xdd3(%rip),%rdi        # 2088 <_IO_stdin_used+0x88>
+    12b5:	b8 00 00 00 00       	mov    $0x0,%eax
+    12ba:	e8 b1 fd ff ff       	callq  1070 <printf@plt>
+    12bf:	48 8b 3d da 2d 00 00 	mov    0x2dda(%rip),%rdi        # 40a0 <stdout@@GLIBC_2.2.5>
+    12c6:	e8 c5 fd ff ff       	callq  1090 <fflush@plt>
+    12cb:	48 8d 74 24 0c       	lea    0xc(%rsp),%rsi
+    12d0:	48 8d 3d 50 0d 00 00 	lea    0xd50(%rip),%rdi        # 2027 <_IO_stdin_used+0x27>
+    12d7:	b8 00 00 00 00       	mov    $0x0,%eax
+    12dc:	e8 cf fd ff ff       	callq  10b0 <__isoc99_scanf@plt>
+    12e1:	eb c6                	jmp    12a9 <getUnwrapKey+0x9>
+    12e3:	8b 44 24 0c          	mov    0xc(%rsp),%eax
+    12e7:	48 83 c4 18          	add    $0x18,%rsp
+    12eb:	c3                   	retq   
+
+00000000000012ec <main>:
+    12ec:	55                   	push   %rbp
+    12ed:	53                   	push   %rbx
+    12ee:	48 83 ec 08          	sub    $0x8,%rsp
+    12f2:	48 8d 3d 78 0d 00 00 	lea    0xd78(%rip),%rdi        # 2071 <_IO_stdin_used+0x71>
+    12f9:	e8 52 fd ff ff       	callq  1050 <puts@plt>
+    12fe:	b8 00 00 00 00       	mov    $0x0,%eax
+    1303:	e8 dd fe ff ff       	callq  11e5 <getCookie>
+    1308:	89 c3                	mov    %eax,%ebx
+    130a:	89 c7                	mov    %eax,%edi
+    130c:	e8 7a 00 00 00       	callq  138b <wrapCookie>
+    1311:	89 c5                	mov    %eax,%ebp
+    1313:	b8 00 00 00 00       	mov    $0x0,%eax
+    1318:	e8 83 ff ff ff       	callq  12a0 <getUnwrapKey>
+    131d:	89 c6                	mov    %eax,%esi
+    131f:	89 ef                	mov    %ebp,%edi
+    1321:	e8 e2 00 00 00       	callq  1408 <unwrapCookie>
+    1326:	39 d8                	cmp    %ebx,%eax
+    1328:	40 0f 94 c5          	sete   %bpl
+    132c:	40 0f b6 ed          	movzbl %bpl,%ebp
+    1330:	74 1a                	je     134c <main+0x60>
+    1332:	48 8d 3d 0d 0d 00 00 	lea    0xd0d(%rip),%rdi        # 2046 <_IO_stdin_used+0x46>
+    1339:	b8 00 00 00 00       	mov    $0x0,%eax
+    133e:	e8 2d fd ff ff       	callq  1070 <printf@plt>
+    1343:	89 e8                	mov    %ebp,%eax
+    1345:	48 83 c4 08          	add    $0x8,%rsp
+    1349:	5b                   	pop    %rbx
+    134a:	5d                   	pop    %rbp
+    134b:	c3                   	retq   
+    134c:	48 8d 3d 06 0d 00 00 	lea    0xd06(%rip),%rdi        # 2059 <_IO_stdin_used+0x59>
+    1353:	eb e4                	jmp    1339 <main+0x4d>
+
+0000000000001355 <f1>:
+    1355:	89 f8                	mov    %edi,%eax
+    1357:	c1 f8 09             	sar    $0x9,%eax
+    135a:	83 e0 0f             	and    $0xf,%eax
+    135d:	74 01                	je     1360 <f1+0xb>
+    135f:	c3                   	retq   
+    1360:	b8 0c 00 00 00       	mov    $0xc,%eax
+    1365:	eb f8                	jmp    135f <f1+0xa>
+
+0000000000001367 <f2>:
+    1367:	89 f8                	mov    %edi,%eax
+    1369:	c1 f8 08             	sar    $0x8,%eax
+    136c:	83 e0 0f             	and    $0xf,%eax
+    136f:	74 01                	je     1372 <f2+0xb>
+    1371:	c3                   	retq   
+    1372:	b8 07 00 00 00       	mov    $0x7,%eax
+    1377:	eb f8                	jmp    1371 <f2+0xa>
+
+0000000000001379 <f3>:
+    1379:	89 f8                	mov    %edi,%eax
+    137b:	c1 f8 07             	sar    $0x7,%eax
+    137e:	83 e0 0f             	and    $0xf,%eax
+    1381:	74 01                	je     1384 <f3+0xb>
+    1383:	c3                   	retq   
+    1384:	b8 0a 00 00 00       	mov    $0xa,%eax
+    1389:	eb f8                	jmp    1383 <f3+0xa>
+
+000000000000138b <wrapCookie>:
+    138b:	f3 0f 1e fa          	endbr64 
+    138f:	41 54                	push   %r12
+    1391:	55                   	push   %rbp
+    1392:	53                   	push   %rbx
+    1393:	41 89 fc             	mov    %edi,%r12d
+    1396:	e8 ba ff ff ff       	callq  1355 <f1>
+    139b:	89 c5                	mov    %eax,%ebp
+    139d:	44 89 e7             	mov    %r12d,%edi
+    13a0:	e8 c2 ff ff ff       	callq  1367 <f2>
+    13a5:	89 c3                	mov    %eax,%ebx
+    13a7:	44 89 e7             	mov    %r12d,%edi
+    13aa:	e8 ca ff ff ff       	callq  1379 <f3>
+    13af:	ba 00 00 00 00       	mov    $0x0,%edx
+    13b4:	83 fa 0f             	cmp    $0xf,%edx
+    13b7:	7f 1a                	jg     13d3 <wrapCookie+0x48>
+    13b9:	8d 0c 92             	lea    (%rdx,%rdx,4),%ecx
+    13bc:	01 d9                	add    %ebx,%ecx
+    13be:	83 e1 0f             	and    $0xf,%ecx
+    13c1:	48 63 fa             	movslq %edx,%rdi
+    13c4:	48 8d 35 35 2d 00 00 	lea    0x2d35(%rip),%rsi        # 4100 <vals1>
+    13cb:	89 0c be             	mov    %ecx,(%rsi,%rdi,4)
+    13ce:	83 c2 01             	add    $0x1,%edx
+    13d1:	eb e1                	jmp    13b4 <wrapCookie+0x29>
+    13d3:	ba 00 00 00 00       	mov    $0x0,%edx
+    13d8:	eb 18                	jmp    13f2 <wrapCookie+0x67>
+    13da:	8d 0c 52             	lea    (%rdx,%rdx,2),%ecx
+    13dd:	01 c1                	add    %eax,%ecx
+    13df:	83 e1 07             	and    $0x7,%ecx
+    13e2:	48 63 fa             	movslq %edx,%rdi
+    13e5:	48 8d 35 f4 2c 00 00 	lea    0x2cf4(%rip),%rsi        # 40e0 <vals2>
+    13ec:	89 0c be             	mov    %ecx,(%rsi,%rdi,4)
+    13ef:	83 c2 01             	add    $0x1,%edx
+    13f2:	83 fa 07             	cmp    $0x7,%edx
+    13f5:	7e e3                	jle    13da <wrapCookie+0x4f>
+    13f7:	01 c5                	add    %eax,%ebp
+    13f9:	85 ed      Script started on 2021-10-12 21:07:30-04:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="94" LINES="65"]
+akozina2@remote07:~/i220b/submit/lab6$ cd exercises
+akozina2@remote07:~/i220b/submit/lab6/exercises$ ls
+1  3		cookie-wrapper.h       full-example  Makefile
+2  another-one	feed-cookie-monster.c  gen-cookie    simple
+akozina2@remote07:~/i220b/submit/lab6/exercises$ cd another-one
+akozina2@remote07:~/i220b/submit/lab6/exercises/another-one$ ls
+cookie-wrapper.h    feed-cookie-monster    feed-cookie-monster.o
+cookie-wrapper.obj  feed-cookie-monster.c
+akozina2@remote07:~/i220b/submit/lab6/exercises/another-one$ gdb feed-cookie-monster
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from feed-cookie-monster...done.
+(gdb) b unwrapCookie
+Breakpoint 1 at 0x1408
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/another-one/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 33
+
+Breakpoint 1, 0x0000555555555408 in unwrapCookie ()
+(gdb) disass
+Dump of assembler code for function unwrapCookie:
+=> 0x0000555555555408 <+0>:	endbr64 
+   0x000055555555540c <+4>:	mov    %edi,%ecx
+   0x000055555555540e <+6>:	and    $0xf,%ecx
+   0x0000555555555411 <+9>:	and    $0x7,%edi
+   0x0000555555555414 <+12>:	lea    0x2cc5(%rip),%rax        # 0x5555555580e0 <vals2>
+   0x000055555555541b <+19>:	mov    (%rax,%rdi,4),%edx
+   0x000055555555541e <+22>:	lea    0x2cdb(%rip),%rax        # 0x555555558100 <vals1>
+   0x0000555555555425 <+29>:	add    (%rax,%rcx,4),%edx
+   0x0000555555555428 <+32>:	lea    (%rdx,%rdx,4),%eax
+   0x000055555555542b <+35>:	add    %esi,%eax
+   0x000055555555542d <+37>:	retq   
+End of assembler dump.
+(gdb) i reg $rdi
+rdi            0x3                 3
+(gdb) i reg $rsi
+rsi            0x33                51
+(gdb) p ((int *)0x555555558060)[0]@16[1P0)[0]@1630)[0]@16[1P0)[0]@16e0)[0]@16
+$1 = {3, 6, 1, 4, 7, 2, 5, 0, 1, 6, 11, 0, 5, 10, 15, 4}
+(gdb) p ((int *)0x5555555580e0)[0]@16[C[1Pe0)[0]@161e0)[0]@16[C[1P0)[0]@16[C0)[0]@16
+$2 = {1, 6, 11, 0, 5, 10, 15, 4, 9, 14, 3, 8, 13, 2, 7, 12}
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/another-one/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 14
+
+Breakpoint 1, 0x0000555555555408 in unwrapCookie ()
+(gdb) c
+Continuing.
+🥶 AARGH YUCK!!
+[Inferior 1 (process 697179) exited normally]
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/another-one/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 0013 4
+
+Breakpoint 1, 0x0000555555555408 in unwrapCookie ()
+(gdb) c
+Continuing.
+🥶 AARGH YUCK!!
+[Inferior 1 (process 697509) exited normally]
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/another-one/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 0x14
+
+Breakpoint 1, 0x0000555555555408 in unwrapCookie ()
+(gdb) c
+Continuing.
+🥶 AARGH YUCK!!
+[Inferior 1 (process 699019) exited normally]
+(gdb) 0[Kr
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/another-one/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: 0x20
+
+Breakpoint 1, 0x0000555555555408 in unwrapCookie ()
+(gdb) c
+Continuing.
+🥶 AARGH YUCK!!
+[Inferior 1 (process 699418) exited normally]
+(gdb) r
+Starting program: /import/linux/home1/akozina2/projects/i220b/submit/lab6/exercises/another-one/feed-cookie-monster 
+Me want cookie!
+enter cookie unwrap key in hex: f177
+
+Breakpoint 1, 0x0000555555555408 in unwrapCookie ()
+(gdb) c
+Continuing.
+😂 CHOMP!!! CHOMP!!!
+[Inferior 1 (process 702667) exited with code 01]
+(gdb) q
+akozina2@remote07:~/i220b/submit/lab6/exercises/another-one$ exit
+
+Script done on 2021-10-12 21:21:46-04:00 [COMMAND_EXIT_CODE="0"]
