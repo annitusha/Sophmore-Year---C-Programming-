@@ -1,5 +1,5 @@
 CFLAGS = -g -Wall -std=c18
-LDLIBS = 
+LDLIBS = -lm
 
 log10:		log10.o
 
