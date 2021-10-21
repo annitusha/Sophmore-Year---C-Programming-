@@ -1,8 +1,9 @@
 #include <stdio.h>
-
+#include "def.h"
 void f(void);
 
-int x = 0x2234, y = 0x3924;
+int x = 0x2234;
+int y = 0x3924;
 
 int
 main()
