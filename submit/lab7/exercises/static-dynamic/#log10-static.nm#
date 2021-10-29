@@ -333,8 +333,8 @@
 00000000004412d0 T _dl_tunable_set_hwcaps
 0000000000412a50 T _dl_tunable_set_mallopt_check
 00000000004115c0 T _dl_tunable_set_mmaps_max
-0000000000411590 T _dl_tunable_set_mmap_threshold
-0000000000411600 T _dl_tunable_set_perturb_byte
+0000000000411590 T _dl_tunable_set_mmap_threshold0
+000000000411600 T _dl_tunable_set_perturb_byte
 0000000000411690 T _dl_tunable_set_tcache_count
 0000000000411650 T _dl_tunable_set_tcache_max
 00000000004116a0 T _dl_tunable_set_tcache_unsorted_limit
