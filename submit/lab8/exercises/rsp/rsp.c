@@ -5,6 +5,7 @@ static void *
 get_rsp(void)
 {
   void *rsp;
+  __asm__("leaq (%%rsp), %0": "=r"(rsp));
   //@TODO: inline assembly to set rsp C var to value of %rsp register
   return rsp;
 }
