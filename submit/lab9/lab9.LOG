@@ -1,0 +1,1209 @@
+Script started on 2021-11-04 14:52:35-04:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="80" LINES="43"]
+akozina2@remote05:~/i220b/submit/lab9$ cd exercises
+akozina2@remote05:~/i220b/submit/lab9/exercises$ ls
+1  quote-files
+akozina2@remote05:~/i220b/submit/lab9/exercises$ cd quote-fils[Kes
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo \\
+\
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo \'
+'
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo \*
+*
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo \$HOME\"\\
+$HOME"\
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo '\'
+\
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo '\'[K\'
+\\
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo '\\'[K[K[K*$~'
+*$~
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo '*$~'[K[K[K[K\''
+> '
+\
+
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo '\''
+'[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[Kecho "\"\\"
+"\
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo "$HOME"
+/home/akozina2
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ w[Kecho \
+> abc \
+> 123
+abc 123
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ ls [$][K[K[K*[K?$
+ls: cannot access '?$': No such file or directory
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ ls $,[K.?
+ls: cannot access '$.?': No such file or directory
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ ls ?.$
+ls: cannot access '?.$': No such file or directory
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ ls $[K'$'.?
+ls: cannot access '$.?': No such file or directory
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ ls [$]*
+ls: cannot access '[$]*': No such file or directory
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ ls [$]*"$]*[C"]*
+ls: cannot access '[$]*': No such file or directory
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ ls ["$"]*[1P]*[1P]*[1P]*']*$]*']*
+ls: cannot access '[$]*': No such file or directory
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ 'ls [[K[K[K[K[Kecho '$'
+$
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ ls [$]*
+ls: cannot access '[$]*': No such file or directory
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ ls [$]*'[$]*[C[C[C[C'
+ls: cannot access '[$]*': No such file or directory
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ r[Kls '[$]*'[K[K[K[K[K[K[K[K[Kecho *[$]*
+1$2 a$b
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *;[K['''[K[K[K\']*
+'12 a'b
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *[\']*[1P]*\]*
+\\ab
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *[\\]*[1P]*[1P]*a]*b]*c]*
+a$b \\ab a"b a'b
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *[abc]*[1P]*
+a$b \\ab a"b a'b
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *[ab]*[1P]*[1P]*?]*?]*
+*[??]*
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *[??]*[1P]*[1P]* ]* ]*
+*[ ]*
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *[  ]*[1P]*[1P]*a]*-]*z]*[C[*a*-*z*]*
+\\ab
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *[a-z][a-z]*[C[K[K[K[K[K[K[K[K[K[K[K[K?c c?
+?c c?
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo ?c c?[1@*[1@[[C[C[C[C[C]*
+*[?c c?]*
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *[?c c?]*[1P]*[1P]*[1P]*[1P]*[1P]*
+*[]*
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *[]*
+*[]*
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *[]*[K[K'']*
+*[]*
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *['']* ']*[1@?
+*?[ ]*
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ echo *?[' ']*[K[K[K[K[K[K[K[K??
+** -l
+akozina2@remote05:~/i220b/submit/lab9/exercises/quote-files$ cd ..
+akozina2@remote05:~/i220b/submit/lab9/exercises$ env
+SHELL=/bin/bash
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+KRB5CCNAME=FILE:/tmp/krb5cc_15249_bJNH1efgv5
+PWD=/home/akozina2/i220b/submit/lab9/exercises
+LOGNAME=akozina2
+XDG_SESSION_TYPE=tty
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+VIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+HOME=/home/akozina2
+LANG=en_US.UTF-8
+_VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv
+SSH_CONNECTION=149.125.119.131 51019 128.226.114.205 22
+CHAINENV_CONFIG_ROOT=/home/akozina2/.config/chainenv
+XDG_SESSION_CLASS=user
+TERM=xterm
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+USER=akozina2
+SHLVL=2
+XDG_SESSION_ID=179591
+XDG_RUNTIME_DIR=/run/user/15249
+CHAINENV_SHELL=bash
+SSH_CLIENT=149.125.119.131 51019 22
+PATH=/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/15249/bus
+SSH_TTY=/dev/pts/2
+CHAINENV_ROOT=/opt/chainenv
+OLDPWD=/home/akozina2/i220b/submit/lab9/exercises/quote-files
+_=/usr/bin/env
+akozina2@remote05:~/i220b/submit/lab9/exercises$ echo $HOME
+/home/akozina2
+akozina2@remote05:~/i220b/submit/lab9/exercises$ echo $PATH
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9/exercises$ echo $xxx
+
+akozina2@remote05:~/i220b/submit/lab9/exercises$ xxx=123
+akozina2@remote05:~/i220b/submit/lab9/exercises$ xxx=123echo $xxx
+123
+akozina2@remote05:~/i220b/submit/lab9/exercises$ env ![K| grep xxx
+akozina2@remote05:~/i220b/submit/lab9/exercises$ export xxx
+akozina2@remote05:~/i220b/submit/lab9/exercises$ export xxx[4@nv | grep[C[C[C[C[K
+xxx=123
+akozina2@remote05:~/i220b/submit/lab9/exercises$ export xx=456
+akozina2@remote05:~/i220b/submit/lab9/exercises$ export xx=456nv | grep xx
+xxx=123
+xx=456
+akozina2@remote05:~/i220b/submit/lab9/exercises$ echo $p
+
+akozina2@remote05:~/i220b/submit/lab9/exercises$ env |[K[K[K[K[Kp = *Path[K[K[KATH
+bash: p: command not found
+akozina2@remote05:~/i220b/submit/lab9/exercises$ p = *PATH[1PPATH$PATH
+bash: p: command not found
+akozina2@remote05:~/i220b/submit/lab9/exercises$ echo $p
+
+akozina2@remote05:~/i220b/submit/lab9/exercises$ p =[K[K=$PATH
+akozina2@remote05:~/i220b/submit/lab9/exercises$ echo $p
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9/exercises$ export p = 'nu[K[K\0'
+bash: export: `=': not a valid identifier
+bash: export: `\0': not a valid identifier
+akozina2@remote05:~/i220b/submit/lab9/exercises$ export p = '\0'[K[K[K[K0
+bash: export: `=': not a valid identifier
+bash: export: `0': not a valid identifier
+akozina2@remote05:~/i220b/submit/lab9/exercises$ export p = 0[1P0[C[K[K[K[Kp = '\0'[8Pcho $pp=$PATHecho $pxport p = '\0'[1P'\0'[C[C[1P='\0'
+akozina2@remote05:~/i220b/submit/lab9/exercises$ echo p
+p
+akozina2@remote05:~/i220b/submit/lab9/exercises$ echo $PATH
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9/exercises$ echo $p
+\0
+akozina2@remote05:~/i220b/submit/lab9/exercises$ export p=null
+akozina2@remote05:~/i220b/submit/lab9/exercises$ echo $PATH
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9/exercises$ echo $p
+null
+akozina2@remote05:~/i220b/submit/lab9/exercises$ ls
+1  quote-files
+akozina2@remote05:~/i220b/submit/lab9/exercises$ cd ..[K[K[K[K[Kls : wc *
+ls: cannot access ':': No such file or directory
+ls: cannot access 'wc': No such file or directory
+1:
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+
+quote-files:
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+akozina2@remote05:~/i220b/submit/lab9/exercises$ ls : wc *[C[1P[1@;[1@;[1P
+1  quote-files
+wc: 1: Is a directory
+      0       0       0 1
+wc: quote-files: Is a directory
+      0       0       0 quote-files
+      0       0       0 total
+akozina2@remote05:~/i220b/submit/lab9/exercises$ find -L ~/cs220 -name '*.c'
+/home/akozina2/cs220/exercises/questions/src/final/as-fns.c
+/home/akozina2/cs220/exercises/questions/src/midterm/asm-to-c.c
+/home/akozina2/cs220/exercises/questions/src/x86/fns-asm.c
+/home/akozina2/cs220/hw/hw2-sol/sorted-list/main.c
+/home/akozina2/cs220/hw/hw2-sol/sorted-list/sorted-list.c
+/home/akozina2/cs220/labs/assembly-language/exercises/2/identify.c
+/home/akozina2/cs220/labs/assembly-language/exercises/hello.c
+/home/akozina2/cs220/labs/assembly-language/exercises/identify/identify.c
+/home/akozina2/cs220/labs/gdb/exercises/1-hello-args/hello.c
+/home/akozina2/cs220/labs/gdb/exercises/2-hello-upcase-args/hello.c
+/home/akozina2/cs220/labs/lab1/exercises/1-hello/hello.c
+/home/akozina2/cs220/labs/lab1/exercises/3-multifile/main.c
+/home/akozina2/cs220/labs/lab1/exercises/3-multifile/quadr.c
+/home/akozina2/cs220/labs/lab1/exercises/4-from-scratch/key-value.c
+/home/akozina2/cs220/labs/lab1/exercises/4-from-scratch/main.c
+/home/akozina2/cs220/labs/lab1/exercises/4-from-scratch/process-file.c
+/home/akozina2/cs220/labs/lab1/exercises/5-auto-dependencies/main.c
+/home/akozina2/cs220/labs/lab1/exercises/5-auto-dependencies/quadr.c
+/home/akozina2/cs220/labs/lab2/exercises/1-hello-args/hello.c
+/home/akozina2/cs220/labs/lab2/exercises/2-hello-upcase-args/hello.c
+/home/akozina2/cs220/labs/lab3/exercises/4/sum-ints.c
+/home/akozina2/cs220/labs/lab3/exercises/c-stdin-stdout/sum-ints.c
+/home/akozina2/cs220/labs/lab4/exercises/1/pointers.c
+/home/akozina2/cs220/labs/lab4/exercises/2/in-pointers.c
+/home/akozina2/cs220/labs/lab4/exercises/3/bad-types.c
+/home/akozina2/cs220/labs/lab4/exercises/4/cast-types.c
+/home/akozina2/cs220/labs/lab4/exercises/5/void-pointers.c
+/home/akozina2/cs220/labs/lab4/exercises/6/in-voids.c
+/home/akozina2/cs220/labs/lab4/exercises/7/bug-program.c
+/home/akozina2/cs220/labs/lab4/exercises/bad-types/bad-types.c
+/home/akozina2/cs220/labs/lab4/exercises/bug-program/bug-program.c
+/home/akozina2/cs220/labs/lab4/exercises/cast-types/cast-types.c
+/home/akozina2/cs220/labs/lab4/exercises/in-pointers/in-pointers.c
+/home/akozina2/cs220/labs/lab4/exercises/in-voids/in-voids.c
+/home/akozina2/cs220/labs/lab4/exercises/pointers/pointers.c
+/home/akozina2/cs220/labs/lab4/exercises/void-pointers/void-pointers.c
+/home/akozina2/cs220/labs/lab5/exercises/2/identify.c
+/home/akozina2/cs220/labs/lab5/exercises/hello.c
+/home/akozina2/cs220/labs/lab5/exercises/identify/identify.c
+/home/akozina2/cs220/labs/make/exercises/1-hello/hello.c
+/home/akozina2/cs220/labs/make/exercises/3-multifile/main.c
+/home/akozina2/cs220/labs/make/exercises/3-multifile/quadr.c
+/home/akozina2/cs220/labs/make/exercises/4-from-scratch/key-value.c
+/home/akozina2/cs220/labs/make/exercises/4-from-scratch/main.c
+/home/akozina2/cs220/labs/make/exercises/4-from-scratch/process-file.c
+/home/akozina2/cs220/labs/make/exercises/5-auto-dependencies/main.c
+/home/akozina2/cs220/labs/make/exercises/5-auto-dependencies/quadr.c
+/home/akozina2/cs220/labs/pointers/exercises/1/pointers.c
+/home/akozina2/cs220/labs/pointers/exercises/2/in-pointers.c
+/home/akozina2/cs220/labs/pointers/exercises/3/bad-types.c
+/home/akozina2/cs220/labs/pointers/exercises/4/cast-types.c
+/home/akozina2/cs220/labs/pointers/exercises/5/void-pointers.c
+/home/akozina2/cs220/labs/pointers/exercises/6/in-voids.c
+/home/akozina2/cs220/labs/pointers/exercises/7/bug-program.c
+/home/akozina2/cs220/labs/pointers/exercises/bad-types/bad-types.c
+/home/akozina2/cs220/labs/pointers/exercises/bug-program/bug-program.c
+/home/akozina2/cs220/labs/pointers/exercises/cast-types/cast-types.c
+/home/akozina2/cs220/labs/pointers/exercises/in-pointers/in-pointers.c
+/home/akozina2/cs220/labs/pointers/exercises/in-voids/in-voids.c
+/home/akozina2/cs220/labs/pointers/exercises/pointers/pointers.c
+/home/akozina2/cs220/labs/pointers/exercises/void-pointers/void-pointers.c
+/home/akozina2/cs220/labs/unix-cli/exercises/4/sum-ints.c
+/home/akozina2/cs220/labs/unix-cli/exercises/c-stdin-stdout/sum-ints.c
+/home/akozina2/cs220/labs/decoding-binary/exercises/1/feed-cookie-monster.c
+/home/akozina2/cs220/labs/decoding-binary/exercises/2/feed-cookie-monster.c
+/home/akozina2/cs220/labs/decoding-binary/exercises/3/feed-cookie-monster.c
+/home/akozina2/cs220/labs/decoding-binary/exercises/another-one/feed-cookie-monster.c
+/home/akozina2/cs220/labs/decoding-binary/exercises/feed-cookie-monster.c
+/home/akozina2/cs220/labs/decoding-binary/exercises/full-example/feed-cookie-monster.c
+/home/akozina2/cs220/labs/decoding-binary/exercises/simple/feed-cookie-monster.c
+/home/akozina2/cs220/labs/lab6/exercises/1/feed-cookie-monster.c
+/home/akozina2/cs220/labs/lab6/exercises/2/feed-cookie-monster.c
+/home/akozina2/cs220/labs/lab6/exercises/3/feed-cookie-monster.c
+/home/akozina2/cs220/labs/lab6/exercises/another-one/feed-cookie-monster.c
+/home/akozina2/cs220/labs/lab6/exercises/feed-cookie-monster.c
+/home/akozina2/cs220/labs/lab6/exercises/full-example/feed-cookie-monster.c
+/home/akozina2/cs220/labs/lab6/exercises/simple/feed-cookie-monster.c
+/home/akozina2/cs220/labs/lab7/exercises/1/log10.c
+/home/akozina2/cs220/labs/lab7/exercises/2/def1.c
+/home/akozina2/cs220/labs/lab7/exercises/2/def2.c
+/home/akozina2/cs220/labs/lab7/exercises/2/main.c
+/home/akozina2/cs220/labs/lab7/exercises/3/f.c
+/home/akozina2/cs220/labs/lab7/exercises/3/main.c
+/home/akozina2/cs220/labs/lab7/exercises/4/log10.c
+/home/akozina2/cs220/labs/lab7/exercises/5/addvec.c
+/home/akozina2/cs220/labs/lab7/exercises/5/multvec.c
+/home/akozina2/cs220/labs/lab7/exercises/5/testvec.c
+/home/akozina2/cs220/labs/lab7/exercises/7/circ.c
+/home/akozina2/cs220/labs/lab7/exercises/7/rect.c
+/home/akozina2/cs220/labs/lab7/exercises/7/testgeom.c
+/home/akozina2/cs220/labs/lab7/exercises/libgeom/circ.c
+/home/akozina2/cs220/labs/lab7/exercises/libgeom/rect.c
+/home/akozina2/cs220/labs/lab7/exercises/libgeom/testgeom.c
+/home/akozina2/cs220/labs/lab7/exercises/libvec/addvec.c
+/home/akozina2/cs220/labs/lab7/exercises/libvec/multvec.c
+/home/akozina2/cs220/labs/lab7/exercises/libvec/testvec.c
+/home/akozina2/cs220/labs/lab7/exercises/log10/log10.c
+/home/akozina2/cs220/labs/lab7/exercises/multiple-defs/f.c
+/home/akozina2/cs220/labs/lab7/exercises/multiple-defs/main.c
+/home/akozina2/cs220/labs/lab7/exercises/multiple-symbols/def1.c
+/home/akozina2/cs220/labs/lab7/exercises/multiple-symbols/def2.c
+/home/akozina2/cs220/labs/lab7/exercises/multiple-symbols/main.c
+/home/akozina2/cs220/labs/lab7/exercises/static-dynamic/log10.c
+/home/akozina2/cs220/labs/linking/exercises/1/log10.c
+/home/akozina2/cs220/labs/linking/exercises/2/def1.c
+/home/akozina2/cs220/labs/linking/exercises/2/def2.c
+/home/akozina2/cs220/labs/linking/exercises/2/main.c
+/home/akozina2/cs220/labs/linking/exercises/3/f.c
+/home/akozina2/cs220/labs/linking/exercises/3/main.c
+/home/akozina2/cs220/labs/linking/exercises/4/log10.c
+/home/akozina2/cs220/labs/linking/exercises/5/addvec.c
+/home/akozina2/cs220/labs/linking/exercises/5/multvec.c
+/home/akozina2/cs220/labs/linking/exercises/5/testvec.c
+/home/akozina2/cs220/labs/linking/exercises/7/circ.c
+/home/akozina2/cs220/labs/linking/exercises/7/rect.c
+/home/akozina2/cs220/labs/linking/exercises/7/testgeom.c
+/home/akozina2/cs220/labs/linking/exercises/libgeom/circ.c
+/home/akozina2/cs220/labs/linking/exercises/libgeom/rect.c
+/home/akozina2/cs220/labs/linking/exercises/libgeom/testgeom.c
+/home/akozina2/cs220/labs/linking/exercises/libvec/addvec.c
+/home/akozina2/cs220/labs/linking/exercises/libvec/multvec.c
+/home/akozina2/cs220/labs/linking/exercises/libvec/testvec.c
+/home/akozina2/cs220/labs/linking/exercises/log10/log10.c
+/home/akozina2/cs220/labs/linking/exercises/multiple-defs/f.c
+/home/akozina2/cs220/labs/linking/exercises/multiple-defs/main.c
+/home/akozina2/cs220/labs/linking/exercises/multiple-symbols/def1.c
+/home/akozina2/cs220/labs/linking/exercises/multiple-symbols/def2.c
+/home/akozina2/cs220/labs/linking/exercises/multiple-symbols/main.c
+/home/akozina2/cs220/labs/linking/exercises/static-dynamic/log10.c
+/home/akozina2/cs220/labs/lab8/exercises/1/rotate.c
+/home/akozina2/cs220/labs/lab8/exercises/2/main.c
+/home/akozina2/cs220/labs/lab8/exercises/3/main.c
+/home/akozina2/cs220/labs/lab8/exercises/4/main.c
+/home/akozina2/cs220/labs/lab8/exercises/5/rip.c
+/home/akozina2/cs220/labs/lab8/exercises/6/rsp.c
+/home/akozina2/cs220/labs/lab8/exercises/cpuid1/main.c
+/home/akozina2/cs220/labs/lab8/exercises/cpuid2/main.c
+/home/akozina2/cs220/labs/lab8/exercises/parity/main.c
+/home/akozina2/cs220/labs/lab8/exercises/rip/rip.c
+/home/akozina2/cs220/labs/lab8/exercises/rotate/rotate.c
+/home/akozina2/cs220/labs/lab8/exercises/rsp/rsp.c
+/home/akozina2/cs220/labs/mixing-c-with-assembly/exercises/1/rotate.c
+/home/akozina2/cs220/labs/mixing-c-with-assembly/exercises/2/main.c
+/home/akozina2/cs220/labs/mixing-c-with-assembly/exercises/3/main.c
+/home/akozina2/cs220/labs/mixing-c-with-assembly/exercises/4/main.c
+/home/akozina2/cs220/labs/mixing-c-with-assembly/exercises/5/rip.c
+/home/akozina2/cs220/labs/mixing-c-with-assembly/exercises/6/rsp.c
+/home/akozina2/cs220/labs/mixing-c-with-assembly/exercises/cpuid1/main.c
+/home/akozina2/cs220/labs/mixing-c-with-assembly/exercises/cpuid2/main.c
+/home/akozina2/cs220/labs/mixing-c-with-assembly/exercises/parity/main.c
+/home/akozina2/cs220/labs/mixing-c-with-assembly/exercises/rip/rip.c
+/home/akozina2/cs220/labs/mixing-c-with-assembly/exercises/rotate/rotate.c
+/home/akozina2/cs220/labs/mixing-c-with-assembly/exercises/rsp/rsp.c
+/home/akozina2/cs220/projects/prj1-sol/file-utils.c
+/home/akozina2/cs220/projects/prj1-sol/main.c
+/home/akozina2/cs220/projects/prj1-sol/morse.c
+/home/akozina2/cs220/projects/prj1-sol/tests.c
+/home/akozina2/cs220/projects/prj1/prj1-sol/file-utils.c
+/home/akozina2/cs220/projects/prj1/prj1-sol/main.c
+/home/akozina2/cs220/projects/prj1/prj1-sol/morse.c
+/home/akozina2/cs220/projects/prj1/prj1-sol/tests.c
+/home/akozina2/cs220/projects/prj2/prj2-sol/int-set-strings.c
+/home/akozina2/cs220/projects/prj2/prj2-sol/main.c
+/home/akozina2/cs220/projects/prj2/prj2-sol/tests.c
+/home/akozina2/cs220/projects/prj2-sol/int-set-strings.c
+/home/akozina2/cs220/projects/prj2-sol/int-set.c
+/home/akozina2/cs220/projects/prj2-sol/main.c
+/home/akozina2/cs220/projects/prj2-sol/tests.c
+/home/akozina2/cs220/slides/c-intro/code/arith.c
+/home/akozina2/cs220/slides/c-intro/code/bases.c
+/home/akozina2/cs220/slides/c-intro/code/count-1s-1.c
+/home/akozina2/cs220/slides/c-intro/code/count-1s-2.c
+/home/akozina2/cs220/slides/c-intro/code/dangling-pointer.c
+/home/akozina2/cs220/slides/c-intro/code/endian.c
+/home/akozina2/cs220/slides/c-intro/code/kilo-powers.c
+/home/akozina2/cs220/slides/c-intro/code/out-bits.c
+/home/akozina2/cs220/slides/c-intro/code/scopes-example.c
+/home/akozina2/cs220/slides/c-intro/code/sorted-list/main.c
+/home/akozina2/cs220/slides/c-intro/code/sorted-list/sorted-list.c
+/home/akozina2/cs220/slides/c-intro/code/str-to-int.c
+/home/akozina2/cs220/slides/c-intro/code/sum-args.c
+/home/akozina2/cs220/slides/c-intro/code/sum.c
+/home/akozina2/cs220/slides/c-intro/code/sum0.c
+/home/akozina2/cs220/slides/c-intro/code/vector-scalar-mult.c
+/home/akozina2/cs220/slides/c-intro/code/wc.c
+/home/akozina2/cs220/slides/intro/code/hello.c
+/home/akozina2/cs220/slides/x86/code/abs-diff.c
+/home/akozina2/cs220/slides/x86/code/acc-fact.c
+/home/akozina2/cs220/slides/x86/code/arith.c
+/home/akozina2/cs220/slides/x86/code/array-access.c
+/home/akozina2/cs220/slides/x86/code/base-index.c
+/home/akozina2/cs220/slides/x86/code/cmp-sets.c
+/home/akozina2/cs220/slides/x86/code/conditional-move.c
+/home/akozina2/cs220/slides/x86/code/displ-base-index.c
+/home/akozina2/cs220/slides/x86/code/displ-base.c
+/home/akozina2/cs220/slides/x86/code/div-mod.c
+/home/akozina2/cs220/slides/x86/code/dynamic-array.c
+/home/akozina2/cs220/slides/x86/code/fact-do-while.c
+/home/akozina2/cs220/slides/x86/code/fact-while.c
+/home/akozina2/cs220/slides/x86/code/find.c
+/home/akozina2/cs220/slides/x86/code/imm.c
+/home/akozina2/cs220/slides/x86/code/indir.c
+/home/akozina2/cs220/slides/x86/code/indirect-goto.c
+/home/akozina2/cs220/slides/x86/code/move.c
+/home/akozina2/cs220/slides/x86/code/mstore/main.c
+/home/akozina2/cs220/slides/x86/code/mstore/mstore.c
+/home/akozina2/cs220/slides/x86/code/point3.c
+/home/akozina2/cs220/slides/x86/code/read-point.c
+/home/akozina2/cs220/slides/x86/code/rec-fact.c
+/home/akozina2/cs220/slides/x86/code/scale.c
+/home/akozina2/cs220/slides/x86/code/stack-frame.c
+/home/akozina2/cs220/slides/x86/code/structs.c
+/home/akozina2/cs220/slides/x86/code/sub.c
+/home/akozina2/cs220/slides/x86/code/sum.c
+/home/akozina2/cs220/slides/x86/code/switch.c
+/home/akozina2/cs220/slides/x86/code/vframe.c
+/home/akozina2/cs220/slides/x86/code/area.c
+/home/akozina2/cs220/slides/x86/code/base-scaled-index.c
+/home/akozina2/cs220/slides/x86/code/displ-base-scaled-index.c
+/home/akozina2/cs220/slides/x86/code/geom.c
+/home/akozina2/cs220/slides/x86/code/shift.c
+/home/akozina2/cs220/slides/x86/code/sum-dist-origin.c
+/home/akozina2/cs220/slides/x86/code/abs-diff-s.c
+/home/akozina2/cs220/slides/x86/code/sum-dist-origin-s.c
+/home/akozina2/cs220/slides/more-c/code/enum-strings.c
+/home/akozina2/cs220/slides/more-c/code/float-decode.c
+/home/akozina2/cs220/slides/more-c/code/oo-shapes/circle.c
+/home/akozina2/cs220/slides/more-c/code/oo-shapes/main.c
+/home/akozina2/cs220/slides/more-c/code/oo-shapes/rect.c
+/home/akozina2/cs220/slides/more-c/code/oo-shapes/shape.c
+/home/akozina2/cs220/slides/more-c/code/stack/main.c
+/home/akozina2/cs220/slides/more-c/code/stack/stack.c
+akozina2@remote05:~/i220b/submit/lab9/exercises$ find -L ~/cs220 -name '*.c' | wc -l
+232
+akozina2@remote05:~/i220b/submit/lab9/exercises$ find -L ~/cs220 -name '*.c' | wc -l[K[K
+    232     232   13461
+akozina2@remote05:~/i220b/submit/lab9/exercises$ find / -name '*.c' 2>/dev/null >c-files.lst &
+[1] 1890465
+akozina2@remote05:~/i220b/submit/lab9/exercises$ ls
+1  c-files.lst	quote-files
+akozina2@remote05:~/i220b/submit/lab9/exercises$ emacs c-files.lst
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[43d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[42d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[43;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[43;54H[?25ldone[H
+[?12l[?25h[?12;25h[43;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[43;59H[?25ldone[H
+[?12l[?25h[?12;25h[43;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[43;58H[?25ldone[H
+[?12l[?25h[?12;25h[43;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[43;60H[?25ldone[H
+[?12l[?25h[?12;25h[43;35H[?25ldevhelp.el (source)...[K[H
+[?12l[?25h[?12;25h[43;57H[?25ldone[H
+[?12l[?25h[?12;25h[43;36H[?25lictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[43;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[43;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[43d[?25le[K[H[7mFile Edit Options Buffers Tools Help                                            [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) ---------------------------[0m[39;49m[27m
+[A
+Loading /var/cache/dictionaries-common/emacsen-ispell-default.el (source)...don\
+[A[2d[?12l[?25h[?12;25h[43d[K[A	[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[42;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[42;75H[?25ldone[H
+[?12l[?25h[?12;25h[42;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[42;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[42;61H[?25ldone[H
+[?12l[?25h[?12;25h[42;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[43d[?25ls.el (source)...[42;10Husr/share/emacs/site-lisp/elpa/haskell-mode-16.1/haskell-mode-autoload\
+[2d[?12l[?25h[?12;25h[43;17H[?25ldone[H
+[?12l[?25h[?12;25h[43d[K[42;10H[?25letc/emacs/site-start.d/50haskell-mode.el (source)...done[K[H
+[?12l[?25h[?12;25h[42;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[42;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[42;75H[?25ldone[H
+[?12l[?25h[?12;25h[42;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[42;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[42;64H[?25ldone[H
+[?12l[?25h[?12;25h[42;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[42;54H[?25ldone[H
+[?12l[?25h[?12;25h[42;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[42;65H[?25ldone[H
+[?12l[?25h[?12;25h[42;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[42;54H[?25ldone[H
+[?12l[?25h[?12;25h[42;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[42;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c]11;?\[>4;1m[?2004h[?1004h[43d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction ElDoc) ----------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[43d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Conf Help                                       [0m[39;49m[27m
+[A
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/bootloaders/atmega/ATmegaBOOT_[39;49m\
+[A
+[33m168.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/bootloaders/atmega8/ATmegaBOOT[39;49m\
+[A
+[33m.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/bootloaders/bt/ATmegaBOOT_168.[39;49m\
+[A
+[33mc[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/bootloaders/caterina/Caterina.[39;49m\
+[A
+[33mc[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/bootloaders/caterina/Descripto[39;49m\
+[A
+[33mrs.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/bootloaders/lilypad/src/ATmega[39;49m\
+[A
+[33mBOOT.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/bootloaders/optiboot/optiboot.[39;49m\
+[A
+[33mc[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/bootloaders/stk500v2/stk500boo[39;49m\
+[A
+[33mt.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/cores/arduino/WInterrupts.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/cores/arduino/wiring.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/cores/arduino/wiring_analog.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/cores/arduino/wiring_digital.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/cores/arduino/wiring_pulse.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/cores/arduino/wiring_shift.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/firmwares/arduino-usbdfu/Ardui[39;49m\
+[A
+[33mno-usbdfu.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/firmwares/arduino-usbdfu/Descr[39;49m\
+[A
+[33miptors.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/firmwares/arduino-usbserial/Ar[39;49m\
+[A
+[33mduino-usbserial.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/hardware/arduino/firmwares/arduino-usbserial/De[39;49m\
+[A
+[33mscriptors.c[39;49m[K
+[33m/import/linux/opt/arduino-1.0.1/libraries/Wire/utility/twi.c[39;49m[K
+[33m/import/linux/opt/cadence/ASSURA314/install/bin.lnx86/cdsudp.c[39;49m[K
+[33m/import/linux/opt/cadence/ASSURA314/install/bin.lnx86/genControl.c[39;49m[K
+[33m/import/linux/opt/cadence/ASSURA314/install/bin.lnx86/io_fltr.c[39;49m[K
+[33m/import/linux/opt/cadence/ASSURA314/install/bin.lnx86/process_file.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/install/bin.lnx86/cdsudp.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/install/bin.lnx86/genControl.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/install/bin.lnx86/io_fltr.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/install/bin.lnx86/process_file.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/dfII/samples/artist/OCEAN/corners/[39;49m\
+[A
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mc-files.lst [0m[39;49m[27m[7m   Top L1     (Conf[Space]) ---------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[43d[K[42;34H[?25l[7m2[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h
+[42;34H[?25l[7m3[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h
+[42;34H[?25l[7m4[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[42;34H[?25l[7m5[0m[39;49m[27m[10;1H[?12l[?25h[?12;25h
+[42;34H[?25l[7m6[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[42;34H[?25l[7m7[0m[39;49m[27m[14;1H[?12l[?25h[?12;25h
+[42;34H[?25l[7m8[0m[39;49m[27m[16;1H[?12l[?25h[?12;25h
+[42;34H[?25l[7m9[0m[39;49m[27m[18;1H[?12l[?25h[?12;25h[42;34H[?25l[7m10[0m[39;49m[27m[19;1H[?12l[?25h[?12;25h[42;35H[?25l[7m1[0m[39;49m[27m[20;1H[?12l[?25h[?12;25h[42;35H[?25l[7m2[0m[39;49m[27m[21;1H[?12l[?25h[?12;25h[42;35H[?25l[7m3[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[42;35H[?25l[7m4[0m[39;49m[27m[23;1H[?12l[?25h[?12;25h[42;35H[?25l[7m5[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m6[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m8[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m9[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[42;34H[?25l[7m20[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[42;35H[?25l[7m1[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[42;35H[?25l[7m2[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[42;35H[?25l[7m3[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[42;35H[?25l[7m4[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[42;35H[?25l[7m5[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[42;35H[?25l[7m6[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[42;35H[?25l[7m7[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[42;35H[?25l[7m8[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;41r[2;1H[20M[1;43r[22;1H[?25l[33mdesign/inv2.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/dfII/samples/artist/OCEAN/monteCar[39;49m\
+[A
+[33mlo/spectreS/netlist/low_nat_stat.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/dfII/samples/artist/OCEAN/opamp741[39;49m\
+[A
+[33mCharSpectreS/design/opampTest.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/dfII/samples/artist/OCEAN/paramAna[39;49m\
+[A
+[33mlysis/design/opampAC.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/dfII/samples/artist/OCEAN/pll/desi[39;49m\
+[A
+[33mgn/analog/top.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/dfII/samples/artist/corners/socket[39;49m\
+[A
+[33m/multipleModelLib/netlist/cmos.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/dfII/samples/artist/corners/socket[39;49m\
+[A
+[33m/multipleNumeric/netlist/cmos.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/dfII/samples/artist/corners/socket[39;49m\
+[A
+[33m/multipleParametric/netlist/cmos.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/dfII/samples/artist/corners/socket[39;49m\
+[A
+[33m/singleModelLib/netlist/cmos.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/dfII/samples/artist/corners/socket[39;49m\
+[A
+[33m/singleNumeric/netlist/cmos.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/dfII/samples/artist/corners/spectr[39;49m\
+[A[42;29H[7m 1%[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[42;35H[?25l[7m9[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[42;34H[?25l[7m30[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m1[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m2[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m3[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m4[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m5[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m6[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m7[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m8[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;41r[2;1H[20M[1;43r[22;1H[?25l[33meSVerilog/netlist/analog/ringOsc.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/itkDB/samples/CDF/main.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/itkDB/samples/CDF/mainCreate.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/itkDB/samples/DB/main.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/itkDB/samples/DB/netwire.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/itkDB/samples/HDB/main.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/itkDB/samples/HDB/traverse.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/itkDB/samples/TECH/main.c[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/modelwriter/lib/tcl8.4/tclAppInit.[39;49m\
+[A
+[33mc[39;49m[K
+[33m/import/linux/opt/cadence/IC5141/tools.lnx86/modelwriter/lib/tk8.4/tkAppInit.c[39;49m[K
+[33m/import/linux/opt/cadence/ICC11241/install/bin.lnx86/cdsudp.c[39;49m[K
+[33m/import/linux/opt/cadence/ICC11241/install/bin.lnx86/genControl.c[39;49m[K
+[33m/import/linux/opt/cadence/ICC11241/install/bin.lnx86/io_fltr.c[39;49m[K
+[33m/import/linux/opt/cadence/ICC11241/install/bin.lnx86/process_file.c[39;49m[K
+[33m/import/linux/opt/cadence/LCU/install/bin.lnx86/cdsudp.c[39;49m[K
+[33m/import/linux/opt/cadence/LCU/install/bin.lnx86/genControl.c[39;49m[K
+[33m/import/linux/opt/cadence/LCU/install/bin.lnx86/io_fltr.c[39;49m[K
+[33m/import/linux/opt/cadence/LCU/install/bin.lnx86/process_file.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/doc/vhpiref/examples/foreign/function/test.c[39;49m[K[22;1H[?12l[?25h[?12;25h[42;34H[?25l[7m41[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[42;35H[?25l[7m2[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[42;35H[?25l[7m3[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[42;35H[?25l[7m4[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[42;35H[?25l[7m5[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[42;35H[?25l[7m6[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m7[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[42;35H[?25l[7m8[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[42;35H[?25l[7m9[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[42;34H[?25l[7m50[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[42;35H[?25l[7m1[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[42;35H[?25l[7m2[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[42;35H[?25l[7m3[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[42;35H[?25l[7m4[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[42;35H[?25l[7m5[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[42;35H[?25l[7m6[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;41r[2;1H[20M[1;43r[22;1H[?25l[33m/import/linux/opt/cadence/LDV51/doc/vhpiref/examples/foreign/procedure/test.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/doc/vpivhpiref/example/get_connectivity.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/install/bin.lnx86/cdsudp.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/install/bin.lnx86/genControl.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/install/bin.lnx86/io_fltr.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/install/bin.lnx86/process_file.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/examples/alu/complete/instance.[39;49m\
+[A
+[33mc[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/examples/alu/complete/optional.[39;49m\
+[A
+[33mc[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/examples/alu/complete/simulate.[39;49m\
+[A
+[33mc[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/examples/license/license.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/examples/ram454/complete/instan[39;49m\
+[A
+[33mce.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/examples/ram454/complete/option[39;49m\
+[A
+[33mal.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/examples/ram454/complete/simula[39;49m\
+[A
+[33mte.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/examples/ram454/ram454.c[39;49m[K[42;30H[7m2% L57[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[42;34H[?25l[7m60[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[42;35H[?25l[7m1[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[42;35H[?25l[7m2[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h[42;35H[?25l[7m3[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m4[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[42;35H[?25l[7m5[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m6[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[42;35H[?25l[7m7[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m8[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m9[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h
+[42;34H[?25l[7m70[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;41r[2;1H[20M[1;43r[22;1H[?25l[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/examples/replay/complete/instan[39;49m\
+[A
+[33mce.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/examples/replay/complete/option[39;49m\
+[A
+[33mal.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/examples/replay/complete/simula[39;49m\
+[A
+[33mte.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/examples/replay/ed.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/src/mti_omi_adapter_veriuser.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/src/omiEnums.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/src/omiUtilities.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/amp/src/omi_adapter_veriuser.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/SGS/src/initDelay.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/backan/ba_cellout_p.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/backan/ba_int_nwp.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/backan/ba_path_path.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/backan/dl_net_conl.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/backan/dl_net_intl.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/damem/src/bignum.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/damem/src/daram.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/damem/src/etc.c[39;49m[K[42;35H[7m1[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[42;35H[?25l[7m2[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m3[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m4[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h[42;35H[?25l[7m5[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[42;35H[?25l[7m6[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[42;35H[?25l[7m7[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[42;35H[?25l[7m8[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[42;35H[?25l[7m9[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[42;34H[?25l[7m80[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[42;35H[?25l[7m1[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h[42;35H[?25l[7m2[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h[42;35H[?25l[7m3[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h[42;35H[?25l[7m4[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[42;35H[?25l[7m5[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h[42;35H[?25l[7m6[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h[42;35H[?25l[7m7[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;41r[2;1H[20M[1;43r[22;1H[?25l[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/damem/src/initram.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/damem/src/mvl.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/damem/src/version.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dcalc/src/dl_backan.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dcalc/src/dl_calc.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dcalc/src/dl_calc_bai.[39;49m\
+[A
+[33mc[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dcalc/src/dl_calc_sc.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dcalc/src/dl_calc_si.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dcalc/src/veriuser.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dlcalc/dl_backan.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dlcalc/dl_calc.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dlcalc/dl_veriuser.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dtran/src/dtran_calltf[39;49m\
+[A
+[33m.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dtran/src/dtran_checkt[39;49m\
+[A
+[33mf.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dtran/src/dtran_consum[39;49m\
+[A
+[33mer.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dtran/src/dtran_misctf[39;49m\
+[A[42;35H[7m8[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[42;34H[?25l[7m90[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h[42;35H[?25l[7m1[0m[39;49m[27m[25;1H[?12l[?25h[?12;25h[42;35H[?25l[7m2[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h[42;35H[?25l[7m3[0m[39;49m[27m[27;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m4[0m[39;49m[27m[29;1H[?12l[?25h[?12;25h[42;35H[?25l[7m5[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h[42;35H[?25l[7m6[0m[39;49m[27m[31;1H[?12l[?25h[?12;25h[42;35H[?25l[7m7[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h[42;35H[?25l[7m8[0m[39;49m[27m[33;1H[?12l[?25h[?12;25h[42;35H[?25l[7m9[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h[42;34H[?25l[7m100[0m[39;49m[27m[35;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m1[0m[39;49m[27m[37;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m2[0m[39;49m[27m[39;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m3[0m[39;49m[27m[A[?12l[?25h[?12;25h[1;41r[2;1H[20M[1;43r[22;1H[?25l[33m.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/dtran/src/veriuser.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/net_names/src/net_name[39;49m\
+[A
+[33ms.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/net_names/src/veriuser[39;49m\
+[A
+[33m.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/set_values/src/get_new[39;49m\
+[A
+[33m_val.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/set_values/src/set_cal[39;49m\
+[A
+[33ml.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/set_values/src/set_che[39;49m\
+[A
+[33mck.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/set_values/src/stuff_m[39;49m\
+[A
+[33memory.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/set_values/src/stuff_m[39;49m\
+[A
+[33module.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/set_values/src/stuff_r[39;49m\
+[A
+[33meg.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/set_values/src/stuff_u[39;49m\
+[A
+[33mdp.c[39;49m[K[42;30H[7m3[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[42;36H[?25l[7m5[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m6[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m8[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m9[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m10[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m1[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m2[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m3[0m[39;49m[27m[40;1H[?12l[?25h[?12;25h
+[1;41r[2;1H[20M[1;43r[22;1H[?25l[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/set_values/src/utiliti[39;49m\
+[A
+[33mes.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/set_values/src/veriuse[39;49m\
+[A
+[33mr.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/toggle_count/src/tc_ha[39;49m\
+[A
+[33msh.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/toggle_count/src/tc_pl[39;49m\
+[A
+[33mi.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/toggle_count/src/tc_re[39;49m\
+[A
+[33mports.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/toggle_count/src/veriu[39;49m\
+[A
+[33mser.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/toggle_test/src/tt_has[39;49m\
+[A
+[33mh.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/toggle_test/src/tt_pli[39;49m\
+[A
+[33m.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/toggle_test/src/tt_rep[39;49m\
+[A
+[33morts.c[39;49m[K
+[33m/import/linux/opt/cadence/LDV51/tools.lnx86/examples/pli/toggle_test/src/verius[39;49m\
+[A
+[33mer.c[39;49m[K[42;36H[7m4[0m[39;49m[27m[22;1H[?12l[?25h[?12;25h[42;36H[?25l[7m5[0m[39;49m[27m[24;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m6[0m[39;49m[27m[26;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m7[0m[39;49m[27m[28;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m8[0m[39;49m[27m[30;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m9[0m[39;49m[27m[32;1H[?12l[?25h[?12;25h
+[42;35H[?25l[7m20[0m[39;49m[27m[34;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m1[0m[39;49m[27m[36;1H[?12l[?25h[?12;25h
+[42;36H[?25l[7m2[0m[39;49m[27m[38;1H[?12l[?25h[?12;25h[43d[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[2]+  Stopped                 emacs c-files.lst
+akozina2@remote05:~/i220b/submit/lab9/exercises$ jobs
+[1]-  Running                 find / -name '*.c' 2> /dev/null > c-files.lst &
+[2]+  Stopped                 emacs c-files.lst
+akozina2@remote05:~/i220b/submit/lab9/exercises$ kill %1
+akozina2@remote05:~/i220b/submit/lab9/exercises$ jobs
+[1]-  Terminated              find / -name '*.c' 2> /dev/null > c-files.lst
+[2]+  Stopped                 emacs c-files.lst
+akozina2@remote05:~/i220b/submit/lab9/exercises$ cd ~
+akozina2@remote05:~$ pwd
+/home/akozina2
+akozina2@remote05:~$ xx=123
+akozina2@remote05:~$ pwd; echo $xx; (xx=abc; cd /; pwd; echo $xx); pwd; echo $xx [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kx
+/home/akozina2
+123
+/
+abc
+/home/akozina2
+123
+akozina2@remote05:~$ (cd ~/cs220; git log -1)
+[?1h=[33mcommit 4ca413434ed8d8fb17a9b0757221347554195042[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morig[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31min/HEAD[m[33m)[m[m
+Author: zerksis umrigar <umrigar@binghamton.edu>[m
+Date:   Wed Nov 3 21:09:45 2021 -0400[m
+[m
+    announce exercises[m
+[K[?1l>akozina2@remote05:~$ [Kakozina2@remote05:~$ grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`
+/home/akozina2/cs220/projects/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj1-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj1/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj1/prj1-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj2/prj2-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj2/prj2-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj2-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj2-sol/tests.c:main(void)
+akozina2@remote05:~$ [Kakozina2@remote05:~$ [Kakozina2@remote05:~$ wc -l
+^Z
+[3]+  Stopped                 wc -l
+akozina2@remote05:~$ jobs
+[2]-  Stopped                 emacs c-files.lst  (wd: ~/i220b/submit/lab9/exercises)
+[3]+  Stopped                 wc -l
+akozina2@remote05:~$ grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`
+/home/akozina2/cs220/projects/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj1-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj1/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj1/prj1-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj2/prj2-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj2/prj2-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj2-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj2-sol/tests.c:main(void)
+akozina2@remote05:~$ cd cd [K[Ks 22[K[K[K220
+akozina2@remote05:~/cs220$ ls
+announce.html  assets  docs	  hw	 index.html  labs  projects   slides
+announce.umt   bin     exercises  index  index.umt   misc  README.md  umt.make
+akozina2@remote05:~/cs220$  [Kcd  pt[Krojects
+akozina2@remote05:~/cs220/projects$ ls
+index.html  index.umt  prj1  prj1-sol  prj2  prj2-sol  prj3
+akozina2@remote05:~/cs220/projects$ cd prj2
+akozina2@remote05:~/cs220/projects/prj2$ ls
+extras	prj2  prj2.html  prj2.pdf  prj2-sol  prj2.umt
+akozina2@remote05:~/cs220/projects/prj2$ pr2-sol[K[K[K[K[K[K[Kcd prj2-sol
+akozina2@remote05:~/cs220/projects/prj2/prj2-sol$ ls
+int-set.h  int-set-strings.c  int-set-strings.h  main.c  README  tests.c  tests.make
+akozina2@remote05:~/cs220/projects/prj2/prj2-sol$ cd ..[K[K~
+akozina2@remote05:~$ wc -l main.c
+wc: main.c: No such file or directory
+akozina2@remote05:~$ wc -l ~/cs220/projects 
+wc: /home/akozina2/cs220/projects: Is a directory
+0 /home/akozina2/cs220/projects
+akozina2@remote05:~$ wc -l ~/cs220/projects [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgrep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`
+/home/akozina2/cs220/projects/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj1-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj1/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj1/prj1-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj2/prj2-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj2/prj2-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj2-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj2-sol/tests.c:main(void)
+akozina2@remote05:~$ wc -l grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`
+wc: invalid option -- 'i'
+Try 'wc --help' for more information.
+akozina2@remote05:~$ wc -l ^C
+akozina2@remote05:~$ wc -l grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/home/akozina2/cs220/projects/prj1/prj1-sol/main.c:[K
+107 /home/akozina2/cs220/projects/prj1/prj1-sol/main.c
+akozina2@remote05:~$ wc -l /home/akozina2/cs220/projects/prj1/prj1-sol/main.c[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+wc: /home/akozina2/cs220/projects: Is a directory
+0 /home/akozina2/cs220/projects
+akozina2@remote05:~$ wc --help
+Usage: wc [OPTION]... [FILE]...
+  or:  wc [OPTION]... --files0-from=F
+Print newline, word, and byte counts for each FILE, and a total line if
+more than one FILE is specified.  A word is a non-zero-length sequence of
+characters delimited by white space.
+
+With no FILE, or when FILE is -, read standard input.
+
+The options below may be used to select which counts are printed, always in
+the following order: newline, word, character, byte, maximum line length.
+  -c, --bytes            print the byte counts
+  -m, --chars            print the character counts
+  -l, --lines            print the newline counts
+      --files0-from=F    read input from the files specified by
+                           NUL-terminated names in file F;
+                           If F is - then read names from standard input
+  -L, --max-line-length  print the maximum display width
+  -w, --words            print the word counts
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation at: <https://www.gnu.org/software/coreutils/wc>
+or available locally via: info '(coreutils) wc invocation'
+akozina2@remote05:~$ wc --helpl /home/akozina2/cs220/projects/prj1/prj1-sol/main.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1@w[1@c[1@ [1@-[1@l[1@ 
+wc: 'MAIN(': No such file or directory
+    28 /home/akozina2/cs220/projects/prj1-sol/file-utils.c
+    18 /home/akozina2/cs220/projects/prj1-sol/file-utils.h
+   107 /home/akozina2/cs220/projects/prj1-sol/main.c
+   290 /home/akozina2/cs220/projects/prj1-sol/morse.c
+    88 /home/akozina2/cs220/projects/prj1-sol/morse.h
+   523 /home/akozina2/cs220/projects/prj1-sol/tests.c
+    51 /home/akozina2/cs220/projects/prj1-sol/tests.h
+    28 /home/akozina2/cs220/projects/prj1/prj1-sol/file-utils.c
+    18 /home/akozina2/cs220/projects/prj1/prj1-sol/file-utils.h
+   107 /home/akozina2/cs220/projects/prj1/prj1-sol/main.c
+   218 /home/akozina2/cs220/projects/prj1/prj1-sol/morse.c
+    88 /home/akozina2/cs220/projects/prj1/prj1-sol/morse.h
+   523 /home/akozina2/cs220/projects/prj1/prj1-sol/tests.c
+    51 /home/akozina2/cs220/projects/prj1/prj1-sol/tests.h
+    73 /home/akozina2/cs220/projects/prj2/prj2-sol/int-set-strings.c
+    25 /home/akozina2/cs220/projects/prj2/prj2-sol/int-set-strings.h
+    58 /home/akozina2/cs220/projects/prj2/prj2-sol/int-set.h
+    81 /home/akozina2/cs220/projects/prj2/prj2-sol/main.c
+   571 /home/akozina2/cs220/projects/prj2/prj2-sol/tests.c
+    73 /home/akozina2/cs220/projects/prj2-sol/int-set-strings.c
+    25 /home/akozina2/cs220/projects/prj2-sol/int-set-strings.h
+   235 /home/akozina2/cs220/projects/prj2-sol/int-set.c
+    59 /home/akozina2/cs220/projects/prj2-sol/int-set.h
+    81 /home/akozina2/cs220/projects/prj2-sol/main.c
+   624 /home/akozina2/cs220/projects/prj2-sol/tests.c
+  4043 total
+akozina2@remote05:~$ echo $?
+1
+akozina2@remote05:~$ faslse[K[K[K[K[K[Kcd s[Ki220b
+akozina2@remote05:~/i220b$ c [Kd[K[Kls
+bomb98	bomb.tar  README.md  submit
+akozina2@remote05:~/i220b$ cd submit
+akozina2@remote05:~/i220b/submit$ ls
+lab0  lab1  lab2  lab3	lab4  lab5  lab6  lab7	lab8  lab9  prj1-sol  prj2-sol
+akozina2@remote05:~/i220b/submit$ cd lab9
+akozina2@remote05:~/i220b/submit/lab9$ ls
+exercises  lab9.LOG
+akozina2@remote05:~/i220b/submit/lab9$ script -a lab9.LOG
+Script started, file is lab9.LOG
+akozina2@remote05:~/i220b/submit/lab9$ grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`
+/home/akozina2/cs220/projects/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj1-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj1/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj1/prj1-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj2/prj2-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj2/prj2-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj2-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj2-sol/tests.c:main(void)
+akozina2@remote05:~/i220b/submit/lab9$ grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 'MAIN(' `find ~/cs220/projects -name '*.[ch]'` [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@w[1@c[C[1@ [1@-l 'MAIN(' `find ~/cs220/projects -name '*.[ch]'` [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+wc: 'MAIN(': No such file or directory
+    28 /home/akozina2/cs220/projects/prj1-sol/file-utils.c
+    18 /home/akozina2/cs220/projects/prj1-sol/file-utils.h
+   107 /home/akozina2/cs220/projects/prj1-sol/main.c
+   290 /home/akozina2/cs220/projects/prj1-sol/morse.c
+    88 /home/akozina2/cs220/projects/prj1-sol/morse.h
+   523 /home/akozina2/cs220/projects/prj1-sol/tests.c
+    51 /home/akozina2/cs220/projects/prj1-sol/tests.h
+    28 /home/akozina2/cs220/projects/prj1/prj1-sol/file-utils.c
+    18 /home/akozina2/cs220/projects/prj1/prj1-sol/file-utils.h
+   107 /home/akozina2/cs220/projects/prj1/prj1-sol/main.c
+   218 /home/akozina2/cs220/projects/prj1/prj1-sol/morse.c
+    88 /home/akozina2/cs220/projects/prj1/prj1-sol/morse.h
+   523 /home/akozina2/cs220/projects/prj1/prj1-sol/tests.c
+    51 /home/akozina2/cs220/projects/prj1/prj1-sol/tests.h
+    73 /home/akozina2/cs220/projects/prj2/prj2-sol/int-set-strings.c
+    25 /home/akozina2/cs220/projects/prj2/prj2-sol/int-set-strings.h
+    58 /home/akozina2/cs220/projects/prj2/prj2-sol/int-set.h
+    81 /home/akozina2/cs220/projects/prj2/prj2-sol/main.c
+   571 /home/akozina2/cs220/projects/prj2/prj2-sol/tests.c
+    73 /home/akozina2/cs220/projects/prj2-sol/int-set-strings.c
+    25 /home/akozina2/cs220/projects/prj2-sol/int-set-strings.h
+   235 /home/akozina2/cs220/projects/prj2-sol/int-set.c
+    59 /home/akozina2/cs220/projects/prj2-sol/int-set.h
+    81 /home/akozina2/cs220/projects/prj2-sol/main.c
+   624 /home/akozina2/cs220/projects/prj2-sol/tests.c
+  4043 total
+akozina2@remote05:~/i220b/submit/lab9$ cd ~[K[K[K[Kecho $?
+1
+akozina2@remote05:~/i220b/submit/lab9$ false; echo 123
+123
+akozina2@remote05:~/i220b/submit/lab9$ true [K; echo 123
+123
+akozina2@remote05:~/i220b/submit/lab9$ false && echo 123
+akozina2@remote05:~/i220b/submit/lab9$ true && echo 123
+123
+akozina2@remote05:~/i220b/submit/lab9$ false || echo 123
+123
+akozina2@remote05:~/i220b/submit/lab9$ true || echo 123
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10true || echo 123[1@s[1@l[1@e[1@e[1@p[1@ 
+sleep: invalid time interval ‘true’
+Try 'sleep --help' for more information.
+123
+akozina2@remote05:~/i220b/submit/lab9$ sleep true || echo 123[1@ [1@5[1@ [1P[1P[1P[1@5[1@ 
+sleep: invalid time interval ‘true’
+Try 'sleep --help' for more information.
+123
+akozina2@remote05:~/i220b/submit/lab9$ sleep --help
+Usage: sleep NUMBER[SUFFIX]...
+  or:  sleep OPTION
+Pause for NUMBER seconds.  SUFFIX may be 's' for seconds (the default),
+'m' for minutes, 'h' for hours or 'd' for days.  Unlike most implementations
+that require NUMBER be an integer, here NUMBER may be an arbitrary floating
+point number.  Given two or more arguments, pause for the amount of time
+specified by the sum of their values.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation at: <https://www.gnu.org/software/coreutils/sleep>
+or available locally via: info '(coreutils) sleep invocation'
+akozina2@remote05:~/i220b/submit/lab9$ sleep --help5 true || echo 123[C[C[1P[1@[[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]
+sleep: invalid time interval ‘5[true’
+Try 'sleep --help' for more information.
+123]
+akozina2@remote05:~/i220b/submit/lab9$ sleep [K[K[K[K[K[Kfalse && echo 123
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10
+akozina2@remote05:~/i220b/submit/lab9$ true && echo 123
+123
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10true && echo 123 -[Ksleep 10
+123 sleep 10
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10 && false[K[K[K[K[Ktrue && echo 123
+123
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10 && true && echo 123[1P[1P[1@5
+123
+akozina2@remote05:~/i220b/submit/lab9$ echo $xxx
+123
+akozina2@remote05:~/i220b/submit/lab9$ echo $p
+null
+akozina2@remote05:~/i220b/submit/lab9$ echo $PATH
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9$ echo[K[K[K[K$p =[K[K=[K[K[Kp=$PATH
+akozinScript started on 2021-11-04 16:56:46-04:00 [TERM="xterm" TTY="/dev/pts/4" COLUMNS="91" LINES="59"]
+akozina2@remote05:~/i220b/submit/lab9$ grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`
+/home/akozina2/cs220/projects/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj1-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj1/prj1-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj1/prj1-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj2/prj2-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj2/prj2-sol/tests.c:main(void)
+/home/akozina2/cs220/projects/prj2-sol/main.c:main(int argc, const char *argv[])
+/home/akozina2/cs220/projects/prj2-sol/tests.c:main(void)
+akozina2@remote05:~/i220b/submit/lab9$ grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 'MAIN(' `find ~/cs220/projects -name '*.[ch]'`[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 'MAIN(' `find ~/cs220/projects -name '*.[ch]'` [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@w[1@c[C[1@ [1@-l 'MAIN(' `find ~/cs220/projects -name '*.[ch]'` [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+wc: 'MAIN(': No such file or directory
+    28 /home/akozina2/cs220/projects/prj1-sol/file-utils.c
+    18 /home/akozina2/cs220/projects/prj1-sol/file-utils.h
+   107 /home/akozina2/cs220/projects/prj1-sol/main.c
+   290 /home/akozina2/cs220/projects/prj1-sol/morse.c
+    88 /home/akozina2/cs220/projects/prj1-sol/morse.h
+   523 /home/akozina2/cs220/projects/prj1-sol/tests.c
+    51 /home/akozina2/cs220/projects/prj1-sol/tests.h
+    28 /home/akozina2/cs220/projects/prj1/prj1-sol/file-utils.c
+    18 /home/akozina2/cs220/projects/prj1/prj1-sol/file-utils.h
+   107 /home/akozina2/cs220/projects/prj1/prj1-sol/main.c
+   218 /home/akozina2/cs220/projects/prj1/prj1-sol/morse.c
+    88 /home/akozina2/cs220/projects/prj1/prj1-sol/morse.h
+   523 /home/akozina2/cs220/projects/prj1/prj1-sol/tests.c
+    51 /home/akozina2/cs220/projects/prj1/prj1-sol/tests.h
+    73 /home/akozina2/cs220/projects/prj2/prj2-sol/int-set-strings.c
+    25 /home/akozina2/cs220/projects/prj2/prj2-sol/int-set-strings.h
+    58 /home/akozina2/cs220/projects/prj2/prj2-sol/int-set.h
+    81 /home/akozina2/cs220/projects/prj2/prj2-sol/main.c
+   571 /home/akozina2/cs220/projects/prj2/prj2-sol/tests.c
+    73 /home/akozina2/cs220/projects/prj2-sol/int-set-strings.c
+    25 /home/akozina2/cs220/projects/prj2-sol/int-set-strings.h
+   235 /home/akozina2/cs220/projects/prj2-sol/int-set.c
+    59 /home/akozina2/cs220/projects/prj2-sol/int-set.h
+    81 /home/akozina2/cs220/projects/prj2-sol/main.c
+   624 /home/akozina2/cs220/projects/prj2-sol/tests.c
+  4043 total
+akozina2@remote05:~/i220b/submit/lab9$ cd ~[K[K[K[Kecho $?
+1
+akozina2@remote05:~/i220b/submit/lab9$ false; echo 123
+123
+akozina2@remote05:~/i220b/submit/lab9$ true [K; echo 123
+123
+akozina2@remote05:~/i220b/submit/lab9$ false && echo 123
+akozina2@remote05:~/i220b/submit/lab9$ true && echo 123
+123
+akozina2@remote05:~/i220b/submit/lab9$ false || echo 123
+123
+akozina2@remote05:~/i220b/submit/lab9$ true || echo 123
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10true || echo 123[1@s[1@l[1@e[1@e[1@p[1@ 
+sleep: invalid time interval ‘true’
+Try 'sleep --help' for more information.
+123
+akozina2@remote05:~/i220b/submit/lab9$ sleep true || echo 123[1@ [1@5[1@ [1P[1P[1P[1@5[1@ 
+sleep: invalid time interval ‘true’
+Try 'sleep --help' for more information.
+123
+akozina2@remote05:~/i220b/submit/lab9$ sleep --help
+Usage: sleep NUMBER[SUFFIX]...
+  or:  sleep OPTION
+Pause for NUMBER seconds.  SUFFIX may be 's' for seconds (the default),
+'m' for minutes, 'h' for hours or 'd' for days.  Unlike most implementations
+that require NUMBER be an integer, here NUMBER may be an arbitrary floating
+point number.  Given two or more arguments, pause for the amount of time
+specified by the sum of their values.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation at: <https://www.gnu.org/software/coreutils/sleep>
+or available locally via: info '(coreutils) sleep invocation'
+akozina2@remote05:~/i220b/submit/lab9$ sleep --help5 true || echo 123[C[C[1P[1@[[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]
+sleep: invalid time interval ‘5[true’
+Try 'sleep --help' for more information.
+123]
+akozina2@remote05:~/i220b/submit/lab9$ sleep [K[K[K[K[K[Kfalse && echo 123
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10
+akozina2@remote05:~/i220b/submit/lab9$ true && echo 123
+123
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10true && echo 123 -[Ksleep 10
+123 sleep 10
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10 && false[K[K[K[K[Ktrue && echo 123
+123
+akozina2@remote05:~/i220b/submit/lab9$ sleep 10 && true && echo 123[1P[1P[1@5
+123
+akozina2@remote05:~/i220b/submit/lab9$ echo $xxx
+123
+akozina2@remote05:~/i220b/submit/lab9$ echo $p
+null
+akozina2@remote05:~/i220b/submit/lab9$ echo $PATH
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9$ echo[K[K[K[K$p =[K[K=[K[K[Kp=$PATH
+akozina2@remote05:~/i220b/submit/lab9$ echo $p
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9$ ec[K[K$PATH=null
+bash: /home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=null: No such file or directory
+akozina2@remote05:~/i220b/submit/lab9$ $PATH=null[K[K[K[K[K[K[K[Kath = ''[1P''[1P =''[1P =''[1P =''A =''T =''H =''[C[1P=''
+bash: /home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=: No such file or directory
+akozina2@remote05:~/i220b/submit/lab9$ echi[Ko $PATH
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9$ echo $p
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9$ ech[K[K[Kecp[K[Kxport $PATH
+bash: export: `/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin': not a valid identifier
+akozina2@remote05:~/i220b/submit/lab9$ p = [K[K[K= [K'\0'
+akozina2@remote05:~/i220b/submit/lab9$ echo p[K$PATH
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9$ echo $p
+\0
+akozina2@remote05:~/i220b/submit/lab9$ p=""
+akozina2@remote05:~/i220b/submit/lab9$ echo $p
+
+akozina2@remote05:~/i220b/submit/lab9$ echo $PATH
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9$ $PATH='[K""
+bash: /home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=: No such file or directory
+akozina2@remote05:~/i220b/submit/lab9$ PATH=""
+akozina2@remote05:~/i220b/submit/lab9$ echo $PATH
+
+akozina2@remote05:~/i220b/submit/lab9$ echo $p
+
+akozina2@remote05:~/i220b/submit/lab9$ git status -s
+bash: git: No such file or directory
+akozina2@remote05:~/i220b/submit/lab9$ cd ~/i220b
+akozina2@remote05:~/i220b$ git branch -l[K[K[K[K[K[K[K[K[K[K[K[K[Kcd submit
+akozina2@remote05:~/i220b/submit$ cd lab9
+akozina2@remote05:~/i220b/submit/lab9$ exit
+
+Script done on 2021-11-04 17:27:25-04:00 [COMMAND_EXIT_CODE="0"]

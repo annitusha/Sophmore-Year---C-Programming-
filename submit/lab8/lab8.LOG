@@ -6711,4 +6711,156 @@ akozina2@remote03:~/i220b/submit/lab8/exercises/parity$ makeemacs parity.s
 [K
 [K
 [K
-[7m-UU-:----F1  [0m[39;49m[27m[7m[1mparity.s    [0m[
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mparity.s    [0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit:lab8[0m[39;49m[27m[7m  (Assembler) ---------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[56d[K[55;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[55;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[55;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[55;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[55;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h	[C[C[C[C[C[?25l [55;6H[7m**[0m[39;49m[27m[7;13H[?12l[?25h[?12;25h[?25l[1m[36ml[0m[39;49m[?12l[?25h[?12;25h[56;1H[?25lSaving file /home/akozina2/i220b/submit/lab8/exercises/parity/parity.s...[7;14H[?12l[?25h[?12;25h[56;1H[?25lWrote /home/akozina2/i220b/submit/lab8/exercises/parity/parity.s[K[7;14H[?12l[?25h[?12;25h[55;6H[?25l[7m--[0m[39;49m[27m[7;14H[?12l[?25h[?12;25h[56;1H[K[?1004l[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[5]+  Stopped                 emacs parity.s
+akozina2@remote03:~/i220b/submit/lab8/exercises/parity$ emacs parity.smake[K
+cc -c -g -Wall -std=c18 -Og parity.s -o parity.o
+cc main.o parity.o -o parity
+akozina2@remote03:~/i220b/submit/lab8/exercises/parity$ ./parity
+usage: ./parity INT1...
+akozina2@remote03:~/i220b/submit/lab8/exercises/parity$ ./parity 0
+parity(0) = 1
+akozina2@remote03:~/i220b/submit/lab8/exercises/parity$ ./parity 0[K1
+parity(1) = 0
+akozina2@remote03:~/i220b/submit/lab8/exercises/parity$ ./parity 1[K3
+parity(3) = 1
+akozina2@remote03:~/i220b/submit/lab8/exercises/parity$ exit
+There are stopped jobs.
+akozina2@remote03:~/i220b/submit/lab8/exercises/parity$ git status
+On branch lab8
+Your branch is up to date with 'origin/lab8'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    ../../../lab7/.nfs0000000ba602102900000127[m
+	[31mmodified:   ../../../lab7/exercises/static-dynamic/#log10-static.nm#[m
+	[31mdeleted:    ../../../lab7/exercises/static-dynamic/.#log10-static.nm[m
+	[31mmodified:   ../cpuid2/cpuid.s[m
+	[31mmodified:   parity.s[m
+	[31mmodified:   ../rsp/rsp.c[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../../lab1/exercises/4-from-scratch/#Makefile#[m
+	[31m../../../lab1/exercises/4-from-scratch/Makefile[m
+	[31m../../../lab1/exercises/4-from-scratch/quadr[m
+	[31m../../../lab1/exercises/5-auto-dependencies/cd[m
+	[31m../../../lab1/exercises/5-auto-dependencies/lab1.LOG[m
+	[31m../../../lab2/exercises/2-hello-upcase-args/lab2.LOGH[m
+	[31m../../../lab5/exercises/hello.s[m
+	[31m../../lab8.LOG[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+akozina2@remote03:~/i220b/submit/lab8/exercises/parity$ cd ~/i220b
+akozina2@remote03:~/i220b$ git branch -l
+[?1h=  lab0[m[m
+  lab1[m[m
+  lab2[m[m
+  lab3[m[m
+  lab4[m[m
+  lab5[m[m
+  lab6[m[m
+  lab7[m[m
+* [32mlab8[m[m
+  main[m[m
+  prj1[m[m
+  prj2[m[m
+[K[?1l>akozina2@remote03:~/i220b$ git checkout main
+error: Your local changes to the following files would be overwritten by checkout:
+	submit/lab8/exercises/cpuid2/cpuid.s
+	submit/lab8/exercises/parity/parity.s
+	submit/lab8/exercises/rsp/rsp.c
+Please commit your changes or stash them before you switch branches.
+Aborting
+akozina2@remote03:~/i220b$ git pull
+[33mhint: Pulling without specifying how to reconcile divergent branches is[m
+[33mhint: discouraged. You can squelch this message by running one of the following[m
+[33mhint: commands sometime before your next pull:[m
+[33mhint: [m
+[33mhint:   git config pull.rebase false  # merge (the default strategy)[m
+[33mhint:   git config pull.rebase true   # rebase[m
+[33mhint:   git config pull.ff only       # fast-forward only[m
+[33mhint: [m
+[33mhint: You can replace "git config" with "git config --global" to set a default[m
+[33mhint: preference for all repositories. You can also pass --rebase, --no-rebase,[m
+[33mhint: or --ff-only on the command line to override the configured default per[m
+[33mhint: invocation.[m
+remote: Enumerating objects: 1, done.[K
+remote: Counting objects: 100% (1/1)[Kremote: Counting objects: 100% (1/1), done.[K
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects: 100% (1/1)Unpacking objects: 100% (1/1), 623 bytes | 77.00 KiB/s, done.
+From github.com:annitusha/i220b
+   ae7fac0..8bc62da  main       -> origin/main
+Already up to date.
+akozina2@remote03:~/i220b$ git pullcheckout main
+error: Your local changes to the following files would be overwritten by checkout:
+	submit/lab8/exercises/cpuid2/cpuid.s
+	submit/lab8/exercises/parity/parity.s
+	submit/lab8/exercises/rsp/rsp.c
+Please commit your changes or stash them before you switch branches.
+Aborting
+akozina2@remote03:~/i220b$ git checkout lab8
+D	submit/lab7/.nfs0000000ba602102900000127
+M	submit/lab7/exercises/static-dynamic/#log10-static.nm#
+D	submit/lab7/exercises/static-dynamic/.#log10-static.nm
+M	submit/lab8/exercises/cpuid2/cpuid.s
+M	submit/lab8/exercises/parity/parity.s
+M	submit/lab8/exercises/rsp/rsp.c
+Already on 'lab8'
+Your branch is up to date with 'origin/lab8'.
+akozina2@remote03:~/i220b$ git merge -m 'merged main' main
+Already up to date.
+akozina2@remote03:~/i220b$ i[Kgit status -s
+ [31mD[m submit/lab7/.nfs0000000ba602102900000127
+ [31mM[m submit/lab7/exercises/static-dynamic/#log10-static.nm#
+ [31mD[m submit/lab7/exercises/static-dynamic/.#log10-static.nm
+ [31mM[m submit/lab8/exercises/cpuid2/cpuid.s
+ [31mM[m submit/lab8/exercises/parity/parity.s
+ [31mM[m submit/lab8/exercises/rsp/rsp.c
+[31m??[m submit/lab1/exercises/4-from-scratch/#Makefile#
+[31m??[m submit/lab1/exercises/4-from-scratch/Makefile
+[31m??[m submit/lab1/exercises/4-from-scratch/quadr
+[31m??[m submit/lab1/exercises/5-auto-dependencies/cd
+[31m??[m submit/lab1/exercises/5-auto-dependencies/lab1.LOG
+[31m??[m submit/lab2/exercises/2-hello-upcase-args/lab2.LOGH
+[31m??[m submit/lab5/exercises/hello.s
+[31m??[m submit/lab8/lab8.LOG
+akozina2@remote03:~/i220b$ cd[K[Kls
+README.md  submit
+akozina2@remote03:~/i220b$ cd submit
+akozina2@remote03:~/i220b/submit$ cd lab8
+akozina2@remote03:~/i220b/submit/lab8$ ls
+exercises  lab8.LOG
+akozina2@remote03:~/i220b/submit/lab8$ git add .
+akozina2@remote03:~/i220b/submit/lab8$ git add .ls[Kcd lab8submitls[Kgit status -smerge -m 'merged main' main[14Pcheckout lab8mainpull[Kcheckout main[4Pbranch -l[3Pcd ~/i220b
+akozina2@remote03:~/i220b$ git status -s
+ [31mD[m submit/lab7/.nfs0000000ba602102900000127
+ [31mM[m submit/lab7/exercises/static-dynamic/#log10-static.nm#
+ [31mD[m submit/lab7/exercises/static-dynamic/.#log10-static.nm
+[32mM[m  submit/lab8/exercises/cpuid2/cpuid.s
+[32mM[m  submit/lab8/exercises/parity/parity.s
+[32mM[m  submit/lab8/exercises/rsp/rsp.c
+[32mA[m  submit/lab8/lab8.LOG
+[31m??[m submit/lab1/exercises/4-from-scratch/#Makefile#
+[31m??[m submit/lab1/exercises/4-from-scratch/Makefile
+[31m??[m submit/lab1/exercises/4-from-scratch/quadr
+[31m??[m submit/lab1/exercises/5-auto-dependencies/cd
+[31m??[m submit/lab1/exercises/5-auto-dependencies/lab1.LOG
+[31m??[m submit/lab2/exercises/2-hello-upcase-args/lab2.LOGH
+[31m??[m submit/lab5/exercises/hello.s
+akozina2@remote03:~/i220b$ git commit -a 0[K-m 'completing lab8'
+[lab8 ca278fa] completing lab8
+ Committer: Anna Kozina <akozina2@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
