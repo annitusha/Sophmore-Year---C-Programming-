@@ -1207,3 +1207,123 @@ akozina2@remote05:~/i220b/submit$ cd lab9
 akozina2@remote05:~/i220b/submit/lab9$ exit
 
 Script done on 2021-11-04 17:27:25-04:00 [COMMAND_EXIT_CODE="0"]
+a2@remote05:~/i220b/submit/lab9$ echo $p
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9$ ec[K[K$PATH=null
+bash: /home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=null: No such file or directory
+akozina2@remote05:~/i220b/submit/lab9$ $PATH=null[K[K[K[K[K[K[K[Kath = ''[1P''[1P =''[1P =''[1P =''A =''T =''H =''[C[1P=''
+bash: /home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=: No such file or directory
+akozina2@remote05:~/i220b/submit/lab9$ echi[Ko $PATH
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9$ echo $p
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9$ ech[K[K[Kecp[K[Kxport $PATH
+bash: export: `/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin': not a valid identifier
+akozina2@remote05:~/i220b/submit/lab9$ p = [K[K[K= [K'\0'
+akozina2@remote05:~/i220b/submit/lab9$ echo p[K$PATH
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9$ echo $p
+\0
+akozina2@remote05:~/i220b/submit/lab9$ p=""
+akozina2@remote05:~/i220b/submit/lab9$ echo $p
+
+akozina2@remote05:~/i220b/submit/lab9$ echo $PATH
+/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+akozina2@remote05:~/i220b/submit/lab9$ $PATH='[K""
+bash: /home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/home/akozina2/.config/chainenv/shims:/opt/chainenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin=: No such file or directory
+akozina2@remote05:~/i220b/submit/lab9$ PATH=""
+akozina2@remote05:~/i220b/submit/lab9$ echo $PATH
+
+akozina2@remote05:~/i220b/submit/lab9$ echo $p
+
+akozina2@remote05:~/i220b/submit/lab9$ git status -s
+bash: git: No such file or directory
+akozina2@remote05:~/i220b/submit/lab9$ cd ~/i220b
+akozina2@remote05:~/i220b$ git branch -l[K[K[K[K[K[K[K[K[K[K[K[K[Kcd submit
+akozina2@remote05:~/i220b/submit$ cd lab9
+akozina2@remote05:~/i220b/submit/lab9$ exit
+Script done, file is lab9.LOG
+akozina2@remote05:~/i220b/submit/lab9$ cd ~/i220b
+akozina2@remote05:~/i220b$ git branch -l
+[?1h=  lab0[m[m
+  lab1[m[m
+  lab2[m[m
+  lab3[m[m
+  lab4[m[m
+  lab5[m[m
+  lab6[m[m
+  lab7[m[m
+  lab8[m[m
+* [32mlab9[m[m
+  main[m[m
+  prj1[m[m
+  prj2[m[m
+[K[?1l>akozina2@remote05:~/i220b$ c[Kgit checkout main
+error: Your local changes to the following files would be overwritten by checkout:
+	submit/lab8/lab8.LOG
+Please commit your changes or stash them before you switch branches.
+Aborting
+akozina2@remote05:~/i220b$ git pull
+[33mhint: Pulling without specifying how to reconcile divergent branches is[m
+[33mhint: discouraged. You can squelch this message by running one of the following[m
+[33mhint: commands sometime before your next pull:[m
+[33mhint: [m
+[33mhint:   git config pull.rebase false  # merge (the default strategy)[m
+[33mhint:   git config pull.rebase true   # rebase[m
+[33mhint:   git config pull.ff only       # fast-forward only[m
+[33mhint: [m
+[33mhint: You can replace "git config" with "git config --global" to set a default[m
+[33mhint: preference for all repositories. You can also pass --rebase, --no-rebase,[m
+[33mhint: or --ff-only on the command line to override the configured default per[m
+[33mhint: invocation.[m
+remote: Enumerating objects: 1, done.[K
+remote: Counting objects: 100% (1/1)[Kremote: Counting objects: 100% (1/1), done.[K
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects: 100% (1/1)Unpacking objects: 100% (1/1), 625 bytes | 89.00 KiB/s, done.
+From github.com:annitusha/i220b
+   8bc62da..88df904  main       -> origin/main
+Already up to date.
+akozina2@remote05:~/i220b$ git checkout lab9
+M	submit/lab8/lab8.LOG
+Already on 'lab9'
+Your branch is up to date with 'origin/lab9'.
+akozina2@remote05:~/i220b$ git merge -,[Km 'merged main' main
+Already up to date.
+akozina2@remote05:~/i220b$ git stu[Katus -s
+ [31mM[m submit/lab8/lab8.LOG
+[31m??[m bomb.tar
+[31m??[m bomb98/
+[31m??[m submit/lab1/exercises/4-from-scratch/#Makefile#
+[31m??[m submit/lab1/exercises/4-from-scratch/Makefile
+[31m??[m submit/lab1/exercises/4-from-scratch/quadr
+[31m??[m submit/lab1/exercises/5-auto-dependencies/cd
+[31m??[m submit/lab1/exercises/5-auto-dependencies/lab1.LOG
+[31m??[m submit/lab2/exercises/2-hello-upcase-args/lab2.LOGH
+[31m??[m submit/lab5/exercises/hello.s
+[31m??[m submit/lab9/exercises/c-files.lst
+[31m??[m submit/lab9/lab9.LOG
+akozina2@remote05:~/i220b$ cd submit
+akozina2@remote05:~/i220b/submit$ cd lab9
+akozina2@remote05:~/i220b/submit/lab9$ git add .
+akozina2@remote05:~/i220b/submit/lab9$ cd
+akozina2@remote05:~$ cd i220b
+akozina2@remote05:~/i220b$ git sttu[K[Katus -s
+ [31mM[m submit/lab8/lab8.LOG
+[32mA[m  submit/lab9/exercises/c-files.lst
+[32mA[m  submit/lab9/lab9.LOG
+[31m??[m bomb.tar
+[31m??[m bomb98/
+[31m??[m submit/lab1/exercises/4-from-scratch/#Makefile#
+[31m??[m submit/lab1/exercises/4-from-scratch/Makefile
+[31m??[m submit/lab1/exercises/4-from-scratch/quadr
+[31m??[m submit/lab1/exercises/5-auto-dependencies/cd
+[31m??[m submit/lab1/exercises/5-auto-dependencies/lab1.LOG
+[31m??[m submit/lab2/exercises/2-hello-upcase-args/lab2.LOGH
+[31m??[m submit/lab5/exercises/hello.s
+akozina2@remote05:~/i220b$ git commit -a -m 'completing lab9'
+[lab9 30b8ce2] completing lab9
+ Committer: Anna Kozina <akozina2@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instruct
