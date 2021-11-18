@@ -11,6 +11,11 @@
 static void
 matrix_transpose(int n, double a[][n], double t[][n])
 {
+  for(int i = 0; i < n; i++) {
+    for(int j = 0; j < n; j++) {
+	t[j][i] = a[i][j];
+      }
+  }
   //@TODO add your code here
 }
 
