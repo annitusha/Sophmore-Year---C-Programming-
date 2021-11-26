@@ -11,6 +11,10 @@
 enum { INIT_SIZE = 2 };
 
 struct FnsDataImpl {
+  int index;
+  int nAlloc;
+  Fninfo *elements[];
+  
   //TODO
 };
 
@@ -18,20 +22,93 @@ struct FnsDataImpl {
  *  FnInfo's for functions which are callable directly or indirectly
  *  from the function whose address is rootFn.
  */
+
+void addElement(FnInfo *fInsert, FnsData *fnsArray) {
+    if (fnsArray->index >= fnsArray->nAlloc) {
+        reallocChk((void *)(fnsArray->elements), 2 * fnsArray->nAlloc*sizeof(fInsert));
+        fnsArray->nAlloc *= 2;
+    }
+    fnsArray->elements[fnsArray->index + 1] = fInsert;
+    fnsArray->index += 1;
+}
+
+const FnInfo *
+findFuncByAddress(void *addr, FnsData *fnsData) {
+    for (int i = 0; i < fnsData->index; i++)
+        if(fnsData->elements[i]->address == addr)
+            return fnsData->elements[i];
+    //TODO
+    return NULL;
+
+}
+
+
+
+
+
+
+
+void fn_trace(void *addr, FnsData fnsData) {
+  FnInfo *fnInfo = findFuncByAddress(addr, fnsData);
+    if(fnInfo == NULL) {
+        fnInfo = malloc(sizeof(FnInfo));
+        fnInfo->address = addr;
+        fnInfo->nInCalls = 1;
+        addElement(fnInfo, fnsData);
+    }
+    else
+        fnInfo->nInCalls++;
+
+    Lde * lde = new_lde();
+    int len = get_op_length(lde, addr);
+//    int len;
+    int totalLength = len;
+    while(len > 0) {
+        char instr[len];
+        memcpy(addr, instr, len);
+
+        if(strcmp(instr, "E8") == 0) //found call
+            fn_trace(addr, fnsData);
+        if(strcmp(instr, "C3") == 0) break; //found return
+        totalLength += len;
+        addr += len;
+        len = get_op_length(lde, addr);
+
+    }
+    free_lde(lde);
+    fnInfo->length = totalLength;
+
+}
+
+
 const FnsData *
 new_fns_data(void *rootFn)
 {
-  //TODO
-  return NULL;
+    FnsData *fnsData;
+    fnsData = malloc(sizeof(FnsData));
+    fnsData->index = 0;
+    reallocChk((void *)(fnsData->elements), 10*sizeof(FnInfo *));
+    fnsData->nAlloc = 10;
+    fn_trace(rootFn, fnsData);
+//    qsort(fnsData->elements);
+    return fnsData;
 }
+
+
+
 
 /** Free all resources occupied by fnsData. fnsData must have been
  *  returned by new_fns_data().  It is not ok to use to fnsData after
  *  this call.
  */
-void
-free_fns_data(FnsData *fnsData)
+void free_fns_data(FnsData *fnsData)
 {
+
+  for (int i = 0; i <= fnsData->index; i++)
+        free(fnsData->elements[i]);
+    free(fnsData);
+  
+
   //TODO
 }
 
@@ -52,6 +129,10 @@ const FnInfo *
 next_fn_info(const FnsData *fnsData, const FnInfo *lastFnInfo)
 {
   //TODO
+  for (int i = 0; i < fnsData->index; i++)
+        if(fnsData->elements[i] == lastFnInfo)
+            return fnsData->elements[i+1];
+    //TODO
   return NULL;
 }
 
