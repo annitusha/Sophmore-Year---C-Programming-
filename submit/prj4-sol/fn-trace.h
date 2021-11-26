@@ -20,6 +20,10 @@ typedef struct FnsDataImpl FnsData;
  *  FnInfo's for functions which are callable directly or indirectly
  *  from the function whose address is rootFn.
  */
+
+void addElement(FnInfo *fInsert, FnsData *fnsArray);
+const FnInfo *findFuncByAddress(void *addr, FnsData *fnsData);
+void fn_trace(void *addr, FnsData *fnsData);
 const FnsData *new_fns_data(void *rootFn);
 
 /** Free all resources occupied by fnsData. fnsData must have been
