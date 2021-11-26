@@ -13,7 +13,7 @@ enum { INIT_SIZE = 2 };
 struct FnsDataImpl {
   int index;
   int nAlloc;
-  Fninfo *elements[];
+  FnInfo *elements[];
   
   //TODO
 };
@@ -48,7 +48,7 @@ findFuncByAddress(void *addr, FnsData *fnsData) {
 
 
 
-void fn_trace(void *addr, FnsData fnsData) {
+void fn_trace(void *addr, FnsData *fnsData) {
   FnInfo *fnInfo = findFuncByAddress(addr, fnsData);
     if(fnInfo == NULL) {
         fnInfo = malloc(sizeof(FnInfo));
