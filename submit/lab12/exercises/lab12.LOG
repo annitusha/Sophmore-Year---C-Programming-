@@ -1,0 +1,23 @@
+Script started on 2021-12-02 17:44:15-05:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="80" LINES="23"]
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ make key-int.com
+make: 'key-int.com' is up to date.
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ make poll.com
+as --32 -a=poll.lst poll.s -o poll.o
+objcopy -O binary poll.o poll.bin
+rm poll.o
+dd if=poll.bin of=poll.com bs=256 skip=1
+0+1 records in
+0+1 records out
+117 bytes copied, 0.00190944 s, 61.3 kB/s
+rm poll.bin
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ od -x b;[Klock.com
+0000000 01eb e800 0018 02a0 3c01 7471 b90e 0032
+0000020 15e8 e800 0023 7549 ebf7 e8e8 0015 b450
+0000040 cd08 a221 0102 c358 b450 8a02 0216 cd01
+0000060 5821 b4c3 b04c cd00 5021 5153 02bb b900
+0000100 0000 a0b8 f6f0 49e9 f875 754b 59f2 585b
+0000120 00c3
+0000121
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ exit
+
+Script done on 2021-12-02 17:45:27-05:00 [COMMAND_EXIT_CODE="0"]
