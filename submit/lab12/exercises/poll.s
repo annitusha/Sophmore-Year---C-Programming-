@@ -26,6 +26,9 @@ main1:
 		jz	main3		#quit if got QUIT character
 		mov     $COUNT, %cx     #set output counter
 main2:
+        	mov	inChar, %al
+		cmp	$QUIT,	%al
+		jz	main3
 	        call    checkKey	#check if key has been pressed
 		mov	hasKey, %al	#put checkKey result into al
 		test	%al, %al	#non-zero if keyboard has char
