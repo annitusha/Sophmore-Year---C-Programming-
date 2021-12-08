@@ -21,7 +21,10 @@ main(int argc, const char *argv[])
   }
   int c;
   int count = 0;
-  while ((c = fgetc(in)) != EOF) count++;
+  while ((c = fgetc(in)) != EOF){
+  count++;
+  }
   printf("%d\n", count);
+  free(in);
   return 0;
 }
