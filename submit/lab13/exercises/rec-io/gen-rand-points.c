@@ -29,7 +29,7 @@ main(int argc, const char *argv[])
   int nPoints = atoi(argv[1]);
   if (nPoints <= 0) usage(argv[0]);
   const char *outName = argv[2];
-  FILE *out = fopen(outName, "w");
+  FILE *out = fopen(outName, "wb");
   if (!out) {
     fprintf(stderr, "cannot write %s: %s\n", outName, strerror(errno));
     exit(1);
