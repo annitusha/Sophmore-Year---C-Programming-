@@ -35522,4 +35522,145 @@ Untracked files:
 	[31m../../../lab1/exercises/5-auto-dependencies/lab1.LOG[m
 	[31m../../../lab11/exercises/int-search/#linear-search.c#[m
 	[31m../../../lab12/exercises/#poll.s#[m
-	[
+	[31m../../../lab12/lab12.LOG[m
+	[31m../file-char-count/.#file-char-count.c[m
+	[31m../file-copy/#file-copy.c#[m
+	[31m../file-copy/.#file-copy.c[m
+	[31m../../../lab2/exercises/2-hello-upcase-args/lab2.LOGH[m
+	[31m../../../lab5/exercises/hello.s[m
+	[31m../../../prj5-sol/#Makefile#[m
+	[31m../../../prj5-sol/#cache-sim.c#[m
+
+akozina2@g7-28:/import/linux/home1/akozina2/i220b/submit/lab13/exercises/rec-io$ git add -A
+akozina2@g7-28:/import/linux/home1/akozina2/i220b/submit/lab13/exercises/rec-io$ git stt[Katus
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 3 and 3 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+	[32mnew file:   ../../../../bomb.tar[m
+	[32mnew file:   ../../../../bomb98/#bomb-assembly#[m
+	[32mnew file:   ../../../../bomb98/README[m
+	[32mnew file:   ../../../../bomb98/bomb[m
+	[32mnew file:   ../../../../bomb98/bomb-assembly[m
+	[32mnew file:   ../../../../bomb98/bomb.c[m
+	[32mnew file:   ../../../lab1/exercises/4-from-scratch/#Makefile#[m
+	[32mnew file:   ../../../lab1/exercises/4-from-scratch/Makefile[m
+	[32mnew file:   ../../../lab1/exercises/4-from-scratch/quadr[m
+	[32mnew file:   ../../../lab1/exercises/5-auto-dependencies/cd[m
+	[32mnew file:   ../../../lab1/exercises/5-auto-dependencies/lab1.LOG[m
+	[32mnew file:   ../../../lab11/exercises/int-search/#linear-search.c#[m
+	[32mnew file:   ../../../lab12/exercises/#poll.s#[m
+	[32mnew file:   ../../../lab12/lab12.LOG[m
+	[32mnew file:   ../file-char-count/.#file-char-count.c[m
+	[32mnew file:   ../file-char-count/.gitignore[m
+	[32mnew file:   ../file-char-count/Makefile[m
+	[32mnew file:   ../file-char-count/file-char-count.c[m
+	[32mnew file:   ../file-copy/#file-copy.c#[m
+	[32mnew file:   ../file-copy/.#file-copy.c[m
+	[32mnew file:   ../file-copy/.gitignore[m
+	[32mnew file:   ../file-copy/Makefile[m
+	[32mnew file:   ../file-copy/file-copy.c[m
+	[32mnew file:   ../file-copy/t[m
+	[32mnew file:   ../no-buffer-copy/.gitignore[m
+	[32mnew file:   ../no-buffer-copy/Makefile[m
+	[32mnew file:   ../no-buffer-copy/no-buffer-copy.c[m
+	[32mnew file:   .gitignore[m
+	[32mnew file:   Makefile[m
+	[32mnew file:   dyn-array.c[m
+	[32mnew file:   dyn-array.h[m
+	[32mnew file:   gen-rand-points.c[m
+	[32mnew file:   point2.h[m
+	[32mnew file:   points.dat[m
+	[32mnew file:   stat-points.c[m
+	[32mnew file:   ../stdin-char-count/.gitignore[m
+	[32mnew file:   ../stdin-char-count/Makefile[m
+	[32mnew file:   ../stdin-char-count/stdin-char-count.c[m
+	[32mnew file:   ../../lab13.LOG[m
+	[32mnew file:   ../../../lab2/exercises/2-hello-upcase-args/lab2.LOGH[m
+	[32mnew file:   ../../../lab5/exercises/hello.s[m
+	[32mnew file:   ../../../prj5-sol/#Makefile#[m
+	[32mnew file:   ../../../prj5-sol/#cache-sim.c#[m
+	[32mdeleted:    ../../../prj5-sol/.#Makefile[m
+	[32mdeleted:    ../../../prj5-sol/.#cache-sim.c[m
+	[32mmodified:   ../../../prj5-sol/cache-sim.c[m
+
+akozina2@g7-28:/import/linux/home1/akozina2/i220b/submit/lab13/exercises/rec-io$ git commi -[K[Kt -m ""c"o"m"m"i"t"t"i"n"g" "e"v"e"r" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy"t"h"i"n"g"
+[main 5b7880e] committing everything
+ Committer: Anna Kozina <akozina2@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+akozina2@g7-28:/import/linux/home1/akozina2/i220b/submit/lab13/exercises/rec-io$ git push
+To github.com:annitusha/i220b.git
+ [31m! [rejected]       [m main -> main (non-fast-forward)
+[31merror: failed to push some refs to 'github.com:annitusha/i220b.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+akozina2@g7-28:/import/linux/home1/akozina2/i220b/submit/lab13/exercises/rec-io$ git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 8 and 3 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+akozina2@g7-28:/import/linux/home1/akozina2/i220b/submit/lab13/exercises/rec-io$ git pull
+[33mhint: Pulling without specifying how to reconcile divergent branches is[m
+[33mhint: discouraged. You can squelch this message by running one of the following[m
+[33mhint: commands sometime before your next pull:[m
+[33mhint: [m
+[33mhint:   git config pull.rebase false  # merge (the default strategy)[m
+[33mhint:   git config pull.rebase true   # rebase[m
+[33mhint:   git config pull.ff only       # fast-forward only[m
+[33mhint: [m
+[33mhint: You can replace "git config" with "git config --global" to set a default[m
+[33mhint: preference for all repositories. You can also pass --rebase, --no-rebase,[m
+[33mhint: or --ff-only on the command line to override the configured default per[m
+[33mhint: invocation.[m
+Already up to date!
+hint: Waiting for your editor to close the file... [?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;47r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[47;1H"~/projects/i220b/.git/MERGE_MSG" 6L, 276C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;130mMerge branch 'main' of github.com:annitusha/i220b[m
+[34m# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.[m
+[94m~                                                                                                               [8;1H~                                                                                                               [9;1H~                                                                                                               [10;1H~                                                                                                               [11;1H~                                                                                                               [12;1H~                                                                                                               [13;1H~                                                                                                               [14;1H~                                                                                                               [15;1H~                                                                                                               [16;1H~                                                                                                               [17;1H~                                                                                                               [18;1H~                                                                                                               [19;1H~                                                                                                               [20;1H~                                                                                                               [21;1H~                                                                                                               [22;1H~                                                                                                               [23;1H~                                                                                                               [24;1H~                                                                                                               [25;1H~                                                                                                               [26;1H~                                                                                                               [27;1H~                                                                                                               [28;1H~                                                                                                               [29;1H~                                                                                                               [30;1H~                                                                                                               [31;1H~                                                                                                               [32;1H~                                                                                                               [33;1H~                                                                                                               [34;1H~                                                                                                               [35;1H~                                                                                                               [36;1H~                                                                                                               [37;1H~                                                                                                               [38;1H~                                                                                                               [39;1H~                                                                                                               [40;1H~                                                                                                               [41;1H~                                                                                                               [42;1H~                                                                                                               [43;1H~                                                                                                               [44;1H~                                                                                                               [45;1H~                                                                                                               [46;1H~                                                                                                               [m[47;95H1,1[11CAll]2;MERGE_MSG (~/projects/i220b/.git) - VIM]1;MERGE_MSG[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[1;1H[93mMerge branch 'main' of github.com:annitusha/i220b[m
+[96m# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.[m
+[94m~                                                                                                               [8;1H~                                                                                                               [9;1H~                                                                                                               [10;1H~                                                                                                               [11;1H~                                                                                                               [12;1H~                                                                                                               [13;1H~                                                                                                               [14;1H~                                                                                                               [15;1H~                                                                                                               [16;1H~                                                                                                               [17;1H~                                                                                                               [18;1H~                                                                                                               [19;1H~                                                                                                               [20;1H~                                                                                                               [21;1H~                                                                                                               [22;1H~                                                                                                               [23;1H~                                                                                                               [24;1H~                                                                                                               [25;1H~                                                                                                               [26;1H~                                                                                                               [27;1H~                                                                                                               [28;1H~                                                                                                               [29;1H~                                                                                                               [30;1H~                                                                                                               [31;1H~                                                                                                               [32;1H~                                                                                                               [33;1H~                                                                                                               [34;1H~                                                                                                               [35;1H~                                                                                                               [36;1H~                                                                                                               [37;1H~                                                                                                               [38;1H~                                                                                                               [39;1H~                                                                                                               [40;1H~                                                                                                               [41;1H~                                                                                                               [42;1H~                                                                                                               [43;1H~                                                                                                               [44;1H~                                                                                                               [45;1H~                                                                                                               [46;1H~                                                                                                               [m[47;95H1,1[11CAll"~/projects/i220b/.git/MERGE_MSG" 6L, 276C[1;1H[?25h[?25l[47;85H:[1;1H[47;1H[K[47;1H:[?2004h[?25h[?25l[47;1H[K[1;1H[47;95H1,1[11CAll[1;1H[?25h[?25l[47;85H^[[1;1H[47;85H  [1;1H[47;85H^[[1;1H[47;85H  [1;1H[?25h[?25l[47;85Hi[1;1H[47;85H [1;1H[47;1H[1m-- INSERT --[m[47;95H[K[47;95H1,1[11CAll[1;1H[?25h[?25l[1C[93mMerge branch 'main' of github.com:annitusha/i220b[m[47;97H2]2;MERGE_MSG + (~/projects/i220b/.git) - VIM]1;MERGE_MSG[1;2H[?25h[?25l[93meMerge branch 'main' of github.com:annitusha/i220[mb[47;97H3[1;3H[?25h[?25l[93mrMerge branch 'main' of github.com:annitusha/i22[m0b[47;97H4[1;4H[?25h[?25l[93mgMerge branch 'main' of github.com:annitusha/i[m[1C20b[47;97H5[1;5H[?25h[?25l[93meMerge branch 'main' of github.com:annitusha/i[m220b[47;97H6[1;6H[?25h[?25l[93m Merge branch 'main' of github.com:annitusha/[mi220b[47;97H7[1;7H[?25h[47;1H[K[1;6H[?25l[47;85H^[[1;6H[47;85H  [1;7H[47;95H1,6[11CAll[1;6H[?25h[?25l[47;85H:[1;6H[47;85H[K[47;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l".git/MERGE_MSG" 6L, 282C written]2;Terminal - ]1;Terminal - [23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0t[KMerge made by the 'recursive' strategy.
+akozina2@g7-28:/import/linux/home1/akozina2/i220b/submit/lab13/exercises/rec-io$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 9 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../lab13.LOG[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+akozina2@g7-28:/import/linux/home1/akozina2/i220b/submit/lab13/exercises/rec-io$ exit
+There are stopped jobs.
+akozina2@g7-28:/import/linux/home1/akozina2/i220b/submit/lab13/exercises/rec-io$ ^C
+akozina2@g7-28:/import/linux/home1/akozina2/i220b/submit/lab13/exercises/rec-io$ exit
+
+Script done on 2021-12-09 18:09:26-05:00 [COMMAND_EXIT_CODE="130"]
