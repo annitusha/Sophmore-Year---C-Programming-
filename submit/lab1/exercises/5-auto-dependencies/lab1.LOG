@@ -1,0 +1,13 @@
+Script started on 2021-09-02 22:09:17-04:00 [TERM="xterm" TTY="/dev/pts/7" COLUMNS="94" LINES="34"]
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ cd
+akozina2@remote07:~$ cs [K[Kd i220b
+bash: cd: i220b: No such file or directory
+akozina2@remote07:~$ cd cs220
+akozina2@remote07:~/cs220$ cd i220b
+akozina2@remote07:~/cs220/i220b$ git [K[K[K[Ksubmit[K[K[K[K[K[Kcd submit
+akozina2@remote07:~/cs220/i220b/submit$ cd lab1
+akozina2@remote07:~/cs220/i220b/submit/lab1$ cd lab1.LOG
+bash: cd: lab1.LOG: Not a directory
+akozina2@remote07:~/cs220/i220b/submit/lab1$ exit
+
+Script done on 2021-09-02 22:11:48-04:00 [COMMAND_EXIT_CODE="1"]

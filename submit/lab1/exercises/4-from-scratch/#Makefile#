@@ -1,0 +1,32 @@
+PROJECT = quadr
+SRC_FILES =  \
+            quadr.c \
+            quadr.h  \
+	    test.data \
+	    README   \
+            Makefile
+
+CFLAGS = -g -Wall -std=c18
+LDFLAGS = -lm
+
+$(PROJECT):	quadr.o main.o
+		$(CC) quadr.o main.o $(LDFLAGS) -o $@
+
+clean:
+		rm -f *.o $(PROJECT) $(PROJECT).tar.gz
+
+depend:
+		$(CC) -MM $(CPPFLAGS) *.c
+
+dist:			$(PROJECT).tar.gz
+
+$(PROJECT).tar.gz:		$(SRC_FILES)
+				tar -cf $(PROJECT).tar $(SRC_FILES)
+				gzip -f $(PROJECT).tar
+
+main.o: 	main.c quadr.h  #automatically generated dependencies produced by make depend
+quadr.o: 	quadr.c quadr.h
+
+
+
+

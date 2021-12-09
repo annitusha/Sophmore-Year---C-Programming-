@@ -1,0 +1,368 @@
+Script started on 2021-12-02 15:43:29-05:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="80" LINES="44"]
+akozina2@remote07:~/i220b/submit/lab12$ cd exercises
+akozina2@remote07:~/i220b/submit/lab12/exercises$ dos[K[K[Kls
+block.s  key-int.s  Makefile  poll.s
+akozina2@remote07:~/i220b/submit/lab12/exercises$ dosbox &
+[1] 2099762
+akozina2@remote07:~/i220b/submit/lab12/exercises$ DOSBox version 0.74-2
+Copyright 2002-2018 DOSBox Team, published under GNU GPL.
+---
+Exit to error: Can't init SDL Unable to open a console terminal
+
+exit
+
+Script done on 2021-12-02 15:45:11-05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2021-12-02 15:45:45-05:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="80" LINES="44"]
+akozina2@remote07:~/i220b/submit/lab12$ ^C
+akozina2@remote07:~/i220b/submit/lab12$ ~/.dosbox/dosbox-0.74-2.conf on remote.cs
+bash: /home/akozina2/.dosbox/dosbox-0.74-2.conf: No such file or directory
+akozina2@remote07:~/i220b/submit/lab12$ edit ~/.dosbox/dosbox-0.74-2.conf on remote.cs
+Error: no write permission for file "/home/akozina2/.dosbox/dosbox-0.74-2.conf"
+Error: no "edit" mailcap rules found for type "cannot open `on' (No such file or directory)"
+Error: no "edit" mailcap rules found for type "cannot open `remote.cs' (No such file or directory)"
+akozina2@remote07:~/i220b/submit/lab12$ cd exercises
+akozina2@remote07:~/i220b/submit/lab12/exercises$ edit ~/.dosbox/dosbox-0.74-2.conf on remote.cs
+Error: no write permission for file "/home/akozina2/.dosbox/dosbox-0.74-2.conf"
+Error: no "edit" mailcap rules found for type "cannot open `on' (No such file or directory)"
+Error: no "edit" mailcap rules found for type "cannot open `remote.cs' (No such file or directory)"
+akozina2@remote07:~/i220b/submit/lab12/exercises$ edit ~/.dosbox/dosbox-0.74-2.conf on remote.cs[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pcd exercises
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cedit ~/.dosbox/dosbox-0.74-2.conf on remote.cs[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~/.dosbox/dosbox-0.74-2.conf on[5P remote.cs[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdosbox &[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~/.dosbox/dosbox-0.74-2.conf on remote.cs
+bash: /home/akozina2/.dosbox/dosbox-0.74-2.conf: No such file or directory
+akozina2@remote07:~/i220b/submit/lab12/exercises$ dosbox &
+[1] 2103782
+akozina2@remote07:~/i220b/submit/lab12/exercises$ DOSBox version 0.74-2
+Copyright 2002-2018 DOSBox Team, published under GNU GPL.
+---
+Exit to error: Can't init SDL Unable to open a console terminal
+
+exit
+
+Script done on 2021-12-02 15:49:44-05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2021-12-02 15:49:49-05:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="80" LINES="44"]
+akozina2@remote07:~/i220b/submit/lab12$ cd
+akozina2@remote07:~$ ~/.dosbox/dosbox-0.74-2.conf on remote.cs
+bash: /home/akozina2/.dosbox/dosbox-0.74-2.conf: No such file or directory
+akozina2@remote07:~$ ~/.dosbox/dosbox-0.74-2.conf
+bash: /home/akozina2/.dosbox/dosbox-0.74-2.conf: No such file or directory
+akozina2@remote07:~$ edit ~/.dosbox/dosbox-0.74-2.conf
+Error: no write permission for file "/home/akozina2/.dosbox/dosbox-0.74-2.conf"
+akozina2@remote07:~$ cd i220b
+akozina2@remote07:~/i220b$ cd submit
+akozina2@remote07:~/i220b/submit$ cd lab12
+akozina2@remote07:~/i220b/submit/lab12$ cd exercises
+akozina2@remote07:~/i220b/submit/lab12/exercises$ cd exercises[4Plab12submit[1Pi220bedit ~/.dosbox/dosbox-0.74-2.conf
+Error: no write permission for file "/home/akozina2/.dosbox/dosbox-0.74-2.conf"
+akozina2@remote07:~/i220b/submit/lab12/exercises$ ~/.dosbox/dosbox-0.74-2.conf
+bash: /home/akozina2/.dosbox/dosbox-0.74-2.conf: No such file or directory
+akozina2@remote07:~/i220b/submit/lab12/exercises$ dosbox &
+[1] 2109374
+akozina2@remote07:~/i220b/submit/lab12/exercises$ DOSBox version 0.74-2
+Copyright 2002-2018 DOSBox Team, published under GNU GPL.
+---
+Exit to error: Can't init SDL Unable to open a console terminal
+
+cec[K[K[Kexit
+
+Script done on 2021-12-02 15:56:55-05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2021-12-02 16:37:22-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+akozina2@g7-28:~/i220b/submit/lab12$ cd exercises
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ dosbox $
+DOSBox version 0.74-2
+Copyright 2002-2018 DOSBox Team, published under GNU GPL.
+---
+CONFIG: Generating default configuration.
+Writing it to /home/akozina2/.dosbox/dosbox-0.74-2.conf
+CONFIG:Loading primary settings from config file /home/akozina2/.dosbox/dosbox-0.74-2.conf
+MIXER:Got different values from SDL: freq 44100, blocksize 512
+ALSA:Can't subscribe to MIDI port (65:0) nor (17:0)
+MIDI:Opened device:none
+
+c
+
+^Z
+[1]+  Stopped                 dosbox $
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ ma[K[Kdosbox $cd exercises[4Pdosbox &~/.dosbox/dosbox-0.74-2.confedit ~/.dosbox/dosbox-0.74-2.conf [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcd exercises
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Plab12submit[1Plab12exercisesedit ~/.dosbox/dosbox-0.74-2.conf [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P~/.dosbox/dosbox-0.74-2.conf
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdosbox &[Kcd exercises[4Pdosbox $[Kscr[K[K[Kmake block.com
+as --32 -a=block.lst block.s -o block.o
+objcopy -O binary block.o block.bin
+rm block.o
+dd if=block.bin of=block.com bs=256 skip=1
+0+1 records in
+0+1 records out
+81 bytes copied, 0.00170155 s, 47.6 kB/s
+rm block.bin
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ od -x block.ci[Kom
+0000000 01eb e800 0018 02a0 3c01 7471 b90e 0032
+0000020 15e8 e800 0023 7549 ebf7 e8e8 0015 b450
+0000040 cd08 a221 0102 c358 b450 8a02 0216 cd01
+0000060 5821 b4c3 b04c cd00 5021 5153 02bb b900
+0000100 0000 a0b8 f6f0 49e9 f875 754b 59f2 585b
+0000120 00c3
+0000121
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ ls
+block.com  block.lst  block.s  key-int.s  Makefile  poll.s
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ block.lst
+bash: block.lst: command not found
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ emacs [K block.lst
+c
+^Z
+[2]+  Stopped                 emacs block.lst
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ emacs block.lst[6Pblock.lstls[Kod -x block.com[1Pmake[C[C[C[C[C[C[C[C[C[C[6Pdosbox $
+DOSBox version 0.74-2
+Copyright 2002-2018 DOSBox Team, published under GNU GPL.
+---
+CONFIG:Loading primary settings from config file /home/akozina2/.dosbox/dosbox-0.74-2.conf
+MIXER:Got different values from SDL: freq 44100, blocksize 512
+ALSA:Can't subscribe to MIDI port (65:0) nor (17:0)
+MIDI:Opened device:none
+
+^Z
+[3]+  Stopped                 dosbox $
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ ls
+block.com  block.lst  block.s  key-int.s  Makefile  poll.s
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ emacs block.s
+^Z
+[4]+  Stopped                 emacs block.s
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ emacs block.sls[Kdosbox $[K&
+[5] 1087004
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ DOSBox version 0.74-2
+Copyright 2002-2018 DOSBox Team, published under GNU GPL.
+---
+CONFIG:Loading primary settings from config file /home/akozina2/.dosbox/dosbox-0.74-2.conf
+MIXER:Got different values from SDL: freq 44100, blocksize 512
+ALSA:Can't subscribe to MIDI port (65:0) nor (17:0)
+MIDI:Opened device:none
+
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ emacs poll.x[Ks
+Fatal error 11: Segmentation fault
+Backtrace:
+emacs(+0x1405fe)[0x55aecbfc05fe]
+emacs(+0x44c5c)[0x55aecbec4c5c]
+emacs(+0x45099)[0x55aecbec5099]
+emacs(+0x13ec88)[0x55aecbfbec88]
+emacs(+0x13ed09)[0x55aecbfbed09]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x12730)[0x7fc7af1fa730]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(+0x1f2204)[0x7fc7b1831204]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(+0x378a53)[0x7fc7b19b7a53]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(+0x378b11)[0x7fc7b19b7b11]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(+0x378ff1)[0x7fc7b19b7ff1]
+/usr/lib/x86_64-linux-gnu/libffi.so.6(ffi_call_unix64+0x4c)[0x7fc7ae3bc8ee]
+/usr/lib/x86_64-linux-gnu/libffi.so.6(ffi_call+0x22f)[0x7fc7ae3bc2bf]
+/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_cclosure_marshal_generic+0x202)[0x7fc7b1168492]
+/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_closure_invoke+0x19d)[0x7fc7b1167c9d]
+/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0(+0x24375)[0x7fc7b117b375]
+/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_signal_emit_valist+0xd8e)[0x7fc7b11842fe]
+/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_signal_emit+0x8f)[0x7fc7b11849bf]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_gesture_set_sequence_state+0xe1)[0x7fc7b182f811]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(+0x1f1609)[0x7fc7b1830609]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(+0x1f18f0)[0x7fc7b18308f0]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(+0x1f4886)[0x7fc7b1833886]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_event_controller_handle_event+0x6c)[0x7fc7b17fc44c]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(+0x37707b)[0x7fc7b19b607b]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(+0x3cb274)[0x7fc7b1a0a274]
+/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0(+0x10ed6)[0x7fc7b1167ed6]
+/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_signal_emit_valist+0x844)[0x7fc7b1183db4]
+/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_signal_emit+0x8f)[0x7fc7b11849bf]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(+0x379324)[0x7fc7b19b8324]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(+0x239976)[0x7fc7b1878976]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_main_do_event+0x833)[0x7fc7b187aa83]
+/usr/lib/x86_64-linux-gnu/libgdk-3.so.0(+0x39465)[0x7fc7b157c465]
+/usr/lib/x86_64-linux-gnu/libgdk-3.so.0(+0x6a112)[0x7fc7b15ad112]
+/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0(g_main_context_dispatch+0x2ae)[0x7fc7b1085fee]
+/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0(+0x4e288)[0x7fc7b1086288]
+/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0(g_main_context_iteration+0x2c)[0x7fc7b108631c]
+/usr/lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_main_iteration+0x15)[0x7fc7b1879bc5]
+emacs(+0xf7cb2)[0x55aecbf77cb2]
+emacs(+0x12dac9)[0x55aecbfadac9]
+emacs(+0x12e0a5)[0x55aecbfae0a5]
+emacs(+0x1a7413)[0x55aecc027413]
+emacs(+0x1a7548)[0x55aecc027548]
+...
+Segmentation fault
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ 
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ emacs poll.s
+
+^Z
+[6]+  Stopped                 emacs poll.s
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ make poll.com
+as --32 -a=poll.lst poll.s -o poll.o
+objcopy -O binary poll.o poll.bin
+rm poll.o
+dd if=poll.bin of=poll.com bs=256 skip=1
+0+1 records in
+0+1 records out
+110 bytes copied, 0.00167652 s, 65.6 kB/s
+rm poll.bin
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ make poll.com[1Pemacs poll.s[4Pdosbox &[K[K[K[K[K[K[K[Kls
+block.com  block.lst  block.s  key-int.s  Makefile  poll.com  poll.lst	poll.s
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ emacs poll.s
+^Z
+[7]+  Stopped                 emacs poll.s
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ emacs poll.s
+^Z
+[8]+  Stopped                 emacs poll.s
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ emacs key-int.s
+^Z
+[9]+  Stopped                 emacs key-int.s
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ make key-int.com
+as --32 -a=key-int.lst key-int.s -o key-int.o
+objcopy -O binary key-int.o key-int.bin
+rm key-int.o
+dd if=key-int.bin of=key-int.com bs=256 skip=1
+0+1 records in
+0+1 records out
+209 bytes copied, 0.00194088 s, 108 kB/s
+rm key-int.bin
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ make key-int.com[1Pemacs key-int.s[3Ppoll.sls[Kmake poll.com[1Pemacs poll.s[4Pdosbox &mount[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+block.com  block.s	key-int.lst  Makefile  poll.lst
+block.lst  key-int.com	key-int.s    poll.com  poll.s
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ emacs key-int.s
+^Z
+[10]+  Stopped                 emacs key-int.s
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ exit
+There are stopped jobs.
+[5]   Done                    dosbox
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ script -a lab12.LOG
+Script started, file is lab12.LOG
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ make key-int.com
+make: 'key-int.com' is up to date.
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ make poll.com
+as --32 -a=poll.lst poll.s -o poll.o
+objcopy -O binary poll.o poll.bin
+rm poll.o
+dd if=poll.bin of=poll.com bs=256 skip=1
+0+1 records in
+0+1 records out
+117 bytes copied, 0.00190944 s, 61.3 kB/s
+rm poll.bin
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ od -x b;[Klock.com
+0000000 01eb e800 0018 02a0 3c01 7471 b90e 0032
+0000020 15e8 e800 0023 7549 ebf7 e8e8 0015 b450
+0000040 cd08 a221 0102 c358 b450 8a02 0216 cd01
+0000060 5821 b4c3 b04c cd00 5021 5153 02bb b900
+0000100 0000 a0b8 f6f0 49e9 f875 754b 59f2 585b
+0000120 00c3
+0000121
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ exit
+Script done, file is lab12.LOG
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ git add .
+akozina2@g7-28:~/i220b/submit/lab12/exercises$ git commit -m '[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd
+akozina2@g7-28:~$ cd i220b
+akozina2@g7-28:~/i220b$ git branch -l
+[?1h=  lab0[m[m
+  lab1[m[m
+  lab10[m[m
+  lab11[m[m
+* [32mlab12[m[m
+  lab2[m[m
+  lab3[m[m
+  lab4[m[m
+  lab5[m[m
+  lab6[m[m
+  lab7[m[m
+  lab8[m[m
+  lab9[m[m
+  main[m[m
+  prj1[m[m
+  prj2[m[m
+  prj4[m[m
+  prj5[m[m
+[K[?1l>akozina2@g7-28:~/i220b$ git heckout main[K[K[K[K[K[K[K[K[K[K[K[Kcheckout main
+error: Your local changes to the following files would be overwritten by checkout:
+	submit/lab12/exercises/block.s
+	submit/lab12/exercises/poll.s
+Please commit your changes or stash them before you switch branches.
+error: Your local changes to the following files would be overwritten by checkout:
+	submit/prj5-sol/README
+Please commit your changes or stash them before you switch branches.
+Aborting
+akozina2@g7-28:~/i220b$ git pull
+[33mhint: Pulling without specifying how to reconcile divergent branches is[m
+[33mhint: discouraged. You can squelch this message by running one of the following[m
+[33mhint: commands sometime before your next pull:[m
+[33mhint: [m
+[33mhint:   git config pull.rebase false  # merge (the default strategy)[m
+[33mhint:   git config pull.rebase true   # rebase[m
+[33mhint:   git config pull.ff only       # fast-forward only[m
+[33mhint: [m
+[33mhint: You can replace "git config" with "git config --global" to set a default[m
+[33mhint: preference for all repositories. You can also pass --rebase, --no-rebase,[m
+[33mhint: or --ff-only on the command line to override the configured default per[m
+[33mhint: invocation.[m
+remote: Enumerating objects: 1, done.[K
+remote: Counting objects: 100% (1/1)[Kremote: Counting objects: 100% (1/1), done.[K
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects: 100% (1/1)Unpacking objects: 100% (1/1), 626 bytes | 125.00 KiB/s, done.
+From github.com:annitusha/i220b
+   dc3f295..68c678f  main       -> origin/main
+Already up to date.
+akozina2@g7-28:~/i220b$ git cehckout lab12[K[K[K[K[K[K[K[K[K[K[K[K[Kheckout lab12
+A	submit/lab12/exercises/.#poll.s
+M	submit/lab12/exercises/block.s
+A	submit/lab12/exercises/lab12.LOG
+M	submit/lab12/exercises/poll.s
+M	submit/prj5-sol/README
+Already on 'lab12'
+Your branch is up to date with 'origin/lab12'.
+akozina2@g7-28:~/i220b$ git merge -m 'merged main' man[Kin
+Already up to date.
+akozina2@g7-28:~/i220b$ git status -s
+[32mA[m  submit/lab12/exercises/.#poll.s
+[32mM[m  submit/lab12/exercises/block.s
+[32mA[m  submit/lab12/exercises/lab12.LOG
+[32mM[m  submit/lab12/exercises/poll.s
+ [31mM[m submit/prj5-sol/README
+[31m??[m bomb.tar
+[31m??[m bomb98/
+[31m??[m submit/lab1/exercises/4-from-scratch/#Makefile#
+[31m??[m submit/lab1/exercises/4-from-scratch/Makefile
+[31m??[m submit/lab1/exercises/4-from-scratch/quadr
+[31m??[m submit/lab1/exercises/5-auto-dependencies/cd
+[31m??[m submit/lab1/exercises/5-auto-dependencies/lab1.LOG
+[31m??[m submit/lab11/exercises/int-search/#linear-search.c#
+[31m??[m submit/lab12/lab12.LOG
+[31m??[m submit/lab2/exercises/2-hello-upcase-args/lab2.LOGH
+[31m??[m submit/lab5/exercises/hello.s
+[31m??[m submit/prj5-sol/#cache-sim.c#
+akozina2@g7-28:~/i220b$ git commit -a -m 'completing lab12'
+[lab12 344840b] completing lab12
+ Committer: Anna Kozina <akozina2@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 32 insertions(+), 5 deletions(-)
+ create mode 120000 submit/lab12/exercises/.#poll.s
+ create mode 100644 submit/lab12/exercises/lab12.LOG
+akozina2@g7-28:~/i220b$ git puh[Ksh
+Enumerating objects: 19, done.
+Counting objects:   5% (1/19)Counting objects:  10% (2/19)Counting objects:  15% (3/19)Counting objects:  21% (4/19)Counting objects:  26% (5/19)Counting objects:  31% (6/19)Counting objects:  36% (7/19)Counting objects:  42% (8/19)Counting objects:  47% (9/19)Counting objects:  52% (10/19)Counting objects:  57% (11/19)Counting objects:  63% (12/19)Counting objects:  68% (13/19)Counting objects:  73% (14/19)Counting objects:  78% (15/19)Counting objects:  84% (16/19)Counting objects:  89% (17/19)Counting objects:  94% (18/19)Counting objects: 100% (19/19)Counting objects: 100% (19/19), done.
+Delta compression using up to 8 threads
+Compressing objects:  11% (1/9)Compressing objects:  22% (2/9)Compressing objects:  33% (3/9)Compressing objects:  44% (4/9)Compressing objects:  55% (5/9)Compressing objects:  66% (6/9)Compressing objects:  77% (7/9)Compressing objects:  88% (8/9)Compressing objects: 100% (9/9)Compressing objects: 100% (9/9), done.
+Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  72% (8/11)Writing objects:  81% (9/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 1.45 KiB | 496.00 KiB/s, done.
+Total 11 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To github.com:annitusha/i220b.git
+   1573fa7..344840b  lab12 -> lab12
+akozina2@g7-28:~/i220b$ git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+akozina2@g7-28:~/i220b$ git merge lab12 -m 'merged lab12'
+Updating dc3f295..344840b
+Fast-forward (no commit created; -m option ignored)
+ submit/lab12/exercises/.#poll.s   |   1 [32m+[m
+ submit/lab12/exercises/.gitignore |   2 [32m+[m
+ submit/lab12/exercises/Makefile   |  25 [32m++++++[m
+ submit/lab12/exercises/block.s    |  76 [32m+++++++++++++++++[m
+ 

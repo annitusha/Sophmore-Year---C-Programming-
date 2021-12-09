@@ -1,0 +1,106 @@
+Script started on 2021-09-02 22:08:48-04:00 [TERM="xterm" TTY="/dev/pts/6" COLUMNS="94" LINES="34"]
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ script -a lab1.LOG
+Script started, file is lab1.LOG
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ cd
+akozina2@remote07:~$ cs [K[Kd i220b
+bash: cd: i220b: No such file or directory
+akozina2@remote07:~$ cd cs220
+akozina2@remote07:~/cs220$ cd i220b
+akozina2@remote07:~/cs220/i220b$ git [K[K[K[Ksubmit[K[K[K[K[K[Kcd submit
+akozina2@remote07:~/cs220/i220b/submit$ cd lab1
+akozina2@remote07:~/cs220/i220b/submit/lab1$ cd lab1.LOG
+bash: cd: lab1.LOG: Not a directory
+akozina2@remote07:~/cs220/i220b/submit/lab1$ exit
+Script done, file is lab1.LOG
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ ls -l ~/i220X/labN/labN.LOG[1P.LOG1.LOG[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/labN/la[1Pb1.LOG[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb/labN/lab1.LOG[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+ls: cannot access '/home/akozina2/i220b/labN/lab1.LOG': No such file or directory
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ ls -l ~/i220b/labN/lab1.LOG[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/la[1Pb1.LOG[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1/lab1.LOG[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+ls: cannot access '/home/akozina2/i220b/lab1/lab1.LOG': No such file or directory
+akozina2@remote07:~/cs220/i220b/submit/lab1/exercises/5-auto-dependencies$ cd
+akozina2@remote07:~$ i[Kcs[Kd i220b[K[K[K[K[Kcs220
+akozina2@remote07:~/cs220$ cd i220b
+akozina2@remote07:~/cs220/i220b$ git branch -l
+[?1h=  lab0[m[m
+* [32mlab1[m[m
+  main[m[m
+[K[?1l>akozina2@remote07:~/cs220/i220b$ git checkout main
+error: Your local changes to the following files would be overwritten by checkout:
+	submit/lab1/lab1.LOG
+Please commit your changes or stash them before you switch branches.
+Aborting
+akozina2@remote07:~/cs220/i220b$ git pull
+[33mhint: Pulling without specifying how to reconcile divergent branches is[m
+[33mhint: discouraged. You can squelch this message by running one of the following[m
+[33mhint: commands sometime before your next pull:[m
+[33mhint: [m
+[33mhint:   git config pull.rebase false  # merge (the default strategy)[m
+[33mhint:   git config pull.rebase true   # rebase[m
+[33mhint:   git config pull.ff only       # fast-forward only[m
+[33mhint: [m
+[33mhint: You can replace "git config" with "git config --global" to set a default[m
+[33mhint: preference for all repositories. You can also pass --rebase, --no-rebase,[m
+[33mhint: or --ff-only on the command line to override the configured default per[m
+[33mhint: invocation.[m
+Already up to date.
+akozina2@remote07:~/cs220/i220b$ git checkout lab1
+D	submit/lab1/exercises/4-from-scratch/#Makefile#
+M	submit/lab1/lab1.LOG
+Already on 'lab1'
+Your branch is up to date with 'origin/lab1'.
+akozina2@remote07:~/cs220/i220b$ git merge -m ' mergee[Kd main' main
+Already up to date.
+akozina2@remote07:~/cs220/i220b$ git status -s
+ [31mD[m submit/lab1/exercises/4-from-scratch/#Makefile#
+ [31mM[m submit/lab1/lab1.LOG
+[31m??[m submit/lab1/exercises/4-from-scratch/.#Makefile
+[31m??[m submit/lab1/exercises/4-from-scratch/Makefile
+[31m??[m submit/lab1/exercises/4-from-scratch/quadr
+[31m??[m submit/lab1/exercises/5-auto-dependencies/cd
+[31m??[m submit/lab1/exercises/5-auto-dependencies/lab1.LOG
+akozina2@remote07:~/cs220/i220b$ git commit -a -m 'completing lab1'
+[lab1 e2d455c] completing lab1
+ Committer: Anna Kozina <akozina2@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 3219 insertions(+), 1 deletion(-)
+ delete mode 100644 submit/lab1/exercises/4-from-scratch/#Makefile#
+akozina2@remote07:~/cs220/i220b$ git push
+Enumerating objects: 13, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 8.07 KiB | 918.00 KiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:annitusha/i220b.git
+   4632df8..e2d455c  lab1 -> lab1
+akozina2@remote07:~/cs220/i220b$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+akozina2@remote07:~/cs220/i220b$ git merge lab1 -m 'merged lab1'
+Updating 7a80415..e2d455c
+Fast-forward (no commit created; -m option ignored)
+ submit/lab1/.dummy                                   |     0
+ submit/lab1/exercises/1-hello/.gitignore             |     5 [32m+[m
+ submit/lab1/exercises/1-hello/hello.c                |     8 [32m+[m
+ submit/lab1/exercises/2-err/Makefile                 |     8 [32m+[m
+ submit/lab1/exercises/3-multifile/.gitignore         |     3 [32m+[m
+ submit/lab1/exercises/3-multifile/Makefile           |    32 [32m+[m
+ submit/lab1/exercises/3-multifile/README             |     2 [32m+[m
+ submit/lab1/exercises/3-multifile/main.c             |    52 [32m+[m
+ submit/lab1/exercises/3-multifile/quadr.c            |    14 [32m+[m
+ submit/lab1/exercises/3-multifile/quadr.h            |    11 [32m+[m
+ submit/lab1/exercises/3-multifile/temp/Makefile      |    32 [32m+[m
+ submit/lab1/exercises/3-mu

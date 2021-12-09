@@ -1,9 +1,10 @@
 #include "cache-sim.h"
-//#include "memalloc.h"
+#include "memalloc.h"
+#include <stdbool.h>
+#include <stddef.h>
 #include <math.h>
 #include <stdio.h>
-#include <stdbool.h>
-#include <stdlib.h>
+
 /** Create and return a new cache-simulation structure for a
  *  cache for main memory withe the specified cache parameters params.
  *  No guarantee that *params is valid after this call.
@@ -26,8 +27,7 @@ struct CacheSimImpl {
 CacheSim *
 new_cache_sim(const CacheParams *params)
 {
-
-    CacheParams param;
+  CacheParams param;
   param.nSetBits = params->nSetBits;
   param.nLinesPerSet = params->nLinesPerSet;
   param.nLineBits = params->nLineBits;
@@ -63,10 +63,7 @@ free_cache_sim(CacheSim *cache)
 CacheResult
 cache_sim_result(CacheSim *cache, MemAddr addr)
 {
-  //  CacheResult result = { 0, 0 };
-  //TODO
-  //return result;
-  CacheResult res = {CACHE_N_STATUS, 0}
+  CacheResult res = {CACHE_N_STATUS, 0};
   MemAddr newAddr = addr >> cache->param.nLineBits;
   newAddr <<= cache->param.nLineBits;
 
